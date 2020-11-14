@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9120f734-02e1-4bda-9bd0-b6cd1744c8d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/TorXakis.mpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/generator/source_gen.caches/TorXakis/generator/dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/generator/source_gen.caches/TorXakis/generator/generated" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/generator/source_gen.caches/TorXakis/generator/templates/dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/generator/source_gen.caches/TorXakis/generator/templates/generated" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/generator/source_gen/TorXakis/generator/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/generator/source_gen/TorXakis/generator/templates/QueriesGenerated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/generator/source_gen/TorXakis/generator/templates/trace.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/generator/source_gen/TorXakis/generator/trace.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/generator/templates/TorXakis.generator.templates@generator.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.behavior.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.constraints.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.editor.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.structure.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.typesystem.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/sandbox/TorXakis.sandbox.msd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/sandbox/models/TorXakis.sandbox.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/behavior/dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/behavior/generated" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/constraints/dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/constraints/generated" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/editor/dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/editor/generated" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/generated" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/structure/dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/structure/generated" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/typesystem/dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/typesystem/generated" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/behavior/trace.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/constraints/ConstraintsAspectDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/constraints/checkpoints" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/constraints/trace.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/trace.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/structure/LanguageConceptSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/structure/StructureAspectDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/structure/checkpoints" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/structure/trace.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/trace.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/typesystem/TypesystemDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/typesystem/checkpoints" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/typesystem/trace.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ConsoleHistory">
+    <option name="tabs">
+      <list>
+        <TabState>
+          <option name="title" value="Console" />
+          <tab>
+            <model ref="eb7bb41a-99d4-470a-b136-3be879ef6eee/r:c27b7647-a86d-46f9-98cb-de76769bfdbc(TempModuleeb7bb41a-99d4-470a-b136-3be879ef6eee/ConsoleModel_1789620683133800)">
+              <persistence version="9" />
+              <languages>
+                <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
+              </languages>
+              <imports />
+              <registry>
+                <language id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base">
+                  <concept id="1583916890557930028" name="jetbrains.mps.console.base.structure.ConsoleRoot" flags="ng" index="aymSD">
+                    <child id="1583916890557930415" name="history" index="aymYE" />
+                    <child id="1583916890557930417" name="commandHolder" index="aymYO" />
+                    <child id="9025248442620242919" name="cursor" index="1PhJh3" />
+                  </concept>
+                  <concept id="5758176878586720817" name="jetbrains.mps.console.base.structure.CommandHolderRef" flags="ng" index="2_V_lH">
+                    <reference id="5758176878586720818" name="target" index="2_V_lI" />
+                  </concept>
+                  <concept id="351968380916615243" name="jetbrains.mps.console.base.structure.CommandHolder" flags="ng" index="2Clz$F" />
+                  <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
+                </language>
+              </registry>
+              <node concept="aymSD" id="7tKE5PeWXkQ">
+                <node concept="3balQm" id="7tKE5PeWXkR" role="aymYE" />
+                <node concept="2Clz$F" id="7tKE5PeWXkS" role="aymYO" />
+                <node concept="2_V_lH" id="7tKE5PeWXkT" role="1PhJh3">
+                  <ref role="2_V_lI" node="7tKE5PeWXkS" resolve="CommandHolder" />
+                </node>
+              </node>
+            </model>
+          </tab>
+        </TabState>
+      </list>
+    </option>
+  </component>
+  <component name="DefaultSearchOptions3">
+    <search_options>
+      <finders>
+        <finders />
+      </finders>
+      <scope>
+        <scope_type scope_type="PROJECT" module="&lt;default&gt;" model="&lt;default&gt;" />
+      </scope>
+      <view>
+        <flags show_one_result="true" new_tab="false" />
+      </view>
+    </search_options>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MPSBookmarkManager">
+    <option name="myBookmarkInfos">
+      <array>
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+      </array>
+    </option>
+  </component>
+  <component name="MessagesViewTool">
+    <option name="defaultListState">
+      <MessageListState>
+        <option name="autoscrollToSource" value="true" />
+        <option name="info" value="true" />
+        <option name="warnings" value="true" />
+      </MessageListState>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kHdidbK0rJOZ1fg0GtkMmeqLTX" />
+  <component name="ProjectPluginManager">
+    <option name="pluginsState">
+      <option name="jetbrains.mps.baseLanguage.lightweightdsl.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.editor.contextActionsTool.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.Plugin_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.actions.Ide_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="jetbrains.mps.ide.actions.BehaviorDialogsPersistentOptions_PreferencesComponent" />
+                  <params>
+                    <option name="addReturnsOnImplement" value="false" />
+                    <option name="sortAlphabetically" value="false" />
+                    <option name="removeAttributes" value="true" />
+                  </params>
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.devkit.actions.Mpsdevkit_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.make.actions.Make_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.lang.editor.tooltips.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.vcs.mergehints.plugin.plugin.Plugin_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="FileSystem" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Gijs\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9120f734-02e1-4bda-9bd0-b6cd1744c8d6" name="Default Changelist" comment="" />
+      <created>1605361578700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605361578700</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UsagesViewTool">
+    <version id="1" />
+    <tabs />
+    <default_view_options>
+      <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+    </default_view_options>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="383" y="264" width="600" height="200" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog" timestamp="1605362238793">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="383" y="264" width="600" height="200" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog/0.0.1366.728@0.0.1366.728" timestamp="1605362238793" />
+  </component>
+</project>
