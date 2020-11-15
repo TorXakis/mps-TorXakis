@@ -20,61 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9120f734-02e1-4bda-9bd0-b6cd1744c8d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/sandbox/source_gen.caches/TorXakis/sandbox/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/sandbox/source_gen.caches/TorXakis/sandbox/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/sandbox/source_gen/TorXakis/sandbox/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/ChannelRef_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/ChannelRef_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/ChannelRef_SubstituteMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/ChannelSet_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/ChannelSet_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/Channel_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/Channel_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/ModelDef_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/ModelDef_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/Placeholder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/Placeholder_ComponentBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/Placeholder_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/Placeholder_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/Torxakis_File_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/Torxakis_File_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/typesystem/check_HasCapidName_NonTypesystemRule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/Language.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/structure/LanguageConceptSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/structure/LanguageConceptSwitch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/structure/StructureAspectDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/structure/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/typesystem/TypesystemDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/typesystem/TypesystemDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/typesystem/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/classes_gen/TorXakis/typesystem/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/TorXakis/TorXakis.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/TorXakis.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/TorXakis/generator/source_gen.caches/TorXakis/generator/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/generator/source_gen.caches/TorXakis/generator/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.behavior.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.constraints.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.editor.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.structure.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.typesystem.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/TorXakis/sandbox/TorXakis.sandbox.msd" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/sandbox/TorXakis.sandbox.msd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/TorXakis/sandbox/models/TorXakis.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/sandbox/models/TorXakis.sandbox.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/editor/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/editor/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/structure/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/structure/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/structure/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/typesystem/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/typesystem/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/typesystem/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen.caches/TorXakis/typesystem/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/structure/LanguageConceptSwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/structure/StructureAspectDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/structure/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/typesystem/TypesystemDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/typesystem/TypesystemDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/typesystem/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/source_gen/TorXakis/typesystem/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/TorXakis/sandbox/source_gen.caches/TorXakis/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/sandbox/source_gen.caches/TorXakis/sandbox/generated" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +43,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="ea1fd0a9-1c3a-4da0-baa9-5526e9d6a065/r:e14eb169-37f2-434e-bb20-7c7ffd633805(TempModuleea1fd0a9-1c3a-4da0-baa9-5526e9d6a065/ConsoleModel_1792360004455300)">
+            <model ref="a26584b1-77ec-4879-b638-01c3cca1cbbd/r:cfa22c75-0b69-4593-9a75-ef905ebe6836(TempModulea26584b1-77ec-4879-b638-01c3cca1cbbd/ConsoleModel_1102397273800)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -107,11 +63,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="7tKE5PeXt8C">
-                <node concept="3balQm" id="7tKE5PeXt8D" role="aymYE" />
-                <node concept="2Clz$F" id="7tKE5PeXt8E" role="aymYO" />
-                <node concept="2_V_lH" id="7tKE5PeXt8F" role="1PhJh3">
-                  <ref role="2_V_lI" node="7tKE5PeXt8E" resolve="CommandHolder" />
+              <node concept="aymSD" id="6SzhJU2Jb3X">
+                <node concept="3balQm" id="6SzhJU2Jb3Y" role="aymYE" />
+                <node concept="2Clz$F" id="6SzhJU2Jb3Z" role="aymYO" />
+                <node concept="2_V_lH" id="6SzhJU2Jb40" role="1PhJh3">
+                  <ref role="2_V_lI" node="6SzhJU2Jb3Z" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -227,9 +183,45 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="FileSystem" />
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -253,18 +245,12 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:fbbc886d-33f9-46b3-b425-7578ebea0f07(TorXakis.typesystem) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/models/TorXakis.typesystem.mps]" />
+              <option name="myItemId" value="r:85f9b594-0991-41af-a7e5-dd4b56d59a4f(TorXakis.constraints) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/models/TorXakis.constraints.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,17 +264,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/models/TorXakis.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="40321071-e9e3-4180-b70b-5a9f7415dba6" />
+              <option name="myItemId" value="all models" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,6 +291,10 @@
               <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/models/TorXakis.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -327,6 +307,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:85f9b594-0991-41af-a7e5-dd4b56d59a4f(TorXakis.constraints) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/models/TorXakis.constraints.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="behaviour_expression" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="40321071-e9e3-4180-b70b-5a9f7415dba6" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/models/TorXakis.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="behaviour_expression" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:7242aa6c-35f5-4028-8b40-96d31e0e16c1(TorXakis.editor) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/models/TorXakis.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,7 +407,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/languages/TorXakis/models/test model.txt" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -380,7 +428,77 @@
   </component>
   <component name="UsagesViewTool">
     <version id="1" />
-    <tabs />
+    <tabs>
+      <tab>
+        <result_provider class_name="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.UnionNode">
+          <child rpn="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode">
+            <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+          </child>
+        </result_provider>
+        <query>
+          <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.ProjectScope" />
+          <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
+            <node ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1224609861009" title="IThisExpression" />
+          </holder>
+        </query>
+        <usage_view>
+          <tree_wrapper>
+            <view_options>
+              <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+            </view_options>
+            <contents caption="" excluded="false" isresult="false" results_section="false">
+              <role name="main root" />
+              <child caption="Searched nodes" excluded="false" isresult="false" results_section="false">
+                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.SearchedNodesNodeData" />
+                <role name="searched nodes" />
+                <child caption="Searched nodes" excluded="false" isresult="false" results_section="false" category="Searched nodes" category_kind="Category">
+                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
+                  <role name="category:Category" />
+                  <child caption="jetbrains.mps.baseLanguage" excluded="false" isresult="false" results_section="false" module_ref="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)">
+                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
+                    <role name="module" />
+                    <child caption="jetbrains.mps.baseLanguage.structure" excluded="false" isresult="false" results_section="false">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="IThisExpression" info="" excluded="false" isresult="true" results_section="false" nodePtr="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1224609861009" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="target" />
+                      </child>
+                      <model uid="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+                    </child>
+                  </child>
+                </child>
+              </child>
+              <child caption="Usages" excluded="false" isresult="false" results_section="true">
+                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ResultsNodeData" />
+                <role name="results" />
+                <child caption="Node Usages" excluded="false" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
+                  <role name="category:Category" />
+                  <child caption="TorXakis" excluded="false" isresult="false" results_section="true" module_ref="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)">
+                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
+                    <role name="module" />
+                    <child caption="TorXakis.structure" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="TorXakis_Expression" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure)/7936265027286050052" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="IThisExpression" info="(role: extends in: TorXakis_Expression)" excluded="false" isresult="true" results_section="true" nodePtr="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure)/7936265027286050053">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <model uid="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure)" />
+                    </child>
+                  </child>
+                </child>
+              </child>
+            </contents>
+          </tree_wrapper>
+        </usage_view>
+      </tab>
+    </tabs>
     <default_view_options>
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
@@ -398,10 +516,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="328" y="56" key="#MPSPropertiesConfigurable" timestamp="1605367639828">
+    <state x="328" y="56" key="#MPSPropertiesConfigurable" timestamp="1605450229043">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="328" y="56" key="#MPSPropertiesConfigurable/0.0.1366.728@0.0.1366.728" timestamp="1605367639828" />
+    <state x="328" y="56" key="#MPSPropertiesConfigurable/0.0.1366.728@0.0.1366.728" timestamp="1605450229043" />
+    <state x="363" y="118" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1605439410346">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="118" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.0.1366.728@0.0.1366.728" timestamp="1605439410346" />
+    <state x="488" y="70" key="#jetbrains.mps.ide.util.NodesChooser" timestamp="1605441375332">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="70" key="#jetbrains.mps.ide.util.NodesChooser/0.0.1366.728@0.0.1366.728" timestamp="1605441375332" />
     <state x="383" y="264" width="600" height="200" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog" timestamp="1605362238793">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -410,14 +536,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="118" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.0.1366.728@0.0.1366.728" timestamp="1605381453113" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605363019202">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605438835977">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605363019202" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605438835977" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1605375884033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605375884033" />
+    <state x="499" y="185" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1605450225699">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="185" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1605450225699" />
+    <state x="200" y="89" width="966" height="546" key="jetbrains.mps.typesystem.uiActions.MyBaseNodeDialog" timestamp="1605451188993">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="200" y="89" width="966" height="546" key="jetbrains.mps.typesystem.uiActions.MyBaseNodeDialog/0.0.1366.728@0.0.1366.728" timestamp="1605451188993" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605367872313">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

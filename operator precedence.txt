@@ -1,0 +1,9 @@
+Higer operators have a higher precedence.
+A higher precedence means it has a stronger binding strength.
+
+ "=>>", ">->", LET IN, HIDE IN
+choice '##'
+'||', '|||', and '|[..]|'
+enable >>>, disable [>>, and interrupt [><
+
+all operators are left associative unless stated otherwise

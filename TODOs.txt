@@ -1,0 +1,16 @@
+fix the processref editor part of the process call
+
+maybe make the SYNC part of the model def more optional
+
+check if there are restrictions on what can be inside Id
+
+look into the basic type rule for behaviour expressions
+
+handle layout for exeedingly long behaviour expressions better
+
+look into adding support for spreading code over multiple files
+
+
+design notes.
+sequence cannot be standard binary expression, as those are all assumed to be left associative.
+There does not seem to be a way to override this behaviour
