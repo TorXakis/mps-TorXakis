@@ -48,7 +48,7 @@
   </registry>
   <node concept="1TIwiD" id="7tKE5PeX8JA">
     <property role="EcuMT" value="8606564006615092198" />
-    <property role="TrG5h" value="Torxakis_File" />
+    <property role="TrG5h" value="TorxakisFile" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="torxakis file" />
     <property role="R4oN_" value="A TorXakis file" />
@@ -61,15 +61,15 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="definitions" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7tKE5PeX8JH" resolve="TorXakis_Definition" />
+      <ref role="20lvS9" node="7tKE5PeX8JH" resolve="TorXakisDefinition" />
     </node>
   </node>
   <node concept="1TIwiD" id="7tKE5PeX8JD">
     <property role="EcuMT" value="8606564006615092201" />
     <property role="TrG5h" value="ModelDef" />
-    <property role="34LRSv" value="model definition" />
     <property role="R4oN_" value="A model definition" />
-    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakis_Definition" />
+    <property role="34LRSv" value="MODELDEF" />
+    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakisDefinition" />
     <node concept="1TJgyj" id="7tKE5PeZ4XS" role="1TKVEi">
       <property role="IQ2ns" value="8606564006615601016" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -108,7 +108,7 @@
     <property role="34LRSv" value="connection definiton" />
     <property role="R4oN_" value="A connection definition" />
     <property role="3GE5qa" value="Placeholders" />
-    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakis_Definition" />
+    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakisDefinition" />
     <node concept="PrWs8" id="7tKE5PeXPVA" role="PzmwI">
       <ref role="PrY4T" node="7tKE5PeXLM1" resolve="Placeholder" />
     </node>
@@ -116,12 +116,19 @@
   <node concept="1TIwiD" id="7tKE5PeX8JF">
     <property role="EcuMT" value="8606564006615092203" />
     <property role="TrG5h" value="ChanDef" />
-    <property role="34LRSv" value="channel definition" />
-    <property role="R4oN_" value="A channel definition" />
-    <property role="3GE5qa" value="Placeholders" />
-    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakis_Definition" />
-    <node concept="PrWs8" id="7tKE5PeXOWh" role="PzmwI">
-      <ref role="PrY4T" node="7tKE5PeXLM1" resolve="Placeholder" />
+    <property role="R4oN_" value="A list of channel declarations" />
+    <property role="3GE5qa" value="ChannelDefinition" />
+    <property role="34LRSv" value="CHANDEF" />
+    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakisDefinition" />
+    <node concept="PrWs8" id="3QyoU4ebBPx" role="PzmwI">
+      <ref role="PrY4T" node="7tKE5PeZjVM" resolve="HasCapidName" />
+    </node>
+    <node concept="1TJgyj" id="3QyoU4ebBPB" role="1TKVEi">
+      <property role="IQ2ns" value="4441221725919542631" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20kJfa" value="channels" />
+      <ref role="20lvS9" node="3QyoU4ebBP$" resolve="ChannelDeclarationLine" />
     </node>
   </node>
   <node concept="1TIwiD" id="7tKE5PeX8JG">
@@ -130,14 +137,14 @@
     <property role="34LRSv" value="type definition" />
     <property role="R4oN_" value="A type definition" />
     <property role="3GE5qa" value="Placeholders" />
-    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakis_Definition" />
+    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakisDefinition" />
     <node concept="PrWs8" id="7tKE5PeXLMd" role="PzmwI">
       <ref role="PrY4T" node="7tKE5PeXLM1" resolve="Placeholder" />
     </node>
   </node>
   <node concept="1TIwiD" id="7tKE5PeX8JH">
     <property role="EcuMT" value="8606564006615092205" />
-    <property role="TrG5h" value="TorXakis_Definition" />
+    <property role="TrG5h" value="TorXakisDefinition" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
@@ -147,7 +154,7 @@
     <property role="34LRSv" value="constant definition" />
     <property role="R4oN_" value="A constant definition" />
     <property role="3GE5qa" value="Placeholders" />
-    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakis_Definition" />
+    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakisDefinition" />
     <node concept="PrWs8" id="7tKE5PeXPVD" role="PzmwI">
       <ref role="PrY4T" node="7tKE5PeXLM1" resolve="Placeholder" />
     </node>
@@ -158,7 +165,7 @@
     <property role="34LRSv" value="function definition" />
     <property role="R4oN_" value="A function definition" />
     <property role="3GE5qa" value="Placeholders" />
-    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakis_Definition" />
+    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakisDefinition" />
     <node concept="PrWs8" id="7tKE5PeXPVF" role="PzmwI">
       <ref role="PrY4T" node="7tKE5PeXLM1" resolve="Placeholder" />
     </node>
@@ -169,7 +176,7 @@
     <property role="34LRSv" value="proccess definition" />
     <property role="R4oN_" value="A proccess definition" />
     <property role="3GE5qa" value="Placeholders" />
-    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakis_Definition" />
+    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakisDefinition" />
     <node concept="PrWs8" id="7tKE5PeXPVJ" role="PzmwI">
       <ref role="PrY4T" node="7tKE5PeXLM1" resolve="Placeholder" />
     </node>
@@ -180,7 +187,7 @@
     <property role="34LRSv" value="state automaton" />
     <property role="R4oN_" value="A state automaton definition" />
     <property role="3GE5qa" value="Placeholders" />
-    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakis_Definition" />
+    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakisDefinition" />
     <node concept="PrWs8" id="7tKE5PeXPVL" role="PzmwI">
       <ref role="PrY4T" node="7tKE5PeXLM1" resolve="Placeholder" />
     </node>
@@ -492,8 +499,8 @@
     <node concept="PrWs8" id="6SzhJU2Mtne" role="PzmwI">
       <ref role="PrY4T" node="6SzhJU2MpHX" resolve="Offer" />
     </node>
-    <node concept="PrWs8" id="6SzhJU2Mtnm" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="3QyoU4eabZS" role="PzmwI">
+      <ref role="PrY4T" node="6SzhJU2PSrY" resolve="HasIdName" />
     </node>
     <node concept="1TJgyj" id="6SzhJU2Mtns" role="1TKVEi">
       <property role="IQ2ns" value="7936265027286848988" />
@@ -523,11 +530,18 @@
   </node>
   <node concept="1TIwiD" id="6SzhJU2Mto8">
     <property role="EcuMT" value="7936265027286849032" />
-    <property role="3GE5qa" value="Placeholders" />
+    <property role="3GE5qa" value="" />
     <property role="TrG5h" value="VarDec" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6SzhJU2Mto9" role="PzmwI">
-      <ref role="PrY4T" node="7tKE5PeXLM1" resolve="Placeholder" />
+    <node concept="PrWs8" id="lsoyDBU54X" role="PzmwI">
+      <ref role="PrY4T" node="6SzhJU2MtoZ" resolve="HasSmallidName" />
+    </node>
+    <node concept="1TJgyj" id="lsoyDBU55Q" role="1TKVEi">
+      <property role="IQ2ns" value="386291602318446966" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="lsoyDBU55N" resolve="TypeRef" />
     </node>
   </node>
   <node concept="1TIwiD" id="6SzhJU2MtoR">
@@ -576,24 +590,7 @@
     <property role="TrG5h" value="Sequence_Expression" />
     <property role="34LRSv" value="&gt;-&gt;" />
     <property role="R4oN_" value="sequence operator" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="PrWs8" id="6SzhJU2OOTK" role="PzmwI">
-      <ref role="PrY4T" node="6SzhJU2Jqk4" resolve="Behaviour_Expression" />
-    </node>
-    <node concept="1TJgyj" id="6SzhJU2OOUt" role="1TKVEi">
-      <property role="IQ2ns" value="7936265027287469725" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="offers" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6SzhJU2MpH9" resolve="PreOfferList" />
-    </node>
-    <node concept="1TJgyj" id="6SzhJU2OOUw" role="1TKVEi">
-      <property role="IQ2ns" value="7936265027287469728" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="right_expression" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6SzhJU2Jqk4" resolve="Behaviour_Expression" />
-    </node>
+    <ref role="1TJDcQ" node="6SzhJU2MtOC" resolve="Binary_Behaviour_Expression" />
   </node>
   <node concept="1TIwiD" id="6SzhJU2MtOC">
     <property role="EcuMT" value="7936265027286850856" />
@@ -619,6 +616,69 @@
     <property role="3GE5qa" value="id_constraints" />
     <node concept="PrWs8" id="6SzhJU2PSrZ" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3QyoU4ebBP$">
+    <property role="EcuMT" value="4441221725919542628" />
+    <property role="TrG5h" value="ChannelDeclarationLine" />
+    <property role="R4oN_" value="A, ... :: T1 # ...;" />
+    <property role="3GE5qa" value="ChannelDefinition" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3QyoU4ebBPG" role="1TKVEi">
+      <property role="IQ2ns" value="4441221725919542636" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="channels" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="1VVhp_6FaQH" resolve="ChannelId" />
+    </node>
+    <node concept="1TJgyj" id="3QyoU4ebBPI" role="1TKVEi">
+      <property role="IQ2ns" value="4441221725919542638" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="types" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3QyoU4ebBPD" resolve="CapId" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3QyoU4ebBPD">
+    <property role="EcuMT" value="4441221725919542633" />
+    <property role="3GE5qa" value="id_constraints" />
+    <property role="TrG5h" value="CapId" />
+    <property role="34LRSv" value="CapId" />
+    <property role="R4oN_" value="A name starting with a capital letter" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3QyoU4ebBPE" role="PzmwI">
+      <ref role="PrY4T" node="7tKE5PeZjVM" resolve="HasCapidName" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1VVhp_6FaQH">
+    <property role="EcuMT" value="2232454564910247341" />
+    <property role="TrG5h" value="ChannelId" />
+    <property role="R4oN_" value="The name of a new channel." />
+    <property role="3GE5qa" value="ChannelDefinition" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1VVhp_6FaQI" role="PzmwI">
+      <ref role="PrY4T" node="7tKE5PeZjVM" resolve="HasCapidName" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="lsoyDBU550">
+    <property role="EcuMT" value="386291602318446912" />
+    <property role="3GE5qa" value="" />
+    <property role="TrG5h" value="Type" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="lsoyDBU553" role="PzmwI">
+      <ref role="PrY4T" node="7tKE5PeZjVM" resolve="HasCapidName" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="lsoyDBU55N">
+    <property role="EcuMT" value="386291602318446963" />
+    <property role="TrG5h" value="TypeRef" />
+    <property role="R4oN_" value="A reference to a Type" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="lsoyDBU55O" role="1TKVEi">
+      <property role="IQ2ns" value="386291602318446964" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="lsoyDBU550" resolve="Type" />
     </node>
   </node>
 </model>

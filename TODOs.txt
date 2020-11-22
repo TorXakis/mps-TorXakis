@@ -10,6 +10,17 @@ handle layout for exeedingly long behaviour expressions better
 
 look into adding support for spreading code over multiple files
 
+channel decl with no type?
+
+type checks for channel defs.
+
+split type into type definitions and type references
+
+make channels refer to their definition.
+
+channel id 
+
+make sure names are unique for: main definitions(modeldef,chandef,etc) and channel definitions
 
 design notes.
 sequence cannot be standard binary expression, as those are all assumed to be left associative.

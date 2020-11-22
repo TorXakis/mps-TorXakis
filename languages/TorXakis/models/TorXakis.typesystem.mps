@@ -7,8 +7,8 @@
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="b8q8" ref="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure)" implicit="true" />
   </imports>
   <registry>
@@ -27,6 +27,7 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
@@ -86,6 +87,7 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
@@ -109,6 +111,22 @@
     <property role="TrG5h" value="check_HasCapidName" />
     <property role="3GE5qa" value="id_constraints" />
     <node concept="3clFbS" id="7tKE5PeZJae" role="18ibNy">
+      <node concept="3clFbJ" id="1VVhp_6EHsg" role="3cqZAp">
+        <node concept="3clFbS" id="1VVhp_6EHsi" role="3clFbx">
+          <node concept="3cpWs6" id="1VVhp_6EHyl" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="lsoyDBHau_" role="3clFbw">
+          <node concept="2OqwBi" id="1VVhp_6Ebly" role="2Oq$k0">
+            <node concept="1YBJjd" id="1VVhp_6Ebbh" role="2Oq$k0">
+              <ref role="1YBMHb" node="7tKE5PeZJag" resolve="hasCapidName" />
+            </node>
+            <node concept="3TrcHB" id="lsoyDBHa8f" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="lsoyDBHaHP" role="2OqNvi" />
+        </node>
+      </node>
       <node concept="3clFbJ" id="7tKE5PeZMlY" role="3cqZAp">
         <node concept="3clFbS" id="7tKE5PeZMm0" role="3clFbx">
           <node concept="2MkqsV" id="7tKE5PeZMpn" role="3cqZAp">
@@ -149,6 +167,17 @@
     <property role="TrG5h" value="check_HasSmallidName" />
     <property role="3GE5qa" value="id_constraints" />
     <node concept="3clFbS" id="6SzhJU2MtsQ" role="18ibNy">
+      <node concept="3clFbJ" id="1VVhp_6EHJy" role="3cqZAp">
+        <node concept="3clFbS" id="1VVhp_6EHJz" role="3clFbx">
+          <node concept="3cpWs6" id="1VVhp_6EHJ$" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="1VVhp_6EHJ_" role="3clFbw">
+          <node concept="1YBJjd" id="1VVhp_6EHPo" role="2Oq$k0">
+            <ref role="1YBMHb" node="6SzhJU2MtsS" resolve="hasSmallidName" />
+          </node>
+          <node concept="3w_OXm" id="lsoyDBGFO6" role="2OqNvi" />
+        </node>
+      </node>
       <node concept="3clFbJ" id="6SzhJU2Mtxf" role="3cqZAp">
         <node concept="3clFbS" id="6SzhJU2Mtxg" role="3clFbx">
           <node concept="2MkqsV" id="6SzhJU2Mtxh" role="3cqZAp">
@@ -236,11 +265,22 @@
     <property role="TrG5h" value="check_hasIdName" />
     <property role="3GE5qa" value="id_constraints" />
     <node concept="3clFbS" id="6SzhJU2PSs9" role="18ibNy">
+      <node concept="3clFbJ" id="1VVhp_6EHAS" role="3cqZAp">
+        <node concept="3clFbS" id="1VVhp_6EHAT" role="3clFbx">
+          <node concept="3cpWs6" id="1VVhp_6EHAU" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="1VVhp_6EHAV" role="3clFbw">
+          <node concept="1YBJjd" id="1VVhp_6EHD1" role="2Oq$k0">
+            <ref role="1YBMHb" node="6SzhJU2PSsb" resolve="hasIdName" />
+          </node>
+          <node concept="3w_OXm" id="lsoyDBGFHO" role="2OqNvi" />
+        </node>
+      </node>
       <node concept="3clFbJ" id="6SzhJU2PSvY" role="3cqZAp">
         <node concept="3clFbS" id="6SzhJU2PSvZ" role="3clFbx">
           <node concept="2MkqsV" id="6SzhJU2PSw0" role="3cqZAp">
             <node concept="Xl_RD" id="6SzhJU2PSw1" role="2MkJ7o">
-              <property role="Xl_RC" value="Illegal name. Names can only contain alpha-numerical characters or '_'" />
+              <property role="Xl_RC" value="Illegal name. Names must start with an alphabetic character, and can only contain alpha-numerical characters or '_'" />
             </node>
             <node concept="1YBJjd" id="6SzhJU2PSBz" role="1urrMF">
               <ref role="1YBMHb" node="6SzhJU2PSsb" resolve="hasIdName" />
@@ -252,7 +292,7 @@
             <node concept="liA8E" id="6SzhJU2PSw5" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
               <node concept="Xl_RD" id="6SzhJU2PSw6" role="37wK5m">
-                <property role="Xl_RC" value="[A-Za-z0-9_]*" />
+                <property role="Xl_RC" value="[A-Za-z][A-Za-z0-9_]*" />
               </node>
             </node>
             <node concept="2OqwBi" id="6SzhJU2PSw7" role="2Oq$k0">
