@@ -13,6 +13,19 @@
       </concept>
     </language>
     <language id="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23" name="TorXakis">
+      <concept id="9149903577931506649" name="TorXakis.structure.IntType" flags="ng" index="ll1Wa" />
+      <concept id="9149903577931506653" name="TorXakis.structure.UserDefinedType" flags="ng" index="ll1We">
+        <child id="9149903577931571465" name="constructors" index="llhRq" />
+      </concept>
+      <concept id="9149903577931571579" name="TorXakis.structure.TypeRef" flags="ng" index="llhQC">
+        <reference id="9149903577931571580" name="type" index="llhQJ" />
+      </concept>
+      <concept id="9149903577931571462" name="TorXakis.structure.typeConstructor" flags="ng" index="llhRl">
+        <child id="9149903577931571513" name="fields" index="llhRE" />
+      </concept>
+      <concept id="9149903577931571510" name="TorXakis.structure.TypeConstructorField" flags="ng" index="llhR_">
+        <child id="9149903577931571633" name="type" index="llhPy" />
+      </concept>
       <concept id="4441221725919542628" name="TorXakis.structure.ChannelDeclarationLine" flags="ng" index="Nz1V5">
         <child id="4441221725919542636" name="channels" index="Nz1Vd" />
         <child id="4441221725919542638" name="types" index="Nz1Vf" />
@@ -21,7 +34,9 @@
       <concept id="8606564006615850366" name="TorXakis.structure.ChannelSet" flags="ng" index="Ssbkz">
         <child id="8606564006615850369" name="channels" index="Ssbns" />
       </concept>
-      <concept id="8606564006615092204" name="TorXakis.structure.TypeDef" flags="ng" index="Tx2eL" />
+      <concept id="8606564006615092204" name="TorXakis.structure.TypeDef" flags="ng" index="Tx2eL">
+        <child id="9149903577931506656" name="types" index="ll1WN" />
+      </concept>
       <concept id="8606564006615092201" name="TorXakis.structure.ModelDef" flags="ng" index="Tx2eO">
         <child id="8606564006615601016" name="In_Channels" index="Tzes_" />
         <child id="8606564006615601019" name="Out_Channels" index="TzesA" />
@@ -44,21 +59,12 @@
       </concept>
       <concept id="8606564006615600997" name="TorXakis.structure.Channel" flags="ng" index="TzesS" />
       <concept id="2232454564910247341" name="TorXakis.structure.ChannelId" flags="ng" index="1olYwO" />
-      <concept id="386291602318446963" name="TorXakis.structure.TypeRef" flags="ng" index="1yH3dp" />
       <concept id="7936265027286586046" name="TorXakis.structure.FormalChannels" flags="ng" index="3GTDh0" />
       <concept id="7936265027286586036" name="TorXakis.structure.Hide" flags="ng" index="3GTDha">
         <child id="7936265027286586050" name="channels" index="3GTDgW" />
         <child id="7936265027286586043" name="expression" index="3GTDh5" />
       </concept>
-      <concept id="7936265027286849032" name="TorXakis.structure.VarDec" flags="ng" index="3GUD3Q">
-        <child id="386291602318446966" name="type" index="1yH3ds" />
-      </concept>
-      <concept id="7936265027286849028" name="TorXakis.structure.VarDecOffer" flags="ng" index="3GUD3U">
-        <child id="7936265027286849036" name="vardec" index="3GUD3M" />
-      </concept>
-      <concept id="7936265027286848973" name="TorXakis.structure.IdOffer" flags="ng" index="3GUDcN">
-        <child id="7936265027286848988" name="offers" index="3GUDcy" />
-      </concept>
+      <concept id="7936265027286848492" name="TorXakis.structure.EXIT" flags="ng" index="3GUDki" />
       <concept id="7936265027286850360" name="TorXakis.structure.Sequence_Expression" flags="ng" index="3GUDR6" />
       <concept id="7936265027286834042" name="TorXakis.structure.OfferList" flags="ng" index="3GUHQ4">
         <child id="7936265027286834046" name="offers" index="3GUHQ0" />
@@ -121,7 +127,20 @@
       <property role="TrG5h" value="B" />
     </node>
     <node concept="Tx2eR" id="7tKE5PeXRI9" role="TxEeo" />
-    <node concept="Tx2eL" id="7tKE5PeXNX0" role="TxEeo" />
+    <node concept="Tx2eL" id="7tKE5PeXNX0" role="TxEeo">
+      <node concept="ll1We" id="7VUZddFKacn" role="ll1WN">
+        <property role="TrG5h" value="NULL" />
+        <node concept="llhRl" id="7VUZddFKact" role="llhRq">
+          <property role="TrG5h" value="NULL" />
+          <node concept="llhR_" id="7VUZddFKacv" role="llhRE">
+            <property role="TrG5h" value="nul" />
+            <node concept="llhQC" id="7VUZddFKacz" role="llhPy">
+              <ref role="llhQJ" node="7VUZddFKacn" resolve="NULL" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="Tx2eO" id="7tKE5PeZFN3" role="TxEeo">
       <property role="TrG5h" value="Test" />
       <node concept="Ssbkz" id="7tKE5Pf05aX" role="TzevU">
@@ -157,15 +176,7 @@
         <node concept="3GUDR6" id="3QyoU4ebBPd" role="3GTDh5">
           <node concept="3GUHQ6" id="3QyoU4ebBPm" role="3uHU7B" />
           <node concept="3GUHQ4" id="lsoyDBUlFc" role="3uHU7w">
-            <node concept="3GUDcN" id="lsoyDBUlFf" role="3GUHQ0">
-              <property role="TrG5h" value="A" />
-              <node concept="3GUD3U" id="lsoyDBUlFh" role="3GUDcy">
-                <node concept="3GUD3Q" id="lsoyDBUlFi" role="3GUD3M">
-                  <property role="TrG5h" value="d" />
-                  <node concept="1yH3dp" id="lsoyDBUlFj" role="1yH3ds" />
-                </node>
-              </node>
-            </node>
+            <node concept="3GUDki" id="2xUuhDqt239" role="3GUHQ0" />
           </node>
         </node>
       </node>
@@ -193,9 +204,116 @@
         <node concept="3GTDh0" id="6SzhJU2LUn$" role="3GTDgW" />
       </node>
     </node>
+    <node concept="Tx2eL" id="7VUZddFRBYb" role="TxEeo">
+      <node concept="ll1We" id="7VUZddFRBYd" role="ll1WN">
+        <property role="TrG5h" value="Test" />
+        <node concept="llhRl" id="7VUZddFRBZ5" role="llhRq">
+          <property role="TrG5h" value="Invalid" />
+          <node concept="llhR_" id="7VUZddFUBwt" role="llhRE">
+            <property role="TrG5h" value="val" />
+            <node concept="llhQC" id="7VUZddFVgWP" role="llhPy">
+              <ref role="llhQJ" node="7VUZddFKacn" resolve="NULL" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="Tx2eV" id="3QyoU4ec6iL">
-    <property role="TrG5h" value="other test" />
+    <property role="TrG5h" value="typetest" />
+    <node concept="Tx2eL" id="7VUZddFGgg4" role="TxEeo">
+      <node concept="ll1We" id="7VUZddFGMYY" role="ll1WN">
+        <property role="TrG5h" value="Point" />
+        <node concept="llhRl" id="7VUZddFGMZ0" role="llhRq">
+          <property role="TrG5h" value="X_Y" />
+          <node concept="llhR_" id="7VUZddFGMZ2" role="llhRE">
+            <property role="TrG5h" value="x" />
+            <node concept="ll1Wa" id="7VUZddFHlSn" role="llhPy" />
+          </node>
+          <node concept="llhR_" id="7VUZddFGMZ6" role="llhRE">
+            <property role="TrG5h" value="y" />
+            <node concept="ll1Wa" id="7VUZddFHlSq" role="llhPy" />
+          </node>
+        </node>
+        <node concept="llhRl" id="7VUZddFIa0J" role="llhRq">
+          <property role="TrG5h" value="X_Y_Z" />
+          <node concept="llhR_" id="7VUZddFIa0Q" role="llhRE">
+            <property role="TrG5h" value="x" />
+            <node concept="ll1Wa" id="7VUZddFIa0U" role="llhPy" />
+          </node>
+          <node concept="llhR_" id="7VUZddFIa0X" role="llhRE">
+            <property role="TrG5h" value="y" />
+            <node concept="ll1Wa" id="7VUZddFIa13" role="llhPy" />
+          </node>
+          <node concept="llhR_" id="7VUZddFIa16" role="llhRE">
+            <property role="TrG5h" value="z" />
+            <node concept="ll1Wa" id="7VUZddFIa1e" role="llhPy" />
+          </node>
+        </node>
+      </node>
+      <node concept="ll1We" id="7VUZddFIa1F" role="ll1WN">
+        <property role="TrG5h" value="Color" />
+        <node concept="llhRl" id="7VUZddFIa2q" role="llhRq">
+          <property role="TrG5h" value="RGB" />
+          <node concept="llhR_" id="7VUZddFIa2s" role="llhRE">
+            <property role="TrG5h" value="r" />
+            <node concept="ll1Wa" id="7VUZddFIa2w" role="llhPy" />
+          </node>
+          <node concept="llhR_" id="7VUZddFIa2z" role="llhRE">
+            <property role="TrG5h" value="g" />
+            <node concept="ll1Wa" id="7VUZddFIa2D" role="llhPy" />
+          </node>
+          <node concept="llhR_" id="7VUZddFIa2G" role="llhRE">
+            <property role="TrG5h" value="b" />
+            <node concept="ll1Wa" id="7VUZddFIa2O" role="llhPy" />
+          </node>
+        </node>
+      </node>
+      <node concept="ll1We" id="7VUZddFIa2R" role="ll1WN">
+        <property role="TrG5h" value="Points" />
+        <node concept="llhRl" id="7VUZddFIa3W" role="llhRq">
+          <property role="TrG5h" value="EMPTY" />
+        </node>
+        <node concept="llhRl" id="7VUZddFIa3Y" role="llhRq">
+          <property role="TrG5h" value="CONS" />
+          <node concept="llhR_" id="7VUZddFIa41" role="llhRE">
+            <property role="TrG5h" value="head" />
+            <node concept="llhQC" id="7VUZddFIa45" role="llhPy">
+              <ref role="llhQJ" node="7VUZddFIa1F" resolve="Color" />
+            </node>
+          </node>
+          <node concept="llhR_" id="7VUZddFIa48" role="llhRE">
+            <property role="TrG5h" value="tail" />
+            <node concept="llhQC" id="7VUZddFIa4e" role="llhPy">
+              <ref role="llhQJ" node="7VUZddFIa2R" resolve="Points" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Tx2eL" id="7VUZddFMcId" role="TxEeo">
+      <node concept="ll1We" id="7VUZddFMcIf" role="ll1WN">
+        <property role="TrG5h" value="Unit" />
+        <node concept="llhRl" id="7VUZddFMcIK" role="llhRq">
+          <property role="TrG5h" value="U" />
+        </node>
+      </node>
+      <node concept="ll1We" id="7VUZddFOgLM" role="ll1WN">
+        <property role="TrG5h" value="VOID" />
+      </node>
+      <node concept="ll1We" id="7VUZddFWItA" role="ll1WN">
+        <property role="TrG5h" value="NULL" />
+        <node concept="llhRl" id="7VUZddFWItF" role="llhRq">
+          <property role="TrG5h" value="Null" />
+          <node concept="llhR_" id="7VUZddFWItH" role="llhRE">
+            <property role="TrG5h" value="val" />
+            <node concept="llhQC" id="7VUZddFWItQ" role="llhPy">
+              <ref role="llhQJ" node="7VUZddFOgLM" resolve="VOID" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

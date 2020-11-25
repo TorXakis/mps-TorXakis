@@ -22,6 +22,12 @@ channel id
 
 make sure names are unique for: main definitions(modeldef,chandef,etc) and channel definitions
 
+add support of lists of identifiers in constructor fiels? I.E. a,b :: Int instead of a :: Int; b:: Int
+
 design notes.
 sequence cannot be standard binary expression, as those are all assumed to be left associative.
 There does not seem to be a way to override this behaviour
+
+modeldef vars have their own scope each. Each modeldef can have one var named 'x', etc
+
+add chanel name checks in modeldef
