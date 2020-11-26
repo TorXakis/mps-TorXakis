@@ -275,52 +275,6 @@
       <ref role="1YaFvo" to="b8q8:6SzhJU2MtoZ" resolve="HasSmallidName" />
     </node>
   </node>
-  <node concept="1YbPZF" id="6SzhJU2Ng3$">
-    <property role="TrG5h" value="typeof_Behaviour_Constant" />
-    <property role="3GE5qa" value="behaviour_expression" />
-    <node concept="3clFbS" id="6SzhJU2Ng3_" role="18ibNy">
-      <node concept="1Z5TYs" id="6SzhJU2NgjH" role="3cqZAp">
-        <node concept="mw_s8" id="6SzhJU2NgjK" role="1ZfhK$">
-          <node concept="1Z2H0r" id="6SzhJU2Ng3F" role="mwGJk">
-            <node concept="1YBJjd" id="6SzhJU2Ng5y" role="1Z2MuG">
-              <ref role="1YBMHb" node="6SzhJU2Ng3B" resolve="behaviour_Constant" />
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="6SzhJU2NgoN" role="1ZfhKB">
-          <node concept="2ShNRf" id="6SzhJU2Nhbr" role="mwGJk">
-            <node concept="3zrR0B" id="6SzhJU2Nimp" role="2ShVmc">
-              <node concept="3Tqbb2" id="6SzhJU2Nimr" role="3zrR0E">
-                <ref role="ehGHo" to="b8q8:6SzhJU2Jqk4" resolve="Behaviour_Expression" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="6SzhJU2Ng3B" role="1YuTPh">
-      <property role="TrG5h" value="behaviour_Constant" />
-      <ref role="1YaFvo" to="b8q8:6SzhJU2NfO$" resolve="Behaviour_Constant" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="6SzhJU2N_yi">
-    <property role="TrG5h" value="typeof_Binary_Behaviour_Expression" />
-    <property role="3GE5qa" value="behaviour_expression" />
-    <node concept="3clFbS" id="6SzhJU2N_yj" role="18ibNy" />
-    <node concept="1YaCAy" id="6SzhJU2N_yl" role="1YuTPh">
-      <property role="TrG5h" value="binary_Behaviour_Expression" />
-      <ref role="1YaFvo" to="b8q8:6SzhJU2MtOC" resolve="Binary_Behaviour_Expression" />
-    </node>
-    <node concept="bXqS6" id="6SzhJU2N_Ak" role="ujSXK">
-      <node concept="3clFbS" id="6SzhJU2N_Al" role="2VODD2">
-        <node concept="3cpWs6" id="6SzhJU2N_Ef" role="3cqZAp">
-          <node concept="3clFbT" id="6SzhJU2N_ED" role="3cqZAk">
-            <property role="3clFbU" value="true" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="18kY7G" id="6SzhJU2PSs8">
     <property role="TrG5h" value="check_hasIdName" />
     <property role="3GE5qa" value="id_constraints" />
@@ -503,6 +457,52 @@
     <node concept="1YaCAy" id="7VUZddFVjDE" role="1YuTPh">
       <property role="TrG5h" value="userDefinedType" />
       <ref role="1YaFvo" to="b8q8:7VUZddFFIft" resolve="UserDefinedType" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6SzhJU2N_yi">
+    <property role="TrG5h" value="typeof_Binary_Behaviour_Expression" />
+    <property role="3GE5qa" value="ExpressionBase" />
+    <node concept="3clFbS" id="6SzhJU2N_yj" role="18ibNy" />
+    <node concept="1YaCAy" id="6SzhJU2N_yl" role="1YuTPh">
+      <property role="TrG5h" value="binary_Behaviour_Expression" />
+      <ref role="1YaFvo" to="b8q8:6SzhJU2MtOC" resolve="Binary_Expression" />
+    </node>
+    <node concept="bXqS6" id="6SzhJU2N_Ak" role="ujSXK">
+      <node concept="3clFbS" id="6SzhJU2N_Al" role="2VODD2">
+        <node concept="3cpWs6" id="6SzhJU2N_Ef" role="3cqZAp">
+          <node concept="3clFbT" id="6SzhJU2N_ED" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6SzhJU2Ng3$">
+    <property role="TrG5h" value="typeof_Behaviour_Constant" />
+    <property role="3GE5qa" value="behaviour_expression" />
+    <node concept="3clFbS" id="6SzhJU2Ng3_" role="18ibNy">
+      <node concept="1Z5TYs" id="6SzhJU2NgjH" role="3cqZAp">
+        <node concept="mw_s8" id="6SzhJU2NgjK" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6SzhJU2Ng3F" role="mwGJk">
+            <node concept="1YBJjd" id="6SzhJU2Ng5y" role="1Z2MuG">
+              <ref role="1YBMHb" node="6SzhJU2Ng3B" resolve="behaviour_Constant" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6SzhJU2NgoN" role="1ZfhKB">
+          <node concept="2ShNRf" id="6SzhJU2Nhbr" role="mwGJk">
+            <node concept="3zrR0B" id="6SzhJU2Nimp" role="2ShVmc">
+              <node concept="3Tqbb2" id="6SzhJU2Nimr" role="3zrR0E">
+                <ref role="ehGHo" to="b8q8:6SzhJU2Jqk4" resolve="Behaviour_Expression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6SzhJU2Ng3B" role="1YuTPh">
+      <property role="TrG5h" value="behaviour_Constant" />
+      <ref role="1YaFvo" to="b8q8:6SzhJU2NfO$" resolve="Behaviour_Constant" />
     </node>
   </node>
 </model>
