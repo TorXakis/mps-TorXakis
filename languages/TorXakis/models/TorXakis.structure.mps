@@ -39,6 +39,7 @@
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -371,7 +372,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="arguments" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="Kh9TY1S7mp" resolve="ValueExpression" />
+      <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
     </node>
   </node>
   <node concept="1TIwiD" id="6SzhJU2MpH9">
@@ -581,6 +582,14 @@
     <node concept="PrWs8" id="Kh9TY1RWyy" role="PzmwI">
       <ref role="PrY4T" node="6SzhJU2Jqk4" resolve="Behaviour_Expression" />
     </node>
+    <node concept="1TJgyj" id="Co6UEZ_EBB" role="1TKVEi">
+      <property role="IQ2ns" value="727361759993047527" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="leftExpression" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6SzhJU2MpH9" resolve="PreOfferList" />
+      <ref role="20ksaX" node="Kh9TY1JQUx" resolve="leftExpression" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6SzhJU2MtOC">
     <property role="EcuMT" value="7936265027286850856" />
@@ -783,7 +792,6 @@
     <property role="EcuMT" value="869519769089511376" />
     <property role="3GE5qa" value="ExpressionBase" />
     <property role="TrG5h" value="ParenthesizedExpression" />
-    <property role="34LRSv" value="(expr)" />
     <property role="R4oN_" value="a parenthesized expression" />
     <ref role="1TJDcQ" node="Kh9TY1RWAn" resolve="ConstantExpression" />
     <node concept="1TJgyj" id="Kh9TY1KE42" role="1TKVEi">

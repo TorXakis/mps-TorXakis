@@ -31,3 +31,5 @@ There does not seem to be a way to override this behaviour
 modeldef vars have their own scope each. Each modeldef can have one var named 'x', etc
 
 add chanel name checks in modeldef
+
+create better way to add parenthises around existing expressions

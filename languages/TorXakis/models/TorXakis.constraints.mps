@@ -48,6 +48,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -104,49 +107,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="1M2fIO" id="3QyoU4ealVL">
-    <property role="3GE5qa" value="behaviour_expression" />
-    <ref role="1M2myG" to="b8q8:6SzhJU2MtGS" resolve="Sequence_Expression" />
-    <node concept="9SLcT" id="3QyoU4ealVM" role="9SGkU">
-      <node concept="3clFbS" id="3QyoU4ealVN" role="2VODD2">
-        <node concept="3clFbJ" id="3QyoU4eanKX" role="3cqZAp">
-          <node concept="17R0WA" id="3QyoU4eaPsh" role="3clFbw">
-            <node concept="359W_D" id="3QyoU4eaPtn" role="3uHU7w">
-              <ref role="359W_E" to="b8q8:6SzhJU2MtOC" resolve="Binary_Expression" />
-              <ref role="359W_F" to="b8q8:Kh9TY1JQUx" resolve="leftExpression" />
-            </node>
-            <node concept="2DA6wF" id="3QyoU4eanLs" role="3uHU7B" />
-          </node>
-          <node concept="3clFbS" id="3QyoU4eanKZ" role="3clFbx">
-            <node concept="3cpWs6" id="3QyoU4eapip" role="3cqZAp">
-              <node concept="2OqwBi" id="3QyoU4eapW_" role="3cqZAk">
-                <node concept="2DD5aU" id="3QyoU4eapsS" role="2Oq$k0" />
-                <node concept="2Zo12i" id="3QyoU4eaqdq" role="2OqNvi">
-                  <node concept="chp4Y" id="3QyoU4eaqhu" role="2Zo12j">
-                    <ref role="cht4Q" to="b8q8:6SzhJU2MpH9" resolve="PreOfferList" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="9aQIb" id="3QyoU4eaqAK" role="9aQIa">
-            <node concept="3clFbS" id="3QyoU4eaqAL" role="9aQI4">
-              <node concept="3cpWs6" id="3QyoU4eaqBU" role="3cqZAp">
-                <node concept="2OqwBi" id="3QyoU4earxg" role="3cqZAk">
-                  <node concept="2DD5aU" id="3QyoU4eaqKe" role="2Oq$k0" />
-                  <node concept="2Zo12i" id="3QyoU4earJ6" role="2OqNvi">
-                    <node concept="chp4Y" id="3QyoU4earVZ" role="2Zo12j">
-                      <ref role="cht4Q" to="b8q8:6SzhJU2Jqk4" resolve="Behaviour_Expression" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="lsoyDBHQ73">
     <property role="3GE5qa" value="ChannelDefinition" />
     <ref role="1M2myG" to="b8q8:1VVhp_6FaQH" resolve="ChannelId" />
@@ -208,6 +168,44 @@
             <node concept="2Zo12i" id="Kh9TY1TFMs" role="2OqNvi">
               <node concept="chp4Y" id="Kh9TY1TFTz" role="2Zo12j">
                 <ref role="cht4Q" to="b8q8:Kh9TY1S7mp" resolve="ValueExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="Co6UEZ_EOV">
+    <property role="3GE5qa" value="behaviour_expression" />
+    <ref role="1M2myG" to="b8q8:6SzhJU2McKO" resolve="Process_Call" />
+    <node concept="9SLcT" id="Co6UEZ_EOW" role="9SGkU">
+      <node concept="3clFbS" id="Co6UEZ_EOX" role="2VODD2">
+        <node concept="3clFbJ" id="Co6UEZ_ESQ" role="3cqZAp">
+          <node concept="17R0WA" id="Co6UEZ_Gby" role="3clFbw">
+            <node concept="2DA6wF" id="Co6UEZ_Gbz" role="3uHU7B" />
+            <node concept="359W_D" id="Co6UEZ_Gb$" role="3uHU7w">
+              <ref role="359W_E" to="b8q8:6SzhJU2McKO" resolve="Process_Call" />
+              <ref role="359W_F" to="b8q8:6SzhJU2McL0" resolve="arguments" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="Co6UEZ_ESS" role="3clFbx">
+            <node concept="3cpWs6" id="Co6UEZ_Fto" role="3cqZAp">
+              <node concept="2OqwBi" id="Co6UEZ_FGV" role="3cqZAk">
+                <node concept="2DD5aU" id="Co6UEZ_Fu8" role="2Oq$k0" />
+                <node concept="2Zo12i" id="Co6UEZ_G6S" role="2OqNvi">
+                  <node concept="chp4Y" id="Co6UEZ_Gap" role="2Zo12j">
+                    <ref role="cht4Q" to="b8q8:Kh9TY1S7mp" resolve="ValueExpression" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="Co6UEZ_GcC" role="9aQIa">
+            <node concept="3clFbS" id="Co6UEZ_GcD" role="9aQI4">
+              <node concept="3cpWs6" id="Co6UEZ_Gdt" role="3cqZAp">
+                <node concept="3clFbT" id="Co6UEZ_GeM" role="3cqZAk">
+                  <property role="3clFbU" value="true" />
+                </node>
               </node>
             </node>
           </node>
