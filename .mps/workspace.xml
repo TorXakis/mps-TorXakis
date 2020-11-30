@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9120f734-02e1-4bda-9bd0-b6cd1744c8d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.mps/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.actions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.actions.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.behavior.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.constraints.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.editor.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/TorXakis/models/TorXakis.structure.mps" afterDir="false" />
@@ -39,7 +41,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="86c292c8-d0c1-4bb3-af15-9ae76e6d330a/r:b7d6246b-161a-4c73-9495-8297e6624b3f(TempModule86c292c8-d0c1-4bb3-af15-9ae76e6d330a/ConsoleModel_425505110196400)">
+            <model ref="2e741739-c619-457e-b3a4-a33d3ef3854f/r:5e486d90-d89e-4fc1-96bb-8dd619eb091b(TempModule2e741739-c619-457e-b3a4-a33d3ef3854f/ConsoleModel_1131437712331500)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -59,11 +61,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="Co6UEZyvjD">
-                <node concept="3balQm" id="Co6UEZyvjE" role="aymYE" />
-                <node concept="2Clz$F" id="Co6UEZyvjF" role="aymYO" />
-                <node concept="2_V_lH" id="Co6UEZyvjG" role="1PhJh3">
-                  <ref role="2_V_lI" node="Co6UEZyvjF" resolve="CommandHolder" />
+              <node concept="aymSD" id="6t0Dry1XDgK">
+                <node concept="3balQm" id="6t0Dry1XDgL" role="aymYE" />
+                <node concept="2Clz$F" id="6t0Dry1XDgM" role="aymYO" />
+                <node concept="2_V_lH" id="6t0Dry1XDgN" role="1PhJh3">
+                  <ref role="2_V_lI" node="6t0Dry1XDgM" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -116,6 +118,7 @@
   <component name="NodeEditorSearchHistory">
     <option name="searches">
       <list>
+        <option value="getTargetForLeft" />
         <option value="expression" />
         <option value="processRight" />
         <option value="checkoperat" />
@@ -192,72 +195,22 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Languages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/models/TorXakis.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="id_constraints" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/models/TorXakis.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="behaviour_expression" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:1fb60487-9484-4ecc-989b-208cc367422b(TorXakis.actions) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/models/TorXakis.actions.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Modules Pool" />
@@ -275,10 +228,30 @@
               <option name="myItemId" value="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:00000000-0000-4000-0000-011c895902bf(jetbrains.mps.baseLanguage.actions) in IdeaFile[path: C:/Program Files/JetBrains/MPS 2020.2/languages/baseLanguage/jetbrains.mps.baseLanguage-src.jar!/module/languageModels/actions.mpb]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sideTransforms" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:85f9b594-0991-41af-a7e5-dd4b56d59a4f(TorXakis.constraints) in IdeaFile[path: C:/Users/Gijs van Cuyck/Documents/git repositories/mps-torxakis/languages/TorXakis/models/TorXakis.constraints.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="valueExpressions" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -314,7 +287,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/models/TorXakis.structure.mps]" />
+              <option name="myItemId" value="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure) in IdeaFile[path: C:/Users/Gijs van Cuyck/Documents/git repositories/mps-torxakis/languages/TorXakis/models/TorXakis.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -332,7 +305,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:7242aa6c-35f5-4028-8b40-96d31e0e16c1(TorXakis.editor) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/models/TorXakis.editor.mps]" />
+              <option name="myItemId" value="r:85f9b594-0991-41af-a7e5-dd4b56d59a4f(TorXakis.constraints) in IdeaFile[path: C:/Users/Gijs van Cuyck/Documents/git repositories/mps-torxakis/languages/TorXakis/models/TorXakis.constraints.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,56 +318,12 @@
               <option name="myItemId" value="40321071-e9e3-4180-b70b-5a9f7415dba6" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemId" value="TorXakis" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Languages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Languages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:00000000-0000-4000-0000-011c895902c6(jetbrains.mps.baseLanguage.intentions) in IdeaFile[path: C:/Program Files/JetBrains/MPS 2020.2/languages/baseLanguage/jetbrains.mps.baseLanguage-src.jar!/module/languageModels/intentions.mpb]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/models/TorXakis.structure.mps]" />
+              <option name="myItemId" value="r:2f38f589-ceba-46fe-a577-a1d76c58f824(TorXakis.sandbox) in IdeaFile[path: C:/Users/Gijs van Cuyck/Documents/git repositories/mps-torxakis/languages/TorXakis/sandbox/models/TorXakis.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,42 +348,6 @@
               <option name="myItemId" value="r:00000000-0000-4000-0000-011c895902bf(jetbrains.mps.baseLanguage.actions) in IdeaFile[path: C:/Program Files/JetBrains/MPS 2020.2/languages/baseLanguage/jetbrains.mps.baseLanguage-src.jar!/module/languageModels/actions.mpb]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sideTransforms" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="40321071-e9e3-4180-b70b-5a9f7415dba6" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TorXakis" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:2f38f589-ceba-46fe-a577-a1d76c58f824(TorXakis.sandbox) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/sandbox/models/TorXakis.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="40321071-e9e3-4180-b70b-5a9f7415dba6" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TorXakis" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -466,39 +359,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:7242aa6c-35f5-4028-8b40-96d31e0e16c1(TorXakis.editor) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/models/TorXakis.editor.mps]" />
+              <option name="myItemId" value="r:7242aa6c-35f5-4028-8b40-96d31e0e16c1(TorXakis.editor) in IdeaFile[path: C:/Users/Gijs van Cuyck/Documents/git repositories/mps-torxakis/languages/TorXakis/models/TorXakis.editor.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ExpressionBase" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:85f9b594-0991-41af-a7e5-dd4b56d59a4f(TorXakis.constraints) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/models/TorXakis.constraints.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:fbbc886d-33f9-46b3-b425-7578ebea0f07(TorXakis.typesystem) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/models/TorXakis.typesystem.mps]" />
+              <option name="myItemId" value="Channels" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -521,6 +386,136 @@
               <option name="myItemId" value="Languages" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f27c423e-fe8f-4bc4-92d4-397fbf1c81cc(TorXakis.behavior) in IdeaFile[path: C:/Users/Gijs van Cuyck/Documents/git repositories/mps-torxakis/languages/TorXakis/models/TorXakis.behavior.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:7242aa6c-35f5-4028-8b40-96d31e0e16c1(TorXakis.editor) in IdeaFile[path: C:/Users/Gijs van Cuyck/Documents/git repositories/mps-torxakis/languages/TorXakis/models/TorXakis.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpressionBase" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure) in IdeaFile[path: C:/Users/Gijs van Cuyck/Documents/git repositories/mps-torxakis/languages/TorXakis/models/TorXakis.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Types" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="40321071-e9e3-4180-b70b-5a9f7415dba6" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TorXakis" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure) in IdeaFile[path: C:/Users/Gijs van Cuyck/Documents/git repositories/mps-torxakis/languages/TorXakis/models/TorXakis.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="valueExpressions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f27c423e-fe8f-4bc4-92d4-397fbf1c81cc(TorXakis.behavior) in IdeaFile[path: C:/Users/Gijs van Cuyck/Documents/git repositories/mps-torxakis/languages/TorXakis/models/TorXakis.behavior.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpressionBase" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:1fb60487-9484-4ecc-989b-208cc367422b(TorXakis.actions) in IdeaFile[path: C:/Users/Gijs van Cuyck/Documents/git repositories/mps-torxakis/languages/TorXakis/models/TorXakis.actions.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jetbrains" />
               <option name="myItemType" value="" />
@@ -530,7 +525,101 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:00000000-0000-4000-0000-011c895902bf(jetbrains.mps.baseLanguage.actions) in IdeaFile[path: C:/Program Files/JetBrains/MPS 2020.2/languages/baseLanguage/jetbrains.mps.baseLanguage-src.jar!/module/languageModels/actions.mpb]" />
+              <option name="myItemId" value="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor) in IdeaFile[path: C:/Program Files/JetBrains/MPS 2020.2/languages/baseLanguage/jetbrains.mps.baseLanguage-src.jar!/module/languageModels/editor.mpb]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure) in IdeaFile[path: C:/Users/Gijs van Cuyck/Documents/git repositories/mps-torxakis/languages/TorXakis/models/TorXakis.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Channels" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure) in IdeaFile[path: C:/Users/Gijs van Cuyck/Documents/git repositories/mps-torxakis/languages/TorXakis/models/TorXakis.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:7242aa6c-35f5-4028-8b40-96d31e0e16c1(TorXakis.editor) in IdeaFile[path: C:/Users/Gijs van Cuyck/Documents/git repositories/mps-torxakis/languages/TorXakis/models/TorXakis.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="40321071-e9e3-4180-b70b-5a9f7415dba6" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -540,36 +629,10 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="40321071-e9e3-4180-b70b-5a9f7415dba6" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TorXakis" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:2f38f589-ceba-46fe-a577-a1d76c58f824(TorXakis.sandbox) in IdeaFile[path: C:/Users/Gijs/Documents/git_repositories/mps-torxakis/languages/TorXakis/sandbox/models/TorXakis.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8606564006615252743" />
+              <option name="myItemId" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23(TorXakis)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
-        </subPane>
-      </pane>
-      <pane id="FileSystem">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-          </expand>
-          <select />
         </subPane>
       </pane>
     </panes>
@@ -610,7 +673,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606329307320</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Further work on expression system.&#10;&#10;Added support for right associative operators.&#10;Worked on system for restricting autocomplete to the right set of expressions in various cases.&#10;Added styling for some behaviour expression constants.&#10;Added support for typing behaviour expressions from left to right better.">
+      <created>1606753049111</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606753049111</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -705,14 +775,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added support for typesystem&#10;&#10;Added typesystem model and editors&#10;Added typesystem scoping: references to types now have&#10;to be one of the pre defined options (Int, String, Bool,&#10;Regex), or a reference to a user defined type in scope.&#10;In scope means defined in the current file." />
     <MESSAGE value="Added support for typesystem&#10;&#10;Added typesystem model and editors&#10;Added typesystem scoping: references to types now have&#10;to be one of the pre defined options (Int, String, Bool,&#10;Regex), or a reference to a user defined type in scope.&#10;In scope means defined in the current file.&#10;&#10;Added checks to make sure that names for user defined types are unique.&#10;They cannot be the same as any other typname in the same file, or be one of the pre defined options." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added support for typesystem&#10;&#10;Added typesystem model and editors&#10;Added typesystem scoping: references to types now have&#10;to be one of the pre defined options (Int, String, Bool,&#10;Regex), or a reference to a user defined type in scope.&#10;In scope means defined in the current file.&#10;&#10;Added checks to make sure that names for user defined types are unique.&#10;They cannot be the same as any other typname in the same file, or be one of the pre defined options." />
+    <MESSAGE value="Further work on expression system.&#10;&#10;Added support for right associative operators.&#10;Worked on system for restricting autocomplete to the right set of expressions in various cases.&#10;Added styling for some behaviour expression constants.&#10;Added support for typing behaviour expressions from left to right better." />
+    <option name="LAST_COMMIT_MESSAGE" value="Further work on expression system.&#10;&#10;Added support for right associative operators.&#10;Worked on system for restricting autocomplete to the right set of expressions in various cases.&#10;Added styling for some behaviour expression constants.&#10;Added support for typing behaviour expressions from left to right better." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="328" y="56" key="#MPSPropertiesConfigurable" timestamp="1606660844744">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="461" y="80" key="#MPSPropertiesConfigurable" timestamp="1606751462142">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="328" y="56" key="#MPSPropertiesConfigurable/0.0.1366.728@0.0.1366.728" timestamp="1606660844744" />
-    <state x="461" y="80" key="#MPSPropertiesConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1606411969055" />
+    <state x="461" y="80" key="#MPSPropertiesConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1606751462142" />
     <state x="637" y="267" key="#Notifications" timestamp="1606228937729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -723,11 +794,11 @@
     </state>
     <state x="363" y="118" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.0.1366.728@0.0.1366.728" timestamp="1605439410346" />
     <state x="510" y="169" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606405556226" />
-    <state x="686" y="100" key="#jetbrains.mps.ide.util.NodesChooser" timestamp="1606412479703">
+    <state x="686" y="100" key="#jetbrains.mps.ide.util.NodesChooser" timestamp="1606756141487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="488" y="70" key="#jetbrains.mps.ide.util.NodesChooser/0.0.1366.728@0.0.1366.728" timestamp="1605441375332" />
-    <state x="686" y="100" key="#jetbrains.mps.ide.util.NodesChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606412479703" />
+    <state x="686" y="100" key="#jetbrains.mps.ide.util.NodesChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606756141487" />
     <state x="538" y="377" width="600" height="200" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog" timestamp="1606228971213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -738,10 +809,10 @@
     </state>
     <state x="413" y="118" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606662191178" />
     <state x="580" y="169" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606414176468" />
-    <state x="587" y="40" key="CommitChangelistDialog2" timestamp="1606329306589">
+    <state x="587" y="14" key="CommitChangelistDialog2" timestamp="1606753048199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="40" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606329306589" />
+    <state x="587" y="14" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606753048199" />
     <state x="100" y="100" width="1166" height="528" key="DiffContextDialog" timestamp="1606057331249">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -750,11 +821,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606061614446" />
-    <state x="370" y="151" key="IDE.errors.dialog" timestamp="1606410761125">
+    <state x="370" y="151" key="IDE.errors.dialog" timestamp="1606756498369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="106" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1606055802359" />
-    <state x="370" y="151" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606410761125" />
+    <state x="370" y="151" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606756498369" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1605375884033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -763,11 +834,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="288" y="43" key="jetbrains.mps.ide.blame.dialog.BlameDialog/0.0.1366.728@0.0.1366.728" timestamp="1606054173390" />
-    <state x="499" y="185" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1606660842514">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="694" y="264" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1606751458495">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="499" y="185" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1606660842514" />
-    <state x="701" y="264" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606411967120" />
+    <state x="694" y="264" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606751458495" />
     <state x="200" y="89" width="966" height="546" key="jetbrains.mps.typesystem.uiActions.MyBaseNodeDialog" timestamp="1605451188993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

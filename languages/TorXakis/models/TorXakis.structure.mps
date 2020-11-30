@@ -84,14 +84,14 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="In_Channels" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="7tKE5PeZ4X_" resolve="Channel" />
+      <ref role="20lvS9" node="7tKE5PeZ4XO" resolve="ChannelRef" />
     </node>
     <node concept="1TJgyj" id="7tKE5PeZ4XV" role="1TKVEi">
       <property role="IQ2ns" value="8606564006615601019" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="Out_Channels" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="7tKE5PeZ4X_" resolve="Channel" />
+      <ref role="20lvS9" node="7tKE5PeZ4XO" resolve="ChannelRef" />
     </node>
     <node concept="1TJgyj" id="7tKE5PeZ4YB" role="1TKVEi">
       <property role="IQ2ns" value="8606564006615601063" />
@@ -110,6 +110,9 @@
     <node concept="PrWs8" id="7tKE5PeZkWm" role="PzmwI">
       <ref role="PrY4T" node="7tKE5PeZjVM" resolve="HasCapidName" />
     </node>
+    <node concept="PrWs8" id="6t0Dry2bjY7" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7tKE5PeX8JE">
     <property role="EcuMT" value="8606564006615092202" />
@@ -126,7 +129,7 @@
     <property role="EcuMT" value="8606564006615092203" />
     <property role="TrG5h" value="ChanDef" />
     <property role="R4oN_" value="A list of channel declarations" />
-    <property role="3GE5qa" value="ChannelDefinition" />
+    <property role="3GE5qa" value="Channels" />
     <property role="34LRSv" value="CHANDEF" />
     <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakisDefinition" />
     <node concept="PrWs8" id="3QyoU4ebBPx" role="PzmwI">
@@ -145,6 +148,7 @@
     <property role="TrG5h" value="TypeDef" />
     <property role="R4oN_" value="A type definition" />
     <property role="34LRSv" value="TYPEDEF" />
+    <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakisDefinition" />
     <node concept="1TJgyj" id="7VUZddFFIfw" role="1TKVEi">
       <property role="IQ2ns" value="9149903577931506656" />
@@ -209,17 +213,6 @@
     <property role="TrG5h" value="Placeholder" />
     <property role="3GE5qa" value="Placeholders" />
   </node>
-  <node concept="1TIwiD" id="7tKE5PeZ4X_">
-    <property role="EcuMT" value="8606564006615600997" />
-    <property role="TrG5h" value="Channel" />
-    <property role="34LRSv" value="channel" />
-    <property role="R4oN_" value="A channel" />
-    <property role="3GE5qa" value="Channels" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="7tKE5PeZTaY" role="PzmwI">
-      <ref role="PrY4T" node="7tKE5PeZjVM" resolve="HasCapidName" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="7tKE5PeZ4XO">
     <property role="EcuMT" value="8606564006615601012" />
     <property role="TrG5h" value="ChannelRef" />
@@ -229,7 +222,7 @@
       <property role="IQ2ns" value="8606564006615601013" />
       <property role="20kJfa" value="channel" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7tKE5PeZ4X_" resolve="Channel" />
+      <ref role="20lvS9" node="1VVhp_6FaQH" resolve="Channel" />
     </node>
   </node>
   <node concept="PlHQZ" id="7tKE5PeZjVM">
@@ -635,14 +628,14 @@
     <property role="EcuMT" value="4441221725919542628" />
     <property role="TrG5h" value="ChannelDeclarationLine" />
     <property role="R4oN_" value="A, ... :: T1 # ...;" />
-    <property role="3GE5qa" value="ChannelDefinition" />
+    <property role="3GE5qa" value="Channels" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3QyoU4ebBPG" role="1TKVEi">
       <property role="IQ2ns" value="4441221725919542636" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="channels" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="1VVhp_6FaQH" resolve="ChannelId" />
+      <ref role="20lvS9" node="1VVhp_6FaQH" resolve="Channel" />
     </node>
     <node concept="1TJgyj" id="3QyoU4ebBPI" role="1TKVEi">
       <property role="IQ2ns" value="4441221725919542638" />
@@ -665,9 +658,9 @@
   </node>
   <node concept="1TIwiD" id="1VVhp_6FaQH">
     <property role="EcuMT" value="2232454564910247341" />
-    <property role="TrG5h" value="ChannelId" />
+    <property role="TrG5h" value="Channel" />
     <property role="R4oN_" value="The name of a new channel." />
-    <property role="3GE5qa" value="ChannelDefinition" />
+    <property role="3GE5qa" value="Channels" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1VVhp_6FaQI" role="PzmwI">
       <ref role="PrY4T" node="7tKE5PeZjVM" resolve="HasCapidName" />
@@ -718,6 +711,7 @@
     <property role="TrG5h" value="UserDefinedType" />
     <property role="34LRSv" value="::=" />
     <property role="R4oN_" value="a type definition" />
+    <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7VUZddFFY44" role="PzmwI">
       <ref role="PrY4T" node="7tKE5PeZjVM" resolve="HasCapidName" />
@@ -735,6 +729,7 @@
     <property role="TrG5h" value="typeConstructor" />
     <property role="34LRSv" value="{" />
     <property role="R4oN_" value="a type constructor definition" />
+    <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7VUZddFFY4O" role="PzmwI">
       <ref role="PrY4T" node="7tKE5PeZjVM" resolve="HasCapidName" />
@@ -750,6 +745,7 @@
   <node concept="1TIwiD" id="7VUZddFFY4Q">
     <property role="EcuMT" value="9149903577931571510" />
     <property role="TrG5h" value="TypeConstructorField" />
+    <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7VUZddFFY5M" role="PzmwI">
       <ref role="PrY4T" node="6SzhJU2MtoZ" resolve="HasSmallidName" />
@@ -807,11 +803,15 @@
     <node concept="PrWs8" id="Kh9TY200Zb" role="PzmwI">
       <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
     </node>
+    <node concept="PrWs8" id="6t0Dry260A0" role="PzmwI">
+      <ref role="PrY4T" node="6t0Dry25YzS" resolve="HybridExpressionContainer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="Kh9TY1RWwy">
     <property role="EcuMT" value="869519769091426338" />
     <property role="TrG5h" value="IntConstant" />
     <property role="3GE5qa" value="valueExpressions" />
+    <property role="R4oN_" value="Integer Constant" />
     <ref role="1TJDcQ" node="Kh9TY1RWAn" resolve="ConstantExpression" />
     <node concept="PrWs8" id="Kh9TY1S8C0" role="PzmwI">
       <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
@@ -856,12 +856,17 @@
       <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
     </node>
   </node>
-  <node concept="1TIwiD" id="Kh9TY1TER0">
-    <property role="EcuMT" value="869519769091878336" />
-    <property role="3GE5qa" value="valueExpressions" />
-    <property role="TrG5h" value="BinaryValueExpression" />
+  <node concept="1TIwiD" id="6t0Dry1YxoE">
+    <property role="EcuMT" value="7440128796289275434" />
+    <property role="3GE5qa" value="behaviour_expression" />
+    <property role="TrG5h" value="BinaryBehaviourExpression" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="6SzhJU2MtOC" resolve="Binary_Expression" />
+  </node>
+  <node concept="PlHQZ" id="6t0Dry25YzS">
+    <property role="EcuMT" value="7440128796291229944" />
+    <property role="TrG5h" value="HybridExpressionContainer" />
+    <property role="3GE5qa" value="ExpressionBase" />
   </node>
 </model>
 

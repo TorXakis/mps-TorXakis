@@ -348,74 +348,6 @@
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="22wqDZQuBh0" role="3cqZAp">
-          <node concept="1PaTwC" id="ATZLwXnPcI" role="1aUNEU">
-            <node concept="3oM_SD" id="ATZLwXnPcJ" role="1PaTwD">
-              <property role="3oM_SC" value="since" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPcK" role="1PaTwD">
-              <property role="3oM_SC" value="BinaryOperations" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPcL" role="1PaTwD">
-              <property role="3oM_SC" value="are" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPcM" role="1PaTwD">
-              <property role="3oM_SC" value="left-associative" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPcN" role="1PaTwD">
-              <property role="3oM_SC" value="we" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPcO" role="1PaTwD">
-              <property role="3oM_SC" value="should" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPcP" role="1PaTwD">
-              <property role="3oM_SC" value="perform" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPcQ" role="1PaTwD">
-              <property role="3oM_SC" value="complex" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPcR" role="1PaTwD">
-              <property role="3oM_SC" value="LT" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPcS" role="1PaTwD">
-              <property role="3oM_SC" value="then" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="22wqDZQuBh2" role="3cqZAp">
-          <node concept="1PaTwC" id="ATZLwXnPcT" role="1aUNEU">
-            <node concept="3oM_SD" id="ATZLwXnPcU" role="1PaTwD">
-              <property role="3oM_SC" value="BinaryOperations" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPcV" role="1PaTwD">
-              <property role="3oM_SC" value="is" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPcW" role="1PaTwD">
-              <property role="3oM_SC" value="&quot;rightExpression&quot;" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPcX" role="1PaTwD">
-              <property role="3oM_SC" value="child" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPcY" role="1PaTwD">
-              <property role="3oM_SC" value="of" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPcZ" role="1PaTwD">
-              <property role="3oM_SC" value="another" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPd0" role="1PaTwD">
-              <property role="3oM_SC" value="BinaryOperations" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPd1" role="1PaTwD">
-              <property role="3oM_SC" value="with" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPd2" role="1PaTwD">
-              <property role="3oM_SC" value="same" />
-            </node>
-            <node concept="3oM_SD" id="ATZLwXnPd3" role="1PaTwD">
-              <property role="3oM_SC" value="priority" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbJ" id="22wqDZQuBh4" role="3cqZAp">
           <node concept="3clFbS" id="22wqDZQuBh5" role="3clFbx">
             <node concept="3cpWs8" id="22wqDZQuBh6" role="3cqZAp">
@@ -1439,7 +1371,7 @@
                 </node>
               </node>
             </node>
-            <node concept="1eOMI4" id="4c9ExjQnylX" role="3uHU7w">
+            <node concept="1eOMI4" id="6t0Dry201lh" role="3uHU7w">
               <node concept="1Wc70l" id="4c9ExjQnylY" role="1eOMHV">
                 <node concept="3clFbC" id="6OI2yc2gRk" role="3uHU7w">
                   <node concept="1eOMI4" id="6OI2yc2hRC" role="3uHU7w">
@@ -1463,8 +1395,20 @@
                     </node>
                   </node>
                 </node>
-                <node concept="37vLTw" id="2BHiRxglt8F" role="3uHU7B">
-                  <ref role="3cqZAo" node="4c9ExjQnylL" resolve="isRight" />
+                <node concept="1eOMI4" id="6t0Dry201lc" role="3uHU7B">
+                  <node concept="3clFbC" id="6t0Dry2022I" role="1eOMHV">
+                    <node concept="2OqwBi" id="6t0Dry203G6" role="3uHU7w">
+                      <node concept="37vLTw" id="6t0Dry203op" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4c9ExjQnylJ" resolve="parent" />
+                      </node>
+                      <node concept="2qgKlT" id="6t0Dry206rt" role="2OqNvi">
+                        <ref role="37wK5l" to="yg5l:6t0Dry1ZjnD" resolve="isLeftAssociative" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="2BHiRxglt8F" role="3uHU7B">
+                      <ref role="3cqZAo" node="4c9ExjQnylL" resolve="isRight" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -1501,7 +1445,7 @@
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
         <node concept="3Tqbb2" id="3rDdwL2ZE_j" role="1tU5fm">
-          <ref role="ehGHo" to="b8q8:fz3vP1J" resolve="Expression" />
+          <ref role="ehGHo" to="b8q8:6SzhJU2MtOC" resolve="Binary_Expression" />
         </node>
       </node>
       <node concept="3clFbS" id="18ik2d67g1b" role="3clF47">

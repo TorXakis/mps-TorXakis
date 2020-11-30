@@ -33,3 +33,5 @@ modeldef vars have their own scope each. Each modeldef can have one var named 'x
 add chanel name checks in modeldef
 
 create better way to add parenthises around existing expressions
+
+implement modeldef channel constraints. no duplicate channels in in and out. probably sync subset of in and out. no duplicate channels in sync
