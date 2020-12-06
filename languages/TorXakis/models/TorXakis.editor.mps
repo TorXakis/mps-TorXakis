@@ -680,7 +680,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6SzhJU2M6CJ">
-    <property role="3GE5qa" value="behaviour_expression" />
+    <property role="3GE5qa" value="ExpressionBase" />
     <ref role="1XX52x" to="b8q8:6SzhJU2M6sA" resolve="Let" />
     <node concept="3EZMnI" id="6SzhJU2M6CL" role="2wV5jI">
       <node concept="3F0ifn" id="6SzhJU2M6CM" role="3EZMnx">
