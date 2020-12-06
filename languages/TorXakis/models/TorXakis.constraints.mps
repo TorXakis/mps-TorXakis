@@ -164,14 +164,14 @@
   </node>
   <node concept="1M2fIO" id="Co6UEZ_EOV">
     <property role="3GE5qa" value="behaviour_expression" />
-    <ref role="1M2myG" to="b8q8:6SzhJU2McKO" resolve="Process_Call" />
+    <ref role="1M2myG" to="b8q8:6SzhJU2McKO" resolve="ProcessCall" />
     <node concept="9SLcT" id="Co6UEZ_EOW" role="9SGkU">
       <node concept="3clFbS" id="Co6UEZ_EOX" role="2VODD2">
         <node concept="3clFbJ" id="Co6UEZ_ESQ" role="3cqZAp">
           <node concept="17R0WA" id="Co6UEZ_Gby" role="3clFbw">
             <node concept="2DA6wF" id="Co6UEZ_Gbz" role="3uHU7B" />
             <node concept="359W_D" id="Co6UEZ_Gb$" role="3uHU7w">
-              <ref role="359W_E" to="b8q8:6SzhJU2McKO" resolve="Process_Call" />
+              <ref role="359W_E" to="b8q8:6SzhJU2McKO" resolve="ProcessCall" />
               <ref role="359W_F" to="b8q8:6SzhJU2McL0" resolve="arguments" />
             </node>
           </node>
@@ -220,7 +220,7 @@
   </node>
   <node concept="1M2fIO" id="6t0Dry26GsH">
     <property role="3GE5qa" value="behaviour_expression" />
-    <ref role="1M2myG" to="b8q8:6SzhJU2Jqk4" resolve="Behaviour_Expression" />
+    <ref role="1M2myG" to="b8q8:6SzhJU2Jqk4" resolve="BehaviourExpression" />
     <node concept="9SLcT" id="6t0Dry26GwC" role="9SGkU">
       <node concept="3clFbS" id="6t0Dry26GwD" role="2VODD2">
         <node concept="3clFbJ" id="6t0Dry27axg" role="3cqZAp">
@@ -241,7 +241,7 @@
                 <node concept="2DD5aU" id="6t0Dry27cNO" role="2Oq$k0" />
                 <node concept="2Zo12i" id="6t0Dry26GwO" role="2OqNvi">
                   <node concept="chp4Y" id="6t0Dry26GHB" role="2Zo12j">
-                    <ref role="cht4Q" to="b8q8:6SzhJU2Jqk4" resolve="Behaviour_Expression" />
+                    <ref role="cht4Q" to="b8q8:6SzhJU2Jqk4" resolve="BehaviourExpression" />
                   </node>
                 </node>
               </node>
@@ -267,6 +267,41 @@
       <ref role="1N5Vy1" to="b8q8:7tKE5PeZ4XP" resolve="channel" />
       <node concept="1dDu$B" id="6t0Dry2aE9o" role="1N6uqs">
         <ref role="1dDu$A" to="b8q8:1VVhp_6FaQH" resolve="Channel" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="784v76A4lLe">
+    <property role="3GE5qa" value="behaviour_expression.channel_offers" />
+    <ref role="1M2myG" to="b8q8:6SzhJU2MtGf" resolve="KnownDataOffer" />
+    <node concept="9SLcT" id="784v76A4lLf" role="9SGkU">
+      <node concept="3clFbS" id="784v76A4lLg" role="2VODD2">
+        <node concept="3clFbF" id="784v76A4lPa" role="3cqZAp">
+          <node concept="2OqwBi" id="784v76A4m6L" role="3clFbG">
+            <node concept="2DD5aU" id="784v76A4lP9" role="2Oq$k0" />
+            <node concept="2Zo12i" id="784v76A4mje" role="2OqNvi">
+              <node concept="chp4Y" id="784v76A4mql" role="2Zo12j">
+                <ref role="cht4Q" to="b8q8:Kh9TY1S7mp" resolve="ValueExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="784v76A6s3b">
+    <ref role="1M2myG" to="b8q8:6SzhJU2MpHg" resolve="Guard" />
+    <node concept="9SLcT" id="784v76A6s3c" role="9SGkU">
+      <node concept="3clFbS" id="784v76A6s3d" role="2VODD2">
+        <node concept="3clFbF" id="784v76A6s77" role="3cqZAp">
+          <node concept="2OqwBi" id="784v76A6spu" role="3clFbG">
+            <node concept="2DD5aU" id="784v76A6s76" role="2Oq$k0" />
+            <node concept="2Zo12i" id="784v76A6s_V" role="2OqNvi">
+              <node concept="chp4Y" id="784v76A6sH2" role="2Zo12j">
+                <ref role="cht4Q" to="b8q8:Kh9TY1S7mp" resolve="ValueExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

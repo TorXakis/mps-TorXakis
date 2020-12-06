@@ -566,7 +566,7 @@
           <node concept="2ShNRf" id="6SzhJU2Nhbr" role="mwGJk">
             <node concept="3zrR0B" id="6SzhJU2Nimp" role="2ShVmc">
               <node concept="3Tqbb2" id="6SzhJU2Nimr" role="3zrR0E">
-                <ref role="ehGHo" to="b8q8:6SzhJU2Jqk4" resolve="Behaviour_Expression" />
+                <ref role="ehGHo" to="b8q8:6SzhJU2Jqk4" resolve="BehaviourExpression" />
               </node>
             </node>
           </node>
@@ -575,7 +575,7 @@
     </node>
     <node concept="1YaCAy" id="6SzhJU2Ng3B" role="1YuTPh">
       <property role="TrG5h" value="behaviour_Constant" />
-      <ref role="1YaFvo" to="b8q8:6SzhJU2NfO$" resolve="Behaviour_Constant" />
+      <ref role="1YaFvo" to="b8q8:6SzhJU2NfO$" resolve="BehaviourConstant" />
     </node>
   </node>
   <node concept="18kY7G" id="Co6UEZCbGw">

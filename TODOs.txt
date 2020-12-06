@@ -35,3 +35,23 @@ add chanel name checks in modeldef
 create better way to add parenthises around existing expressions
 
 implement modeldef channel constraints. no duplicate channels in in and out. probably sync subset of in and out. no duplicate channels in sync
+
+look at adding inspector editor to references to show original concept
+
+add scopen/constraints to the processcall expression
+
+add that deleting one part of a binary expression does not delete the entire expression
+
+fix typing a parenthesis in a behaviour expression not creating a parenthesised expression. Happens for example in LET expression.
+
+implement exit sort contraint/typecheck for behaviour expressions
+
+enable operator ACCEPT variant
+
+fix naam vage parallel operator
+
+add left/right actions for offerlist, adding more offers
+
+making typing multiple channeloffers in EXIT contruct better
+
+add colors for types in editor

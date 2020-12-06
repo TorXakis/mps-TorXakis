@@ -1997,18 +1997,74 @@
         <property role="3cmrfH" value="11" />
       </node>
     </node>
+    <node concept="QsSxf" id="784v76A1gLc" role="Qtgdg">
+      <property role="TrG5h" value="enable" />
+      <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />
+      <node concept="3cmrfG" id="784v76A1h2n" role="37wK5m">
+        <property role="3cmrfH" value="5" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="784v76A1h6f" role="Qtgdg">
+      <property role="TrG5h" value="disable" />
+      <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />
+      <node concept="3cmrfG" id="784v76A1hl$" role="37wK5m">
+        <property role="3cmrfH" value="5" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="784v76A1hq3" role="Qtgdg">
+      <property role="TrG5h" value="interupt" />
+      <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />
+      <node concept="3cmrfG" id="784v76A1hFl" role="37wK5m">
+        <property role="3cmrfH" value="5" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="784v76A2o$E" role="Qtgdg">
+      <property role="TrG5h" value="parallel" />
+      <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />
+      <node concept="3cmrfG" id="784v76A2oV_" role="37wK5m">
+        <property role="3cmrfH" value="10" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="784v76A2p1M" role="Qtgdg">
+      <property role="TrG5h" value="synchronized_op" />
+      <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />
+      <node concept="3cmrfG" id="784v76A2q2B" role="37wK5m">
+        <property role="3cmrfH" value="10" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="784v76A2qlT" role="Qtgdg">
+      <property role="TrG5h" value="weird_undefined_parallel_operator_change_this_name_later_when_more_info_is_known" />
+      <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />
+      <node concept="3cmrfG" id="784v76A2t0s" role="37wK5m">
+        <property role="3cmrfH" value="10" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="784v76A0bXT" role="Qtgdg">
+      <property role="TrG5h" value="choice" />
+      <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />
+      <node concept="3cmrfG" id="784v76A3yHY" role="37wK5m">
+        <property role="3cmrfH" value="15" />
+      </node>
+    </node>
     <node concept="QsSxf" id="Kh9TY1RWHQ" role="Qtgdg">
       <property role="TrG5h" value="sequence" />
       <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />
-      <node concept="3cmrfG" id="Kh9TY1S154" role="37wK5m">
-        <property role="3cmrfH" value="10" />
+      <node concept="3cmrfG" id="784v76A3z5p" role="37wK5m">
+        <property role="3cmrfH" value="20" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="784v76A3zBA" role="Qtgdg">
+      <property role="TrG5h" value="guard" />
+      <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />
+      <node concept="3cmrfG" id="784v76A3$4o" role="37wK5m">
+        <property role="3cmrfH" value="20" />
       </node>
     </node>
     <node concept="QsSxf" id="Kh9TY1RWLV" role="Qtgdg">
       <property role="TrG5h" value="constant" />
       <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />
-      <node concept="3cmrfG" id="Kh9TY1S17v" role="37wK5m">
-        <property role="3cmrfH" value="0" />
+      <node concept="3cmrfG" id="784v76A3zkc" role="37wK5m">
+        <property role="3cmrfH" value="30" />
       </node>
     </node>
     <node concept="3Tm1VV" id="Kh9TY1RWCv" role="1B3o_S" />

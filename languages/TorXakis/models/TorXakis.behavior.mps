@@ -537,7 +537,7 @@
               </node>
               <node concept="2Zo12i" id="6t0Dry28MnI" role="2OqNvi">
                 <node concept="chp4Y" id="6t0Dry28MsC" role="2Zo12j">
-                  <ref role="cht4Q" to="b8q8:6SzhJU2Jqk4" resolve="Behaviour_Expression" />
+                  <ref role="cht4Q" to="b8q8:6SzhJU2Jqk4" resolve="BehaviourExpression" />
                 </node>
               </node>
             </node>
@@ -549,7 +549,7 @@
                   </node>
                   <node concept="2Zo12i" id="6t0Dry28NlE" role="2OqNvi">
                     <node concept="chp4Y" id="6t0Dry28NnS" role="2Zo12j">
-                      <ref role="cht4Q" to="b8q8:6SzhJU2Jqk4" resolve="Behaviour_Expression" />
+                      <ref role="cht4Q" to="b8q8:6SzhJU2Jqk4" resolve="BehaviourExpression" />
                     </node>
                   </node>
                 </node>
@@ -607,7 +607,7 @@
   </node>
   <node concept="13h7C7" id="Kh9TY1RWBs">
     <property role="3GE5qa" value="behaviour_expression" />
-    <ref role="13h7C2" to="b8q8:6SzhJU2MtGS" resolve="Sequence_Expression" />
+    <ref role="13h7C2" to="b8q8:6SzhJU2MtGS" resolve="SequenceExpression" />
     <node concept="13hLZK" id="Kh9TY1RWBt" role="13h7CW">
       <node concept="3clFbS" id="Kh9TY1RWBu" role="2VODD2" />
     </node>
@@ -785,7 +785,7 @@
   </node>
   <node concept="13h7C7" id="6t0Dry25Pz1">
     <property role="3GE5qa" value="behaviour_expression" />
-    <ref role="13h7C2" to="b8q8:6SzhJU2Jqk4" resolve="Behaviour_Expression" />
+    <ref role="13h7C2" to="b8q8:6SzhJU2Jqk4" resolve="BehaviourExpression" />
     <node concept="13hLZK" id="6t0Dry25Pz2" role="13h7CW">
       <node concept="3clFbS" id="6t0Dry25Pz3" role="2VODD2" />
     </node>
@@ -1038,6 +1038,214 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="784v76A08uQ">
+    <property role="3GE5qa" value="behaviour_expression" />
+    <ref role="13h7C2" to="b8q8:784v76A08uJ" resolve="ChoiceExpression" />
+    <node concept="13hLZK" id="784v76A08uR" role="13h7CW">
+      <node concept="3clFbS" id="784v76A08uS" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="784v76A08v1" role="13h7CS">
+      <property role="TrG5h" value="getPrecedence" />
+      <ref role="13i0hy" node="Kh9TY1Lgkf" resolve="getPrecedence" />
+      <node concept="3Tm1VV" id="784v76A08v2" role="1B3o_S" />
+      <node concept="3clFbS" id="784v76A08v5" role="3clF47">
+        <node concept="3cpWs6" id="784v76A0cjt" role="3cqZAp">
+          <node concept="2OqwBi" id="784v76A0cKJ" role="3cqZAk">
+            <node concept="Rm8GO" id="784v76A0ckX" role="2Oq$k0">
+              <ref role="Rm8GQ" to="l2p8:784v76A0bXT" resolve="choice" />
+              <ref role="1Px2BO" to="l2p8:Kh9TY1RWCu" resolve="OperatorPrecedence" />
+            </node>
+            <node concept="2OwXpG" id="784v76A0d8v" role="2OqNvi">
+              <ref role="2Oxat5" to="l2p8:Kh9TY1RY1L" resolve="precedence" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="784v76A08v6" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="784v76A1hKu">
+    <property role="3GE5qa" value="behaviour_expression" />
+    <ref role="13h7C2" to="b8q8:784v76A1hKr" resolve="EnableExpression" />
+    <node concept="13hLZK" id="784v76A1hKv" role="13h7CW">
+      <node concept="3clFbS" id="784v76A1hKw" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="784v76A1hKD" role="13h7CS">
+      <property role="TrG5h" value="getPrecedence" />
+      <ref role="13i0hy" node="Kh9TY1Lgkf" resolve="getPrecedence" />
+      <node concept="3Tm1VV" id="784v76A1hKE" role="1B3o_S" />
+      <node concept="3clFbS" id="784v76A1hKH" role="3clF47">
+        <node concept="3cpWs6" id="784v76A1hKV" role="3cqZAp">
+          <node concept="2OqwBi" id="784v76A1idM" role="3cqZAk">
+            <node concept="Rm8GO" id="784v76A1hMr" role="2Oq$k0">
+              <ref role="Rm8GQ" to="l2p8:784v76A1gLc" resolve="enable" />
+              <ref role="1Px2BO" to="l2p8:Kh9TY1RWCu" resolve="OperatorPrecedence" />
+            </node>
+            <node concept="2OwXpG" id="784v76A1i_y" role="2OqNvi">
+              <ref role="2Oxat5" to="l2p8:Kh9TY1RY1L" resolve="precedence" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="784v76A1hKI" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="784v76A1iE6">
+    <property role="3GE5qa" value="behaviour_expression" />
+    <ref role="13h7C2" to="b8q8:784v76A1iE0" resolve="DisableExpression" />
+    <node concept="13i0hz" id="784v76A1iEh" role="13h7CS">
+      <property role="TrG5h" value="getPrecedence" />
+      <ref role="13i0hy" node="Kh9TY1Lgkf" resolve="getPrecedence" />
+      <node concept="3Tm1VV" id="784v76A1iEi" role="1B3o_S" />
+      <node concept="3clFbS" id="784v76A1iEj" role="3clF47">
+        <node concept="3cpWs6" id="784v76A1iEk" role="3cqZAp">
+          <node concept="2OqwBi" id="784v76A1iEl" role="3cqZAk">
+            <node concept="Rm8GO" id="784v76A1iJI" role="2Oq$k0">
+              <ref role="Rm8GQ" to="l2p8:784v76A1h6f" resolve="disable" />
+              <ref role="1Px2BO" to="l2p8:Kh9TY1RWCu" resolve="OperatorPrecedence" />
+            </node>
+            <node concept="2OwXpG" id="784v76A1iEn" role="2OqNvi">
+              <ref role="2Oxat5" to="l2p8:Kh9TY1RY1L" resolve="precedence" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="784v76A1iEo" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="784v76A1iE7" role="13h7CW">
+      <node concept="3clFbS" id="784v76A1iE8" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="784v76A1iK_">
+    <property role="3GE5qa" value="behaviour_expression" />
+    <ref role="13h7C2" to="b8q8:784v76A1iKy" resolve="InterruptExpression" />
+    <node concept="13i0hz" id="784v76A1iKK" role="13h7CS">
+      <property role="TrG5h" value="getPrecedence" />
+      <ref role="13i0hy" node="Kh9TY1Lgkf" resolve="getPrecedence" />
+      <node concept="3Tm1VV" id="784v76A1iKL" role="1B3o_S" />
+      <node concept="3clFbS" id="784v76A1iKM" role="3clF47">
+        <node concept="3cpWs6" id="784v76A1iKN" role="3cqZAp">
+          <node concept="2OqwBi" id="784v76A1iKO" role="3cqZAk">
+            <node concept="Rm8GO" id="784v76A1iQd" role="2Oq$k0">
+              <ref role="Rm8GQ" to="l2p8:784v76A1hq3" resolve="interupt" />
+              <ref role="1Px2BO" to="l2p8:Kh9TY1RWCu" resolve="OperatorPrecedence" />
+            </node>
+            <node concept="2OwXpG" id="784v76A1iKQ" role="2OqNvi">
+              <ref role="2Oxat5" to="l2p8:Kh9TY1RY1L" resolve="precedence" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="784v76A1iKR" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="784v76A1iKA" role="13h7CW">
+      <node concept="3clFbS" id="784v76A1iKB" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="784v76A2t7U">
+    <property role="3GE5qa" value="behaviour_expression" />
+    <ref role="13h7C2" to="b8q8:784v76A2t7R" resolve="ParallelExpression" />
+    <node concept="13i0hz" id="784v76A2t85" role="13h7CS">
+      <property role="TrG5h" value="getPrecedence" />
+      <ref role="13i0hy" node="Kh9TY1Lgkf" resolve="getPrecedence" />
+      <node concept="3Tm1VV" id="784v76A2t86" role="1B3o_S" />
+      <node concept="3clFbS" id="784v76A2t87" role="3clF47">
+        <node concept="3cpWs6" id="784v76A2t88" role="3cqZAp">
+          <node concept="2OqwBi" id="784v76A2t89" role="3cqZAk">
+            <node concept="Rm8GO" id="784v76A2tdy" role="2Oq$k0">
+              <ref role="Rm8GQ" to="l2p8:784v76A2o$E" resolve="parallel" />
+              <ref role="1Px2BO" to="l2p8:Kh9TY1RWCu" resolve="OperatorPrecedence" />
+            </node>
+            <node concept="2OwXpG" id="784v76A2t8b" role="2OqNvi">
+              <ref role="2Oxat5" to="l2p8:Kh9TY1RY1L" resolve="precedence" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="784v76A2t8c" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="784v76A2t7V" role="13h7CW">
+      <node concept="3clFbS" id="784v76A2t7W" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="784v76A2tep">
+    <property role="3GE5qa" value="behaviour_expression" />
+    <ref role="13h7C2" to="b8q8:784v76A2tem" resolve="SynchronizedExpression" />
+    <node concept="13i0hz" id="784v76A2te$" role="13h7CS">
+      <property role="TrG5h" value="getPrecedence" />
+      <ref role="13i0hy" node="Kh9TY1Lgkf" resolve="getPrecedence" />
+      <node concept="3Tm1VV" id="784v76A2te_" role="1B3o_S" />
+      <node concept="3clFbS" id="784v76A2teA" role="3clF47">
+        <node concept="3cpWs6" id="784v76A2teB" role="3cqZAp">
+          <node concept="2OqwBi" id="784v76A2teC" role="3cqZAk">
+            <node concept="Rm8GO" id="784v76A2tk1" role="2Oq$k0">
+              <ref role="Rm8GQ" to="l2p8:784v76A2p1M" resolve="synchronized_op" />
+              <ref role="1Px2BO" to="l2p8:Kh9TY1RWCu" resolve="OperatorPrecedence" />
+            </node>
+            <node concept="2OwXpG" id="784v76A2teE" role="2OqNvi">
+              <ref role="2Oxat5" to="l2p8:Kh9TY1RY1L" resolve="precedence" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="784v76A2teF" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="784v76A2teq" role="13h7CW">
+      <node concept="3clFbS" id="784v76A2ter" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="784v76A2tkU">
+    <property role="3GE5qa" value="behaviour_expression" />
+    <ref role="13h7C2" to="b8q8:784v76A2tkP" resolve="WeirdUndefinedParallelExpression" />
+    <node concept="13hLZK" id="784v76A2tkV" role="13h7CW">
+      <node concept="3clFbS" id="784v76A2tkW" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="784v76A2tl5" role="13h7CS">
+      <property role="TrG5h" value="getPrecedence" />
+      <ref role="13i0hy" node="Kh9TY1Lgkf" resolve="getPrecedence" />
+      <node concept="3Tm1VV" id="784v76A2tl6" role="1B3o_S" />
+      <node concept="3clFbS" id="784v76A2tl9" role="3clF47">
+        <node concept="3cpWs6" id="784v76A2tln" role="3cqZAp">
+          <node concept="2OqwBi" id="784v76A2tMe" role="3cqZAk">
+            <node concept="Rm8GO" id="784v76A2tmR" role="2Oq$k0">
+              <ref role="Rm8GQ" to="l2p8:784v76A2qlT" resolve="weird_undefined_parallel_operator_change_this_name_later_when_more_info_is_known" />
+              <ref role="1Px2BO" to="l2p8:Kh9TY1RWCu" resolve="OperatorPrecedence" />
+            </node>
+            <node concept="2OwXpG" id="784v76A2u9Y" role="2OqNvi">
+              <ref role="2Oxat5" to="l2p8:Kh9TY1RY1L" resolve="precedence" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="784v76A2tla" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="784v76A3PIV">
+    <property role="3GE5qa" value="behaviour_expression" />
+    <ref role="13h7C2" to="b8q8:784v76A3$cq" resolve="GuardExpression" />
+    <node concept="13hLZK" id="784v76A3PIW" role="13h7CW">
+      <node concept="3clFbS" id="784v76A3PIX" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="784v76A3PJ6" role="13h7CS">
+      <property role="TrG5h" value="getPrecedence" />
+      <ref role="13i0hy" node="Kh9TY1Lgkf" resolve="getPrecedence" />
+      <node concept="3Tm1VV" id="784v76A3PJ7" role="1B3o_S" />
+      <node concept="3clFbS" id="784v76A3PJa" role="3clF47">
+        <node concept="3cpWs6" id="784v76A3R8f" role="3cqZAp">
+          <node concept="2OqwBi" id="784v76A3QgI" role="3cqZAk">
+            <node concept="Rm8GO" id="784v76A3PKm" role="2Oq$k0">
+              <ref role="Rm8GQ" to="l2p8:784v76A3zBA" resolve="guard" />
+              <ref role="1Px2BO" to="l2p8:Kh9TY1RWCu" resolve="OperatorPrecedence" />
+            </node>
+            <node concept="2OwXpG" id="784v76A3QDy" role="2OqNvi">
+              <ref role="2Oxat5" to="l2p8:Kh9TY1RY1L" resolve="precedence" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="784v76A3PJb" role="3clF45" />
     </node>
   </node>
 </model>
