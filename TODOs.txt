@@ -59,3 +59,7 @@ add colors for types in editor
 reimplement if statement with multiple guards if required
 
 add smaller, single line editors for smaller expressions. I.E. IF expression, binary expression, etc if their arguments are small constants
+
+fix adding fields to type constructor
+
+zet test omgeving op (versie 6)
