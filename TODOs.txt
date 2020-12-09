@@ -65,3 +65,5 @@ fix adding fields to type constructor
 zet test omgeving op (versie 6)
 
 haal sync weg
+
+implementeer systeem om operator van binary operators om te wisselen

@@ -401,8 +401,8 @@
     <node concept="1TJgyj" id="784v76A6s37" role="1TKVEi">
       <property role="IQ2ns" value="8215828447790481607" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="values" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="784v76A7$w3" role="PzmwI">
@@ -672,6 +672,9 @@
     <property role="R5$K7" value="true" />
     <property role="R4oN_" value="abstract type" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2kdpv8lbG3e" role="PzmwI">
+      <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7VUZddFFIfp">
     <property role="EcuMT" value="9149903577931506649" />
@@ -837,7 +840,7 @@
     <property role="3GE5qa" value="valueExpressions" />
     <property role="34LRSv" value="+" />
     <property role="R4oN_" value="addition" />
-    <ref role="1TJDcQ" node="6SzhJU2MtOC" resolve="Binary_Expression" />
+    <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
     <node concept="PrWs8" id="Kh9TY1S7At" role="PzmwI">
       <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
     </node>
@@ -853,7 +856,7 @@
     <property role="TrG5h" value="multExpression" />
     <property role="34LRSv" value="*" />
     <property role="R4oN_" value="multiplication" />
-    <ref role="1TJDcQ" node="6SzhJU2MtOC" resolve="Binary_Expression" />
+    <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
     <node concept="PrWs8" id="Kh9TY1S8Ch" role="PzmwI">
       <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
     </node>
@@ -1047,6 +1050,28 @@
       <property role="IQ2nx" value="2669902244511382052" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2kdpv8lb4kJ">
+    <property role="EcuMT" value="2669902244512285999" />
+    <property role="3GE5qa" value="valueExpressions" />
+    <property role="TrG5h" value="EqualityExpression" />
+    <property role="34LRSv" value="==" />
+    <property role="R4oN_" value="equality (overloaded)" />
+    <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
+    <node concept="PrWs8" id="2kdpv8lb4kK" role="PzmwI">
+      <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2kdpv8lfloW">
+    <property role="EcuMT" value="2669902244513404476" />
+    <property role="3GE5qa" value="valueExpressions" />
+    <property role="TrG5h" value="BinaryValueExpression" />
+    <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="abstract binary value expression" />
+    <ref role="1TJDcQ" node="6SzhJU2MtOC" resolve="Binary_Expression" />
+    <node concept="PrWs8" id="2kdpv8lfloX" role="PzmwI">
+      <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
     </node>
   </node>
 </model>

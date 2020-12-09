@@ -1891,5 +1891,31 @@
       <node concept="3clFbS" id="2kdpv8l7D0O" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="2kdpv8lb4kM">
+    <property role="3GE5qa" value="valueExpressions" />
+    <ref role="13h7C2" to="b8q8:2kdpv8lb4kJ" resolve="EqualityExpression" />
+    <node concept="13hLZK" id="2kdpv8lb4kN" role="13h7CW">
+      <node concept="3clFbS" id="2kdpv8lb4kO" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2kdpv8lb4kX" role="13h7CS">
+      <property role="TrG5h" value="getPrecedence" />
+      <ref role="13i0hy" node="Kh9TY1Lgkf" resolve="getPrecedence" />
+      <node concept="3Tm1VV" id="2kdpv8lb4kY" role="1B3o_S" />
+      <node concept="3clFbS" id="2kdpv8lb4l1" role="3clF47">
+        <node concept="3cpWs6" id="2kdpv8lb6$V" role="3cqZAp">
+          <node concept="2OqwBi" id="2kdpv8lb71M" role="3cqZAk">
+            <node concept="Rm8GO" id="2kdpv8lb6Ar" role="2Oq$k0">
+              <ref role="Rm8GQ" to="l2p8:2kdpv8lb4Sf" resolve="equality" />
+              <ref role="1Px2BO" to="l2p8:Kh9TY1RWCu" resolve="OperatorPrecedence" />
+            </node>
+            <node concept="2OwXpG" id="2kdpv8lb7qE" role="2OqNvi">
+              <ref role="2Oxat5" to="l2p8:Kh9TY1RY1L" resolve="precedence" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="2kdpv8lb4l2" role="3clF45" />
+    </node>
+  </node>
 </model>
 

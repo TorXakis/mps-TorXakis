@@ -1983,18 +1983,25 @@
   </node>
   <node concept="Qs71p" id="Kh9TY1RWCu">
     <property role="TrG5h" value="OperatorPrecedence" />
+    <node concept="QsSxf" id="2kdpv8lb4Sf" role="Qtgdg">
+      <property role="TrG5h" value="equality" />
+      <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />
+      <node concept="3cmrfG" id="2kdpv8lb5HA" role="37wK5m">
+        <property role="3cmrfH" value="15" />
+      </node>
+    </node>
     <node concept="QsSxf" id="Kh9TY1S6In" role="Qtgdg">
       <property role="TrG5h" value="addition" />
       <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />
-      <node concept="3cmrfG" id="Kh9TY1S6VM" role="37wK5m">
-        <property role="3cmrfH" value="10" />
+      <node concept="3cmrfG" id="2kdpv8lb5ji" role="37wK5m">
+        <property role="3cmrfH" value="50" />
       </node>
     </node>
     <node concept="QsSxf" id="Kh9TY1S6Yl" role="Qtgdg">
       <property role="TrG5h" value="multiplication" />
       <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />
-      <node concept="3cmrfG" id="Kh9TY1S7je" role="37wK5m">
-        <property role="3cmrfH" value="11" />
+      <node concept="3cmrfG" id="2kdpv8lb5sq" role="37wK5m">
+        <property role="3cmrfH" value="55" />
       </node>
     </node>
     <node concept="QsSxf" id="784v76A1gLc" role="Qtgdg">

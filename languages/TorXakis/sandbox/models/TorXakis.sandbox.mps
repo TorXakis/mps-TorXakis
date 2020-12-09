@@ -10,6 +10,9 @@
       <concept id="869519769091426338" name="TorXakis.structure.IntConstant" flags="ng" index="2dNIYX">
         <property id="869519769091475970" name="value" index="2dWqQt" />
       </concept>
+      <concept id="869519769089511376" name="TorXakis.structure.ParenthesizedExpression" flags="ng" index="2dOUxf">
+        <child id="869519769089515778" name="expression" index="2dOSqt" />
+      </concept>
       <concept id="869519769091470744" name="TorXakis.structure.AdditionExpression" flags="ng" index="2dWl87" />
       <concept id="869519769091475984" name="TorXakis.structure.multExpression" flags="ng" index="2dWqQf" />
       <concept id="9149903577931506649" name="TorXakis.structure.IntType" flags="ng" index="ll1Wa" />
@@ -26,7 +29,13 @@
       <concept id="9149903577931571510" name="TorXakis.structure.TypeConstructorField" flags="ng" index="llhR_">
         <child id="9149903577931571633" name="type" index="llhPy" />
       </concept>
-      <concept id="2669902244510230954" name="TorXakis.structure.BoolConstant" flags="ng" index="K0oLo" />
+      <concept id="2669902244510230954" name="TorXakis.structure.BoolConstant" flags="ng" index="K0oLo">
+        <property id="2669902244510230957" name="value" index="K0oLv" />
+      </concept>
+      <concept id="2669902244511382049" name="TorXakis.structure.StringConstant" flags="ng" index="K4LZj">
+        <property id="2669902244511382052" name="value" index="K4LZm" />
+      </concept>
+      <concept id="2669902244512285999" name="TorXakis.structure.EqualityExpression" flags="ng" index="K8i3t" />
       <concept id="4441221725919542628" name="TorXakis.structure.ChannelDeclarationLine" flags="ng" index="Nz1V5">
         <child id="4441221725919542636" name="channels" index="Nz1Vd" />
         <child id="4441221725919542638" name="types" index="Nz1Vf" />
@@ -98,7 +107,7 @@
       <concept id="7936265027286834040" name="TorXakis.structure.HIT" flags="ng" index="3GUHQ6" />
       <concept id="7936265027286834041" name="TorXakis.structure.MISS" flags="ng" index="3GUHQ7" />
       <concept id="7936265027286834000" name="TorXakis.structure.Guard" flags="ng" index="3GUHQI">
-        <child id="8215828447790481607" name="values" index="3k7rMQ" />
+        <child id="8215828447790481607" name="value" index="3k7rMQ" />
       </concept>
       <concept id="7936265027286833993" name="TorXakis.structure.PreOfferList" flags="ng" index="3GUHQR">
         <child id="7936265027286833997" name="guard" index="3GUHQN" />
@@ -273,11 +282,11 @@
                 <node concept="3GUHQI" id="784v76A4lFP" role="3k2zXG">
                   <node concept="3GUM7o" id="784v76A8$Xa" role="3k7rMQ">
                     <node concept="3GUM7s" id="784v76A8$Xb" role="3GUM7k" />
-                    <node concept="2dWl87" id="784v76A9cec" role="3GUM7j">
+                    <node concept="K8i3t" id="2kdpv8lkIHd" role="3GUM7j">
+                      <node concept="2dNIYX" id="2kdpv8lkIIa" role="2dF$$W">
+                        <property role="2dWqQt" value="4" />
+                      </node>
                       <node concept="2dWl87" id="784v76A9cey" role="2dF$$Y">
-                        <node concept="2dNIYX" id="784v76A9ceH" role="2dF$$W">
-                          <property role="2dWqQt" value="4" />
-                        </node>
                         <node concept="2dWl87" id="784v76A9ceo" role="2dF$$Y">
                           <node concept="2dNIYX" id="784v76A9cev" role="2dF$$W">
                             <property role="2dWqQt" value="2" />
@@ -286,9 +295,14 @@
                             <property role="2dWqQt" value="3" />
                           </node>
                         </node>
-                      </node>
-                      <node concept="2dNIYX" id="784v76A9ceJ" role="2dF$$W">
-                        <property role="2dWqQt" value="3" />
+                        <node concept="2dWqQf" id="2kdpv8lh7dk" role="2dF$$W">
+                          <node concept="2dNIYX" id="784v76A9ceH" role="2dF$$Y">
+                            <property role="2dWqQt" value="4" />
+                          </node>
+                          <node concept="2dNIYX" id="2kdpv8liUgk" role="2dF$$W">
+                            <property role="2dWqQt" value="2" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -303,15 +317,20 @@
                           </node>
                         </node>
                         <node concept="3GUDRL" id="784v76Abwiu" role="3GUDdr">
-                          <node concept="3k8bZ0" id="784v76AbwiE" role="3GUDRH">
-                            <node concept="2dNIYX" id="784v76AbwiQ" role="3k8bZ5">
-                              <property role="2dWqQt" value="4" />
+                          <node concept="3k8bZ0" id="2kdpv8leEDc" role="3GUDRH">
+                            <node concept="K8i3t" id="2kdpv8lfl9p" role="3k8bZ5">
+                              <node concept="2dNIYX" id="2kdpv8lfl9Q" role="2dF$$W">
+                                <property role="2dWqQt" value="2" />
+                              </node>
+                              <node concept="2dNIYX" id="2kdpv8lfl91" role="2dF$$Y">
+                                <property role="2dWqQt" value="3" />
+                              </node>
                             </node>
-                            <node concept="2dNIYX" id="784v76AbwiS" role="3k8bZ7">
-                              <property role="2dWqQt" value="4" />
+                            <node concept="K4LZj" id="2kdpv8lfl83" role="3k8bZ7">
+                              <property role="K4LZm" value="othertest" />
                             </node>
-                            <node concept="2dNIYX" id="784v76AbwiU" role="3k8bZ8">
-                              <property role="2dWqQt" value="2" />
+                            <node concept="K4LZj" id="2kdpv8leEE3" role="3k8bZ8">
+                              <property role="K4LZm" value="test" />
                             </node>
                           </node>
                         </node>
@@ -327,18 +346,30 @@
                         </node>
                       </node>
                       <node concept="3GUHQI" id="784v76A4lHX" role="3GUHQN">
-                        <node concept="2dWqQf" id="784v76A6WQW" role="3k7rMQ">
-                          <node concept="2dNIYX" id="784v76A6WR3" role="2dF$$W">
-                            <property role="2dWqQt" value="6" />
+                        <node concept="K8i3t" id="2kdpv8lg$pX" role="3k7rMQ">
+                          <node concept="2dNIYX" id="2kdpv8lh78L" role="2dF$$W">
+                            <property role="2dWqQt" value="3" />
                           </node>
                           <node concept="3k8bZ0" id="5T0tj1y06hj" role="2dF$$Y">
                             <node concept="2dNIYX" id="5T0tj1y06hx" role="3k8bZ7">
                               <property role="2dWqQt" value="6" />
                             </node>
-                            <node concept="2dNIYX" id="5T0tj1y06hz" role="3k8bZ8">
-                              <property role="2dWqQt" value="7" />
+                            <node concept="2dWl87" id="2kdpv8lfl7q" role="3k8bZ8">
+                              <node concept="2dNIYX" id="2kdpv8lh7bs" role="2dF$$W">
+                                <property role="2dWqQt" value="3" />
+                              </node>
+                              <node concept="2dNIYX" id="2kdpv8lfl73" role="2dF$$Y">
+                                <property role="2dWqQt" value="2" />
+                              </node>
                             </node>
-                            <node concept="K0oLo" id="2kdpv8laVyi" role="3k8bZ5" />
+                            <node concept="K8i3t" id="2kdpv8lgzDs" role="3k8bZ5">
+                              <node concept="K4LZj" id="2kdpv8lg$lR" role="2dF$$W">
+                                <property role="K4LZm" value="othertest" />
+                              </node>
+                              <node concept="K4LZj" id="2kdpv8lclkE" role="2dF$$Y">
+                                <property role="K4LZm" value="test" />
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -366,7 +397,32 @@
                   </node>
                 </node>
                 <node concept="3GUHQI" id="4FBkHcUouey" role="3GUHQN">
-                  <node concept="K0oLo" id="2kdpv8laRVu" role="3k7rMQ" />
+                  <node concept="3k8bZ0" id="2kdpv8ljwXL" role="3k7rMQ">
+                    <node concept="K0oLo" id="2kdpv8ljwY5" role="3k8bZ5">
+                      <property role="K0oLv" value="true" />
+                    </node>
+                    <node concept="K8i3t" id="2kdpv8ljx01" role="3k8bZ8">
+                      <node concept="K4LZj" id="2kdpv8ljx0C" role="2dF$$W">
+                        <property role="K4LZm" value="3" />
+                      </node>
+                      <node concept="K4LZj" id="2kdpv8ljwZ7" role="2dF$$Y">
+                        <property role="K4LZm" value="1" />
+                      </node>
+                    </node>
+                    <node concept="3GUM7o" id="2kdpv8lk8Kw" role="3k8bZ7">
+                      <node concept="3GUM7s" id="2kdpv8lk8Ky" role="3GUM7k" />
+                      <node concept="K8i3t" id="2kdpv8lk8L7" role="3GUM7j">
+                        <node concept="2dOUxf" id="2kdpv8lk8Lp" role="2dF$$W">
+                          <node concept="2dNIYX" id="2kdpv8lk8LB" role="2dOSqt">
+                            <property role="2dWqQt" value="4" />
+                          </node>
+                        </node>
+                        <node concept="2dNIYX" id="2kdpv8lk8KX" role="2dF$$Y">
+                          <property role="2dWqQt" value="1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>

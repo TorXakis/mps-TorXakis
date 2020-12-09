@@ -3188,10 +3188,8 @@
           <property role="1413C4" value="guardlabel" />
         </node>
       </node>
-      <node concept="3F2HdR" id="784v76A6sMq" role="3EZMnx">
-        <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="b8q8:784v76A6s37" resolve="values" />
-        <node concept="l2Vlx" id="784v76A6sMs" role="2czzBx" />
+      <node concept="3F1sOY" id="2kdpv8liUBM" role="3EZMnx">
+        <ref role="1NtTu8" to="b8q8:784v76A6s37" resolve="value" />
       </node>
       <node concept="3F0ifn" id="784v76A6sMB" role="3EZMnx">
         <property role="3F0ifm" value="]]" />
