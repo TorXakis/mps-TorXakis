@@ -26,6 +26,7 @@
       <concept id="9149903577931571510" name="TorXakis.structure.TypeConstructorField" flags="ng" index="llhR_">
         <child id="9149903577931571633" name="type" index="llhPy" />
       </concept>
+      <concept id="2669902244510230954" name="TorXakis.structure.BoolConstant" flags="ng" index="K0oLo" />
       <concept id="4441221725919542628" name="TorXakis.structure.ChannelDeclarationLine" flags="ng" index="Nz1V5">
         <child id="4441221725919542636" name="channels" index="Nz1Vd" />
         <child id="4441221725919542638" name="types" index="Nz1Vf" />
@@ -331,15 +332,13 @@
                             <property role="2dWqQt" value="6" />
                           </node>
                           <node concept="3k8bZ0" id="5T0tj1y06hj" role="2dF$$Y">
-                            <node concept="2dNIYX" id="5T0tj1y06hv" role="3k8bZ5">
-                              <property role="2dWqQt" value="4" />
-                            </node>
                             <node concept="2dNIYX" id="5T0tj1y06hx" role="3k8bZ7">
                               <property role="2dWqQt" value="6" />
                             </node>
                             <node concept="2dNIYX" id="5T0tj1y06hz" role="3k8bZ8">
                               <property role="2dWqQt" value="7" />
                             </node>
+                            <node concept="K0oLo" id="2kdpv8laVyi" role="3k8bZ5" />
                           </node>
                         </node>
                       </node>
@@ -367,9 +366,7 @@
                   </node>
                 </node>
                 <node concept="3GUHQI" id="4FBkHcUouey" role="3GUHQN">
-                  <node concept="2dNIYX" id="4FBkHcUoueA" role="3k7rMQ">
-                    <property role="2dWqQt" value="5" />
-                  </node>
+                  <node concept="K0oLo" id="2kdpv8laRVu" role="3k7rMQ" />
                 </node>
               </node>
             </node>

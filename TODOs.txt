@@ -63,3 +63,5 @@ add smaller, single line editors for smaller expressions. I.E. IF expression, bi
 fix adding fields to type constructor
 
 zet test omgeving op (versie 6)
+
+haal sync weg

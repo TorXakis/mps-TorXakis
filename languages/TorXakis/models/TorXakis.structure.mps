@@ -1019,5 +1019,35 @@
       <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2kdpv8l3eAE">
+    <property role="EcuMT" value="2669902244510230954" />
+    <property role="3GE5qa" value="valueExpressions" />
+    <property role="TrG5h" value="BoolConstant" />
+    <property role="R4oN_" value="a boolean value" />
+    <ref role="1TJDcQ" node="Kh9TY1RWAn" resolve="ConstantExpression" />
+    <node concept="PrWs8" id="2kdpv8l3eAF" role="PzmwI">
+      <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
+    </node>
+    <node concept="1TJgyi" id="2kdpv8l3eAH" role="1TKVEl">
+      <property role="IQ2nx" value="2669902244510230957" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2kdpv8l7BCx">
+    <property role="EcuMT" value="2669902244511382049" />
+    <property role="3GE5qa" value="valueExpressions" />
+    <property role="TrG5h" value="StringConstant" />
+    <property role="R4oN_" value="a String value" />
+    <ref role="1TJDcQ" node="Kh9TY1RWAn" resolve="ConstantExpression" />
+    <node concept="PrWs8" id="2kdpv8l7BCy" role="PzmwI">
+      <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
+    </node>
+    <node concept="1TJgyi" id="2kdpv8l7BC$" role="1TKVEl">
+      <property role="IQ2nx" value="2669902244511382052" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

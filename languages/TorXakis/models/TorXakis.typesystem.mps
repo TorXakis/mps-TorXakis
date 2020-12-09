@@ -832,5 +832,37 @@
       </node>
     </node>
   </node>
+  <node concept="18kY7G" id="2kdpv8l7HbG">
+    <property role="TrG5h" value="check_StringConstant" />
+    <property role="3GE5qa" value="valueExpressions" />
+    <node concept="3clFbS" id="2kdpv8l7HbH" role="18ibNy">
+      <node concept="3clFbJ" id="2kdpv8l7HbN" role="3cqZAp">
+        <node concept="3fqX7Q" id="2kdpv8l7HbZ" role="3clFbw">
+          <node concept="2OqwBi" id="2kdpv8l7Hom" role="3fr31v">
+            <node concept="1YBJjd" id="2kdpv8l7Hcf" role="2Oq$k0">
+              <ref role="1YBMHb" node="2kdpv8l7HbJ" resolve="stringConstant" />
+            </node>
+            <node concept="2qgKlT" id="2kdpv8l7H$Y" role="2OqNvi">
+              <ref role="37wK5l" to="yg5l:hLEXzwL" resolve="isCorrect" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="2kdpv8l7HbP" role="3clFbx">
+          <node concept="2MkqsV" id="2kdpv8l7HF2" role="3cqZAp">
+            <node concept="Xl_RD" id="2kdpv8l7HFe" role="2MkJ7o">
+              <property role="Xl_RC" value="unparsable string literal. Try escaping special characters such as \&quot;, \\, etc" />
+            </node>
+            <node concept="1YBJjd" id="2kdpv8l7HMu" role="1urrMF">
+              <ref role="1YBMHb" node="2kdpv8l7HbJ" resolve="stringConstant" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2kdpv8l7HbJ" role="1YuTPh">
+      <property role="TrG5h" value="stringConstant" />
+      <ref role="1YaFvo" to="b8q8:2kdpv8l7BCx" resolve="StringConstant" />
+    </node>
+  </node>
 </model>
 
