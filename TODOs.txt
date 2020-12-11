@@ -67,3 +67,5 @@ zet test omgeving op (versie 6)
 haal sync weg
 
 implementeer systeem om operator van binary operators om te wisselen
+
+implement regex constants, and strinre function
