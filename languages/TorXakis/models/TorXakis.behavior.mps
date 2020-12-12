@@ -1187,7 +1187,7 @@
   </node>
   <node concept="13h7C7" id="784v76A2tkU">
     <property role="3GE5qa" value="behaviour_expression" />
-    <ref role="13h7C2" to="b8q8:784v76A2tkP" resolve="WeirdUndefinedParallelExpression" />
+    <ref role="13h7C2" to="b8q8:784v76A2tkP" resolve="SynchronizedChannelsExpression" />
     <node concept="13hLZK" id="784v76A2tkV" role="13h7CW">
       <node concept="3clFbS" id="784v76A2tkW" role="2VODD2" />
     </node>
@@ -1915,6 +1915,43 @@
         </node>
       </node>
       <node concept="10Oyi0" id="2kdpv8lb4l2" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="5DuWkzevyQt">
+    <property role="3GE5qa" value="Functions" />
+    <ref role="13h7C2" to="b8q8:5DuWkzevyPg" resolve="FunctionDef" />
+    <node concept="13hLZK" id="5DuWkzevyQu" role="13h7CW">
+      <node concept="3clFbS" id="5DuWkzevyQv" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5DuWkzevyQC" role="13h7CS">
+      <property role="TrG5h" value="CanContainConcept" />
+      <ref role="13i0hy" node="6t0Dry28HjN" resolve="CanContainConcept" />
+      <node concept="3Tm1VV" id="5DuWkzevyQD" role="1B3o_S" />
+      <node concept="3clFbS" id="5DuWkzevyQK" role="3clF47">
+        <node concept="3cpWs6" id="5DuWkzevz24" role="3cqZAp">
+          <node concept="2OqwBi" id="5DuWkzevzjY" role="3cqZAk">
+            <node concept="37vLTw" id="5DuWkzevz2P" role="2Oq$k0">
+              <ref role="3cqZAo" node="5DuWkzevyQL" resolve="concept" />
+            </node>
+            <node concept="2Zo12i" id="5DuWkzevzwe" role="2OqNvi">
+              <node concept="chp4Y" id="5DuWkzevzzw" role="2Zo12j">
+                <ref role="cht4Q" to="b8q8:Kh9TY1S7mp" resolve="ValueExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5DuWkzevyQL" role="3clF46">
+        <property role="TrG5h" value="concept" />
+        <node concept="3bZ5Sz" id="5DuWkzevyQM" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5DuWkzevyQN" role="3clF46">
+        <property role="TrG5h" value="containingLink" />
+        <node concept="3uibUv" id="5DuWkzevyQO" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+        </node>
+      </node>
+      <node concept="10P_77" id="5DuWkzevyQP" role="3clF45" />
     </node>
   </node>
 </model>
