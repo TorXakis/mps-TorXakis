@@ -69,3 +69,5 @@ haal sync weg
 implementeer systeem om operator van binary operators om te wisselen
 
 implement regex constants, and strinre function
+
+add support for typing operators differently. != instead of <>, etc.

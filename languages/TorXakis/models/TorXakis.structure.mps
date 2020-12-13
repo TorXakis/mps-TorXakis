@@ -863,7 +863,7 @@
     <property role="TrG5h" value="multExpression" />
     <property role="34LRSv" value="*" />
     <property role="R4oN_" value="multiplication" />
-    <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
+    <ref role="1TJDcQ" node="3ZG$ufCTPvm" resolve="AllIntgerBinaryExpression" />
     <node concept="PrWs8" id="Kh9TY1S8Ch" role="PzmwI">
       <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
     </node>
@@ -1138,6 +1138,41 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6SzhJU2Mto8" resolve="VarDec" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="3ZG$ufCTlTL">
+    <property role="EcuMT" value="4606216926944124529" />
+    <property role="3GE5qa" value="valueExpressions" />
+    <property role="TrG5h" value="MinusExpression" />
+    <property role="34LRSv" value="-" />
+    <property role="R4oN_" value="binary substraction" />
+    <ref role="1TJDcQ" node="3ZG$ufCTPvm" resolve="AllIntgerBinaryExpression" />
+    <node concept="PrWs8" id="3ZG$ufCTlTM" role="PzmwI">
+      <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3ZG$ufCTPvm">
+    <property role="EcuMT" value="4606216926944253910" />
+    <property role="3GE5qa" value="valueExpressions" />
+    <property role="TrG5h" value="AllIntgerBinaryExpression" />
+    <property role="R5$K7" value="true" />
+    <property role="R4oN_" value="adds standard type rule for integer binary expressions" />
+    <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
+  </node>
+  <node concept="1TIwiD" id="3ZG$ufCVcXi">
+    <property role="EcuMT" value="4606216926944612178" />
+    <property role="3GE5qa" value="valueExpressions" />
+    <property role="TrG5h" value="concatination" />
+    <property role="34LRSv" value="++" />
+    <property role="R4oN_" value="infix string concatination" />
+    <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
+  </node>
+  <node concept="1TIwiD" id="3ZG$ufCVXfM">
+    <property role="EcuMT" value="4606216926944809970" />
+    <property role="3GE5qa" value="valueExpressions" />
+    <property role="TrG5h" value="InequalityExpression" />
+    <property role="34LRSv" value="&lt;&gt;" />
+    <property role="R4oN_" value="inequality (overloaded)" />
+    <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
   </node>
 </model>
 
