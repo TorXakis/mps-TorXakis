@@ -79,6 +79,10 @@
       <concept id="8606564006615601012" name="TorXakis.structure.ChannelRef" flags="ng" index="TzesD">
         <reference id="8606564006615601013" name="channel" index="TzesC" />
       </concept>
+      <concept id="4401075339047450644" name="TorXakis.structure.FunctionCall" flags="ng" index="38H7EB">
+        <reference id="4401075339047450647" name="function" index="38H7E$" />
+        <child id="4401075339047460081" name="arguments" index="38H1T2" />
+      </concept>
       <concept id="8215828447788828591" name="TorXakis.structure.ChoiceExpression" flags="ng" index="3k1fJu" />
       <concept id="8215828447789728538" name="TorXakis.structure.GuardExpression" flags="ng" index="3k2zXF">
         <child id="8215828447789728541" name="guard" index="3k2zXG" />
@@ -286,11 +290,11 @@
           <node concept="ll1Wa" id="5DuWkzewJJW" role="1yH3ds" />
         </node>
         <node concept="2dWl87" id="5DuWkzeBXFS" role="2k8dNo">
-          <node concept="2kNunK" id="5DuWkzeEvfs" role="2dF$$Y">
-            <ref role="2kNunN" node="5DuWkzewJJS" resolve="x" />
-          </node>
           <node concept="2dNIYX" id="5DuWkzeEvgw" role="2dF$$W">
             <property role="2dWqQt" value="1" />
+          </node>
+          <node concept="2kNunK" id="3OjKFfP$bxa" role="2dF$$Y">
+            <ref role="2kNunN" node="5DuWkzewJJS" resolve="x" />
           </node>
         </node>
       </node>
@@ -305,8 +309,8 @@
           <node concept="2dNIYX" id="3ZG$ufCUy62" role="2dF$$W">
             <property role="2dWqQt" value="1" />
           </node>
-          <node concept="2kNunK" id="3ZG$ufCUy5p" role="2dF$$Y">
-            <ref role="2kNunN" node="5DuWkzewJJS" resolve="x" />
+          <node concept="2kNunK" id="3OjKFfP$bwr" role="2dF$$Y">
+            <ref role="2kNunN" node="3ZG$ufCUy55" resolve="x" />
           </node>
         </node>
       </node>
@@ -333,8 +337,8 @@
             <node concept="2dNIYX" id="3ZG$ufCXpLr" role="2dF$$W">
               <property role="2dWqQt" value="0" />
             </node>
-            <node concept="2kNunK" id="3ZG$ufCXpJG" role="2dF$$Y">
-              <ref role="2kNunN" node="5DuWkzewJJS" resolve="x" />
+            <node concept="2kNunK" id="3OjKFfP$bxo" role="2dF$$Y">
+              <ref role="2kNunN" node="5DuWkze$58G" resolve="x" />
             </node>
           </node>
         </node>
@@ -347,15 +351,45 @@
         </node>
         <node concept="3GUD3Q" id="3ZG$ufCVX5O" role="2k8dN3">
           <property role="TrG5h" value="second" />
-          <node concept="ll1W9" id="3ZG$ufCVX6h" role="1yH3ds" />
+          <node concept="ll1W9" id="3OjKFfPAwjG" role="1yH3ds" />
+        </node>
+        <node concept="3GUD3Q" id="3OjKFfPAwj$" role="2k8dN3">
+          <property role="TrG5h" value="x" />
+          <node concept="ll1Wa" id="3OjKFfPAwk0" role="1yH3ds" />
+        </node>
+        <node concept="3GUD3Q" id="3OjKFfPBkgU" role="2k8dN3">
+          <property role="TrG5h" value="x" />
+          <node concept="ll1W9" id="3OjKFfPF0fg" role="1yH3ds" />
         </node>
         <node concept="ll1W9" id="3ZG$ufCVX6m" role="2k8dN5" />
-        <node concept="3n05UL" id="3ZG$ufCVX6V" role="2k8dNo">
-          <node concept="2kNunK" id="3ZG$ufCVX7g" role="2dF$$W">
-            <ref role="2kNunN" node="3ZG$ufCVX5O" resolve="second" />
+        <node concept="2dWl87" id="3OjKFfPGt4u" role="2k8dNo">
+          <node concept="2dWl87" id="3OjKFfPF0fn" role="2dF$$Y">
+            <node concept="3n05UL" id="3ZG$ufCVX6V" role="2dF$$Y">
+              <node concept="2kNunK" id="3ZG$ufCVX6L" role="2dF$$Y">
+                <ref role="2kNunN" node="3ZG$ufCVX5k" resolve="first" />
+              </node>
+              <node concept="2kNunK" id="3ZG$ufCVX7g" role="2dF$$W">
+                <ref role="2kNunN" node="3ZG$ufCVX5O" resolve="second" />
+              </node>
+            </node>
+            <node concept="K4LZj" id="3OjKFfPF0gg" role="2dF$$W">
+              <property role="K4LZm" value="should not work, fix this right here" />
+            </node>
           </node>
-          <node concept="2kNunK" id="3ZG$ufCVX6L" role="2dF$$Y">
-            <ref role="2kNunN" node="3ZG$ufCVX5k" resolve="first" />
+          <node concept="38H7EB" id="3OjKFfPGt6d" role="2dF$$W">
+            <ref role="38H7E$" node="3ZG$ufCRTNt" resolve="otherfun" />
+            <node concept="K4LZj" id="3OjKFfPKyOn" role="38H1T2">
+              <property role="K4LZm" value="otherstirng" />
+            </node>
+            <node concept="K4LZj" id="3OjKFfPKyYY" role="38H1T2">
+              <property role="K4LZm" value="t" />
+            </node>
+            <node concept="2dNIYX" id="3OjKFfPKyR4" role="38H1T2">
+              <property role="2dWqQt" value="4" />
+            </node>
+            <node concept="K4LZj" id="3OjKFfPKyS1" role="38H1T2">
+              <property role="K4LZm" value="t" />
+            </node>
           </node>
         </node>
       </node>

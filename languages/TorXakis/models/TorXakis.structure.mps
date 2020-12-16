@@ -1112,6 +1112,9 @@
     <node concept="PrWs8" id="5DuWkzevyQp" role="PzmwI">
       <ref role="PrY4T" node="784v76A7yam" resolve="BaseExpressionContainer" />
     </node>
+    <node concept="PrWs8" id="3OjKFfPzqK1" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5DuWkzevzAc">
     <property role="EcuMT" value="6511907406228633996" />
@@ -1173,6 +1176,29 @@
     <property role="34LRSv" value="&lt;&gt;" />
     <property role="R4oN_" value="inequality (overloaded)" />
     <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
+  </node>
+  <node concept="1TIwiD" id="3OjKFfPDVwk">
+    <property role="EcuMT" value="4401075339047450644" />
+    <property role="3GE5qa" value="valueExpressions" />
+    <property role="TrG5h" value="FunctionCall" />
+    <property role="R4oN_" value="a function call" />
+    <ref role="1TJDcQ" node="fz3vP1J" resolve="Expression" />
+    <node concept="PrWs8" id="3OjKFfPDVwl" role="PzmwI">
+      <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
+    </node>
+    <node concept="1TJgyj" id="3OjKFfPDVwn" role="1TKVEi">
+      <property role="IQ2ns" value="4401075339047450647" />
+      <property role="20kJfa" value="function" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5DuWkzevzAc" resolve="PrefixFunctionDef" />
+    </node>
+    <node concept="1TJgyj" id="3OjKFfPDXNL" role="1TKVEi">
+      <property role="IQ2ns" value="4401075339047460081" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="arguments" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
+    </node>
   </node>
 </model>
 
