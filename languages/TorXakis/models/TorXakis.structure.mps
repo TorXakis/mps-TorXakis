@@ -798,6 +798,7 @@
     <property role="3GE5qa" value="ExpressionBase" />
     <property role="TrG5h" value="ParenthesizedExpression" />
     <property role="R4oN_" value="a parenthesized expression" />
+    <property role="34LRSv" value="( expr )" />
     <ref role="1TJDcQ" node="Kh9TY1RWAn" resolve="ConstantExpression" />
     <node concept="1TJgyj" id="Kh9TY1KE42" role="1TKVEi">
       <property role="IQ2ns" value="869519769089515778" />
@@ -1199,6 +1200,39 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="Hdx04rg$rA">
+    <property role="EcuMT" value="814452247911089894" />
+    <property role="3GE5qa" value="valueExpressions" />
+    <property role="TrG5h" value="FromStringFcall" />
+    <property role="34LRSv" value="fromString" />
+    <property role="R4oN_" value="fromString fcall (overloaded)" />
+    <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="buildInFunction" />
+  </node>
+  <node concept="1TIwiD" id="Hdx04rg$rF">
+    <property role="EcuMT" value="814452247911089899" />
+    <property role="3GE5qa" value="valueExpressions" />
+    <property role="TrG5h" value="buildInFunction" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="fz3vP1J" resolve="Expression" />
+    <node concept="PrWs8" id="Hdx04rg$rG" role="PzmwI">
+      <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
+    </node>
+    <node concept="1TJgyj" id="Hdx04rg$sb" role="1TKVEi">
+      <property role="IQ2ns" value="814452247911089931" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="arguments" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="Hdx04rjfF2">
+    <property role="EcuMT" value="814452247911791298" />
+    <property role="3GE5qa" value="valueExpressions" />
+    <property role="TrG5h" value="toStringFcall" />
+    <property role="34LRSv" value="toString" />
+    <property role="R4oN_" value="toString function call (overloaded)" />
+    <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="buildInFunction" />
   </node>
 </model>
 
