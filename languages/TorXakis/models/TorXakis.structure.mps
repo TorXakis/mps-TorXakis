@@ -577,10 +577,7 @@
     <property role="TrG5h" value="SequenceExpression" />
     <property role="34LRSv" value="&gt;-&gt;" />
     <property role="R4oN_" value="sequence operator" />
-    <ref role="1TJDcQ" node="6SzhJU2MtOC" resolve="Binary_Expression" />
-    <node concept="PrWs8" id="Kh9TY1RWyy" role="PzmwI">
-      <ref role="PrY4T" node="6SzhJU2Jqk4" resolve="BehaviourExpression" />
-    </node>
+    <ref role="1TJDcQ" node="6t0Dry1YxoE" resolve="BinaryBehaviourExpression" />
     <node concept="1TJgyj" id="Co6UEZ_EBB" role="1TKVEi">
       <property role="IQ2ns" value="727361759993047527" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -592,7 +589,7 @@
   </node>
   <node concept="1TIwiD" id="6SzhJU2MtOC">
     <property role="EcuMT" value="7936265027286850856" />
-    <property role="TrG5h" value="Binary_Expression" />
+    <property role="TrG5h" value="BinaryExpression" />
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="ExpressionBase" />
     <ref role="1TJDcQ" node="fz3vP1J" resolve="Expression" />
@@ -847,7 +844,7 @@
     <property role="3GE5qa" value="valueExpressions" />
     <property role="34LRSv" value="+" />
     <property role="R4oN_" value="addition" />
-    <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
+    <ref role="1TJDcQ" node="3ZG$ufCTPvm" resolve="AllIntgerBinaryExpression" />
     <node concept="PrWs8" id="Kh9TY1S7At" role="PzmwI">
       <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
     </node>
@@ -873,7 +870,10 @@
     <property role="3GE5qa" value="behaviour_expression" />
     <property role="TrG5h" value="BinaryBehaviourExpression" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" node="6SzhJU2MtOC" resolve="Binary_Expression" />
+    <ref role="1TJDcQ" node="6SzhJU2MtOC" resolve="BinaryExpression" />
+    <node concept="PrWs8" id="Hdx04rbbDw" role="PzmwI">
+      <ref role="PrY4T" node="6SzhJU2Jqk4" resolve="BehaviourExpression" />
+    </node>
   </node>
   <node concept="PlHQZ" id="6t0Dry25YzS">
     <property role="EcuMT" value="7440128796291229944" />
@@ -1076,7 +1076,7 @@
     <property role="TrG5h" value="BinaryValueExpression" />
     <property role="R5$K7" value="true" />
     <property role="R4oN_" value="abstract binary value expression" />
-    <ref role="1TJDcQ" node="6SzhJU2MtOC" resolve="Binary_Expression" />
+    <ref role="1TJDcQ" node="6SzhJU2MtOC" resolve="BinaryExpression" />
     <node concept="PrWs8" id="2kdpv8lfloX" role="PzmwI">
       <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
     </node>

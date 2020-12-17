@@ -114,7 +114,7 @@
     </language>
   </registry>
   <node concept="2ZfgGJ" id="QFNLG4hb7B">
-    <property role="2ZfUl0" value="false" />
+    <property role="2ZfUl0" value="true" />
     <property role="TrG5h" value="SurroundWithParenthesis" />
     <ref role="2ZfgGC" to="b8q8:fz3vP1J" resolve="Expression" />
     <node concept="2S6ZIM" id="QFNLG4hb7C" role="2ZfVej">

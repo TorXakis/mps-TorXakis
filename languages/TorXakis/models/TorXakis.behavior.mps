@@ -694,7 +694,7 @@
   </node>
   <node concept="13h7C7" id="6t0Dry1Zjnu">
     <property role="3GE5qa" value="ExpressionBase" />
-    <ref role="13h7C2" to="b8q8:6SzhJU2MtOC" resolve="Binary_Expression" />
+    <ref role="13h7C2" to="b8q8:6SzhJU2MtOC" resolve="BinaryExpression" />
     <node concept="13hLZK" id="6t0Dry1Zjnv" role="13h7CW">
       <node concept="3clFbS" id="6t0Dry1Zjnw" role="2VODD2" />
     </node>
