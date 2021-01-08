@@ -16,6 +16,7 @@
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
+    <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="b8q8" ref="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -350,6 +351,16 @@
       <ref role="1N5Vy1" to="b8q8:5DuWkze$LiV" resolve="variable" />
       <node concept="1dDu$B" id="3OjKFfPyaAo" role="1N6uqs">
         <ref role="1dDu$A" to="b8q8:6SzhJU2Mto8" resolve="VarDec" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1dmDcT7Wy10">
+    <property role="3GE5qa" value="valueExpressions" />
+    <ref role="1M2myG" to="b8q8:1dmDcT7UuQv" resolve="ConstructorCall" />
+    <node concept="1N5Pfh" id="1dmDcT7Wy15" role="1Mr941">
+      <ref role="1N5Vy1" to="b8q8:1dmDcT7UuQ$" resolve="typeconstructor" />
+      <node concept="1dDu$B" id="1dmDcT7W$Dn" role="1N6uqs">
+        <ref role="1dDu$A" to="b8q8:7VUZddFFY46" resolve="typeConstructor" />
       </node>
     </node>
   </node>
