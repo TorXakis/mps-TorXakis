@@ -370,6 +370,7 @@
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
+      <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="9042586985346099698" name="jetbrains.mps.baseLanguage.collections.structure.MultiForEachStatement" flags="nn" index="1_o_46">
         <child id="9042586985346099734" name="forEach" index="1_o_by" />
@@ -431,8 +432,9 @@
             <node concept="2OqwBi" id="7tKE5PeZQq0" role="3fr31v">
               <node concept="liA8E" id="7tKE5PeZQq1" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                <node concept="Xl_RD" id="7tKE5PeZQq2" role="37wK5m">
-                  <property role="Xl_RC" value="[A-Z][A-Za-z0-9_]*" />
+                <node concept="2YIFZM" id="7oTuwCVoJZi" role="37wK5m">
+                  <ref role="37wK5l" to="l2p8:7oTuwCVoJH1" resolve="getCapidRegex" />
+                  <ref role="1Pybhc" to="l2p8:7oTuwCVoIRk" resolve="nameRegexes" />
                 </node>
               </node>
               <node concept="2OqwBi" id="7tKE5PeZQq3" role="2Oq$k0">
@@ -500,8 +502,9 @@
             <node concept="2OqwBi" id="7VUZddFGNdI" role="3fr31v">
               <node concept="liA8E" id="7VUZddFGNdJ" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                <node concept="Xl_RD" id="7VUZddFGNdK" role="37wK5m">
-                  <property role="Xl_RC" value="[a-z][A-Za-z0-9_]*" />
+                <node concept="2YIFZM" id="7oTuwCVoKDi" role="37wK5m">
+                  <ref role="37wK5l" to="l2p8:7oTuwCVoKyb" resolve="getSmallIdRegex" />
+                  <ref role="1Pybhc" to="l2p8:7oTuwCVoIRk" resolve="nameRegexes" />
                 </node>
               </node>
               <node concept="2OqwBi" id="7VUZddFGNdL" role="2Oq$k0">
@@ -3620,6 +3623,140 @@
     <node concept="1YaCAy" id="7oTuwCVfcFO" role="1YuTPh">
       <property role="TrG5h" value="fcall" />
       <ref role="1YaFvo" to="b8q8:Hdx04rg$rA" resolve="FromStringFcall" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="7oTuwCVjku5">
+    <property role="TrG5h" value="check_HasOperatorName" />
+    <property role="3GE5qa" value="id_constraints" />
+    <node concept="3clFbS" id="7oTuwCVjku6" role="18ibNy">
+      <node concept="3clFbJ" id="7oTuwCVjkxJ" role="3cqZAp">
+        <node concept="3clFbS" id="7oTuwCVjkxK" role="3clFbx">
+          <node concept="2MkqsV" id="7oTuwCVjkxL" role="3cqZAp">
+            <node concept="Xl_RD" id="7oTuwCVjkxM" role="2MkJ7o">
+              <property role="Xl_RC" value="please enter a name" />
+            </node>
+            <node concept="1YBJjd" id="7oTuwCVjkGD" role="1urrMF">
+              <ref role="1YBMHb" node="7oTuwCVjku8" resolve="opName" />
+            </node>
+            <node concept="2ODE4t" id="7oTuwCVjkxO" role="1urrC5">
+              <ref role="2ODJFN" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbC" id="7oTuwCVjkxP" role="3clFbw">
+          <node concept="10Nm6u" id="7oTuwCVjkxQ" role="3uHU7w" />
+          <node concept="2OqwBi" id="7oTuwCVjkxR" role="3uHU7B">
+            <node concept="1YBJjd" id="7oTuwCVjkBl" role="2Oq$k0">
+              <ref role="1YBMHb" node="7oTuwCVjku8" resolve="opName" />
+            </node>
+            <node concept="3TrcHB" id="7oTuwCVjkxT" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+        <node concept="3eNFk2" id="7oTuwCVjkxU" role="3eNLev">
+          <node concept="3clFbS" id="7oTuwCVjkxV" role="3eOfB_">
+            <node concept="2MkqsV" id="7oTuwCVjkxW" role="3cqZAp">
+              <node concept="Xl_RD" id="7oTuwCVjkxX" role="2MkJ7o">
+                <property role="Xl_RC" value="Operators can only consist of the following characters: = + - * / \\ ^ &lt; &gt; | @ &amp; %" />
+              </node>
+              <node concept="1YBJjd" id="7oTuwCVjm0H" role="1urrMF">
+                <ref role="1YBMHb" node="7oTuwCVjku8" resolve="opName" />
+              </node>
+              <node concept="2ODE4t" id="7oTuwCVjkxZ" role="1urrC5">
+                <ref role="2ODJFN" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="7oTuwCVjky0" role="3eO9$A">
+            <node concept="2OqwBi" id="7oTuwCVjky1" role="3fr31v">
+              <node concept="liA8E" id="7oTuwCVjlHk" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
+                <node concept="2YIFZM" id="7oTuwCVoK0D" role="37wK5m">
+                  <ref role="37wK5l" to="l2p8:7oTuwCVoJHJ" resolve="getOperatorNameRegex" />
+                  <ref role="1Pybhc" to="l2p8:7oTuwCVoIRk" resolve="nameRegexes" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="7oTuwCVjky4" role="2Oq$k0">
+                <node concept="1YBJjd" id="7oTuwCVjkHU" role="2Oq$k0">
+                  <ref role="1YBMHb" node="7oTuwCVjku8" resolve="opName" />
+                </node>
+                <node concept="3TrcHB" id="7oTuwCVjky6" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7oTuwCVjku8" role="1YuTPh">
+      <property role="TrG5h" value="opName" />
+      <ref role="1YaFvo" to="b8q8:7oTuwCVjktC" resolve="HasOperatorName" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="7oTuwCVkjAa">
+    <property role="TrG5h" value="check_operatorDef" />
+    <property role="3GE5qa" value="Functions" />
+    <node concept="3clFbS" id="7oTuwCVkjAb" role="18ibNy">
+      <node concept="3clFbJ" id="7oTuwCVkjAh" role="3cqZAp">
+        <node concept="22lmx$" id="7oTuwCVoghw" role="3clFbw">
+          <node concept="2OqwBi" id="7oTuwCVoj6Q" role="3uHU7w">
+            <node concept="2OqwBi" id="7oTuwCVogFA" role="2Oq$k0">
+              <node concept="1YBJjd" id="7oTuwCVogk8" role="2Oq$k0">
+                <ref role="1YBMHb" node="7oTuwCVkjAd" resolve="operatorDef" />
+              </node>
+              <node concept="3Tsc0h" id="7oTuwCVogVE" role="2OqNvi">
+                <ref role="3TtcxE" to="b8q8:5DuWkzevyQb" resolve="parameters" />
+              </node>
+            </node>
+            <node concept="1v1jN8" id="7oTuwCVokKK" role="2OqNvi" />
+          </node>
+          <node concept="22lmx$" id="7oTuwCVofzo" role="3uHU7B">
+            <node concept="3clFbC" id="7oTuwCVofvt" role="3uHU7B">
+              <node concept="2OqwBi" id="7oTuwCVkjLG" role="3uHU7B">
+                <node concept="1YBJjd" id="7oTuwCVkjAt" role="2Oq$k0">
+                  <ref role="1YBMHb" node="7oTuwCVkjAd" resolve="operatorDef" />
+                </node>
+                <node concept="3Tsc0h" id="7oTuwCVkjWN" role="2OqNvi">
+                  <ref role="3TtcxE" to="b8q8:5DuWkzevyQb" resolve="parameters" />
+                </node>
+              </node>
+              <node concept="10Nm6u" id="7oTuwCVkoPr" role="3uHU7w" />
+            </node>
+            <node concept="3eOSWO" id="7oTuwCVkvAT" role="3uHU7w">
+              <node concept="2OqwBi" id="7oTuwCVkrpD" role="3uHU7B">
+                <node concept="2OqwBi" id="7oTuwCVkp4q" role="2Oq$k0">
+                  <node concept="1YBJjd" id="7oTuwCVkoSQ" role="2Oq$k0">
+                    <ref role="1YBMHb" node="7oTuwCVkjAd" resolve="operatorDef" />
+                  </node>
+                  <node concept="3Tsc0h" id="7oTuwCVkpfS" role="2OqNvi">
+                    <ref role="3TtcxE" to="b8q8:5DuWkzevyQb" resolve="parameters" />
+                  </node>
+                </node>
+                <node concept="34oBXx" id="7oTuwCVktpH" role="2OqNvi" />
+              </node>
+              <node concept="3cmrfG" id="7oTuwCVkvMn" role="3uHU7w">
+                <property role="3cmrfH" value="2" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="7oTuwCVkjAj" role="3clFbx">
+          <node concept="2MkqsV" id="7oTuwCVkvO0" role="3cqZAp">
+            <node concept="Xl_RD" id="7oTuwCVkvOc" role="2MkJ7o">
+              <property role="Xl_RC" value="operators need to have one or two parameters" />
+            </node>
+            <node concept="1YBJjd" id="7oTuwCVkvPf" role="1urrMF">
+              <ref role="1YBMHb" node="7oTuwCVkjAd" resolve="operatorDef" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7oTuwCVkjAd" role="1YuTPh">
+      <property role="TrG5h" value="operatorDef" />
+      <ref role="1YaFvo" to="b8q8:7oTuwCVjktB" resolve="OperatorDef" />
     </node>
   </node>
 </model>

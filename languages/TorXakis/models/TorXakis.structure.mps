@@ -10,6 +10,7 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -46,6 +47,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -658,6 +660,7 @@
     <node concept="PrWs8" id="3QyoU4ebBPE" role="PzmwI">
       <ref role="PrY4T" node="7tKE5PeZjVM" resolve="HasCapidName" />
     </node>
+    <node concept="asaX9" id="7oTuwCVoCAi" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="1VVhp_6FaQH">
     <property role="EcuMT" value="2232454564910247341" />
@@ -1287,6 +1290,34 @@
     <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3WwRdm5HoY7" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7oTuwCVjktB">
+    <property role="EcuMT" value="8518974354511185767" />
+    <property role="3GE5qa" value="Functions" />
+    <property role="TrG5h" value="OperatorDef" />
+    <property role="R4oN_" value="a operator definition" />
+    <ref role="1TJDcQ" node="5DuWkzevyPg" resolve="FunctionDef" />
+    <node concept="PrWs8" id="7oTuwCVkDYz" role="PzmwI">
+      <ref role="PrY4T" node="7oTuwCVjktC" resolve="HasOperatorName" />
+    </node>
+    <node concept="1TJgyi" id="7oTuwCVmz$e" role="1TKVEl">
+      <property role="IQ2nx" value="8518974354512034062" />
+      <property role="TrG5h" value="leftAssociative" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="7oTuwCVmz$g" role="1TKVEl">
+      <property role="IQ2nx" value="8518974354512034064" />
+      <property role="TrG5h" value="precedence" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7oTuwCVjktC">
+    <property role="EcuMT" value="8518974354511185768" />
+    <property role="3GE5qa" value="id_constraints" />
+    <property role="TrG5h" value="HasOperatorName" />
+    <node concept="PrWs8" id="7oTuwCVjktD" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
