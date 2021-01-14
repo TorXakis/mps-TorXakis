@@ -2137,6 +2137,13 @@
         <property role="3cmrfH" value="60" />
       </node>
     </node>
+    <node concept="QsSxf" id="3j$zqyi3DOu" role="Qtgdg">
+      <property role="TrG5h" value="custom_unary_operator_default_precedence" />
+      <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />
+      <node concept="3cmrfG" id="3j$zqyi3HI8" role="37wK5m">
+        <property role="3cmrfH" value="60" />
+      </node>
+    </node>
     <node concept="QsSxf" id="Kh9TY1RWLV" role="Qtgdg">
       <property role="TrG5h" value="constant" />
       <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />

@@ -146,7 +146,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="Kh9TY1TFjM">
-    <property role="3GE5qa" value="valueExpressions" />
+    <property role="3GE5qa" value="valueExpressions.abstract_nodes" />
     <ref role="1M2myG" to="b8q8:Kh9TY1S7mp" resolve="ValueExpression" />
     <node concept="9SLcT" id="6t0Dry25TAr" role="9SGkU">
       <node concept="3clFbS" id="6t0Dry25TAs" role="2VODD2">
@@ -381,6 +381,26 @@
       <ref role="1N5Vy1" to="b8q8:3OjKFfPDVwn" resolve="function" />
       <node concept="1dDu$B" id="4ecDpwEtpnM" role="1N6uqs">
         <ref role="1dDu$A" to="b8q8:5DuWkzevzAc" resolve="PrefixFunctionDef" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3j$zqyhP23W">
+    <property role="3GE5qa" value="valueExpressions" />
+    <ref role="1M2myG" to="b8q8:3j$zqyhP1Vt" resolve="BinaryOperatorCall" />
+    <node concept="1N5Pfh" id="3j$zqyhP23X" role="1Mr941">
+      <ref role="1N5Vy1" to="b8q8:3j$zqyhP1Vw" resolve="operator" />
+      <node concept="1dDu$B" id="3j$zqyhP27b" role="1N6uqs">
+        <ref role="1dDu$A" to="b8q8:7oTuwCVjktB" resolve="OperatorDef" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3j$zqyi3Dl5">
+    <property role="3GE5qa" value="valueExpressions" />
+    <ref role="1M2myG" to="b8q8:3j$zqyi3Dkn" resolve="UnaryOperatorCall" />
+    <node concept="1N5Pfh" id="3j$zqyi3Dl6" role="1Mr941">
+      <ref role="1N5Vy1" to="b8q8:3j$zqyi3Dko" resolve="operator" />
+      <node concept="1dDu$B" id="3j$zqyi3Dnx" role="1N6uqs">
+        <ref role="1dDu$A" to="b8q8:7oTuwCVjktB" resolve="OperatorDef" />
       </node>
     </node>
   </node>
