@@ -1168,7 +1168,7 @@
   <node concept="1TIwiD" id="3ZG$ufCVcXi">
     <property role="EcuMT" value="4606216926944612178" />
     <property role="3GE5qa" value="valueExpressions" />
-    <property role="TrG5h" value="concatination" />
+    <property role="TrG5h" value="Concatination" />
     <property role="34LRSv" value="++" />
     <property role="R4oN_" value="infix string concatination" />
     <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
@@ -1210,12 +1210,12 @@
     <property role="TrG5h" value="FromStringFcall" />
     <property role="34LRSv" value="fromString" />
     <property role="R4oN_" value="fromString fcall (overloaded)" />
-    <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="buildInFunctionCall" />
+    <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="AbstractFunctionCall" />
   </node>
   <node concept="1TIwiD" id="Hdx04rg$rF">
     <property role="EcuMT" value="814452247911089899" />
     <property role="3GE5qa" value="valueExpressions" />
-    <property role="TrG5h" value="buildInFunctionCall" />
+    <property role="TrG5h" value="AbstractFunctionCall" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="fz3vP1J" resolve="Expression" />
     <node concept="PrWs8" id="Hdx04rg$rG" role="PzmwI">
@@ -1235,7 +1235,7 @@
     <property role="TrG5h" value="toStringFcall" />
     <property role="34LRSv" value="toString" />
     <property role="R4oN_" value="toString function call (overloaded)" />
-    <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="buildInFunctionCall" />
+    <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="AbstractFunctionCall" />
   </node>
   <node concept="1TIwiD" id="1dmDcT7UuQv">
     <property role="EcuMT" value="1393482340594478495" />
