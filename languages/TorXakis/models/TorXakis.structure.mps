@@ -314,7 +314,7 @@
   <node concept="1TIwiD" id="6SzhJU2M6sA">
     <property role="EcuMT" value="7936265027286755110" />
     <property role="3GE5qa" value="ExpressionBase" />
-    <property role="TrG5h" value="Let" />
+    <property role="TrG5h" value="LetExpression" />
     <property role="34LRSv" value="let" />
     <property role="R4oN_" value="let .. = ..; .. in .." />
     <ref role="1TJDcQ" node="Kh9TY1RWAn" resolve="ConstantExpression" />
@@ -327,12 +327,15 @@
     <node concept="PrWs8" id="784v76A7PIj" role="PzmwI">
       <ref role="PrY4T" node="6t0Dry25YzS" resolve="HybridExpressionContainer" />
     </node>
+    <node concept="PrWs8" id="7RvRn9glljm" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="1TJgyj" id="6SzhJU2M6sE" role="1TKVEi">
       <property role="IQ2ns" value="7936265027286755114" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="variables" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6SzhJU2M6sy" resolve="NeValueDefList" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="7RvRn9gmzkd" resolve="InitialisedVardec" />
     </node>
     <node concept="1TJgyj" id="6SzhJU2M6sH" role="1TKVEi">
       <property role="IQ2ns" value="7936265027286755117" />
@@ -1385,6 +1388,91 @@
     <property role="R4oN_" value="logical or" />
     <property role="34LRSv" value="\/" />
     <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
+  </node>
+  <node concept="1TIwiD" id="7RvRn9ga_aS">
+    <property role="EcuMT" value="9070211657588429496" />
+    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="TrG5h" value="XorExpression" />
+    <property role="34LRSv" value="\|/" />
+    <property role="R4oN_" value="xor operator" />
+    <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
+  </node>
+  <node concept="1TIwiD" id="7RvRn9gaBzU">
+    <property role="EcuMT" value="9070211657588439290" />
+    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="TrG5h" value="ImpliesExpression" />
+    <property role="34LRSv" value="=&gt;" />
+    <property role="R4oN_" value="logical implication operator" />
+    <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
+  </node>
+  <node concept="1TIwiD" id="7RvRn9gaCJG">
+    <property role="EcuMT" value="9070211657588444140" />
+    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="TrG5h" value="NotFcall" />
+    <property role="34LRSv" value="Not" />
+    <property role="R4oN_" value="logical negation" />
+    <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="AbstractFunctionCall" />
+  </node>
+  <node concept="1TIwiD" id="7RvRn9gjVG7">
+    <property role="EcuMT" value="9070211657590881031" />
+    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="TrG5h" value="DivisionExpression" />
+    <property role="34LRSv" value="/" />
+    <property role="R4oN_" value="Integer division (rounded down)" />
+    <ref role="1TJDcQ" node="3ZG$ufCTPvm" resolve="AllIntgerBinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="7RvRn9gjWIJ">
+    <property role="EcuMT" value="9070211657590885295" />
+    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="TrG5h" value="ModuloExpression" />
+    <property role="34LRSv" value="%" />
+    <property role="R4oN_" value="modulo operator" />
+    <ref role="1TJDcQ" node="3ZG$ufCTPvm" resolve="AllIntgerBinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="7RvRn9gjY1L">
+    <property role="EcuMT" value="9070211657590890609" />
+    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="TrG5h" value="LessThanExpression" />
+    <property role="34LRSv" value="&lt;" />
+    <property role="R4oN_" value="less than operator" />
+    <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
+  </node>
+  <node concept="1TIwiD" id="7RvRn9gk2Hu">
+    <property role="EcuMT" value="9070211657590909790" />
+    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="TrG5h" value="GreaterThanExpression" />
+    <property role="34LRSv" value="&gt;" />
+    <property role="R4oN_" value="greater than operator" />
+    <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
+  </node>
+  <node concept="1TIwiD" id="7RvRn9gk3NP">
+    <property role="EcuMT" value="9070211657590914293" />
+    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="TrG5h" value="GreaterThanEqualExpression" />
+    <property role="34LRSv" value="&gt;=" />
+    <property role="R4oN_" value="greater than equal operator" />
+    <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
+  </node>
+  <node concept="1TIwiD" id="7RvRn9gk4Sd">
+    <property role="EcuMT" value="9070211657590918669" />
+    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="TrG5h" value="LessThanEqualExpression" />
+    <property role="34LRSv" value="&lt;=" />
+    <property role="R4oN_" value="less than equal operator" />
+    <ref role="1TJDcQ" node="2kdpv8lfloW" resolve="BinaryValueExpression" />
+  </node>
+  <node concept="1TIwiD" id="7RvRn9gmzkd">
+    <property role="EcuMT" value="9070211657591567629" />
+    <property role="TrG5h" value="InitialisedVardec" />
+    <property role="R4oN_" value="vardec with a value" />
+    <ref role="1TJDcQ" node="6SzhJU2Mto8" resolve="VarDec" />
+    <node concept="1TJgyj" id="7RvRn9gmzke" role="1TKVEi">
+      <property role="IQ2ns" value="9070211657591567630" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
+    </node>
   </node>
 </model>
 

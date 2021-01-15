@@ -308,7 +308,7 @@
   </node>
   <node concept="1M2fIO" id="784v76A6X0S">
     <property role="3GE5qa" value="ExpressionBase" />
-    <ref role="1M2myG" to="b8q8:6SzhJU2M6sA" resolve="Let" />
+    <ref role="1M2myG" to="b8q8:6SzhJU2M6sA" resolve="LetExpression" />
     <node concept="9SLcT" id="784v76A6X0T" role="9SGkU">
       <node concept="3clFbS" id="784v76A6X0U" role="2VODD2">
         <node concept="3clFbJ" id="784v76A6Y7l" role="3cqZAp">
@@ -326,7 +326,7 @@
           </node>
           <node concept="17R0WA" id="784v76A6YtN" role="3clFbw">
             <node concept="359W_D" id="784v76A6YuT" role="3uHU7w">
-              <ref role="359W_E" to="b8q8:6SzhJU2M6sA" resolve="Let" />
+              <ref role="359W_E" to="b8q8:6SzhJU2M6sA" resolve="LetExpression" />
               <ref role="359W_F" to="b8q8:6SzhJU2M6sH" resolve="expression" />
             </node>
             <node concept="2DA6wF" id="784v76A6Y8u" role="3uHU7B" />
