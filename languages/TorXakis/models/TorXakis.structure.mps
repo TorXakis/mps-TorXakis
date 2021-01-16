@@ -543,6 +543,9 @@
     <node concept="PrWs8" id="lsoyDBU54X" role="PzmwI">
       <ref role="PrY4T" node="6SzhJU2MtoZ" resolve="HasSmallidName" />
     </node>
+    <node concept="PrWs8" id="2ZlpRrie4EB" role="PzmwI">
+      <ref role="PrY4T" node="2ZlpRridUSI" resolve="TypeNameComboUnique" />
+    </node>
     <node concept="1TJgyj" id="lsoyDBU55Q" role="1TKVEi">
       <property role="IQ2ns" value="386291602318446966" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -632,8 +635,8 @@
   <node concept="1TIwiD" id="3QyoU4ebBP$">
     <property role="EcuMT" value="4441221725919542628" />
     <property role="TrG5h" value="ChannelDeclarationLine" />
-    <property role="R4oN_" value="A, ... :: T1 # ...;" />
     <property role="3GE5qa" value="Channels" />
+    <property role="R4oN_" value="a line of channels, possibly with a type" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3QyoU4ebBPG" role="1TKVEi">
       <property role="IQ2ns" value="4441221725919542636" />
@@ -647,7 +650,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="types" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3QyoU4ebBPD" resolve="CapId" />
+      <ref role="20lvS9" node="lsoyDBU550" resolve="Type" />
     </node>
   </node>
   <node concept="1TIwiD" id="3QyoU4ebBPD">
@@ -679,9 +682,6 @@
     <property role="R5$K7" value="true" />
     <property role="R4oN_" value="abstract type" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="2kdpv8lbG3e" role="PzmwI">
-      <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
-    </node>
   </node>
   <node concept="1TIwiD" id="7VUZddFFIfp">
     <property role="EcuMT" value="9149903577931506649" />
@@ -1472,6 +1472,14 @@
       <property role="20kJfa" value="value" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2ZlpRridUSI">
+    <property role="EcuMT" value="3446774849852649006" />
+    <property role="3GE5qa" value="id_constraints" />
+    <property role="TrG5h" value="TypeNameComboUnique" />
+    <node concept="PrWs8" id="2ZlpRridUSJ" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
