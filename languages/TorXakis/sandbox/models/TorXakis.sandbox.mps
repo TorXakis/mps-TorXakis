@@ -67,9 +67,6 @@
         <child id="4441221725919542636" name="channels" index="Nz1Vd" />
         <child id="4441221725919542638" name="types" index="Nz1Vf" />
       </concept>
-      <concept id="8606564006615850366" name="TorXakis.structure.ChannelSet" flags="ng" index="Ssbkz">
-        <child id="8606564006615850369" name="channels" index="Ssbns" />
-      </concept>
       <concept id="8606564006615092204" name="TorXakis.structure.TypeDef" flags="ng" index="Tx2eL">
         <child id="9149903577931506656" name="types" index="ll1WN" />
       </concept>
@@ -77,7 +74,6 @@
         <child id="8606564006615601016" name="In_Channels" index="Tzes_" />
         <child id="8606564006615601019" name="Out_Channels" index="TzesA" />
         <child id="8606564006615601067" name="Behaviour" index="TzevQ" />
-        <child id="8606564006615601063" name="Sync_Channels" index="TzevU" />
       </concept>
       <concept id="8606564006615092203" name="TorXakis.structure.ChanDef" flags="ng" index="Tx2eQ">
         <child id="4441221725919542631" name="channels" index="Nz1V6" />
@@ -107,7 +103,6 @@
         <property id="8518974354512034062" name="leftAssociative" index="1doOc4" />
         <property id="8518974354512034064" name="precedence" index="1doOcq" />
       </concept>
-      <concept id="8215828447789128731" name="TorXakis.structure.EnableExpression" flags="ng" index="3k0m1E" />
       <concept id="8215828447788828591" name="TorXakis.structure.ChoiceExpression" flags="ng" index="3k1fJu" />
       <concept id="8215828447789728538" name="TorXakis.structure.GuardExpression" flags="ng" index="3k2zXF">
         <child id="8215828447789728541" name="guard" index="3k2zXG" />
@@ -140,6 +135,10 @@
       <concept id="7936265027286849028" name="TorXakis.structure.VarDecOffer" flags="ng" index="3GUD3U">
         <child id="7936265027286849036" name="vardec" index="3GUD3M" />
       </concept>
+      <concept id="7936265027286848973" name="TorXakis.structure.ChannelOffer" flags="ng" index="3GUDcN">
+        <child id="4720466642692025813" name="channel" index="22fPEN" />
+        <child id="7936265027286848988" name="offers" index="3GUDcy" />
+      </concept>
       <concept id="7936265027286848492" name="TorXakis.structure.EXIT" flags="ng" index="3GUDki">
         <child id="7936265027286848933" name="offers" index="3GUDdr" />
       </concept>
@@ -156,10 +155,12 @@
       </concept>
       <concept id="7936265027286834040" name="TorXakis.structure.HIT" flags="ng" index="3GUHQ6" />
       <concept id="7936265027286834041" name="TorXakis.structure.MISS" flags="ng" index="3GUHQ7" />
+      <concept id="7936265027286834026" name="TorXakis.structure.QSTEP" flags="ng" index="3GUHQk" />
+      <concept id="7936265027286834004" name="TorXakis.structure.ISTEP" flags="ng" index="3GUHQE" />
       <concept id="7936265027286834000" name="TorXakis.structure.Guard" flags="ng" index="3GUHQI">
         <child id="8215828447790481607" name="value" index="3k7rMQ" />
       </concept>
-      <concept id="7936265027286833993" name="TorXakis.structure.PreOfferList" flags="ng" index="3GUHQR">
+      <concept id="7936265027286833993" name="TorXakis.structure.PrefOfferList" flags="ng" index="3GUHQR">
         <child id="7936265027286833997" name="guard" index="3GUHQN" />
       </concept>
       <concept id="7936265027286755110" name="TorXakis.structure.LetExpression" flags="ng" index="3GUM7o">
@@ -243,58 +244,6 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="Tx2eO" id="7tKE5PeZFN3" role="TxEeo">
-      <property role="TrG5h" value="Test" />
-      <node concept="TzesD" id="6t0Dry2bjWE" role="Tzes_">
-        <ref role="TzesC" node="1VVhp_6GfZR" resolve="A" />
-      </node>
-      <node concept="TzesD" id="6t0Dry2bjWL" role="Tzes_">
-        <ref role="TzesC" node="1VVhp_6GfZV" resolve="B" />
-      </node>
-      <node concept="Ssbkz" id="7tKE5Pf05aX" role="TzevU">
-        <node concept="TzesD" id="6t0Dry2bjXE" role="Ssbns">
-          <ref role="TzesC" node="1VVhp_6GfZR" resolve="A" />
-        </node>
-        <node concept="TzesD" id="6t0Dry2bjXJ" role="Ssbns">
-          <ref role="TzesC" node="1VVhp_6GfZV" resolve="B" />
-        </node>
-        <node concept="TzesD" id="6t0Dry2bjXO" role="Ssbns">
-          <ref role="TzesC" node="6t0Dry2bjWQ" resolve="C" />
-        </node>
-      </node>
-      <node concept="Ssbkz" id="7tKE5Pf05b8" role="TzevU">
-        <node concept="TzesD" id="6t0Dry2bjXT" role="Ssbns">
-          <ref role="TzesC" node="6t0Dry2bjXu" resolve="D" />
-        </node>
-      </node>
-      <node concept="3GTDha" id="6SzhJU2LCOC" role="TzevQ">
-        <node concept="3GTDh0" id="6SzhJU2LCOF" role="3GTDgW" />
-        <node concept="3GUM7o" id="Kh9TY1RyX2" role="3GTDh5">
-          <node concept="HxuxZ" id="7RvRn9gooHX" role="3GUM7k">
-            <property role="TrG5h" value="testvar" />
-            <node concept="2dNIYX" id="7RvRn9gooIl" role="HxuxW">
-              <property role="2dWqQt" value="5" />
-            </node>
-          </node>
-          <node concept="3k0m1E" id="Hdx04rfoUy" role="3GUM7j">
-            <node concept="3GUDR6" id="5T0tj1xZTLM" role="2dF$$Y">
-              <node concept="3GUHQ6" id="Hdx04rdCHu" role="2dF$$Y" />
-              <node concept="3GUHQ7" id="5T0tj1yf$WB" role="2dF$$W" />
-            </node>
-            <node concept="3k1fJu" id="Hdx04rfoTA" role="2dF$$W">
-              <node concept="3GUHQ7" id="Hdx04qZ1ya" role="2dF$$W" />
-              <node concept="3GUHQ7" id="5T0tj1yf$WE" role="2dF$$Y" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="TzesD" id="6t0Dry2bjXx" role="TzesA">
-        <ref role="TzesC" node="6t0Dry2bjWQ" resolve="C" />
-      </node>
-      <node concept="TzesD" id="6t0Dry2bjXA" role="TzesA">
-        <ref role="TzesC" node="6t0Dry2bjXu" resolve="D" />
       </node>
     </node>
     <node concept="TxnDL" id="7tKE5PeXRIl" role="TxEeo" />
@@ -906,6 +855,60 @@
       </node>
       <node concept="TzesD" id="6t0Dry2gkfZ" role="TzesA">
         <ref role="TzesC" node="6t0Dry2gkfT" resolve="OUT" />
+      </node>
+    </node>
+    <node concept="Tx2eO" id="462tQr3piua" role="TxEeo">
+      <property role="TrG5h" value="Model" />
+      <node concept="TzesD" id="462tQr3pizP" role="TzesA">
+        <ref role="TzesC" node="lsoyDBTR3Y" resolve="A" />
+      </node>
+      <node concept="3k1fJu" id="462tQr3pXWG" role="TzevQ">
+        <node concept="3k1fJu" id="462tQr3pUyO" role="2dF$$Y">
+          <node concept="3k1fJu" id="462tQr3pUyz" role="2dF$$Y">
+            <node concept="3k1fJu" id="462tQr3pUyn" role="2dF$$Y">
+              <node concept="3GUHQE" id="462tQr3pUyi" role="2dF$$Y" />
+              <node concept="3GUHQk" id="462tQr3pUyu" role="2dF$$W" />
+            </node>
+            <node concept="3GUHQ6" id="462tQr3Cc7y" role="2dF$$W" />
+          </node>
+          <node concept="3GUHQ7" id="462tQr3pUz4" role="2dF$$W" />
+        </node>
+        <node concept="3GUHQ4" id="462tQr3G4$6" role="2dF$$W">
+          <node concept="3GUDki" id="462tQr3G4$4" role="3GUHQ0">
+            <node concept="3GUDRL" id="462tQr3Jits" role="3GUDdr">
+              <node concept="2dNIYX" id="462tQr3Jitw" role="3GUDRH">
+                <property role="2dWqQt" value="4" />
+              </node>
+            </node>
+          </node>
+          <node concept="3GUDki" id="462tQr3G4$c" role="3GUHQ0" />
+          <node concept="3GUDcN" id="462tQr3PJ03" role="3GUHQ0">
+            <node concept="TzesD" id="462tQr3PJ01" role="22fPEN">
+              <ref role="TzesC" node="1VVhp_6GfZR" resolve="A" />
+            </node>
+            <node concept="3GUD3U" id="462tQr3PJ2E" role="3GUDcy">
+              <node concept="3GUD3Q" id="462tQr3PJ2G" role="3GUD3M">
+                <property role="TrG5h" value="x" />
+              </node>
+            </node>
+            <node concept="3GUDRL" id="462tQr3PJ0i" role="3GUDcy">
+              <node concept="K0oLo" id="462tQr3PJ0m" role="3GUDRH">
+                <property role="K0oLv" value="true" />
+              </node>
+            </node>
+            <node concept="3GUDRL" id="462tQr3TgbH" role="3GUDcy">
+              <node concept="K0oLo" id="462tQr3TgbR" role="3GUDRH" />
+            </node>
+            <node concept="3GUD3U" id="462tQr3VQ1V" role="3GUDcy">
+              <node concept="3GUD3Q" id="462tQr3VQ1X" role="3GUD3M">
+                <property role="TrG5h" value="x" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="TzesD" id="462tQr3JitQ" role="Tzes_">
+        <ref role="TzesC" node="1VVhp_6GfZR" resolve="A" />
       </node>
     </node>
     <node concept="Tx2eL" id="1dmDcT7XB2N" role="TxEeo">

@@ -11,6 +11,9 @@
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -51,6 +54,13 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
   </registry>
@@ -95,12 +105,16 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="7tKE5PeZ4XO" resolve="ChannelRef" />
     </node>
-    <node concept="1TJgyj" id="7tKE5PeZ4YB" role="1TKVEi">
-      <property role="IQ2ns" value="8606564006615601063" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="Sync_Channels" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7tKE5Pf01PY" resolve="ChannelSet" />
+    <node concept="1X3_iC" id="462tQr3pizS" role="lGtFl">
+      <property role="3V$3am" value="linkDeclaration" />
+      <property role="3V$3ak" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1169125787135/1071489727083" />
+      <node concept="1TJgyj" id="7tKE5PeZ4YB" role="8Wnug">
+        <property role="IQ2ns" value="8606564006615601063" />
+        <property role="20lmBu" value="fLJjDmT/aggregation" />
+        <property role="20kJfa" value="Sync_Channels" />
+        <property role="20lbJX" value="fLJekj5/_0__n" />
+        <ref role="20lvS9" node="7tKE5Pf01PY" resolve="ChannelSet" />
+      </node>
     </node>
     <node concept="1TJgyj" id="7tKE5PeZ4YF" role="1TKVEi">
       <property role="IQ2ns" value="8606564006615601067" />
@@ -256,6 +270,10 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="7tKE5PeZ4XO" resolve="ChannelRef" />
     </node>
+    <node concept="asaX9" id="462tQr3JiRR" role="lGtFl" />
+    <node concept="t5JxF" id="462tQr3JiRT" role="lGtFl">
+      <property role="t5JxN" value="only used in synchronised channels, which is unimplemented" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6SzhJU2JeeV">
     <property role="EcuMT" value="7936265027286000571" />
@@ -388,9 +406,8 @@
   </node>
   <node concept="1TIwiD" id="6SzhJU2MpH9">
     <property role="EcuMT" value="7936265027286833993" />
-    <property role="TrG5h" value="PreOfferList" />
+    <property role="TrG5h" value="PrefOfferList" />
     <property role="R5$K7" value="true" />
-    <property role="34LRSv" value="preoffer" />
     <property role="R4oN_" value="HIT, MISS, EXIT, etc" />
     <property role="3GE5qa" value="behaviour_expression.pre_offers" />
     <ref role="1TJDcQ" node="Kh9TY1RWAn" resolve="ConstantExpression" />
@@ -427,7 +444,7 @@
     <property role="34LRSv" value="istep" />
     <property role="R4oN_" value="ISTEP" />
     <property role="3GE5qa" value="behaviour_expression.pre_offers" />
-    <ref role="1TJDcQ" node="6SzhJU2MpH9" resolve="PreOfferList" />
+    <ref role="1TJDcQ" node="6SzhJU2MpH9" resolve="PrefOfferList" />
   </node>
   <node concept="1TIwiD" id="6SzhJU2MpHE">
     <property role="EcuMT" value="7936265027286834026" />
@@ -435,7 +452,7 @@
     <property role="TrG5h" value="QSTEP" />
     <property role="34LRSv" value="qstep" />
     <property role="R4oN_" value="QSTEP" />
-    <ref role="1TJDcQ" node="6SzhJU2MpH9" resolve="PreOfferList" />
+    <ref role="1TJDcQ" node="6SzhJU2MpH9" resolve="PrefOfferList" />
   </node>
   <node concept="1TIwiD" id="6SzhJU2MpHS">
     <property role="EcuMT" value="7936265027286834040" />
@@ -443,7 +460,7 @@
     <property role="TrG5h" value="HIT" />
     <property role="34LRSv" value="hit" />
     <property role="R4oN_" value="HIT" />
-    <ref role="1TJDcQ" node="6SzhJU2MpH9" resolve="PreOfferList" />
+    <ref role="1TJDcQ" node="6SzhJU2MpH9" resolve="PrefOfferList" />
   </node>
   <node concept="1TIwiD" id="6SzhJU2MpHT">
     <property role="EcuMT" value="7936265027286834041" />
@@ -451,15 +468,15 @@
     <property role="TrG5h" value="MISS" />
     <property role="34LRSv" value="miss" />
     <property role="R4oN_" value="MISS" />
-    <ref role="1TJDcQ" node="6SzhJU2MpH9" resolve="PreOfferList" />
+    <ref role="1TJDcQ" node="6SzhJU2MpH9" resolve="PrefOfferList" />
   </node>
   <node concept="1TIwiD" id="6SzhJU2MpHU">
     <property role="EcuMT" value="7936265027286834042" />
     <property role="3GE5qa" value="behaviour_expression.pre_offers" />
     <property role="TrG5h" value="OfferList" />
-    <property role="R4oN_" value="{} / offer1, offer2, ..." />
     <property role="34LRSv" value="{" />
-    <ref role="1TJDcQ" node="6SzhJU2MpH9" resolve="PreOfferList" />
+    <property role="R4oN_" value="possibly empty list of offers" />
+    <ref role="1TJDcQ" node="6SzhJU2MpH9" resolve="PrefOfferList" />
     <node concept="1TJgyj" id="6SzhJU2MpHY" role="1TKVEi">
       <property role="IQ2ns" value="7936265027286834046" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -488,33 +505,30 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="offers" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6SzhJU2Mtm$" resolve="ChannelOffer" />
+      <ref role="20lvS9" node="462tQr3QZ52" resolve="DataOffer" />
     </node>
-  </node>
-  <node concept="PlHQZ" id="6SzhJU2Mtm$">
-    <property role="EcuMT" value="7936265027286848932" />
-    <property role="TrG5h" value="ChannelOffer" />
-    <property role="3GE5qa" value="behaviour_expression.channel_offers" />
   </node>
   <node concept="1TIwiD" id="6SzhJU2Mtnd">
     <property role="EcuMT" value="7936265027286848973" />
     <property role="3GE5qa" value="behaviour_expression.offers" />
-    <property role="TrG5h" value="IdOffer" />
-    <property role="34LRSv" value="id offer" />
-    <property role="R4oN_" value="id offer1, offer2, etc" />
+    <property role="TrG5h" value="ChannelOffer" />
+    <property role="R4oN_" value="communication over a channel" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6SzhJU2Mtne" role="PzmwI">
       <ref role="PrY4T" node="6SzhJU2MpHX" resolve="Offer" />
-    </node>
-    <node concept="PrWs8" id="3QyoU4eabZS" role="PzmwI">
-      <ref role="PrY4T" node="6SzhJU2PSrY" resolve="HasIdName" />
     </node>
     <node concept="1TJgyj" id="6SzhJU2Mtns" role="1TKVEi">
       <property role="IQ2ns" value="7936265027286848988" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="offers" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6SzhJU2Mtm$" resolve="ChannelOffer" />
+      <ref role="20lvS9" node="462tQr3QZ52" resolve="DataOffer" />
+    </node>
+    <node concept="1TJgyj" id="462tQr3JiRl" role="1TKVEi">
+      <property role="IQ2ns" value="4720466642692025813" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="channel" />
+      <ref role="20lvS9" node="7tKE5PeZ4XO" resolve="ChannelRef" />
     </node>
   </node>
   <node concept="1TIwiD" id="6SzhJU2Mto4">
@@ -523,10 +537,7 @@
     <property role="TrG5h" value="VarDecOffer" />
     <property role="34LRSv" value="?" />
     <property role="R4oN_" value="? VarDec" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6SzhJU2Pj1B" role="PzmwI">
-      <ref role="PrY4T" node="6SzhJU2Mtm$" resolve="ChannelOffer" />
-    </node>
+    <ref role="1TJDcQ" node="462tQr3QZ52" resolve="DataOffer" />
     <node concept="1TJgyj" id="6SzhJU2Mtoc" role="1TKVEi">
       <property role="IQ2ns" value="7936265027286849036" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -567,10 +578,7 @@
     <property role="TrG5h" value="KnownDataOffer" />
     <property role="34LRSv" value="!" />
     <property role="R4oN_" value="! value" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6SzhJU2MtGg" role="PzmwI">
-      <ref role="PrY4T" node="6SzhJU2Mtm$" resolve="ChannelOffer" />
-    </node>
+    <ref role="1TJDcQ" node="462tQr3QZ52" resolve="DataOffer" />
     <node concept="1TJgyj" id="6SzhJU2MtGj" role="1TKVEi">
       <property role="IQ2ns" value="7936265027286850323" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -591,7 +599,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="leftExpression" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6SzhJU2MpH9" resolve="PreOfferList" />
+      <ref role="20lvS9" node="6SzhJU2MpH9" resolve="PrefOfferList" />
       <ref role="20ksaX" node="Kh9TY1JQUx" resolve="leftExpression" />
     </node>
   </node>
@@ -1484,6 +1492,12 @@
     <node concept="PrWs8" id="2ZlpRridUSJ" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="462tQr3QZ52">
+    <property role="TrG5h" value="DataOffer" />
+    <property role="3GE5qa" value="behaviour_expression.channel_offers" />
+    <property role="EcuMT" value="7936265027286848932" />
+    <property role="R5$K7" value="true" />
   </node>
 </model>
 
