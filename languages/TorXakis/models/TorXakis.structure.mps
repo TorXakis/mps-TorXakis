@@ -674,6 +674,9 @@
     <node concept="PrWs8" id="1VVhp_6FaQI" role="PzmwI">
       <ref role="PrY4T" node="7tKE5PeZjVM" resolve="HasCapidName" />
     </node>
+    <node concept="PrWs8" id="462tQr3mEx9" role="PzmwI">
+      <ref role="PrY4T" node="2ZlpRridUSI" resolve="TypeNameComboUnique" />
+    </node>
   </node>
   <node concept="1TIwiD" id="lsoyDBU550">
     <property role="EcuMT" value="386291602318446912" />
