@@ -307,8 +307,8 @@
       <property role="IQ2ns" value="7936265027286586050" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="channels" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6SzhJU2LtaY" resolve="FormalChannels" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="3QyoU4ebBP$" resolve="ChannelDeclarationLine" />
     </node>
   </node>
   <node concept="1TIwiD" id="6SzhJU2LtaY">
@@ -494,7 +494,7 @@
     <property role="EcuMT" value="7936265027286848492" />
     <property role="3GE5qa" value="behaviour_expression.offers" />
     <property role="TrG5h" value="EXIT" />
-    <property role="34LRSv" value="exit" />
+    <property role="34LRSv" value="EXIT" />
     <property role="R4oN_" value="EXIT chanoffer1 chanoffer2 ..." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6SzhJU2MtfH" role="PzmwI">
@@ -679,8 +679,8 @@
     <property role="R4oN_" value="The name of a new channel." />
     <property role="3GE5qa" value="Channels" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="1VVhp_6FaQI" role="PzmwI">
-      <ref role="PrY4T" node="7tKE5PeZjVM" resolve="HasCapidName" />
+    <node concept="PrWs8" id="7kIA9EAtln9" role="PzmwI">
+      <ref role="PrY4T" node="6SzhJU2PSrY" resolve="HasIdName" />
     </node>
     <node concept="PrWs8" id="462tQr3mEx9" role="PzmwI">
       <ref role="PrY4T" node="2ZlpRridUSI" resolve="TypeNameComboUnique" />
@@ -969,7 +969,7 @@
     <property role="3GE5qa" value="behaviour_expression" />
     <property role="TrG5h" value="SynchronizedChannelsExpression" />
     <property role="34LRSv" value="|[" />
-    <property role="R4oN_" value="...|[channels]|..." />
+    <property role="R4oN_" value="synchronized channels expression" />
     <ref role="1TJDcQ" node="6t0Dry1YxoE" resolve="BinaryBehaviourExpression" />
     <node concept="PrWs8" id="784v76A2tkQ" role="PzmwI">
       <ref role="PrY4T" node="6SzhJU2Jqk4" resolve="BehaviourExpression" />
