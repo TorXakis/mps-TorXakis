@@ -543,13 +543,14 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="vardec" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6SzhJU2Mto8" resolve="VarDec" />
+      <ref role="20lvS9" node="IzgQY3pBrz" resolve="Vardec" />
     </node>
   </node>
   <node concept="1TIwiD" id="6SzhJU2Mto8">
     <property role="EcuMT" value="7936265027286849032" />
-    <property role="3GE5qa" value="" />
-    <property role="TrG5h" value="VarDec" />
+    <property role="3GE5qa" value="Vardecs" />
+    <property role="TrG5h" value="AbstractVarDec" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="lsoyDBU54X" role="PzmwI">
       <ref role="PrY4T" node="6SzhJU2MtoZ" resolve="HasSmallidName" />
@@ -1108,7 +1109,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="parameters" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6SzhJU2Mto8" resolve="VarDec" />
+      <ref role="20lvS9" node="IzgQY3qV9F" resolve="MandatoryTypeVardec" />
     </node>
     <node concept="1TJgyj" id="5DuWkzevyQd" role="1TKVEi">
       <property role="IQ2ns" value="6511907406228630925" />
@@ -1154,7 +1155,7 @@
       <property role="IQ2ns" value="6511907406230000827" />
       <property role="20kJfa" value="variable" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6SzhJU2Mto8" resolve="VarDec" />
+      <ref role="20lvS9" node="6SzhJU2Mto8" resolve="AbstractVarDec" />
     </node>
   </node>
   <node concept="1TIwiD" id="3ZG$ufCTlTL">
@@ -1476,7 +1477,8 @@
     <property role="EcuMT" value="9070211657591567629" />
     <property role="TrG5h" value="InitialisedVardec" />
     <property role="R4oN_" value="vardec with a value" />
-    <ref role="1TJDcQ" node="6SzhJU2Mto8" resolve="VarDec" />
+    <property role="3GE5qa" value="Vardecs" />
+    <ref role="1TJDcQ" node="6SzhJU2Mto8" resolve="AbstractVarDec" />
     <node concept="1TJgyj" id="7RvRn9gmzke" role="1TKVEi">
       <property role="IQ2ns" value="9070211657591567630" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1498,6 +1500,18 @@
     <property role="3GE5qa" value="behaviour_expression.channel_offers" />
     <property role="EcuMT" value="7936265027286848932" />
     <property role="R5$K7" value="true" />
+  </node>
+  <node concept="1TIwiD" id="IzgQY3pBrz">
+    <property role="EcuMT" value="838588101846005475" />
+    <property role="TrG5h" value="Vardec" />
+    <property role="3GE5qa" value="Vardecs" />
+    <ref role="1TJDcQ" node="6SzhJU2Mto8" resolve="AbstractVarDec" />
+  </node>
+  <node concept="1TIwiD" id="IzgQY3qV9F">
+    <property role="EcuMT" value="838588101846348395" />
+    <property role="3GE5qa" value="Vardecs" />
+    <property role="TrG5h" value="MandatoryTypeVardec" />
+    <ref role="1TJDcQ" node="6SzhJU2Mto8" resolve="AbstractVarDec" />
   </node>
 </model>
 

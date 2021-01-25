@@ -1576,7 +1576,7 @@
               <node concept="1PxgMI" id="5DuWkze$bma" role="2Oq$k0">
                 <property role="1BlNFB" value="true" />
                 <node concept="chp4Y" id="5DuWkze$bmN" role="3oSUPX">
-                  <ref role="cht4Q" to="b8q8:6SzhJU2Mto8" resolve="VarDec" />
+                  <ref role="cht4Q" to="b8q8:6SzhJU2Mto8" resolve="AbstractVarDec" />
                 </node>
                 <node concept="Q6c8r" id="5DuWkze$b7T" role="1m5AlR" />
               </node>
@@ -1632,7 +1632,7 @@
   </node>
   <node concept="1YbPZF" id="5DuWkze$MIE">
     <property role="TrG5h" value="typeof_VarDec" />
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="Vardecs" />
     <node concept="3clFbS" id="5DuWkze$MIF" role="18ibNy">
       <node concept="3clFbJ" id="5DuWkze$MIL" role="3cqZAp">
         <node concept="2OqwBi" id="5DuWkze$Nff" role="3clFbw">
@@ -1779,7 +1779,7 @@
     </node>
     <node concept="1YaCAy" id="5DuWkze$MIH" role="1YuTPh">
       <property role="TrG5h" value="varDec" />
-      <ref role="1YaFvo" to="b8q8:6SzhJU2Mto8" resolve="VarDec" />
+      <ref role="1YaFvo" to="b8q8:6SzhJU2Mto8" resolve="AbstractVarDec" />
     </node>
   </node>
   <node concept="1YbPZF" id="5DuWkzeAF41">
@@ -2063,7 +2063,7 @@
   </node>
   <node concept="18kY7G" id="3OjKFfP$bF1">
     <property role="TrG5h" value="check_VarDec" />
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="Vardecs" />
     <node concept="3clFbS" id="3OjKFfP$bF2" role="18ibNy">
       <node concept="1X3_iC" id="2ZlpRrie3I0" role="lGtFl">
         <property role="3V$3am" value="statement" />
@@ -2127,7 +2127,7 @@
                 <ref role="1YBMHb" node="3OjKFfP$bF4" resolve="varDec" />
               </node>
               <node concept="35c_gC" id="Hdx04qZPHL" role="37wK5m">
-                <ref role="35c_gD" to="b8q8:6SzhJU2Mto8" resolve="VarDec" />
+                <ref role="35c_gD" to="b8q8:6SzhJU2Mto8" resolve="AbstractVarDec" />
               </node>
             </node>
           </node>
@@ -2300,7 +2300,7 @@
                                   <node concept="1PxgMI" id="3j$zqyhLHby" role="2Oq$k0">
                                     <property role="1BlNFB" value="true" />
                                     <node concept="chp4Y" id="3j$zqyhLHbz" role="3oSUPX">
-                                      <ref role="cht4Q" to="b8q8:6SzhJU2Mto8" resolve="VarDec" />
+                                      <ref role="cht4Q" to="b8q8:6SzhJU2Mto8" resolve="AbstractVarDec" />
                                     </node>
                                     <node concept="37vLTw" id="3j$zqyhLHb$" role="1m5AlR">
                                       <ref role="3cqZAo" node="3j$zqyhLHbI" resolve="it" />
@@ -2320,7 +2320,7 @@
                                   <node concept="1PxgMI" id="3j$zqyhLHbE" role="2Oq$k0">
                                     <property role="1BlNFB" value="true" />
                                     <node concept="chp4Y" id="3j$zqyhLHbF" role="3oSUPX">
-                                      <ref role="cht4Q" to="b8q8:6SzhJU2Mto8" resolve="VarDec" />
+                                      <ref role="cht4Q" to="b8q8:6SzhJU2Mto8" resolve="AbstractVarDec" />
                                     </node>
                                     <node concept="37vLTw" id="3j$zqyhLHbG" role="1m5AlR">
                                       <ref role="3cqZAo" node="3j$zqyhLHbI" resolve="it" />
@@ -2389,7 +2389,7 @@
     </node>
     <node concept="1YaCAy" id="3OjKFfP$bF4" role="1YuTPh">
       <property role="TrG5h" value="varDec" />
-      <ref role="1YaFvo" to="b8q8:6SzhJU2Mto8" resolve="VarDec" />
+      <ref role="1YaFvo" to="b8q8:6SzhJU2Mto8" resolve="AbstractVarDec" />
     </node>
   </node>
   <node concept="1YbPZF" id="3OjKFfPF0xT">
@@ -5055,6 +5055,7 @@
   </node>
   <node concept="1YbPZF" id="7RvRn9gm$28">
     <property role="TrG5h" value="typeof_InitialisedVardec" />
+    <property role="3GE5qa" value="Vardecs" />
     <node concept="3clFbS" id="7RvRn9gm$29" role="18ibNy">
       <node concept="3SKdUt" id="7RvRn9gm$$m" role="3cqZAp">
         <node concept="1PaTwC" id="7RvRn9gm$$n" role="1aUNEU">
@@ -5471,6 +5472,42 @@
     <node concept="1YaCAy" id="2ZlpRridUUC" role="1YuTPh">
       <property role="TrG5h" value="decl" />
       <ref role="1YaFvo" to="b8q8:2ZlpRridUSI" resolve="TypeNameComboUnique" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="IzgQY3qVHp">
+    <property role="TrG5h" value="check_MandatoryTypeVardec" />
+    <property role="3GE5qa" value="Vardecs" />
+    <node concept="3clFbS" id="IzgQY3qVHq" role="18ibNy">
+      <node concept="3clFbJ" id="IzgQY3qVVj" role="3cqZAp">
+        <node concept="2OqwBi" id="IzgQY3qVVk" role="3clFbw">
+          <node concept="2OqwBi" id="IzgQY3qVVl" role="2Oq$k0">
+            <node concept="1YBJjd" id="IzgQY3qWbS" role="2Oq$k0">
+              <ref role="1YBMHb" node="IzgQY3qVHs" resolve="vardec" />
+            </node>
+            <node concept="3TrEf2" id="IzgQY3qVVn" role="2OqNvi">
+              <ref role="3Tt5mk" to="b8q8:lsoyDBU55Q" resolve="type" />
+            </node>
+          </node>
+          <node concept="3w_OXm" id="IzgQY3qVVo" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="IzgQY3qVVp" role="3clFbx">
+          <node concept="2MkqsV" id="IzgQY3qVVq" role="3cqZAp">
+            <node concept="3Cnw8n" id="IzgQY3qVVr" role="1urrFz">
+              <ref role="QpYPw" node="5DuWkze$b0I" resolve="addTypeToVardec" />
+            </node>
+            <node concept="Xl_RD" id="IzgQY3qVVs" role="2MkJ7o">
+              <property role="Xl_RC" value="Type is required for this variable" />
+            </node>
+            <node concept="1YBJjd" id="IzgQY3qWcf" role="1urrMF">
+              <ref role="1YBMHb" node="IzgQY3qVHs" resolve="vardec" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="IzgQY3qVHs" role="1YuTPh">
+      <property role="TrG5h" value="vardec" />
+      <ref role="1YaFvo" to="b8q8:IzgQY3qV9F" resolve="MandatoryTypeVardec" />
     </node>
   </node>
 </model>

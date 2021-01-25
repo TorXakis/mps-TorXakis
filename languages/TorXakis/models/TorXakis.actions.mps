@@ -194,6 +194,7 @@
         <child id="1140725362529" name="linkTarget" index="2oxUTC" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1138757581985" name="jetbrains.mps.lang.smodel.structure.Link_SetNewChildOperation" flags="nn" index="zfrQC" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -2534,6 +2535,24 @@
                   <ref role="3TsBF5" to="b8q8:7oTuwCVmz$g" resolve="precedence" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="37WvkG" id="IzgQY3rlDg" role="37WGs$">
+      <ref role="37XkoT" to="b8q8:IzgQY3qV9F" resolve="MandatoryTypeVardec" />
+      <node concept="37Y9Zx" id="IzgQY3rlDh" role="37ZfLb">
+        <node concept="3clFbS" id="IzgQY3rlDi" role="2VODD2">
+          <node concept="3clFbF" id="IzgQY3rlFC" role="3cqZAp">
+            <node concept="2OqwBi" id="IzgQY3rmc_" role="3clFbG">
+              <node concept="2OqwBi" id="IzgQY3rlPE" role="2Oq$k0">
+                <node concept="1r4Lsj" id="IzgQY3rlFB" role="2Oq$k0" />
+                <node concept="3TrEf2" id="IzgQY3rm2v" role="2OqNvi">
+                  <ref role="3Tt5mk" to="b8q8:lsoyDBU55Q" resolve="type" />
+                </node>
+              </node>
+              <node concept="zfrQC" id="IzgQY3rmnS" role="2OqNvi" />
             </node>
           </node>
         </node>

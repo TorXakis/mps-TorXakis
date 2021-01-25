@@ -236,9 +236,6 @@
       <concept id="1883223317721008713" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVariable" flags="ng" index="JncvC" />
       <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
       <concept id="7504436213544206332" name="jetbrains.mps.lang.smodel.structure.Node_ContainingLinkOperation" flags="nn" index="2NL2c5" />
-      <concept id="1180028149140" name="jetbrains.mps.lang.smodel.structure.Concept_IsSuperConceptOfOperation" flags="nn" index="2Za9M6">
-        <child id="1180028346304" name="conceptArgument" index="2ZaTVi" />
-      </concept>
       <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
         <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
       </concept>
@@ -2094,9 +2091,9 @@
             <node concept="37vLTw" id="3OjKFfPzr2o" role="2Oq$k0">
               <ref role="3cqZAo" node="3OjKFfPzqP0" resolve="kind" />
             </node>
-            <node concept="2Za9M6" id="3OjKFfPzr_G" role="2OqNvi">
-              <node concept="chp4Y" id="3OjKFfPzrA9" role="2ZaTVi">
-                <ref role="cht4Q" to="b8q8:6SzhJU2Mto8" resolve="VarDec" />
+            <node concept="2Zo12i" id="IzgQY3pC7X" role="2OqNvi">
+              <node concept="chp4Y" id="IzgQY3pC7Z" role="2Zo12j">
+                <ref role="cht4Q" to="b8q8:6SzhJU2Mto8" resolve="AbstractVarDec" />
               </node>
             </node>
           </node>
@@ -3084,7 +3081,7 @@
             </node>
             <node concept="2Zo12i" id="7RvRn9gln4x" role="2OqNvi">
               <node concept="chp4Y" id="7RvRn9gln7I" role="2Zo12j">
-                <ref role="cht4Q" to="b8q8:6SzhJU2Mto8" resolve="VarDec" />
+                <ref role="cht4Q" to="b8q8:6SzhJU2Mto8" resolve="AbstractVarDec" />
               </node>
             </node>
           </node>
@@ -3272,8 +3269,8 @@
     </node>
   </node>
   <node concept="13h7C7" id="2ZlpRrie4EF">
-    <property role="3GE5qa" value="" />
-    <ref role="13h7C2" to="b8q8:6SzhJU2Mto8" resolve="VarDec" />
+    <property role="3GE5qa" value="Vardecs" />
+    <ref role="13h7C2" to="b8q8:6SzhJU2Mto8" resolve="AbstractVarDec" />
     <node concept="13hLZK" id="2ZlpRrie4EG" role="13h7CW">
       <node concept="3clFbS" id="2ZlpRrie4EH" role="2VODD2" />
     </node>
