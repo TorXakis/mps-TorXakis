@@ -202,7 +202,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="7kIA9EArxsX">
-    <property role="3GE5qa" value="behaviour_expression.pre_offers" />
+    <property role="3GE5qa" value="behaviour_expression.pref_offers" />
     <property role="TrG5h" value="addGuard" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="b8q8:6SzhJU2MpH9" resolve="PrefOfferList" />

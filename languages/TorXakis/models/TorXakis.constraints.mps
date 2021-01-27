@@ -70,6 +70,7 @@
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
+      <concept id="6702802731807351367" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="9S07l" />
       <concept id="6702802731807420587" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAParent" flags="ig" index="9SLcT" />
       <concept id="4303308395523343364" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_link" flags="ng" index="2DA6wF" />
       <concept id="4303308395523096213" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childConcept" flags="ng" index="2DD5aU" />
@@ -85,6 +86,7 @@
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
         <child id="6702802731807532712" name="canBeParent" index="9SGkU" />
+        <child id="6702802731807737306" name="canBeChild" index="9Vyp8" />
         <child id="1213098023997" name="property" index="1MhHOB" />
         <child id="1213100494875" name="referent" index="1Mr941" />
       </concept>
@@ -454,6 +456,59 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="paMBXP6MY8">
+    <property role="3GE5qa" value="behaviour_expression" />
+    <ref role="1M2myG" to="b8q8:paMBXP6MWZ" resolve="AcceptExpression" />
+    <node concept="9SLcT" id="paMBXP84na" role="9SGkU">
+      <node concept="3clFbS" id="paMBXP84nb" role="2VODD2">
+        <node concept="3clFbJ" id="paMBXP84wa" role="3cqZAp">
+          <node concept="1Wc70l" id="paMBXP86h5" role="3clFbw">
+            <node concept="2OqwBi" id="paMBXP86xw" role="3uHU7w">
+              <node concept="2DD5aU" id="paMBXP86qD" role="2Oq$k0" />
+              <node concept="2Zo12i" id="paMBXP86G2" role="2OqNvi">
+                <node concept="chp4Y" id="paMBXP86JT" role="2Zo12j">
+                  <ref role="cht4Q" to="b8q8:paMBXP86m1" resolve="Level1BehaviourExpression" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="paMBXP84Tc" role="3uHU7B">
+              <node concept="2DA6wF" id="paMBXP84wD" role="2Oq$k0" />
+              <node concept="liA8E" id="paMBXP858R" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
+                <node concept="359W_D" id="paMBXP85Qp" role="37wK5m">
+                  <ref role="359W_E" to="b8q8:paMBXP6MWZ" resolve="AcceptExpression" />
+                  <ref role="359W_F" to="b8q8:paMBXP6MX4" resolve="expression" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="paMBXP84wc" role="3clFbx">
+            <node concept="3cpWs6" id="paMBXP86LF" role="3cqZAp">
+              <node concept="3clFbT" id="paMBXP86MJ" role="3cqZAk" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="paMBXP86Pa" role="3cqZAp">
+          <node concept="3clFbT" id="paMBXP86Pw" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="9S07l" id="paMBXP877H" role="9Vyp8">
+      <node concept="3clFbS" id="paMBXP877I" role="2VODD2">
+        <node concept="3cpWs6" id="paMBXP8785" role="3cqZAp">
+          <node concept="17R0WA" id="paMBXP885g" role="3cqZAk">
+            <node concept="359W_D" id="paMBXP885V" role="3uHU7w">
+              <ref role="359W_E" to="b8q8:784v76A1hKr" resolve="EnableExpression" />
+              <ref role="359W_F" to="b8q8:Kh9TY1JQUz" resolve="rightExpression" />
+            </node>
+            <node concept="2DA6wF" id="paMBXP87Kh" role="3uHU7B" />
           </node>
         </node>
       </node>

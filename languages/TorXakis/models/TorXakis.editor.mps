@@ -878,9 +878,21 @@
       <node concept="3F0ifn" id="6SzhJU2Ltbq" role="3EZMnx">
         <property role="3F0ifm" value="HIDE" />
       </node>
+      <node concept="3F0ifn" id="3JJMvZqGGnC" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+        <node concept="3mYdg7" id="3JJMvZqGGos" role="3F10Kt">
+          <property role="1413C4" value="hideLabel" />
+        </node>
+      </node>
       <node concept="3F2HdR" id="7kIA9EANfR0" role="3EZMnx">
         <ref role="1NtTu8" to="b8q8:6SzhJU2Ltb2" resolve="channels" />
         <node concept="l2Vlx" id="7kIA9EANfR2" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="3JJMvZqGGoa" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+        <node concept="3mYdg7" id="3JJMvZqGGow" role="3F10Kt">
+          <property role="1413C4" value="hideLabel" />
+        </node>
       </node>
       <node concept="3F0ifn" id="6SzhJU2LtbK" role="3EZMnx">
         <property role="3F0ifm" value="IN" />
@@ -995,7 +1007,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6SzhJU2MpH$">
-    <property role="3GE5qa" value="behaviour_expression.pre_offers" />
+    <property role="3GE5qa" value="behaviour_expression.pref_offers" />
     <ref role="1XX52x" to="b8q8:6SzhJU2MpHk" resolve="ISTEP" />
     <node concept="3EZMnI" id="462tQr3tudz" role="2wV5jI">
       <node concept="3F0ifn" id="462tQr3tud_" role="3EZMnx">
@@ -1018,7 +1030,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6SzhJU2MpHM">
-    <property role="3GE5qa" value="behaviour_expression.pre_offers" />
+    <property role="3GE5qa" value="behaviour_expression.pref_offers" />
     <ref role="1XX52x" to="b8q8:6SzhJU2MpHE" resolve="QSTEP" />
     <node concept="3EZMnI" id="462tQr3tuz8" role="2wV5jI">
       <node concept="3F0ifn" id="462tQr3tuza" role="3EZMnx">
@@ -1041,7 +1053,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6SzhJU2MpI8">
-    <property role="3GE5qa" value="behaviour_expression.pre_offers" />
+    <property role="3GE5qa" value="behaviour_expression.pref_offers" />
     <ref role="1XX52x" to="b8q8:6SzhJU2MpHU" resolve="OfferList" />
     <node concept="3EZMnI" id="462tQr3tul3" role="2wV5jI">
       <node concept="3EZMnI" id="6SzhJU2OZ1B" role="3EZMnx">
@@ -1127,7 +1139,7 @@
   </node>
   <node concept="24kQdi" id="6SzhJU2MtnA">
     <property role="3GE5qa" value="behaviour_expression.offers" />
-    <ref role="1XX52x" to="b8q8:6SzhJU2Mtnd" resolve="ChannelOffer" />
+    <ref role="1XX52x" to="b8q8:6SzhJU2Mtnd" resolve="ChannelOfferList" />
     <node concept="3EZMnI" id="6SzhJU2MtnC" role="2wV5jI">
       <node concept="3F1sOY" id="462tQr3JiS2" role="3EZMnx">
         <ref role="1NtTu8" to="b8q8:462tQr3JiRl" resolve="channel" />
@@ -1148,7 +1160,7 @@
   </node>
   <node concept="24kQdi" id="6SzhJU2Mtom">
     <property role="3GE5qa" value="behaviour_expression.channel_offers" />
-    <ref role="1XX52x" to="b8q8:6SzhJU2Mto4" resolve="VarDecOffer" />
+    <ref role="1XX52x" to="b8q8:6SzhJU2Mto4" resolve="UnderspecifiedOffer" />
     <node concept="3EZMnI" id="6SzhJU2Mtou" role="2wV5jI">
       <node concept="3F0ifn" id="6SzhJU2MtoC" role="3EZMnx">
         <property role="3F0ifm" value="?" />
@@ -1215,7 +1227,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6SzhJU2N5yn">
-    <property role="3GE5qa" value="behaviour_expression.pre_offers" />
+    <property role="3GE5qa" value="behaviour_expression.pref_offers" />
     <ref role="1XX52x" to="b8q8:6SzhJU2MpHT" resolve="MISS" />
     <node concept="3EZMnI" id="462tQr3tudK" role="2wV5jI">
       <node concept="3F0ifn" id="462tQr3tudM" role="3EZMnx">
@@ -1238,7 +1250,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6SzhJU2N5y$">
-    <property role="3GE5qa" value="behaviour_expression.pre_offers" />
+    <property role="3GE5qa" value="behaviour_expression.pref_offers" />
     <ref role="1XX52x" to="b8q8:6SzhJU2MpHS" resolve="HIT" />
     <node concept="3EZMnI" id="462tQr3tudm" role="2wV5jI">
       <node concept="3F0ifn" id="462tQr3tudo" role="3EZMnx">
@@ -3560,7 +3572,7 @@
       <node concept="3EZMnI" id="784v76A3ReJ" role="3EZMnx">
         <node concept="VPM3Z" id="784v76A3ReK" role="3F10Kt" />
         <node concept="3F1sOY" id="784v76A3ReL" role="3EZMnx">
-          <ref role="1NtTu8" to="b8q8:784v76A3$cv" resolve="rightExpression" />
+          <ref role="1NtTu8" to="b8q8:784v76A3$cv" resolve="Expression" />
         </node>
         <node concept="l2Vlx" id="784v76A3ReM" role="2iSdaV" />
         <node concept="lj46D" id="784v76A3ReN" role="3F10Kt">
@@ -3609,6 +3621,9 @@
       </node>
       <node concept="3F0ifn" id="784v76A9cfr" role="3EZMnx">
         <property role="3F0ifm" value="THEN" />
+        <node concept="3mYdg7" id="paMBXP9XHG" role="3F10Kt">
+          <property role="1413C4" value="thenlabel" />
+        </node>
       </node>
       <node concept="3F1sOY" id="784v76A9cf_" role="3EZMnx">
         <ref role="1NtTu8" to="b8q8:784v76A9ceQ" resolve="ifbranch" />
@@ -3623,6 +3638,9 @@
         <property role="3F0ifm" value="ELSE" />
         <node concept="pVoyu" id="784v76AaWZE" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3mYdg7" id="paMBXP9XHL" role="3F10Kt">
+          <property role="1413C4" value="thenlabel" />
         </node>
       </node>
       <node concept="3F1sOY" id="784v76A9cfZ" role="3EZMnx">
@@ -5397,6 +5415,9 @@
     <node concept="3EZMnI" id="7RvRn9gmzRY" role="2wV5jI">
       <node concept="3F0A7n" id="7RvRn9gmzRZ" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="A1WHu" id="paMBXP4xn_" role="3vIgyS">
+          <ref role="A1WHt" node="7kIA9EAEhrF" resolve="AddTypeToVardec" />
+        </node>
       </node>
       <node concept="3F0ifn" id="7RvRn9gmzS0" role="3EZMnx">
         <property role="3F0ifm" value="::" />
@@ -5418,6 +5439,21 @@
       </node>
       <node concept="3F1sOY" id="7RvRn9gmzS9" role="3EZMnx">
         <ref role="1NtTu8" to="b8q8:lsoyDBU55Q" resolve="type" />
+        <node concept="pkWqt" id="paMBXP31Om" role="pqm2j">
+          <node concept="3clFbS" id="paMBXP31On" role="2VODD2">
+            <node concept="3clFbF" id="paMBXP31Sh" role="3cqZAp">
+              <node concept="2OqwBi" id="paMBXP32S5" role="3clFbG">
+                <node concept="2OqwBi" id="paMBXP328g" role="2Oq$k0">
+                  <node concept="pncrf" id="paMBXP31Sg" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="paMBXP32nZ" role="2OqNvi">
+                    <ref role="3Tt5mk" to="b8q8:lsoyDBU55Q" resolve="type" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="paMBXP332K" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="7RvRn9gmzZy" role="3EZMnx">
         <property role="3F0ifm" value="=" />
@@ -5515,7 +5551,7 @@
     <node concept="22hDWj" id="2ZlpRribWXI" role="22hAXT" />
   </node>
   <node concept="22mcaB" id="462tQr3pXXq">
-    <property role="3GE5qa" value="behaviour_expression.pre_offers" />
+    <property role="3GE5qa" value="behaviour_expression.pref_offers" />
     <ref role="aqKnT" to="b8q8:6SzhJU2MpHU" resolve="OfferList" />
     <node concept="22hDWj" id="462tQr3pXXr" role="22hAXT" />
     <node concept="3N5dw7" id="462tQr3pY0U" role="3ft7WO">
@@ -5547,7 +5583,7 @@
     </node>
   </node>
   <node concept="PKFIW" id="462tQr3tsXU">
-    <property role="3GE5qa" value="behaviour_expression.pre_offers" />
+    <property role="3GE5qa" value="behaviour_expression.pref_offers" />
     <property role="TrG5h" value="ShowGuardIfExist" />
     <ref role="1XX52x" to="b8q8:6SzhJU2MpH9" resolve="PrefOfferList" />
     <node concept="3F1sOY" id="462tQr3tsXW" role="2wV5jI">
@@ -5570,7 +5606,7 @@
     </node>
   </node>
   <node concept="3ICUPy" id="462tQr3vV6B">
-    <property role="3GE5qa" value="behaviour_expression.pre_offers" />
+    <property role="3GE5qa" value="behaviour_expression.pref_offers" />
     <ref role="aqKnT" to="b8q8:6SzhJU2MpH9" resolve="PrefOfferList" />
     <node concept="1Qtc8_" id="462tQr3vV6E" role="IW6Ez">
       <node concept="3cWJ9i" id="462tQr3vV6I" role="1Qtc8$">
@@ -5805,7 +5841,7 @@
   </node>
   <node concept="22mcaB" id="462tQr3K_w5">
     <property role="3GE5qa" value="behaviour_expression.offers" />
-    <ref role="aqKnT" to="b8q8:6SzhJU2Mtnd" resolve="ChannelOffer" />
+    <ref role="aqKnT" to="b8q8:6SzhJU2Mtnd" resolve="ChannelOfferList" />
     <node concept="22hDWj" id="462tQr3K_w6" role="22hAXT" />
     <node concept="3N5dw7" id="462tQr3K_wd" role="3ft7WO">
       <node concept="3N5aqt" id="462tQr3K_we" role="3Na0zg">
@@ -5813,7 +5849,7 @@
           <node concept="3cpWs6" id="462tQr3K_$O" role="3cqZAp">
             <node concept="2pJPEk" id="462tQr3K__E" role="3cqZAk">
               <node concept="2pJPED" id="462tQr3K_BL" role="2pJPEn">
-                <ref role="2pJxaS" to="b8q8:6SzhJU2Mtnd" resolve="ChannelOffer" />
+                <ref role="2pJxaS" to="b8q8:6SzhJU2Mtnd" resolve="ChannelOfferList" />
                 <node concept="2pIpSj" id="462tQr3K_E5" role="2pJxcM">
                   <ref role="2pIpSl" to="b8q8:462tQr3JiRl" resolve="channel" />
                   <node concept="36biLy" id="462tQr3K_Fb" role="28nt2d">
@@ -5852,7 +5888,7 @@
   </node>
   <node concept="325Ffw" id="462tQr3PJ4t">
     <property role="TrG5h" value="InsertChannelOfferHere" />
-    <ref role="1chiOs" to="b8q8:462tQr3QZ52" resolve="DataOffer" />
+    <ref role="1chiOs" to="b8q8:462tQr3QZ52" resolve="Channel_Offer" />
     <node concept="2PxR9H" id="462tQr3PJ4u" role="2QnnpI">
       <property role="2PxWOX" value="insert item in list here" />
       <node concept="2Py5lD" id="462tQr3PJ4v" role="2PyaAO">
@@ -5871,7 +5907,7 @@
             <node concept="2OqwBi" id="462tQr3QYH6" role="3clFbG">
               <node concept="0GJ7k" id="462tQr3QYFj" role="2Oq$k0" />
               <node concept="1$SAou" id="462tQr3QZ1w" role="2OqNvi">
-                <ref role="1$SOMD" to="b8q8:462tQr3QZ52" resolve="DataOffer" />
+                <ref role="1$SOMD" to="b8q8:462tQr3QZ52" resolve="Channel_Offer" />
               </node>
             </node>
           </node>
@@ -5881,7 +5917,7 @@
   </node>
   <node concept="3ICUPy" id="462tQr3Tgcm">
     <property role="3GE5qa" value="behaviour_expression.channel_offers" />
-    <ref role="aqKnT" to="b8q8:462tQr3QZ52" resolve="DataOffer" />
+    <ref role="aqKnT" to="b8q8:462tQr3QZ52" resolve="Channel_Offer" />
     <node concept="1Qtc8_" id="462tQr3Tgcs" role="IW6Ez">
       <node concept="3cWJ9i" id="462tQr3Tgcw" role="1Qtc8$">
         <node concept="CtIbL" id="462tQr3Tgcy" role="CtIbM">
@@ -6108,6 +6144,35 @@
     </node>
     <node concept="22hDWg" id="7kIA9EAEhrG" role="22hAXT">
       <property role="TrG5h" value="AddTypeToVardec" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="paMBXP6MXe">
+    <property role="3GE5qa" value="behaviour_expression" />
+    <ref role="1XX52x" to="b8q8:paMBXP6MWZ" resolve="AcceptExpression" />
+    <node concept="3EZMnI" id="paMBXP6MXg" role="2wV5jI">
+      <node concept="3F0ifn" id="paMBXP6MXn" role="3EZMnx">
+        <property role="3F0ifm" value="ACCEPT" />
+      </node>
+      <node concept="3F2HdR" id="paMBXP9oEb" role="3EZMnx">
+        <ref role="1NtTu8" to="b8q8:paMBXP6MX2" resolve="offers" />
+        <node concept="l2Vlx" id="paMBXP9oEd" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="paMBXP6MX_" role="3EZMnx">
+        <property role="3F0ifm" value="IN" />
+        <node concept="3mYdg7" id="paMBXP6MY2" role="3F10Kt">
+          <property role="1413C4" value="acceptLabel" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="paMBXP6MXJ" role="3EZMnx">
+        <ref role="1NtTu8" to="b8q8:paMBXP6MX4" resolve="expression" />
+      </node>
+      <node concept="3F0ifn" id="paMBXP6MXV" role="3EZMnx">
+        <property role="3F0ifm" value="END" />
+        <node concept="3mYdg7" id="paMBXP6MY4" role="3F10Kt">
+          <property role="1413C4" value="acceptLabel" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="paMBXP6MXj" role="2iSdaV" />
     </node>
   </node>
 </model>
