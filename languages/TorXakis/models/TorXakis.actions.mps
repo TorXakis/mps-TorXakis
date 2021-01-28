@@ -2500,7 +2500,7 @@
     </node>
   </node>
   <node concept="37WguZ" id="7oTuwCVn9bo">
-    <property role="TrG5h" value="Functiondefs" />
+    <property role="TrG5h" value="definitions" />
     <node concept="37WvkG" id="7oTuwCVn9bp" role="37WGs$">
       <ref role="37XkoT" to="b8q8:7oTuwCVjktB" resolve="OperatorDef" />
       <node concept="37Y9Zx" id="7oTuwCVn9bq" role="37ZfLb">
@@ -2553,6 +2553,24 @@
                 </node>
               </node>
               <node concept="zfrQC" id="IzgQY3rmnS" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="37WvkG" id="7TffPm57b31" role="37WGs$">
+      <ref role="37XkoT" to="b8q8:7TffPm56VW4" resolve="ConstantDef" />
+      <node concept="37Y9Zx" id="7TffPm57b32" role="37ZfLb">
+        <node concept="3clFbS" id="7TffPm57b33" role="2VODD2">
+          <node concept="3clFbF" id="7TffPm57b34" role="3cqZAp">
+            <node concept="2OqwBi" id="7TffPm57b35" role="3clFbG">
+              <node concept="2OqwBi" id="7TffPm57b36" role="2Oq$k0">
+                <node concept="1r4Lsj" id="7TffPm57b37" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7TffPm57b38" role="2OqNvi">
+                  <ref role="3Tt5mk" to="b8q8:lsoyDBU55Q" resolve="type" />
+                </node>
+              </node>
+              <node concept="zfrQC" id="7TffPm57b39" role="2OqNvi" />
             </node>
           </node>
         </node>

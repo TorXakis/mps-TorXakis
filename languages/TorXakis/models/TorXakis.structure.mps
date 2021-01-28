@@ -182,13 +182,20 @@
   </node>
   <node concept="1TIwiD" id="7tKE5PeXt8G">
     <property role="EcuMT" value="8606564006615175724" />
-    <property role="TrG5h" value="ConstDef" />
-    <property role="34LRSv" value="constant definition" />
-    <property role="R4oN_" value="A constant definition" />
-    <property role="3GE5qa" value="Placeholders" />
+    <property role="TrG5h" value="ConstDefList" />
+    <property role="R4oN_" value="A list of constant definitions" />
+    <property role="3GE5qa" value="constant_definition" />
+    <property role="34LRSv" value="CONSTDEF" />
     <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakisDefinition" />
-    <node concept="PrWs8" id="7tKE5PeXPVD" role="PzmwI">
-      <ref role="PrY4T" node="7tKE5PeXLM1" resolve="Placeholder" />
+    <node concept="1TJgyj" id="7TffPm56VW5" role="1TKVEi">
+      <property role="IQ2ns" value="9101563008477019909" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="constants" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="7TffPm56VW4" resolve="ConstantDef" />
+    </node>
+    <node concept="PrWs8" id="7TffPm5bUep" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="7tKE5PeXt8H">
@@ -432,6 +439,7 @@
     <property role="TrG5h" value="Guard" />
     <property role="34LRSv" value="[[" />
     <property role="R4oN_" value="guard" />
+    <property role="3GE5qa" value="behaviour_expression" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="784v76A6s37" role="1TKVEi">
       <property role="IQ2ns" value="8215828447790481607" />
@@ -1505,6 +1513,9 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="PrWs8" id="7TffPm56YOo" role="PzmwI">
+      <ref role="PrY4T" node="784v76A7yam" resolve="BaseExpressionContainer" />
+    </node>
   </node>
   <node concept="PlHQZ" id="2ZlpRridUSI">
     <property role="EcuMT" value="3446774849852649006" />
@@ -1567,6 +1578,22 @@
     <property role="3GE5qa" value="behaviour_expression" />
     <node concept="t5JxF" id="paMBXP86m2" role="lGtFl">
       <property role="t5JxN" value="label interface to mark those behaviour expressions that cant be a child of AcceptExpression. Corrosponds to BehaviourExpr1 in the TorXaKis grammar." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7TffPm56VW4">
+    <property role="EcuMT" value="9101563008477019908" />
+    <property role="TrG5h" value="ConstantDef" />
+    <property role="3GE5qa" value="constant_definition" />
+    <ref role="1TJDcQ" node="6SzhJU2Mto8" resolve="AbstractVarDec" />
+    <node concept="1TJgyj" id="7TffPm56YNQ" role="1TKVEi">
+      <property role="IQ2ns" value="9101563008477031670" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="7TffPm570T3" role="PzmwI">
+      <ref role="PrY4T" node="784v76A7yam" resolve="BaseExpressionContainer" />
     </node>
   </node>
 </model>
