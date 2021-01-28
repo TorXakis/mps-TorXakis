@@ -1596,5 +1596,48 @@
       <ref role="PrY4T" node="784v76A7yam" resolve="BaseExpressionContainer" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7TffPm5qdQj">
+    <property role="EcuMT" value="9101563008482074003" />
+    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="TrG5h" value="AbsFcall" />
+    <property role="34LRSv" value="abs" />
+    <property role="R4oN_" value="absolute value function" />
+    <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="AbstractFunctionCall" />
+  </node>
+  <node concept="1TIwiD" id="7TffPm5q$M6">
+    <property role="EcuMT" value="9101563008482167942" />
+    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="TrG5h" value="LenFcall" />
+    <property role="34LRSv" value="len" />
+    <property role="R4oN_" value="length of a string" />
+    <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="AbstractFunctionCall" />
+  </node>
+  <node concept="1TIwiD" id="7TffPm5UCrS">
+    <property role="EcuMT" value="9101563008490571512" />
+    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="TrG5h" value="AtFcall" />
+    <property role="34LRSv" value="at" />
+    <property role="R4oN_" value="string selection" />
+    <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="AbstractFunctionCall" />
+  </node>
+  <node concept="1TIwiD" id="7TffPm5WnRf">
+    <property role="EcuMT" value="9101563008491027919" />
+    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="TrG5h" value="StrinreFcall" />
+    <property role="34LRSv" value="strinre" />
+    <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="AbstractFunctionCall" />
+  </node>
+  <node concept="1TIwiD" id="7TffPm68xWd">
+    <property role="EcuMT" value="9101563008494214925" />
+    <property role="3GE5qa" value="valueExpressions" />
+    <property role="TrG5h" value="TypeCheckerFcall" />
+    <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="AbstractFunctionCall" />
+    <node concept="1TJgyj" id="7TffPm68y1b" role="1TKVEi">
+      <property role="IQ2ns" value="9101563008494215243" />
+      <property role="20kJfa" value="constructor" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7VUZddFFY46" resolve="typeConstructor" />
+    </node>
+  </node>
 </model>
 
