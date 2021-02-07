@@ -728,7 +728,7 @@
   </node>
   <node concept="1YbPZF" id="6SzhJU2N_yi">
     <property role="TrG5h" value="typeof_BinaryBehaviourExpression" />
-    <property role="3GE5qa" value="ExpressionBase" />
+    <property role="3GE5qa" value="expression_base" />
     <node concept="3clFbS" id="6SzhJU2N_yj" role="18ibNy" />
     <node concept="1YaCAy" id="6SzhJU2N_yl" role="1YuTPh">
       <property role="TrG5h" value="binaryBehaviourExpression" />
@@ -774,7 +774,7 @@
   </node>
   <node concept="18kY7G" id="Co6UEZCbGw">
     <property role="TrG5h" value="check_Binary_Expression" />
-    <property role="3GE5qa" value="ExpressionBase" />
+    <property role="3GE5qa" value="expression_base" />
     <node concept="3clFbS" id="Co6UEZCbGx" role="18ibNy">
       <node concept="3clFbJ" id="5SiswCcgAOD" role="3cqZAp">
         <node concept="3clFbS" id="5SiswCcgAOE" role="3clFbx">
@@ -936,7 +936,7 @@
   </node>
   <node concept="18kY7G" id="2kdpv8l7HbG">
     <property role="TrG5h" value="check_StringConstant" />
-    <property role="3GE5qa" value="valueExpressions" />
+    <property role="3GE5qa" value="value_expressions" />
     <node concept="3clFbS" id="2kdpv8l7HbH" role="18ibNy">
       <node concept="3clFbJ" id="2kdpv8l7HbN" role="3cqZAp">
         <node concept="3fqX7Q" id="2kdpv8l7HbZ" role="3clFbw">
@@ -1060,7 +1060,7 @@
   </node>
   <node concept="1YbPZF" id="2kdpv8lbFG1">
     <property role="TrG5h" value="typeof_BoolConstant" />
-    <property role="3GE5qa" value="valueExpressions" />
+    <property role="3GE5qa" value="value_expressions" />
     <node concept="3clFbS" id="2kdpv8lbFG2" role="18ibNy">
       <node concept="1Z5TYs" id="2kdpv8lbFRj" role="3cqZAp">
         <node concept="mw_s8" id="2kdpv8lbFRB" role="1ZfhKB">
@@ -1086,7 +1086,7 @@
   </node>
   <node concept="1YbPZF" id="2kdpv8lbJsX">
     <property role="TrG5h" value="typeof_IntConstant" />
-    <property role="3GE5qa" value="valueExpressions" />
+    <property role="3GE5qa" value="value_expressions" />
     <node concept="3clFbS" id="2kdpv8lbJsY" role="18ibNy">
       <node concept="1Z5TYs" id="2kdpv8lbJCf" role="3cqZAp">
         <node concept="mw_s8" id="2kdpv8lbJCz" role="1ZfhKB">
@@ -1112,7 +1112,7 @@
   </node>
   <node concept="1YbPZF" id="2kdpv8lbJKA">
     <property role="TrG5h" value="typeof_StringConstant" />
-    <property role="3GE5qa" value="valueExpressions" />
+    <property role="3GE5qa" value="value_expressions" />
     <node concept="3clFbS" id="2kdpv8lbJKB" role="18ibNy">
       <node concept="1Z5TYs" id="2kdpv8lbJRu" role="3cqZAp">
         <node concept="mw_s8" id="2kdpv8lbJRM" role="1ZfhKB">
@@ -1138,7 +1138,7 @@
   </node>
   <node concept="1YbPZF" id="2kdpv8lbJTd">
     <property role="TrG5h" value="typeof_IfExpression" />
-    <property role="3GE5qa" value="valueExpressions" />
+    <property role="3GE5qa" value="value_expressions" />
     <node concept="3clFbS" id="2kdpv8lbJTe" role="18ibNy">
       <node concept="1Z5TYs" id="2kdpv8lclyO" role="3cqZAp">
         <node concept="mw_s8" id="2kdpv8lclyT" role="1ZfhK$">
@@ -1364,7 +1364,7 @@
   </node>
   <node concept="1YbPZF" id="2kdpv8lfYMN">
     <property role="TrG5h" value="typeof_EqualityExpression" />
-    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
     <node concept="3clFbS" id="2kdpv8lfYMO" role="18ibNy">
       <node concept="1Z5TYs" id="3WwRdm5Fd5Z" role="3cqZAp">
         <node concept="mw_s8" id="3WwRdm5Fd61" role="1ZfhK$">
@@ -1459,7 +1459,7 @@
   </node>
   <node concept="1YbPZF" id="2kdpv8ljx5T">
     <property role="TrG5h" value="typeof_ParenthesizedExpression" />
-    <property role="3GE5qa" value="ExpressionBase" />
+    <property role="3GE5qa" value="expression_base" />
     <node concept="3clFbS" id="2kdpv8ljx5U" role="18ibNy">
       <node concept="1Z5TYs" id="2kdpv8ljxC7" role="3cqZAp">
         <node concept="mw_s8" id="2kdpv8ljxCr" role="1ZfhKB">
@@ -1490,7 +1490,7 @@
   </node>
   <node concept="1YbPZF" id="2kdpv8lk8LW">
     <property role="TrG5h" value="typeof_Let" />
-    <property role="3GE5qa" value="ExpressionBase" />
+    <property role="3GE5qa" value="expression_base" />
     <node concept="3clFbS" id="2kdpv8lk8LX" role="18ibNy">
       <node concept="1Z5TYs" id="2kdpv8lk8Uf" role="3cqZAp">
         <node concept="mw_s8" id="2kdpv8lk8Uz" role="1ZfhKB">
@@ -1521,7 +1521,7 @@
   </node>
   <node concept="18kY7G" id="5DuWkze$5aN">
     <property role="TrG5h" value="check_FunctionDef" />
-    <property role="3GE5qa" value="Functions" />
+    <property role="3GE5qa" value="functions" />
     <node concept="3clFbS" id="5DuWkze$5aO" role="18ibNy">
       <node concept="2Gpval" id="5DuWkze$cjl" role="3cqZAp">
         <node concept="3clFbS" id="5DuWkze$cjs" role="2LFqv$">
@@ -1605,7 +1605,7 @@
   </node>
   <node concept="1YbPZF" id="5DuWkze$Ljo">
     <property role="TrG5h" value="typeof_VariableExpression" />
-    <property role="3GE5qa" value="valueExpressions" />
+    <property role="3GE5qa" value="value_expressions" />
     <node concept="3clFbS" id="5DuWkze$Ljp" role="18ibNy">
       <node concept="1Z5TYs" id="5DuWkze$LRg" role="3cqZAp">
         <node concept="mw_s8" id="5DuWkze$LR$" role="1ZfhKB">
@@ -1636,7 +1636,7 @@
   </node>
   <node concept="1YbPZF" id="5DuWkze$MIE">
     <property role="TrG5h" value="typeof_VarDec" />
-    <property role="3GE5qa" value="Vardecs" />
+    <property role="3GE5qa" value="vardecs" />
     <node concept="3clFbS" id="5DuWkze$MIF" role="18ibNy">
       <node concept="3clFbJ" id="5DuWkze$MIL" role="3cqZAp">
         <node concept="2OqwBi" id="5DuWkze$Nff" role="3clFbw">
@@ -1795,7 +1795,7 @@
   </node>
   <node concept="1YbPZF" id="5DuWkzeAF41">
     <property role="TrG5h" value="typeof_FunctionDef" />
-    <property role="3GE5qa" value="Functions" />
+    <property role="3GE5qa" value="functions" />
     <node concept="3clFbS" id="5DuWkzeAF42" role="18ibNy">
       <node concept="1Z5TYs" id="5DuWkzeAFph" role="3cqZAp">
         <node concept="mw_s8" id="5DuWkzeAFpk" role="1ZfhK$">
@@ -1840,7 +1840,7 @@
   </node>
   <node concept="1YbPZF" id="3ZG$ufCTPHA">
     <property role="TrG5h" value="typeof_AllIntgerBinaryExpression" />
-    <property role="3GE5qa" value="valueExpressions.abstract_nodes" />
+    <property role="3GE5qa" value="value_expressions.abstract_nodes" />
     <node concept="3clFbS" id="3ZG$ufCTPHB" role="18ibNy">
       <node concept="1Z5TYs" id="3ZG$ufCTPI9" role="3cqZAp">
         <node concept="mw_s8" id="3ZG$ufCTPIa" role="1ZfhK$">
@@ -1933,7 +1933,7 @@
   </node>
   <node concept="1YbPZF" id="3ZG$ufCVdV4">
     <property role="TrG5h" value="typeof_concatination" />
-    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
     <node concept="3clFbS" id="3ZG$ufCVdV5" role="18ibNy">
       <node concept="1Z5TYs" id="3ZG$ufCVemP" role="3cqZAp">
         <node concept="mw_s8" id="3ZG$ufCVemQ" role="1ZfhK$">
@@ -2010,7 +2010,7 @@
   </node>
   <node concept="1YbPZF" id="3ZG$ufCVYiU">
     <property role="TrG5h" value="typeof_InequalityExpression" />
-    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
     <node concept="3clFbS" id="3ZG$ufCVYiV" role="18ibNy">
       <node concept="1ZoVOM" id="3ZG$ufCVYrl" role="3cqZAp">
         <node concept="mw_s8" id="3ZG$ufCVYrm" role="1ZfhKB">
@@ -2074,7 +2074,7 @@
   </node>
   <node concept="18kY7G" id="3OjKFfP$bF1">
     <property role="TrG5h" value="check_VarDec" />
-    <property role="3GE5qa" value="Vardecs" />
+    <property role="3GE5qa" value="vardecs" />
     <node concept="3clFbS" id="3OjKFfP$bF2" role="18ibNy">
       <node concept="1X3_iC" id="2ZlpRrie3I0" role="lGtFl">
         <property role="3V$3am" value="statement" />
@@ -2405,7 +2405,7 @@
   </node>
   <node concept="1YbPZF" id="3OjKFfPF0xT">
     <property role="TrG5h" value="typeof_FunctionCall" />
-    <property role="3GE5qa" value="valueExpressions" />
+    <property role="3GE5qa" value="value_expressions" />
     <node concept="3clFbS" id="3OjKFfPF0xU" role="18ibNy">
       <node concept="3clFbJ" id="3OjKFfPFa77" role="3cqZAp">
         <node concept="3clFbS" id="3OjKFfPFa79" role="3clFbx">
@@ -2526,7 +2526,7 @@
   </node>
   <node concept="18kY7G" id="3OjKFfPFmn7">
     <property role="TrG5h" value="check_FunctionCall" />
-    <property role="3GE5qa" value="valueExpressions" />
+    <property role="3GE5qa" value="value_expressions" />
     <node concept="3clFbS" id="3OjKFfPFmn8" role="18ibNy">
       <node concept="3clFbJ" id="3OjKFfPFmqe" role="3cqZAp">
         <node concept="3clFbS" id="3OjKFfPFmqf" role="3clFbx">
@@ -3225,7 +3225,7 @@
   </node>
   <node concept="1YbPZF" id="Hdx04rh5q4">
     <property role="TrG5h" value="typeof_buildInFunctionCall" />
-    <property role="3GE5qa" value="valueExpressions.abstract_nodes" />
+    <property role="3GE5qa" value="value_expressions.abstract_nodes" />
     <node concept="3clFbS" id="Hdx04rh5q5" role="18ibNy">
       <node concept="3clFbF" id="Hdx04rh5qc" role="3cqZAp">
         <node concept="2OqwBi" id="Hdx04rh5S7" role="3clFbG">
@@ -3261,7 +3261,7 @@
   </node>
   <node concept="18kY7G" id="Hdx04rh9fX">
     <property role="TrG5h" value="check_buildInFunction" />
-    <property role="3GE5qa" value="valueExpressions.abstract_nodes" />
+    <property role="3GE5qa" value="value_expressions.abstract_nodes" />
     <node concept="3clFbS" id="Hdx04rh9fY" role="18ibNy">
       <node concept="3clFbJ" id="Hdx04rh9g4" role="3cqZAp">
         <node concept="3y3z36" id="Hdx04rheqT" role="3clFbw">
@@ -3335,7 +3335,7 @@
   </node>
   <node concept="18kY7G" id="1dmDcT7UwHY">
     <property role="TrG5h" value="check_ConstructorCall" />
-    <property role="3GE5qa" value="valueExpressions" />
+    <property role="3GE5qa" value="value_expressions" />
     <node concept="3clFbS" id="1dmDcT7UwHZ" role="18ibNy">
       <node concept="3clFbJ" id="1dmDcT7UwI5" role="3cqZAp">
         <node concept="3clFbS" id="1dmDcT7UwI6" role="3clFbx">
@@ -3425,7 +3425,7 @@
   </node>
   <node concept="1YbPZF" id="1dmDcT7U$9o">
     <property role="TrG5h" value="typeof_ConstructorCall" />
-    <property role="3GE5qa" value="valueExpressions" />
+    <property role="3GE5qa" value="value_expressions" />
     <node concept="3clFbS" id="1dmDcT7U$9p" role="18ibNy">
       <node concept="3clFbJ" id="1dmDcT7U$9v" role="3cqZAp">
         <node concept="3clFbS" id="1dmDcT7U$9w" role="3clFbx">
@@ -3797,7 +3797,7 @@
   </node>
   <node concept="1YbPZF" id="3WwRdm5G6qN">
     <property role="TrG5h" value="typeof_FieldAccessor" />
-    <property role="3GE5qa" value="valueExpressions" />
+    <property role="3GE5qa" value="value_expressions" />
     <node concept="3clFbS" id="3WwRdm5G6qO" role="18ibNy">
       <node concept="1Z5TYs" id="3WwRdm5G6AM" role="3cqZAp">
         <node concept="mw_s8" id="3WwRdm5G6B6" role="1ZfhKB">
@@ -3864,7 +3864,7 @@
   </node>
   <node concept="18kY7G" id="7oTuwCVfcFL">
     <property role="TrG5h" value="check_FromStringFcall" />
-    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
     <node concept="3clFbS" id="7oTuwCVfcFM" role="18ibNy">
       <node concept="1X3_iC" id="7oTuwCViRXe" role="lGtFl">
         <property role="3V$3am" value="statement" />
@@ -4027,7 +4027,7 @@
   </node>
   <node concept="18kY7G" id="7oTuwCVkjAa">
     <property role="TrG5h" value="check_operatorDef" />
-    <property role="3GE5qa" value="Functions" />
+    <property role="3GE5qa" value="functions" />
     <node concept="3clFbS" id="7oTuwCVkjAb" role="18ibNy">
       <node concept="3clFbJ" id="7oTuwCVkjAh" role="3cqZAp">
         <node concept="22lmx$" id="7oTuwCVoghw" role="3clFbw">
@@ -4091,7 +4091,7 @@
   </node>
   <node concept="1YbPZF" id="3j$zqyhQ8UU">
     <property role="TrG5h" value="typeof_BinaryOperatorCall" />
-    <property role="3GE5qa" value="valueExpressions" />
+    <property role="3GE5qa" value="value_expressions" />
     <node concept="3clFbS" id="3j$zqyhQ8UV" role="18ibNy">
       <node concept="3clFbJ" id="3j$zqyhQ8V1" role="3cqZAp">
         <node concept="3y3z36" id="3j$zqyhQeSY" role="3clFbw">
@@ -4240,7 +4240,7 @@
   </node>
   <node concept="1YbPZF" id="3j$zqyhYKM$">
     <property role="TrG5h" value="typeof_UnaryMinusExpression" />
-    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
     <node concept="3clFbS" id="3j$zqyhYKM_" role="18ibNy">
       <node concept="1Z5TYs" id="3j$zqyhYLBU" role="3cqZAp">
         <node concept="mw_s8" id="3j$zqyhYLBX" role="1ZfhK$">
@@ -4287,7 +4287,7 @@
   </node>
   <node concept="1YbPZF" id="3j$zqyi3J7P">
     <property role="TrG5h" value="typeof_UnaryOperatorCall" />
-    <property role="3GE5qa" value="valueExpressions" />
+    <property role="3GE5qa" value="value_expressions" />
     <node concept="3clFbS" id="3j$zqyi3J7Q" role="18ibNy">
       <node concept="3clFbJ" id="3j$zqyi3PEV" role="3cqZAp">
         <node concept="3clFbS" id="3j$zqyi3PEX" role="3clFbx">
@@ -4418,7 +4418,7 @@
   </node>
   <node concept="1YbPZF" id="3j$zqyiaeaG">
     <property role="TrG5h" value="typeof_AndExpression" />
-    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
     <node concept="3clFbS" id="3j$zqyiaeaH" role="18ibNy">
       <node concept="1Z5TYs" id="3j$zqyiaemz" role="3cqZAp">
         <node concept="mw_s8" id="3j$zqyiaemR" role="1ZfhKB">
@@ -4488,7 +4488,7 @@
   </node>
   <node concept="1YbPZF" id="3j$zqyiagpp">
     <property role="TrG5h" value="typeof_OrExpression" />
-    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
     <node concept="3clFbS" id="3j$zqyiagpq" role="18ibNy">
       <node concept="1Z5TYs" id="3j$zqyiagpw" role="3cqZAp">
         <node concept="mw_s8" id="3j$zqyiagpx" role="1ZfhKB">
@@ -4558,7 +4558,7 @@
   </node>
   <node concept="1YbPZF" id="7RvRn9gaAHw">
     <property role="TrG5h" value="typeof_XorExpression" />
-    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
     <node concept="3clFbS" id="7RvRn9gaAHx" role="18ibNy">
       <node concept="1Z5TYs" id="7RvRn9gaATn" role="3cqZAp">
         <node concept="mw_s8" id="7RvRn9gaATF" role="1ZfhKB">
@@ -4628,7 +4628,7 @@
   </node>
   <node concept="1YbPZF" id="7RvRn9gaCAC">
     <property role="TrG5h" value="typeof_ImpliesExpression" />
-    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
     <node concept="3clFbS" id="7RvRn9gaCAD" role="18ibNy">
       <node concept="1Z5TYs" id="7RvRn9gaCAL" role="3cqZAp">
         <node concept="mw_s8" id="7RvRn9gaCAM" role="1ZfhKB">
@@ -4686,7 +4686,7 @@
   </node>
   <node concept="1YbPZF" id="7RvRn9gg9Ra">
     <property role="TrG5h" value="typeof_toStringFcall" />
-    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
     <node concept="3clFbS" id="7RvRn9gg9Rb" role="18ibNy">
       <node concept="3SKdUt" id="7RvRn9gga2M" role="3cqZAp">
         <node concept="1PaTwC" id="7RvRn9gga2N" role="1aUNEU">
@@ -4789,12 +4789,12 @@
     </node>
     <node concept="1YaCAy" id="7RvRn9gg9Rd" role="1YuTPh">
       <property role="TrG5h" value="toStringFcall" />
-      <ref role="1YaFvo" to="b8q8:Hdx04rjfF2" resolve="toStringFcall" />
+      <ref role="1YaFvo" to="b8q8:Hdx04rjfF2" resolve="ToStringFcall" />
     </node>
   </node>
   <node concept="1YbPZF" id="7RvRn9gk1Ci">
     <property role="TrG5h" value="typeof_LessThanExpression" />
-    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
     <node concept="3clFbS" id="7RvRn9gk1Cj" role="18ibNy">
       <node concept="1Z5TYs" id="7RvRn9gk1L1" role="3cqZAp">
         <node concept="mw_s8" id="7RvRn9gk1Ll" role="1ZfhKB">
@@ -4862,7 +4862,7 @@
   </node>
   <node concept="1YbPZF" id="7RvRn9gk3Jq">
     <property role="TrG5h" value="typeof_GreaterThanExpression" />
-    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
     <node concept="3clFbS" id="7RvRn9gk3Jr" role="18ibNy">
       <node concept="1Z5TYs" id="7RvRn9gk4Ro" role="3cqZAp">
         <node concept="mw_s8" id="7RvRn9gk4Rp" role="1ZfhKB">
@@ -4930,7 +4930,7 @@
   </node>
   <node concept="1YbPZF" id="7RvRn9gk4Qp">
     <property role="TrG5h" value="typeof_GreaterThanEqualExpression" />
-    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
     <node concept="3clFbS" id="7RvRn9gk4Qq" role="18ibNy">
       <node concept="1Z5TYs" id="7RvRn9gk4Qz" role="3cqZAp">
         <node concept="mw_s8" id="7RvRn9gk4Q$" role="1ZfhKB">
@@ -4998,7 +4998,7 @@
   </node>
   <node concept="1YbPZF" id="7RvRn9gk5TF">
     <property role="TrG5h" value="typeof_LessThanEqualExpression" />
-    <property role="3GE5qa" value="valueExpressions.build_in_function" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
     <node concept="3clFbS" id="7RvRn9gk5TG" role="18ibNy">
       <node concept="1Z5TYs" id="7RvRn9gk5TM" role="3cqZAp">
         <node concept="mw_s8" id="7RvRn9gk5TN" role="1ZfhKB">
@@ -5066,7 +5066,7 @@
   </node>
   <node concept="1YbPZF" id="7RvRn9gm$28">
     <property role="TrG5h" value="typeof_InitialisedVardec" />
-    <property role="3GE5qa" value="Vardecs" />
+    <property role="3GE5qa" value="vardecs" />
     <node concept="3clFbS" id="7RvRn9gm$29" role="18ibNy">
       <node concept="3SKdUt" id="7RvRn9gm$$m" role="3cqZAp">
         <node concept="1PaTwC" id="7RvRn9gm$$n" role="1aUNEU">
@@ -5554,7 +5554,7 @@
   </node>
   <node concept="18kY7G" id="IzgQY3qVHp">
     <property role="TrG5h" value="check_MandatoryTypeVardec" />
-    <property role="3GE5qa" value="Vardecs" />
+    <property role="3GE5qa" value="vardecs" />
     <node concept="3clFbS" id="IzgQY3qVHq" role="18ibNy">
       <node concept="3clFbJ" id="IzgQY3qVVj" role="3cqZAp">
         <node concept="2OqwBi" id="IzgQY3qVVk" role="3clFbw">
@@ -5682,7 +5682,7 @@
   </node>
   <node concept="18kY7G" id="7TffPm5YiY7">
     <property role="TrG5h" value="check_IfExpression" />
-    <property role="3GE5qa" value="valueExpressions" />
+    <property role="3GE5qa" value="value_expressions" />
     <node concept="3clFbS" id="7TffPm5YiY8" role="18ibNy">
       <node concept="3cpWs8" id="7TffPm5YiYe" role="3cqZAp">
         <node concept="3cpWsn" id="7TffPm5YiYf" role="3cpWs9">
