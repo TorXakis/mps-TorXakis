@@ -205,9 +205,6 @@
     <property role="3GE5qa" value="functions" />
     <property role="34LRSv" value="FUNCDEF" />
     <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakisDefinition" />
-    <node concept="PrWs8" id="7tKE5PeXPVF" role="PzmwI">
-      <ref role="PrY4T" node="7tKE5PeXLM1" resolve="Placeholder" />
-    </node>
     <node concept="1TJgyj" id="5DuWkzevyPh" role="1TKVEi">
       <property role="IQ2ns" value="6511907406228630865" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
