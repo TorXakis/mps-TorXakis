@@ -64,6 +64,9 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -433,6 +436,7 @@
       </concept>
       <concept id="9042586985346099736" name="jetbrains.mps.baseLanguage.collections.structure.MultiForEachVariable" flags="ng" index="1_o_bG" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
+      <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
       <concept id="8293956702609956630" name="jetbrains.mps.baseLanguage.collections.structure.MultiForEachVariableReference" flags="nn" index="3M$PaV">
         <reference id="8293956702609966325" name="variable" index="3M$S_o" />
       </concept>
@@ -9037,6 +9041,73 @@
     <node concept="1YaCAy" id="61mj90MkhfD" role="1YuTPh">
       <property role="TrG5h" value="expr" />
       <ref role="1YaFvo" to="b8q8:784v76A1hKr" resolve="EnableExpression" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="26ghq3MBA6Q">
+    <property role="TrG5h" value="check_HasNonReservedName" />
+    <property role="3GE5qa" value="id_constraints" />
+    <node concept="3clFbS" id="26ghq3MBA6R" role="18ibNy">
+      <node concept="3clFbJ" id="26ghq3MBAbq" role="3cqZAp">
+        <node concept="3clFbS" id="26ghq3MBAbr" role="3clFbx">
+          <node concept="2MkqsV" id="26ghq3MBAbs" role="3cqZAp">
+            <node concept="Xl_RD" id="26ghq3MBAbt" role="2MkJ7o">
+              <property role="Xl_RC" value="please enter a name" />
+            </node>
+            <node concept="1YBJjd" id="26ghq3MBAo2" role="1urrMF">
+              <ref role="1YBMHb" node="26ghq3MBA6T" resolve="hasNonReservedName" />
+            </node>
+            <node concept="2ODE4t" id="26ghq3MBAbv" role="1urrC5">
+              <ref role="2ODJFN" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbC" id="26ghq3MBAbw" role="3clFbw">
+          <node concept="10Nm6u" id="26ghq3MBAbx" role="3uHU7w" />
+          <node concept="2OqwBi" id="26ghq3MBAby" role="3uHU7B">
+            <node concept="1YBJjd" id="26ghq3MBAhK" role="2Oq$k0">
+              <ref role="1YBMHb" node="26ghq3MBA6T" resolve="hasNonReservedName" />
+            </node>
+            <node concept="3TrcHB" id="26ghq3MBAb$" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+        <node concept="3eNFk2" id="26ghq3MBAb_" role="3eNLev">
+          <node concept="3clFbS" id="26ghq3MBAbA" role="3eOfB_">
+            <node concept="2MkqsV" id="26ghq3MBAbB" role="3cqZAp">
+              <node concept="Xl_RD" id="26ghq3MBAbC" role="2MkJ7o">
+                <property role="Xl_RC" value="Illegal name. This name is reserved by TorXakis, and cannot be redefined or overloaded" />
+              </node>
+              <node concept="1YBJjd" id="26ghq3MBCmF" role="1urrMF">
+                <ref role="1YBMHb" node="26ghq3MBA6T" resolve="hasNonReservedName" />
+              </node>
+              <node concept="2ODE4t" id="26ghq3MBAbE" role="1urrC5">
+                <ref role="2ODJFN" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="26ghq3MBBln" role="3eO9$A">
+            <node concept="10M0yZ" id="26ghq3MBAy$" role="2Oq$k0">
+              <ref role="3cqZAo" to="l2p8:26ghq3MBhBa" resolve="reserved_names" />
+              <ref role="1PxDUh" to="l2p8:7oTuwCVoIRk" resolve="nameRegexes" />
+            </node>
+            <node concept="3JPx81" id="26ghq3MBBT1" role="2OqNvi">
+              <node concept="2OqwBi" id="26ghq3MBC1X" role="25WWJ7">
+                <node concept="1YBJjd" id="26ghq3MBBTF" role="2Oq$k0">
+                  <ref role="1YBMHb" node="26ghq3MBA6T" resolve="hasNonReservedName" />
+                </node>
+                <node concept="3TrcHB" id="26ghq3MBCdU" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="26ghq3MBA6T" role="1YuTPh">
+      <property role="TrG5h" value="hasNonReservedName" />
+      <ref role="1YaFvo" to="b8q8:26ghq3MB_Up" resolve="HasNonReservedName" />
     </node>
   </node>
 </model>

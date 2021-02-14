@@ -227,10 +227,10 @@
       </node>
       <node concept="Nz1V5" id="6t0Dry2gkfH" role="Nz1V6">
         <node concept="1olYwO" id="6t0Dry2gkfI" role="Nz1Vd">
-          <property role="TrG5h" value="IN" />
+          <property role="TrG5h" value="in" />
         </node>
         <node concept="1olYwO" id="6t0Dry2gkfT" role="Nz1Vd">
-          <property role="TrG5h" value="OUT" />
+          <property role="TrG5h" value="out" />
         </node>
       </node>
     </node>
@@ -804,7 +804,7 @@
     <node concept="Tx2eO" id="7tKE5Pf0d3M" role="TxEeo">
       <property role="TrG5h" value="Emptysynctest" />
       <node concept="TzesD" id="6t0Dry2gkfW" role="Tzes_">
-        <ref role="TzesC" node="6t0Dry2gkfI" resolve="IN" />
+        <ref role="TzesC" node="6t0Dry2gkfI" resolve="in" />
       </node>
       <node concept="3GTDha" id="6SzhJU2LUnx" role="TzevQ">
         <node concept="Nz1V5" id="7kIA9EAOyTf" role="3GTDgW">
@@ -853,7 +853,7 @@
               </node>
               <node concept="3GUDcN" id="1HGP1svUPq4" role="3GUHQ0">
                 <node concept="TzesD" id="1HGP1svUPq2" role="22fPEN">
-                  <ref role="TzesC" node="6t0Dry2gkfI" resolve="IN" />
+                  <ref role="TzesC" node="6t0Dry2gkfI" resolve="in" />
                 </node>
               </node>
               <node concept="3GUHQI" id="4FBkHcUouey" role="3GUHQN">
@@ -1091,7 +1091,7 @@
         </node>
       </node>
       <node concept="TzesD" id="6t0Dry2gkfZ" role="TzesA">
-        <ref role="TzesC" node="6t0Dry2gkfT" resolve="OUT" />
+        <ref role="TzesC" node="6t0Dry2gkfT" resolve="out" />
       </node>
     </node>
     <node concept="Tx2eO" id="462tQr3piua" role="TxEeo">
@@ -1368,7 +1368,7 @@
     </node>
   </node>
   <node concept="Tx2eV" id="3QyoU4ec6iL">
-    <property role="TrG5h" value="typetest" />
+    <property role="TrG5h" value="typetest.txs" />
     <node concept="Tx2eL" id="7VUZddFGgg4" role="TxEeo">
       <node concept="ll1We" id="7VUZddFGMYY" role="ll1WN">
         <property role="TrG5h" value="Point" />

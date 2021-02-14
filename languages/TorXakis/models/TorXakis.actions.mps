@@ -59,6 +59,7 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
@@ -267,6 +268,10 @@
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
+      <concept id="1226511727824" name="jetbrains.mps.baseLanguage.collections.structure.SetType" flags="in" index="2hMVRd">
+        <child id="1226511765987" name="elementType" index="2hN53Y" />
+      </concept>
+      <concept id="1226516258405" name="jetbrains.mps.baseLanguage.collections.structure.HashSetCreator" flags="nn" index="2i4dXS" />
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
@@ -2723,6 +2728,266 @@
       </node>
       <node concept="17QB3L" id="7oTuwCVoKyf" role="3clF45" />
       <node concept="3Tm1VV" id="7oTuwCVoKyg" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="26ghq3MBhwH" role="jymVt" />
+    <node concept="Wx3nA" id="26ghq3MBhBa" role="jymVt">
+      <property role="TrG5h" value="reserved_names" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="26ghq3MBhA3" role="1B3o_S" />
+      <node concept="2hMVRd" id="26ghq3MBhAU" role="1tU5fm">
+        <node concept="17QB3L" id="26ghq3MBhB7" role="2hN53Y" />
+      </node>
+      <node concept="2ShNRf" id="26ghq3MBj6S" role="33vP2m">
+        <node concept="2i4dXS" id="26ghq3MBkiE" role="2ShVmc">
+          <node concept="17QB3L" id="26ghq3MBkni" role="HW$YZ" />
+          <node concept="Xl_RD" id="26ghq3MBksk" role="HW$Y0">
+            <property role="Xl_RC" value="TYPEDEF" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBkvG" role="HW$Y0">
+            <property role="Xl_RC" value="FUNCDEF" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBkzv" role="HW$Y0">
+            <property role="Xl_RC" value="CONSTDEF" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBkAb" role="HW$Y0">
+            <property role="Xl_RC" value="PROCDEF" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBkD8" role="HW$Y0">
+            <property role="Xl_RC" value="CHANDEF" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBkHh" role="HW$Y0">
+            <property role="Xl_RC" value="STAUTDEF" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBkLK" role="HW$Y0">
+            <property role="Xl_RC" value="MODELDEF" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBkQ_" role="HW$Y0">
+            <property role="Xl_RC" value="PURPDEF" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBkWU" role="HW$Y0">
+            <property role="Xl_RC" value="MAPPERDEF" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBl3E" role="HW$Y0">
+            <property role="Xl_RC" value="CNECTDEF" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBl8d" role="HW$Y0">
+            <property role="Xl_RC" value="ENDDEF" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBld1" role="HW$Y0">
+            <property role="Xl_RC" value="GOAL" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBli6" role="HW$Y0">
+            <property role="Xl_RC" value="CHAN" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBlqy" role="HW$Y0">
+            <property role="Xl_RC" value="IN" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBlw9" role="HW$Y0">
+            <property role="Xl_RC" value="OUT" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBlA1" role="HW$Y0">
+            <property role="Xl_RC" value="SYNC" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBlGa" role="HW$Y0">
+            <property role="Xl_RC" value="CLIENTSOCK" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBlS0" role="HW$Y0">
+            <property role="Xl_RC" value="SERVERSOCK" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBm4v" role="HW$Y0">
+            <property role="Xl_RC" value="HOST" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBmbr" role="HW$Y0">
+            <property role="Xl_RC" value="PORT" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBmkI" role="HW$Y0">
+            <property role="Xl_RC" value="ENCODE" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBmwy" role="HW$Y0">
+            <property role="Xl_RC" value="DECODE" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBmCh" role="HW$Y0">
+            <property role="Xl_RC" value="STATE" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBmKh" role="HW$Y0">
+            <property role="Xl_RC" value="VAR" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBmZB" role="HW$Y0">
+            <property role="Xl_RC" value="INIT" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBn89" role="HW$Y0">
+            <property role="Xl_RC" value="TRANS" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBnjw" role="HW$Y0">
+            <property role="Xl_RC" value="FROM" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBnvd" role="HW$Y0">
+            <property role="Xl_RC" value="VIA" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBnCy" role="HW$Y0">
+            <property role="Xl_RC" value="TO" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBnM8" role="HW$Y0">
+            <property role="Xl_RC" value="VALUE" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBo1J" role="HW$Y0">
+            <property role="Xl_RC" value="BEHAVIOUR" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBohL" role="HW$Y0">
+            <property role="Xl_RC" value="STOP" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBosa" role="HW$Y0">
+            <property role="Xl_RC" value="EXIT" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBoAO" role="HW$Y0">
+            <property role="Xl_RC" value="HIT" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBoTl" role="HW$Y0">
+            <property role="Xl_RC" value="MISS" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBp80" role="HW$Y0">
+            <property role="Xl_RC" value="ACCEPT" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBpjt" role="HW$Y0">
+            <property role="Xl_RC" value="HIDE" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBprK" role="HW$Y0">
+            <property role="Xl_RC" value="LET" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBpBJ" role="HW$Y0">
+            <property role="Xl_RC" value="NI" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBpNZ" role="HW$Y0">
+            <property role="Xl_RC" value="BEGIN" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBq0w" role="HW$Y0">
+            <property role="Xl_RC" value="END" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBqdi" role="HW$Y0">
+            <property role="Xl_RC" value="IF" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBqql" role="HW$Y0">
+            <property role="Xl_RC" value="THEN" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBqBD" role="HW$Y0">
+            <property role="Xl_RC" value="ELSE" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBqLg" role="HW$Y0">
+            <property role="Xl_RC" value="FI" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBqZ6" role="HW$Y0">
+            <property role="Xl_RC" value="ISTEP" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBrhl" role="HW$Y0">
+            <property role="Xl_RC" value="QSTEP" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBrv$" role="HW$Y0">
+            <property role="Xl_RC" value="REGEX" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBrQC" role="HW$Y0">
+            <property role="Xl_RC" value="ANY" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBs5y" role="HW$Y0">
+            <property role="Xl_RC" value="True" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBskH" role="HW$Y0">
+            <property role="Xl_RC" value="False" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBs$9" role="HW$Y0">
+            <property role="Xl_RC" value="-&gt;" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBsNQ" role="HW$Y0">
+            <property role="Xl_RC" value="&lt;-" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBt3O" role="HW$Y0">
+            <property role="Xl_RC" value="[]" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBtk3" role="HW$Y0">
+            <property role="Xl_RC" value="##" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBt$z" role="HW$Y0">
+            <property role="Xl_RC" value="||" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBtPk" role="HW$Y0">
+            <property role="Xl_RC" value="|||" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBu6m" role="HW$Y0">
+            <property role="Xl_RC" value="|[" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBui_" role="HW$Y0">
+            <property role="Xl_RC" value="]|" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBu$9" role="HW$Y0">
+            <property role="Xl_RC" value="&gt;-&gt;" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBuKK" role="HW$Y0">
+            <property role="Xl_RC" value="&gt;&gt;&gt;" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBv2Q" role="HW$Y0">
+            <property role="Xl_RC" value="[&gt;&gt;" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBvld" role="HW$Y0">
+            <property role="Xl_RC" value="[&gt;&lt;" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBvHi" role="HW$Y0">
+            <property role="Xl_RC" value="[[" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBw0b" role="HW$Y0">
+            <property role="Xl_RC" value="]]" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBwjl" role="HW$Y0">
+            <property role="Xl_RC" value="[" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBwx4" role="HW$Y0">
+            <property role="Xl_RC" value="]" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBwOK" role="HW$Y0">
+            <property role="Xl_RC" value="{" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBx2R" role="HW$Y0">
+            <property role="Xl_RC" value="}" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBxn5" role="HW$Y0">
+            <property role="Xl_RC" value="(" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBxF$" role="HW$Y0">
+            <property role="Xl_RC" value=")" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBy0k" role="HW$Y0">
+            <property role="Xl_RC" value="::" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MByll" role="HW$Y0">
+            <property role="Xl_RC" value="::=" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MByEB" role="HW$Y0">
+            <property role="Xl_RC" value=":=" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBz6u" role="HW$Y0">
+            <property role="Xl_RC" value="=" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBzsi" role="HW$Y0">
+            <property role="Xl_RC" value="=&gt;&gt;" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MBzSP" role="HW$Y0">
+            <property role="Xl_RC" value="|" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MB$fb" role="HW$Y0">
+            <property role="Xl_RC" value="?" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MB$_M" role="HW$Y0">
+            <property role="Xl_RC" value="!" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MB$WE" role="HW$Y0">
+            <property role="Xl_RC" value="#" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MB_jN" role="HW$Y0">
+            <property role="Xl_RC" value=";" />
+          </node>
+          <node concept="Xl_RD" id="26ghq3MB_Fd" role="HW$Y0">
+            <property role="Xl_RC" value="," />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="7oTuwCVoKvK" role="jymVt" />
     <node concept="3Tm1VV" id="7oTuwCVoIRl" role="1B3o_S" />
