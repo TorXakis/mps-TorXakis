@@ -1448,9 +1448,6 @@
       </node>
       <node concept="ll1We" id="7VUZddFOgLM" role="ll1WN">
         <property role="TrG5h" value="VOID" />
-        <node concept="llhRl" id="5T0tj1y06hZ" role="llhRq">
-          <property role="TrG5h" value="T" />
-        </node>
       </node>
       <node concept="ll1We" id="7VUZddFWItA" role="ll1WN">
         <property role="TrG5h" value="NULL" />
