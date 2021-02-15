@@ -85,8 +85,8 @@
       <concept id="8606564006615092203" name="TorXakis.structure.ChanDef" flags="ng" index="Tx2eQ">
         <child id="4441221725919542631" name="channels" index="Nz1V6" />
       </concept>
-      <concept id="8606564006615092202" name="TorXakis.structure.CnectDef" flags="ng" index="Tx2eR" />
       <concept id="8606564006615092198" name="TorXakis.structure.TorxakisFile" flags="ng" index="Tx2eV">
+        <property id="5910612774578324451" name="generator_location" index="3zDzjz" />
         <child id="8606564006615190469" name="definitions" index="TxEeo" />
       </concept>
       <concept id="8606564006615175725" name="TorXakis.structure.FuncDefList" flags="ng" index="TxnDK">
@@ -95,8 +95,6 @@
       <concept id="8606564006615175724" name="TorXakis.structure.ConstDefList" flags="ng" index="TxnDL">
         <child id="9101563008477019909" name="constants" index="3Vl81g" />
       </concept>
-      <concept id="8606564006615175727" name="TorXakis.structure.StautDef" flags="ng" index="TxnDM" />
-      <concept id="8606564006615175726" name="TorXakis.structure.ProcDef" flags="ng" index="TxnDN" />
       <concept id="8606564006615601012" name="TorXakis.structure.ChannelRef" flags="ng" index="TzesD">
         <reference id="8606564006615601013" name="channel" index="TzesC" />
       </concept>
@@ -198,6 +196,7 @@
   </registry>
   <node concept="Tx2eV" id="7tKE5PeXJW7">
     <property role="TrG5h" value="test.txs" />
+    <property role="3zDzjz" value="bin" />
     <node concept="Tx2eQ" id="7tKE5PeXJW8" role="TxEeo">
       <property role="TrG5h" value="First" />
       <node concept="Nz1V5" id="3QyoU4ebPNu" role="Nz1V6">
@@ -234,32 +233,29 @@
         </node>
       </node>
     </node>
-    <node concept="Tx2eQ" id="lsoyDBTwgS" role="TxEeo">
-      <property role="TrG5h" value="A" />
-      <node concept="Nz1V5" id="6t0Dry2bjWP" role="Nz1V6">
-        <node concept="1olYwO" id="6t0Dry2bjWQ" role="Nz1Vd">
-          <property role="TrG5h" value="C" />
+    <node concept="Tx2eQ" id="586HK2LzrDk" role="TxEeo">
+      <property role="TrG5h" value="Testdef" />
+      <node concept="Nz1V5" id="586HK2LzrKB" role="Nz1V6">
+        <node concept="1olYwO" id="586HK2LzrKC" role="Nz1Vd">
+          <property role="TrG5h" value="C2" />
         </node>
-        <node concept="1olYwO" id="6t0Dry2bjXu" role="Nz1Vd">
-          <property role="TrG5h" value="D" />
+        <node concept="llhQC" id="586HK2LzrL5" role="Nz1Vf">
+          <ref role="llhQJ" node="1dmDcT87leV" resolve="Intlist" />
         </node>
       </node>
-      <node concept="Nz1V5" id="6t0Dry2ctiP" role="Nz1V6">
-        <node concept="1olYwO" id="6t0Dry2ctiQ" role="Nz1Vd">
-          <property role="TrG5h" value="E" />
+      <node concept="Nz1V5" id="586HK2LzrLh" role="Nz1V6">
+        <node concept="1olYwO" id="586HK2LzrLi" role="Nz1Vd">
+          <property role="TrG5h" value="Da" />
         </node>
-        <node concept="1olYwO" id="6t0Dry2ctj0" role="Nz1Vd">
-          <property role="TrG5h" value="F" />
+        <node concept="1olYwO" id="586HK2LzrLo" role="Nz1Vd">
+          <property role="TrG5h" value="Fa" />
         </node>
-        <node concept="1olYwO" id="6t0Dry2ctj3" role="Nz1Vd">
-          <property role="TrG5h" value="Outofscope" />
-        </node>
+        <node concept="ll1W9" id="586HK2LzrLv" role="Nz1Vf" />
       </node>
     </node>
     <node concept="Tx2eQ" id="lsoyDBTh4Z" role="TxEeo">
       <property role="TrG5h" value="B" />
     </node>
-    <node concept="Tx2eR" id="7tKE5PeXRI9" role="TxEeo" />
     <node concept="Tx2eL" id="7tKE5PeXNX0" role="TxEeo">
       <node concept="ll1We" id="7VUZddFKacn" role="ll1WN">
         <property role="TrG5h" value="NULL" />
@@ -799,8 +795,6 @@
         </node>
       </node>
     </node>
-    <node concept="TxnDN" id="7tKE5PeXRIN" role="TxEeo" />
-    <node concept="TxnDM" id="7tKE5PeXRJ5" role="TxEeo" />
     <node concept="Tx2eO" id="7tKE5Pf0d3M" role="TxEeo">
       <property role="TrG5h" value="Emptysynctest" />
       <node concept="TzesD" id="6t0Dry2gkfW" role="Tzes_">
@@ -811,6 +805,16 @@
           <node concept="1olYwO" id="7kIA9EAOyTg" role="Nz1Vd">
             <property role="TrG5h" value="B" />
           </node>
+          <node concept="1olYwO" id="586HK2L$Ayq" role="Nz1Vd">
+            <property role="TrG5h" value="C" />
+          </node>
+          <node concept="ll1Wa" id="586HK2L$Ayx" role="Nz1Vf" />
+        </node>
+        <node concept="Nz1V5" id="586HK2L$AyF" role="3GTDgW">
+          <node concept="1olYwO" id="586HK2L$AyG" role="Nz1Vd">
+            <property role="TrG5h" value="c" />
+          </node>
+          <node concept="ll1W9" id="586HK2L$AIx" role="Nz1Vf" />
         </node>
         <node concept="3GTDha" id="6SzhJU2M6sn" role="3GTDh5">
           <node concept="Nz1V5" id="7kIA9EAOyTj" role="3GTDgW">
@@ -1102,8 +1106,8 @@
       <node concept="TzesD" id="462tQr3JitQ" role="Tzes_">
         <ref role="TzesC" node="1VVhp_6GfZR" resolve="A" />
       </node>
-      <node concept="TzesD" id="1PNp8hf$GED" role="Tzes_">
-        <ref role="TzesC" node="6t0Dry2bjWQ" resolve="C" />
+      <node concept="TzesD" id="586HK2L$BEy" role="Tzes_">
+        <ref role="TzesC" node="586HK2LzrKC" resolve="C2" />
       </node>
       <node concept="3GUHQ4" id="7TffPm591cp" role="TzevQ">
         <node concept="3GUDki" id="7TffPm591cn" role="3GUHQ0">
@@ -1119,8 +1123,13 @@
           </node>
         </node>
         <node concept="3GUDcN" id="1PNp8hf$GFy" role="3GUHQ0">
-          <node concept="TzesD" id="1PNp8hf$GFw" role="22fPEN">
-            <ref role="TzesC" node="6t0Dry2bjWQ" resolve="C" />
+          <node concept="TzesD" id="586HK2L$BEA" role="22fPEN">
+            <ref role="TzesC" node="586HK2LzrKC" resolve="C2" />
+          </node>
+          <node concept="3GUDRL" id="586HK2L$BGY" role="3GUDcy">
+            <node concept="2kNunK" id="586HK2L$BIA" role="3GUDRH">
+              <ref role="2kNunN" node="7TffPm5as90" resolve="emptylist" />
+            </node>
           </node>
         </node>
       </node>
@@ -1369,6 +1378,7 @@
   </node>
   <node concept="Tx2eV" id="3QyoU4ec6iL">
     <property role="TrG5h" value="typetest.txs" />
+    <property role="3zDzjz" value="bin" />
     <node concept="Tx2eL" id="7VUZddFGgg4" role="TxEeo">
       <node concept="ll1We" id="7VUZddFGMYY" role="ll1WN">
         <property role="TrG5h" value="Point" />
@@ -1498,6 +1508,7 @@
   </node>
   <node concept="Tx2eV" id="61mj90MqoQu">
     <property role="TrG5h" value="functiontest.txs" />
+    <property role="3zDzjz" value="bin" />
     <node concept="TxnDK" id="61mj90Mqp5b" role="TxEeo">
       <node concept="2k8cz4" id="61mj90Mqp5n" role="2k8dKp">
         <property role="TrG5h" value="testfun1" />
