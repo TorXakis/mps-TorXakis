@@ -215,7 +215,7 @@
         </node>
         <node concept="lc7rE" id="61mj90MoFkj" role="3cqZAp">
           <node concept="la8eA" id="61mj90MoFl$" role="lcghm">
-            <property role="lacIc" value="ENDFUN" />
+            <property role="lacIc" value="ENDDEF" />
           </node>
         </node>
         <node concept="3clFbH" id="61mj90MoFFA" role="3cqZAp" />
