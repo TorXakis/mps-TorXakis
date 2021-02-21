@@ -2803,6 +2803,32 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="21SBzWLDFua" role="13h7CS">
+      <property role="TrG5h" value="getDefinedFields" />
+      <node concept="3Tm1VV" id="21SBzWLDFub" role="1B3o_S" />
+      <node concept="A3Dl8" id="21SBzWLDFxr" role="3clF45">
+        <node concept="3Tqbb2" id="21SBzWLDMcQ" role="A3Ik2">
+          <ref role="ehGHo" to="b8q8:7VUZddFFY4Q" resolve="TypeConstructorField" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="21SBzWLDFud" role="3clF47">
+        <node concept="3cpWs6" id="21SBzWLDFza" role="3cqZAp">
+          <node concept="2OqwBi" id="21SBzWLDIK1" role="3cqZAk">
+            <node concept="2OqwBi" id="21SBzWLDGtB" role="2Oq$k0">
+              <node concept="BsUDl" id="21SBzWLDOeF" role="2Oq$k0">
+                <ref role="37wK5l" node="3WwRdm5G8z4" resolve="getcontainingType" />
+              </node>
+              <node concept="3Tsc0h" id="21SBzWLDGDk" role="2OqNvi">
+                <ref role="3TtcxE" to="b8q8:7VUZddFFY49" resolve="constructors" />
+              </node>
+            </node>
+            <node concept="13MTOL" id="21SBzWLDKMe" role="2OqNvi">
+              <ref role="13MTZf" to="b8q8:7VUZddFFY4T" resolve="fields" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13hLZK" id="3WwRdm5G8yU" role="13h7CW">
       <node concept="3clFbS" id="3WwRdm5G8yV" role="2VODD2" />
     </node>
