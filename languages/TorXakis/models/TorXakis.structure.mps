@@ -1671,9 +1671,9 @@
     <node concept="1TJgyj" id="13YbSOG9kht" role="1TKVEi">
       <property role="IQ2ns" value="1224468432068887645" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="types" />
+      <property role="20kJfa" value="offers" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <ref role="20lvS9" node="wkCjs_pl50" resolve="ChannelOfferRef" />
     </node>
   </node>
   <node concept="PlHQZ" id="26ghq3MB_Up">
@@ -1682,6 +1682,19 @@
     <property role="TrG5h" value="HasNonReservedName" />
     <node concept="PrWs8" id="26ghq3MB_Uq" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="wkCjs_pl50">
+    <property role="EcuMT" value="582267510060306752" />
+    <property role="3GE5qa" value="behaviour_expression.exitsort" />
+    <property role="TrG5h" value="ChannelOfferRef" />
+    <property role="R4oN_" value="reference used in exitsort" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="wkCjs_pl51" role="1TKVEi">
+      <property role="IQ2ns" value="582267510060306753" />
+      <property role="20kJfa" value="offer" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="462tQr3QZ52" resolve="ChannelOffer" />
     </node>
   </node>
 </model>

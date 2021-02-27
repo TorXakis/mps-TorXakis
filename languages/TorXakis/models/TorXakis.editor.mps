@@ -7027,7 +7027,7 @@
         <property role="3F0ifm" value="EXIT" />
       </node>
       <node concept="3F2HdR" id="13YbSOGgsEj" role="3EZMnx">
-        <ref role="1NtTu8" to="b8q8:13YbSOG9kht" resolve="types" />
+        <ref role="1NtTu8" to="b8q8:13YbSOG9kht" resolve="offers" />
         <node concept="l2Vlx" id="13YbSOGgsEl" role="2czzBx" />
       </node>
       <node concept="l2Vlx" id="13YbSOGgsE9" role="2iSdaV" />
