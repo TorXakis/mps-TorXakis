@@ -122,7 +122,6 @@
         <child id="8215828447789438264" name="channels" index="3k3q_9" />
       </concept>
       <concept id="8215828447789437431" name="TorXakis.structure.ParallelExpression" flags="ng" index="3k3qQ6" />
-      <concept id="8215828447789437846" name="TorXakis.structure.SynchronizedExpression" flags="ng" index="3k3qZB" />
       <concept id="8215828447791203249" name="TorXakis.structure.IfExpression" flags="ng" index="3k8bZ0">
         <child id="8215828447791203252" name="guard" index="3k8bZ5" />
         <child id="8215828447791203254" name="ifbranch" index="3k8bZ7" />
@@ -3239,44 +3238,88 @@
       </node>
     </node>
   </node>
-  <node concept="Tx2eV" id="21SBzWLHJxi">
-    <property role="TrG5h" value="typeinferancefail.txs" />
-    <property role="3zDzjz" value="bin" />
-    <node concept="Tx2eQ" id="21SBzWLHJx_" role="TxEeo">
-      <property role="TrG5h" value="TestChannels" />
-      <node concept="Nz1V5" id="21SBzWLHJxG" role="Nz1V6">
-        <node concept="1olYwO" id="21SBzWLHJxH" role="Nz1Vd">
-          <property role="TrG5h" value="A" />
+  <node concept="Tx2eV" id="wkCjs_u$Sw">
+    <property role="TrG5h" value="asociativity_test.txs" />
+    <property role="3zDzjz" value="gentest" />
+    <node concept="Tx2eQ" id="wkCjs_xznW" role="TxEeo">
+      <property role="TrG5h" value="Testchans" />
+      <node concept="Nz1V5" id="wkCjs_xzor" role="Nz1V6">
+        <node concept="1olYwO" id="wkCjs_xzos" role="Nz1Vd">
+          <property role="TrG5h" value="in" />
         </node>
-        <node concept="1olYwO" id="21SBzWLHJxK" role="Nz1Vd">
-          <property role="TrG5h" value="B" />
+        <node concept="1olYwO" id="wkCjs_xzov" role="Nz1Vd">
+          <property role="TrG5h" value="out" />
         </node>
       </node>
     </node>
-    <node concept="Tx2eO" id="21SBzWLHJxj" role="TxEeo">
-      <property role="TrG5h" value="Testmodel" />
-      <node concept="TzesD" id="21SBzWLHJxN" role="Tzes_">
-        <ref role="TzesC" node="21SBzWLHJxH" resolve="A" />
-      </node>
-      <node concept="TzesD" id="21SBzWLHJxS" role="TzesA">
-        <ref role="TzesC" node="21SBzWLHJxK" resolve="B" />
-      </node>
-      <node concept="3k3qZB" id="21SBzWLJd4p" role="TzevQ">
-        <node concept="3GUHQ4" id="21SBzWLHJxX" role="2dF$$Y">
-          <node concept="3GUDki" id="21SBzWLHJxY" role="3GUHQ0">
-            <node concept="3GUD3U" id="21SBzWLHJyc" role="3GUDdr">
-              <node concept="28Ljmc" id="21SBzWLHJyd" role="3GUD3M">
-                <property role="TrG5h" value="someboolvar" />
-              </node>
+    <node concept="TxnDL" id="wkCjs_u$Sx" role="TxEeo">
+      <node concept="3Vl81h" id="wkCjs_u$Sy" role="3Vl81g">
+        <property role="TrG5h" value="test11" />
+        <node concept="ll1Wa" id="wkCjs_u$T1" role="1yH3ds" />
+        <node concept="2dWl87" id="wkCjs_u$Tn" role="3Vldez">
+          <node concept="2dWqQf" id="wkCjs_u$TL" role="2dF$$W">
+            <node concept="2dNIYX" id="wkCjs_u$Uf" role="2dF$$W">
+              <property role="2dWqQt" value="5" />
+            </node>
+            <node concept="2dNIYX" id="wkCjs_u$Tq" role="2dF$$Y">
+              <property role="2dWqQt" value="2" />
             </node>
           </node>
-          <node concept="3GUHQI" id="21SBzWLHJyf" role="3GUHQN">
-            <node concept="2kNunK" id="21SBzWLJlfs" role="3k7rMQ">
-              <ref role="2kNunN" node="21SBzWLHJyd" resolve="someboolvar" />
+          <node concept="2dNIYX" id="wkCjs_u$Tb" role="2dF$$Y">
+            <property role="2dWqQt" value="1" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Vl81h" id="wkCjs_u$UD" role="3Vl81g">
+        <property role="TrG5h" value="test7" />
+        <node concept="ll1Wa" id="wkCjs_u$V2" role="1yH3ds" />
+        <node concept="3n2sYi" id="wkCjs_u$W8" role="3Vldez">
+          <node concept="2dNIYX" id="wkCjs_u$WF" role="2dF$$W">
+            <property role="2dWqQt" value="8" />
+          </node>
+          <node concept="3n2sYi" id="wkCjs_u$Vv" role="2dF$$Y">
+            <node concept="2dNIYX" id="wkCjs_u$Vc" role="2dF$$Y">
+              <property role="2dWqQt" value="20" />
+            </node>
+            <node concept="2dNIYX" id="wkCjs_u$VP" role="2dF$$W">
+              <property role="2dWqQt" value="5" />
             </node>
           </node>
         </node>
-        <node concept="3GBUl5" id="21SBzWLJd1l" role="2dF$$W" />
+      </node>
+      <node concept="3Vl81h" id="wkCjs_uH8M" role="3Vl81g">
+        <property role="TrG5h" value="multtest" />
+        <node concept="ll1Wa" id="wkCjs_uH9E" role="1yH3ds" />
+        <node concept="2dWqQf" id="wkCjs_uHbf" role="3Vldez">
+          <node concept="2dNIYX" id="wkCjs_uHbY" role="2dF$$W">
+            <property role="2dWqQt" value="4" />
+          </node>
+          <node concept="2dWqQf" id="wkCjs_uHaC" role="2dF$$Y">
+            <node concept="2dWqQf" id="wkCjs_uH9Z" role="2dF$$Y">
+              <node concept="2dNIYX" id="wkCjs_uH9O" role="2dF$$Y">
+                <property role="2dWqQt" value="1" />
+              </node>
+              <node concept="2dNIYX" id="wkCjs_uHal" role="2dF$$W">
+                <property role="2dWqQt" value="2" />
+              </node>
+            </node>
+            <node concept="2dNIYX" id="wkCjs_uHaO" role="2dF$$W">
+              <property role="2dWqQt" value="3" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Tx2eO" id="wkCjs_xzlX" role="TxEeo">
+      <property role="TrG5h" value="TESTDEF" />
+      <node concept="TzesD" id="wkCjs_xzoy" role="Tzes_">
+        <ref role="TzesC" node="wkCjs_xzos" resolve="in" />
+      </node>
+      <node concept="TzesD" id="wkCjs_xzoB" role="TzesA">
+        <ref role="TzesC" node="wkCjs_xzov" resolve="out" />
+      </node>
+      <node concept="3GUHQ4" id="wkCjs_xzpg" role="TzevQ">
+        <node concept="3GUDki" id="wkCjs_xzpe" role="3GUHQ0" />
       </node>
     </node>
   </node>

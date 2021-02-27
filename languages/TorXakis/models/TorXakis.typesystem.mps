@@ -7390,36 +7390,6 @@
                                   </node>
                                 </node>
                                 <node concept="3clFbS" id="61mj90M6Vo6" role="2LFqv$">
-                                  <node concept="2xdQw9" id="21SBzWLLySF" role="3cqZAp">
-                                    <node concept="3cpWs3" id="21SBzWLLzNB" role="9lYJi">
-                                      <node concept="2OqwBi" id="wkCjs_oegD" role="3uHU7w">
-                                        <node concept="3M$PaV" id="21SBzWLLzRz" role="2Oq$k0">
-                                          <ref role="3M$S_o" node="61mj90M6Vo2" resolve="offer2" />
-                                        </node>
-                                        <node concept="2qgKlT" id="wkCjs_oKWQ" role="2OqNvi">
-                                          <ref role="37wK5l" to="tpcu:22G2W3WJ92t" resolve="getDetailedPresentation" />
-                                        </node>
-                                      </node>
-                                      <node concept="3cpWs3" id="21SBzWLLzoc" role="3uHU7B">
-                                        <node concept="3cpWs3" id="21SBzWLLzbU" role="3uHU7B">
-                                          <node concept="Xl_RD" id="21SBzWLLySH" role="3uHU7B">
-                                            <property role="Xl_RC" value="now checking " />
-                                          </node>
-                                          <node concept="2OqwBi" id="wkCjs_oe2H" role="3uHU7w">
-                                            <node concept="3M$PaV" id="21SBzWLLzcJ" role="2Oq$k0">
-                                              <ref role="3M$S_o" node="61mj90M6VnX" resolve="offer1" />
-                                            </node>
-                                            <node concept="2qgKlT" id="wkCjs_oKNj" role="2OqNvi">
-                                              <ref role="37wK5l" to="tpcu:22G2W3WJ92t" resolve="getDetailedPresentation" />
-                                            </node>
-                                          </node>
-                                        </node>
-                                        <node concept="Xl_RD" id="21SBzWLLzvR" role="3uHU7w">
-                                          <property role="Xl_RC" value=" == " />
-                                        </node>
-                                      </node>
-                                    </node>
-                                  </node>
                                   <node concept="1Z5TYs" id="61mj90M6Vo7" role="3cqZAp">
                                     <node concept="mw_s8" id="61mj90M6Vo8" role="1ZfhK$">
                                       <node concept="1Z2H0r" id="wkCjs_l3$E" role="mwGJk">
