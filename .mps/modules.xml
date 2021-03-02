@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/TorXakis/TorXakis.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/TorXakis/sandbox/TorXakis.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Torxakis_plugin/Torxakis_plugin.msd" folder="" />
     </projectModules>
   </component>
 </project>
