@@ -20,13 +20,14 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="xk9i" ref="r:49e49752-a85e-4d81-811e-1dc850a8e4cd(jetbrains.mps.execution.lib.ui)" />
     <import index="3fkn" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.fileChooser(MPS.IDEA/)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="fglx" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.fileTypes(MPS.IDEA/)" />
     <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" implicit="true" />
     <import index="jkm4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.ui(MPS.IDEA/)" implicit="true" />
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" implicit="true" />
     <import index="jlff" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.vfs(MPS.IDEA/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -97,6 +98,7 @@
       </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
       <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -250,10 +252,39 @@
     <node concept="3rFUVD" id="mTvy8Xh_Fb" role="3rFUVV">
       <node concept="9aQIb" id="mTvy8Xh_Fc" role="3rFUVF">
         <node concept="3clFbS" id="mTvy8Xh_Fd" role="9aQI4">
+          <node concept="3cpWs8" id="7T4oZaj4OO2" role="3cqZAp">
+            <node concept="3cpWsn" id="7T4oZaj4OO5" role="3cpWs9">
+              <property role="TrG5h" value="torxakisloc" />
+              <node concept="17QB3L" id="7T4oZaj4OO0" role="1tU5fm" />
+              <node concept="2LYoG9" id="7T4oZaj4OQ5" role="33vP2m">
+                <ref role="2LYoGb" node="7T4oZaj4N1m" resolve="torxakisHome" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="7T4oZaj4NiA" role="3cqZAp">
+            <node concept="3clFbS" id="7T4oZaj4NiC" role="3clFbx">
+              <node concept="3clFbF" id="7T4oZaj4Oox" role="3cqZAp">
+                <node concept="37vLTI" id="7T4oZaj4OEq" role="3clFbG">
+                  <node concept="Xl_RD" id="7T4oZaj4OJ4" role="37vLTx">
+                    <property role="Xl_RC" value="torxakis" />
+                  </node>
+                  <node concept="37vLTw" id="7T4oZaj4P0U" role="37vLTJ">
+                    <ref role="3cqZAo" node="7T4oZaj4OO5" resolve="torxakisloc" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7T4oZaj4NDZ" role="3clFbw">
+              <node concept="2LYoG9" id="7T4oZaj4NjP" role="2Oq$k0">
+                <ref role="2LYoGb" node="7T4oZaj4N1m" resolve="torxakisHome" />
+              </node>
+              <node concept="17RlXB" id="7T4oZaj4OhR" role="2OqNvi" />
+            </node>
+          </node>
           <node concept="3cpWs6" id="mTvy8XhDxI" role="3cqZAp">
             <node concept="3CLvVn" id="7TdvZgSylLR" role="3cqZAk">
-              <node concept="Xl_RD" id="mTvy8Xl4Er" role="3CLvVg">
-                <property role="Xl_RC" value="torxakis" />
+              <node concept="37vLTw" id="7T4oZaj4P1g" role="3CLvVg">
+                <ref role="3cqZAo" node="7T4oZaj4OO5" resolve="torxakisloc" />
               </node>
               <node concept="2LYoG9" id="7TdvZgSymcb" role="3CLvVg">
                 <ref role="2LYoGb" node="mTvy8Xh_Fp" resolve="sourcefile" />
@@ -277,6 +308,10 @@
           <ref role="3uigEE" to="guwi:~File" resolve="File" />
         </node>
       </node>
+      <node concept="2LYoGR" id="7T4oZaj4N1m" role="3rFUVC">
+        <property role="TrG5h" value="torxakisHome" />
+        <node concept="17QB3L" id="7T4oZaj4NaA" role="1tU5fm" />
+      </node>
     </node>
     <node concept="VMRTV" id="mTvy8Xh_F7" role="VMfyR">
       <node concept="17QB3L" id="mTvy8Xh_F8" role="1tU5fm" />
@@ -296,9 +331,11 @@
     </node>
     <node concept="yHkDC" id="7TdvZgSz6Ks" role="yHkDi">
       <property role="TrG5h" value="sourceGenFolder" />
-      <node concept="3uibUv" id="7TdvZgSzzw0" role="1tU5fm">
-        <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-      </node>
+      <node concept="17QB3L" id="7T4oZaj3qzT" role="1tU5fm" />
+    </node>
+    <node concept="yHkDC" id="7T4oZaj3r32" role="yHkDi">
+      <property role="TrG5h" value="torxakisHome" />
+      <node concept="17QB3L" id="7T4oZaj3rjV" role="1tU5fm" />
     </node>
     <node concept="1QGGSu" id="mTvy8Xhsyb" role="3GxumY" />
     <node concept="yHkDc" id="mTvy8Xhsyc" role="yHkHg">
@@ -306,6 +343,12 @@
         <property role="TrG5h" value="filesField" />
         <node concept="3uibUv" id="mTvy8XiKle" role="1tU5fm">
           <ref role="3uigEE" to="dxuu:~JTextField" resolve="JTextField" />
+        </node>
+      </node>
+      <node concept="yHkD3" id="7T4oZaj3rwG" role="yHkCN">
+        <property role="TrG5h" value="torxakisChooser" />
+        <node concept="3uibUv" id="7T4oZaj3sil" role="1tU5fm">
+          <ref role="3uigEE" to="xk9i:14R2qyOCo9f" resolve="FieldWithPathChooseDialog" />
         </node>
       </node>
       <node concept="yHkD3" id="j$XAJDK0v6" role="yHkCN">
@@ -359,6 +402,25 @@
               </node>
               <node concept="yHkD2" id="7TdvZgS$ug$" role="37vLTJ">
                 <ref role="3cqZAo" node="j$XAJDK0v6" resolve="fileChooser" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7T4oZaj3t7D" role="3cqZAp">
+            <node concept="37vLTI" id="7T4oZaj3t7F" role="3clFbG">
+              <node concept="2ShNRf" id="7T4oZaj3t7G" role="37vLTx">
+                <node concept="1pGfFk" id="7T4oZaj3t7H" role="2ShVmc">
+                  <ref role="37wK5l" to="xk9i:5CmzFdK2$Io" resolve="FieldWithPathChooseDialog" />
+                  <node concept="2YIFZM" id="7T4oZaj3tJh" role="37wK5m">
+                    <ref role="1Pybhc" to="3fkn:~FileChooserDescriptorFactory" resolve="FileChooserDescriptorFactory" />
+                    <ref role="37wK5l" to="3fkn:~FileChooserDescriptorFactory.createSingleFileDescriptor(java.lang.String)" resolve="createSingleFileDescriptor" />
+                    <node concept="Xl_RD" id="7T4oZaj3Z0F" role="37wK5m">
+                      <property role="Xl_RC" value="exe" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="yHkD2" id="7T4oZaj4fAo" role="37vLTJ">
+                <ref role="3cqZAo" node="7T4oZaj3rwG" resolve="torxakisChooser" />
               </node>
             </node>
           </node>
@@ -416,7 +478,7 @@
                   <node concept="1pGfFk" id="7TdvZgSzeL$" role="2ShVmc">
                     <ref role="37wK5l" to="dxuu:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
                     <node concept="Xl_RD" id="7TdvZgSzflD" role="37wK5m">
-                      <property role="Xl_RC" value="sourceGen folder" />
+                      <property role="Xl_RC" value="source_gen folder (working directory from which paths under input files are searched)" />
                     </node>
                   </node>
                 </node>
@@ -443,6 +505,49 @@
                   <property role="1rwKMK" value="field" />
                   <node concept="3cmrfG" id="7TdvZgSzkcl" role="1rxHDW">
                     <property role="3cmrfH" value="3" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7T4oZaj4023" role="3cqZAp">
+            <node concept="2OqwBi" id="7T4oZaj40Hx" role="3clFbG">
+              <node concept="37vLTw" id="7T4oZaj4021" role="2Oq$k0">
+                <ref role="3cqZAo" node="mTvy8XiElC" resolve="panel" />
+              </node>
+              <node concept="liA8E" id="7T4oZaj42qc" role="2OqNvi">
+                <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component,java.lang.Object)" resolve="add" />
+                <node concept="2ShNRf" id="7T4oZaj42DR" role="37wK5m">
+                  <node concept="1pGfFk" id="7T4oZaj43Ma" role="2ShVmc">
+                    <ref role="37wK5l" to="dxuu:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
+                    <node concept="Xl_RD" id="7T4oZaj44ua" role="37wK5m">
+                      <property role="Xl_RC" value="torxakis executable location (can leave empty to use first on path)" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="1rwKMM" id="7T4oZaj47TO" role="37wK5m">
+                  <property role="1rwKMK" value="label" />
+                  <node concept="3cmrfG" id="7T4oZaj48ts" role="1rxHDW">
+                    <property role="3cmrfH" value="4" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7T4oZaj49mO" role="3cqZAp">
+            <node concept="2OqwBi" id="7T4oZaj49WX" role="3clFbG">
+              <node concept="37vLTw" id="7T4oZaj49mM" role="2Oq$k0">
+                <ref role="3cqZAo" node="mTvy8XiElC" resolve="panel" />
+              </node>
+              <node concept="liA8E" id="7T4oZaj4bsv" role="2OqNvi">
+                <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component,java.lang.Object)" resolve="add" />
+                <node concept="yHkD2" id="7T4oZaj4fVE" role="37wK5m">
+                  <ref role="3cqZAo" node="7T4oZaj3rwG" resolve="torxakisChooser" />
+                </node>
+                <node concept="1rwKMM" id="7T4oZaj4hiJ" role="37wK5m">
+                  <property role="1rwKMK" value="field" />
+                  <node concept="3cmrfG" id="7T4oZaj4icw" role="1rxHDW">
+                    <property role="3cmrfH" value="5" />
                   </node>
                 </node>
               </node>
@@ -489,6 +594,22 @@
               </node>
             </node>
           </node>
+          <node concept="3clFbF" id="7T4oZaj4jvH" role="3cqZAp">
+            <node concept="2OqwBi" id="7T4oZaj4kK4" role="3clFbG">
+              <node concept="yHkD2" id="7T4oZaj4jvF" role="2Oq$k0">
+                <ref role="3cqZAo" node="7T4oZaj3rwG" resolve="torxakisChooser" />
+              </node>
+              <node concept="liA8E" id="7T4oZaj4oE3" role="2OqNvi">
+                <ref role="37wK5l" to="jkm4:~TextFieldWithBrowseButton.setText(java.lang.String)" resolve="setText" />
+                <node concept="2OqwBi" id="7T4oZaj4t9F" role="37wK5m">
+                  <node concept="yHkzx" id="7T4oZaj4oVI" role="2Oq$k0" />
+                  <node concept="yHkDZ" id="7T4oZaj4vKj" role="2OqNvi">
+                    <ref role="yHkDY" node="7T4oZaj3r32" resolve="torxakisHome" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
       <node concept="yHkDo" id="7TdvZgSxwED" role="yHkDe">
@@ -529,17 +650,39 @@
               </node>
             </node>
           </node>
-          <node concept="2xdQw9" id="7TdvZgSzAWN" role="3cqZAp">
-            <property role="2xdLsb" value="h1akgim/info" />
-            <node concept="3cpWs3" id="7TdvZgSzBBc" role="9lYJi">
-              <node concept="2OqwBi" id="7TdvZgSzC_Y" role="3uHU7w">
-                <node concept="yHkzx" id="7TdvZgSzBFY" role="2Oq$k0" />
-                <node concept="yHkDZ" id="7TdvZgSzEmH" role="2OqNvi">
-                  <ref role="yHkDY" node="7TdvZgSz6Ks" resolve="sourceGenFolder" />
+          <node concept="3clFbF" id="7T4oZaj4zB8" role="3cqZAp">
+            <node concept="37vLTI" id="7T4oZaj4DQK" role="3clFbG">
+              <node concept="2OqwBi" id="7T4oZaj4G7U" role="37vLTx">
+                <node concept="yHkD2" id="7T4oZaj4EOK" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7T4oZaj3rwG" resolve="torxakisChooser" />
+                </node>
+                <node concept="liA8E" id="7T4oZaj4HvQ" role="2OqNvi">
+                  <ref role="37wK5l" to="jkm4:~TextFieldWithBrowseButton.getText()" resolve="getText" />
                 </node>
               </node>
-              <node concept="Xl_RD" id="7TdvZgSzAWP" role="3uHU7B">
-                <property role="Xl_RC" value="sourcgenfolder is now: " />
+              <node concept="2OqwBi" id="7T4oZaj4_tl" role="37vLTJ">
+                <node concept="yHkzx" id="7T4oZaj4zB7" role="2Oq$k0" />
+                <node concept="yHkDZ" id="7T4oZaj4Bf8" role="2OqNvi">
+                  <ref role="yHkDY" node="7T4oZaj3r32" resolve="torxakisHome" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1X3_iC" id="7T4oZaj4wQT" role="lGtFl">
+            <property role="3V$3am" value="statement" />
+            <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+            <node concept="2xdQw9" id="7TdvZgSzAWN" role="8Wnug">
+              <property role="2xdLsb" value="h1akgim/info" />
+              <node concept="3cpWs3" id="7TdvZgSzBBc" role="9lYJi">
+                <node concept="2OqwBi" id="7TdvZgSzC_Y" role="3uHU7w">
+                  <node concept="yHkzx" id="7TdvZgSzBFY" role="2Oq$k0" />
+                  <node concept="yHkDZ" id="7TdvZgSzEmH" role="2OqNvi">
+                    <ref role="yHkDY" node="7TdvZgSz6Ks" resolve="sourceGenFolder" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="7TdvZgSzAWP" role="3uHU7B">
+                  <property role="Xl_RC" value="sourcgenfolder is now: " />
+                </node>
               </node>
             </node>
           </node>
@@ -636,6 +779,15 @@
                       <ref role="yHkDY" node="7TdvZgSz6Ks" resolve="sourceGenFolder" />
                     </node>
                   </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2LYoGL" id="7T4oZaj54bl" role="2LYoGw">
+              <ref role="2LYoGK" node="7T4oZaj4N1m" resolve="torxakisHome" />
+              <node concept="2OqwBi" id="7T4oZaj55xE" role="2LYoGN">
+                <node concept="RBKsg" id="7T4oZaj54Fj" role="2Oq$k0" />
+                <node concept="yHkDZ" id="7T4oZaj576X" role="2OqNvi">
+                  <ref role="yHkDY" node="7T4oZaj3r32" resolve="torxakisHome" />
                 </node>
               </node>
             </node>
