@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -1450,7 +1451,7 @@
     <property role="EcuMT" value="9070211657588444140" />
     <property role="3GE5qa" value="value_expressions.build_in_function" />
     <property role="TrG5h" value="NotFcall" />
-    <property role="34LRSv" value="Not" />
+    <property role="34LRSv" value="not" />
     <property role="R4oN_" value="logical negation" />
     <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="AbstractFunctionCall" />
   </node>

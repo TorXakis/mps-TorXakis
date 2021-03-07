@@ -3781,6 +3781,51 @@
       </node>
       <node concept="3clFbS" id="paMBXP2KM9" role="3clF47" />
     </node>
+    <node concept="13i0hz" id="3eBBh23e9X8" role="13h7CS">
+      <property role="TrG5h" value="getContainingOfferlist" />
+      <node concept="3Tm1VV" id="3eBBh23e9X9" role="1B3o_S" />
+      <node concept="3Tqbb2" id="3eBBh23e9Z9" role="3clF45">
+        <ref role="ehGHo" to="b8q8:6SzhJU2MpHU" resolve="OfferList" />
+      </node>
+      <node concept="3clFbS" id="3eBBh23e9Xb" role="3clF47">
+        <node concept="Jncv_" id="3eBBh23ea0o" role="3cqZAp">
+          <ref role="JncvD" to="b8q8:6SzhJU2MpHU" resolve="OfferList" />
+          <node concept="2OqwBi" id="3eBBh23ea9Q" role="JncvB">
+            <node concept="13iPFW" id="3eBBh23ea0P" role="2Oq$k0" />
+            <node concept="1mfA1w" id="3eBBh23eaig" role="2OqNvi" />
+          </node>
+          <node concept="3clFbS" id="3eBBh23ea0q" role="Jncv$">
+            <node concept="3cpWs6" id="3eBBh23eakM" role="3cqZAp">
+              <node concept="Jnkvi" id="3eBBh23ealr" role="3cqZAk">
+                <ref role="1M0zk5" node="3eBBh23ea0r" resolve="plist" />
+              </node>
+            </node>
+          </node>
+          <node concept="JncvC" id="3eBBh23ea0r" role="JncvA">
+            <property role="TrG5h" value="plist" />
+            <node concept="2jxLKc" id="3eBBh23ea0s" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="2xdQw9" id="3eBBh23eapq" role="3cqZAp">
+          <property role="2xdLsb" value="gZ5fh_4/error" />
+          <node concept="3cpWs3" id="3eBBh23f8ev" role="9lYJi">
+            <node concept="2OqwBi" id="3eBBh23f8Jy" role="3uHU7w">
+              <node concept="2OqwBi" id="3eBBh23f8rG" role="2Oq$k0">
+                <node concept="13iPFW" id="3eBBh23f8f1" role="2Oq$k0" />
+                <node concept="1mfA1w" id="3eBBh23f8$e" role="2OqNvi" />
+              </node>
+              <node concept="2yIwOk" id="3eBBh23f8PG" role="2OqNvi" />
+            </node>
+            <node concept="Xl_RD" id="3eBBh23eaps" role="3uHU7B">
+              <property role="Xl_RC" value="getContainingOfferlist called but there was no containing offerlist. Parent was: " />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="3eBBh23eamx" role="3cqZAp">
+          <node concept="10Nm6u" id="3eBBh23eao0" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
     <node concept="13hLZK" id="paMBXP2KLW" role="13h7CW">
       <node concept="3clFbS" id="paMBXP2KLX" role="2VODD2" />
     </node>
@@ -4954,6 +4999,49 @@
         </node>
         <node concept="17QB3L" id="wkCjs_nyJU" role="3clF45" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="3eBBh23kqMJ">
+    <property role="3GE5qa" value="behaviour_expression.channel_offers" />
+    <ref role="13h7C2" to="b8q8:462tQr3QZ52" resolve="ChannelOffer" />
+    <node concept="13i0hz" id="3eBBh23kqMU" role="13h7CS">
+      <property role="TrG5h" value="getCommunicationOffer" />
+      <node concept="3Tm1VV" id="3eBBh23kqMV" role="1B3o_S" />
+      <node concept="3Tqbb2" id="3eBBh23kqNa" role="3clF45">
+        <ref role="ehGHo" to="b8q8:6SzhJU2MpHX" resolve="Offer" />
+      </node>
+      <node concept="3clFbS" id="3eBBh23kqMX" role="3clF47">
+        <node concept="Jncv_" id="3eBBh23kqO5" role="3cqZAp">
+          <ref role="JncvD" to="b8q8:6SzhJU2MpHX" resolve="Offer" />
+          <node concept="2OqwBi" id="3eBBh23kqWL" role="JncvB">
+            <node concept="13iPFW" id="3eBBh23kqOy" role="2Oq$k0" />
+            <node concept="1mfA1w" id="3eBBh23kr3K" role="2OqNvi" />
+          </node>
+          <node concept="3clFbS" id="3eBBh23kqO7" role="Jncv$">
+            <node concept="3cpWs6" id="3eBBh23kr5D" role="3cqZAp">
+              <node concept="Jnkvi" id="3eBBh23kr6i" role="3cqZAk">
+                <ref role="1M0zk5" node="3eBBh23kqO8" resolve="poffer" />
+              </node>
+            </node>
+          </node>
+          <node concept="JncvC" id="3eBBh23kqO8" role="JncvA">
+            <property role="TrG5h" value="poffer" />
+            <node concept="2jxLKc" id="3eBBh23kqO9" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="2xdQw9" id="3eBBh23kra6" role="3cqZAp">
+          <property role="2xdLsb" value="gZ5fh_4/error" />
+          <node concept="Xl_RD" id="3eBBh23kra8" role="9lYJi">
+            <property role="Xl_RC" value="getCommunicationOffer called but parrent was not an offer" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="3eBBh23krf3" role="3cqZAp">
+          <node concept="10Nm6u" id="3eBBh23krgm" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="3eBBh23kqMK" role="13h7CW">
+      <node concept="3clFbS" id="3eBBh23kqML" role="2VODD2" />
     </node>
   </node>
 </model>
