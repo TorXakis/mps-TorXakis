@@ -1698,5 +1698,30 @@
       <ref role="20lvS9" node="462tQr3QZ52" resolve="ChannelOffer" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3eBBh23m_29">
+    <property role="EcuMT" value="3722116311293776009" />
+    <property role="3GE5qa" value="value_expressions" />
+    <property role="TrG5h" value="TypeHintExpr" />
+    <property role="34LRSv" value="::" />
+    <property role="R4oN_" value="type hint" />
+    <ref role="1TJDcQ" node="fz3vP1J" resolve="Expression" />
+    <node concept="PrWs8" id="3eBBh23m_2a" role="PzmwI">
+      <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
+    </node>
+    <node concept="1TJgyj" id="3eBBh23m_2c" role="1TKVEi">
+      <property role="IQ2ns" value="3722116311293776012" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="3eBBh23m_2e" role="1TKVEi">
+      <property role="IQ2ns" value="3722116311293776014" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="lsoyDBU550" resolve="Type" />
+    </node>
+  </node>
 </model>
 

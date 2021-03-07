@@ -5044,5 +5044,31 @@
       <node concept="3clFbS" id="3eBBh23kqML" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="3eBBh23m_2O">
+    <property role="3GE5qa" value="value_expressions" />
+    <ref role="13h7C2" to="b8q8:3eBBh23m_29" resolve="TypeHintExpr" />
+    <node concept="13hLZK" id="3eBBh23m_2P" role="13h7CW">
+      <node concept="3clFbS" id="3eBBh23m_2Q" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="3eBBh23m_2Z" role="13h7CS">
+      <property role="TrG5h" value="getPrecedence" />
+      <ref role="13i0hy" node="Kh9TY1Lgkf" resolve="getPrecedence" />
+      <node concept="3Tm1VV" id="3eBBh23m_30" role="1B3o_S" />
+      <node concept="3clFbS" id="3eBBh23m_33" role="3clF47">
+        <node concept="3cpWs6" id="3eBBh23m_3h" role="3cqZAp">
+          <node concept="2OqwBi" id="3eBBh23mCdA" role="3cqZAk">
+            <node concept="Rm8GO" id="3eBBh23mBM9" role="2Oq$k0">
+              <ref role="Rm8GQ" to="l2p8:3eBBh23m_uq" resolve="typehint" />
+              <ref role="1Px2BO" to="l2p8:Kh9TY1RWCu" resolve="OperatorPrecedence" />
+            </node>
+            <node concept="2OwXpG" id="3eBBh23mCAN" role="2OqNvi">
+              <ref role="2Oxat5" to="l2p8:Kh9TY1RY1L" resolve="precedence" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="3eBBh23m_34" role="3clF45" />
+    </node>
+  </node>
 </model>
 

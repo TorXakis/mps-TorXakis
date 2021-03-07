@@ -18,6 +18,7 @@
       <concept id="869519769091470744" name="TorXakis.structure.AdditionExpression" flags="ng" index="2dWl87" />
       <concept id="869519769091475984" name="TorXakis.structure.MultExpression" flags="ng" index="2dWqQf" />
       <concept id="814452247911791298" name="TorXakis.structure.ToStringFcall" flags="ng" index="g0nV3" />
+      <concept id="814452247911089894" name="TorXakis.structure.FromStringFcall" flags="ng" index="g3WbB" />
       <concept id="814452247911089899" name="TorXakis.structure.AbstractFunctionCall" flags="ng" index="g3WbE">
         <child id="814452247911089931" name="arguments" index="g3Wca" />
       </concept>
@@ -68,6 +69,10 @@
         <property id="2669902244511382052" name="value" index="K4LZm" />
       </concept>
       <concept id="2669902244512285999" name="TorXakis.structure.EqualityExpression" flags="ng" index="K8i3t" />
+      <concept id="3722116311293776009" name="TorXakis.structure.TypeHintExpr" flags="ng" index="2KZsQp">
+        <child id="3722116311293776012" name="expr" index="2KZsQs" />
+        <child id="3722116311293776014" name="type" index="2KZsQu" />
+      </concept>
       <concept id="4441221725919542628" name="TorXakis.structure.ChannelDeclarationLine" flags="ng" index="Nz1V5">
         <child id="4441221725919542636" name="channels" index="Nz1Vd" />
         <child id="4441221725919542638" name="types" index="Nz1Vf" />
@@ -3288,6 +3293,38 @@
       </node>
       <node concept="TzesD" id="3eBBh23lAJ2" role="Tzes_">
         <ref role="TzesC" node="3eBBh23lABu" resolve="in" />
+      </node>
+    </node>
+  </node>
+  <node concept="Tx2eV" id="3eBBh23mrs3">
+    <property role="TrG5h" value="typehinttest" />
+    <property role="3zDzjz" value="bin" />
+    <node concept="Tx2eL" id="3eBBh23mxcT" role="TxEeo">
+      <node concept="ll1We" id="3eBBh23mxcV" role="ll1WN">
+        <property role="TrG5h" value="T" />
+        <node concept="llhRl" id="3eBBh23mxda" role="llhRq">
+          <property role="TrG5h" value="U" />
+        </node>
+      </node>
+    </node>
+    <node concept="TxnDK" id="3eBBh23mrs6" role="TxEeo">
+      <node concept="2k8cz4" id="3eBBh23mrsm" role="2k8dKp">
+        <property role="TrG5h" value="weird_inter_string" />
+        <node concept="28Mf44" id="3eBBh23mrsT" role="2k8dN3">
+          <property role="TrG5h" value="input" />
+          <node concept="ll1W9" id="3eBBh23mrt9" role="1yH3ds" />
+        </node>
+        <node concept="ll1W9" id="3eBBh23mrtg" role="2k8dN5" />
+        <node concept="g0nV3" id="3eBBh23mrtn" role="2k8dNo">
+          <node concept="2KZsQp" id="3eBBh23vZ1T" role="g3Wca">
+            <node concept="ll1Wa" id="3eBBh23yymX" role="2KZsQu" />
+            <node concept="g3WbB" id="3eBBh23mrtz" role="2KZsQs">
+              <node concept="2kNunK" id="3eBBh23mrtP" role="g3Wca">
+                <ref role="2kNunN" node="3eBBh23mrsT" resolve="input" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

@@ -2036,6 +2036,13 @@
         <property role="3cmrfH" value="0" />
       </node>
     </node>
+    <node concept="QsSxf" id="3eBBh23m_uq" role="Qtgdg">
+      <property role="TrG5h" value="typehint" />
+      <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />
+      <node concept="3cmrfG" id="3eBBh23mB0X" role="37wK5m">
+        <property role="3cmrfH" value="10" />
+      </node>
+    </node>
     <node concept="QsSxf" id="3ZG$ufCTBWk" role="Qtgdg">
       <property role="TrG5h" value="logical_implication" />
       <ref role="37wK5l" node="Kh9TY1RXk6" resolve="OperatorPrecedence" />
