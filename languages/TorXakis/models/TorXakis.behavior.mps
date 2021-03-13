@@ -5029,10 +5029,32 @@
             <node concept="2jxLKc" id="3eBBh23kqO9" role="1tU5fm" />
           </node>
         </node>
-        <node concept="2xdQw9" id="3eBBh23kra6" role="3cqZAp">
-          <property role="2xdLsb" value="gZ5fh_4/error" />
-          <node concept="Xl_RD" id="3eBBh23kra8" role="9lYJi">
-            <property role="Xl_RC" value="getCommunicationOffer called but parrent was not an offer" />
+        <node concept="3SKdUt" id="7tGom4EO5nC" role="3cqZAp">
+          <node concept="1PaTwC" id="7tGom4EO5nD" role="1aUNEU">
+            <node concept="3oM_SD" id="7tGom4EO5nE" role="1PaTwD">
+              <property role="3oM_SC" value="can" />
+            </node>
+            <node concept="3oM_SD" id="7tGom4EO5ow" role="1PaTwD">
+              <property role="3oM_SC" value="be" />
+            </node>
+            <node concept="3oM_SD" id="7tGom4EO5oF" role="1PaTwD">
+              <property role="3oM_SC" value="null," />
+            </node>
+            <node concept="3oM_SD" id="7tGom4EO5oJ" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="7tGom4EO5oO" role="1PaTwD">
+              <property role="3oM_SC" value="parent" />
+            </node>
+            <node concept="3oM_SD" id="7tGom4EO5pa" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="7tGom4EO5pM" role="1PaTwD">
+              <property role="3oM_SC" value="an" />
+            </node>
+            <node concept="3oM_SD" id="7tGom4EO5pU" role="1PaTwD">
+              <property role="3oM_SC" value="AcceptExpression" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs6" id="3eBBh23krf3" role="3cqZAp">

@@ -2744,5 +2744,34 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="7tGom4ENth4">
+    <property role="3GE5qa" value="value_expressions" />
+    <ref role="WuzLi" to="b8q8:3eBBh23m_29" resolve="TypeHintExpr" />
+    <node concept="11bSqf" id="7tGom4ENth5" role="11c4hB">
+      <node concept="3clFbS" id="7tGom4ENth6" role="2VODD2">
+        <node concept="lc7rE" id="7tGom4ENthn" role="3cqZAp">
+          <node concept="l9hG8" id="7tGom4ENthF" role="lcghm">
+            <node concept="2OqwBi" id="7tGom4ENtq1" role="lb14g">
+              <node concept="117lpO" id="7tGom4ENtix" role="2Oq$k0" />
+              <node concept="3TrEf2" id="7tGom4ENtyR" role="2OqNvi">
+                <ref role="3Tt5mk" to="b8q8:3eBBh23m_2c" resolve="expr" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="7tGom4ENtD7" role="lcghm">
+            <property role="lacIc" value="::" />
+          </node>
+          <node concept="l9hG8" id="7tGom4ENtEM" role="lcghm">
+            <node concept="2OqwBi" id="7tGom4ENtGx" role="lb14g">
+              <node concept="117lpO" id="7tGom4ENtG4" role="2Oq$k0" />
+              <node concept="3TrEf2" id="7tGom4ENtQa" role="2OqNvi">
+                <ref role="3Tt5mk" to="b8q8:3eBBh23m_2e" resolve="type" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

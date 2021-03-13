@@ -616,5 +616,25 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="7tGom4EOpCs">
+    <property role="3GE5qa" value="value_expressions" />
+    <ref role="1M2myG" to="b8q8:3eBBh23m_29" resolve="TypeHintExpr" />
+    <node concept="9SLcT" id="7tGom4EOpCt" role="9SGkU">
+      <node concept="3clFbS" id="7tGom4EOpCu" role="2VODD2">
+        <node concept="3cpWs6" id="7tGom4EOr3M" role="3cqZAp">
+          <node concept="3fqX7Q" id="7tGom4EOr8R" role="3cqZAk">
+            <node concept="2OqwBi" id="7tGom4EOr8T" role="3fr31v">
+              <node concept="2DD5aU" id="7tGom4EOr8U" role="2Oq$k0" />
+              <node concept="2Zo12i" id="7tGom4EOr8V" role="2OqNvi">
+                <node concept="chp4Y" id="7tGom4EOr8W" role="2Zo12j">
+                  <ref role="cht4Q" to="b8q8:3eBBh23m_29" resolve="TypeHintExpr" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

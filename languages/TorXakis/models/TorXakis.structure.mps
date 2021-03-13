@@ -834,7 +834,6 @@
     <property role="3GE5qa" value="expression_base" />
     <property role="TrG5h" value="ParenthesizedExpression" />
     <property role="R4oN_" value="a parenthesized expression" />
-    <property role="34LRSv" value="( expr )" />
     <ref role="1TJDcQ" node="Kh9TY1RWAn" resolve="ConstantExpression" />
     <node concept="1TJgyj" id="Kh9TY1KE42" role="1TKVEi">
       <property role="IQ2ns" value="869519769089515778" />
