@@ -219,17 +219,6 @@
       <ref role="20lvS9" node="5DuWkzevyPg" resolve="FunctionDef" />
     </node>
   </node>
-  <node concept="1TIwiD" id="7tKE5PeXt8I">
-    <property role="EcuMT" value="8606564006615175726" />
-    <property role="TrG5h" value="ProcDef" />
-    <property role="34LRSv" value="proccess definition" />
-    <property role="R4oN_" value="A proccess definition" />
-    <property role="3GE5qa" value="placeholders" />
-    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakisDefinition" />
-    <node concept="PrWs8" id="7tKE5PeXPVJ" role="PzmwI">
-      <ref role="PrY4T" node="7tKE5PeXLM1" resolve="Placeholder" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="7tKE5PeXt8J">
     <property role="EcuMT" value="8606564006615175727" />
     <property role="TrG5h" value="StautDef" />
@@ -1652,8 +1641,11 @@
     <property role="EcuMT" value="1224468432068887642" />
     <property role="3GE5qa" value="behaviour_expression.exitsort" />
     <property role="TrG5h" value="HitSort" />
-    <property role="34LRSv" value="Hit" />
+    <property role="34LRSv" value="HIT" />
     <ref role="1TJDcQ" node="13YbSOG9jL8" resolve="AbstractExitSort" />
+    <node concept="PrWs8" id="7tGom4ESfCA" role="PzmwI">
+      <ref role="PrY4T" node="7tGom4ESfCy" resolve="AbstractExitKind" />
+    </node>
   </node>
   <node concept="1TIwiD" id="13YbSOG9khr">
     <property role="EcuMT" value="1224468432068887643" />
@@ -1720,6 +1712,89 @@
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="lsoyDBU550" resolve="Type" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7tGom4ESfp1">
+    <property role="EcuMT" value="8605360057957283393" />
+    <property role="3GE5qa" value="functions" />
+    <property role="TrG5h" value="ProcedureDef" />
+    <property role="R4oN_" value="procedure definition" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7tGom4ESfp2" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="PrWs8" id="7tGom4ESfDo" role="PzmwI">
+      <ref role="PrY4T" node="784v76A7yam" resolve="BaseExpressionContainer" />
+    </node>
+    <node concept="PrWs8" id="7tGom4ESgWf" role="PzmwI">
+      <ref role="PrY4T" node="6SzhJU2PSrY" resolve="HasIdName" />
+    </node>
+    <node concept="1TJgyj" id="7tGom4ESfvP" role="1TKVEi">
+      <property role="IQ2ns" value="8605360057957283829" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="channels" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3QyoU4ebBP$" resolve="ChannelDeclarationLine" />
+    </node>
+    <node concept="1TJgyj" id="7tGom4ESfvR" role="1TKVEi">
+      <property role="IQ2ns" value="8605360057957283831" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="parameters" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="IzgQY3qV9F" resolve="MandatoryTypeVardec" />
+    </node>
+    <node concept="1TJgyj" id="7tGom4ESfDk" role="1TKVEi">
+      <property role="IQ2ns" value="8605360057957284436" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expression" />
+      <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="7tGom4ESgY3" role="1TKVEi">
+      <property role="IQ2ns" value="8605360057957289859" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="exitkind" />
+      <ref role="20lvS9" node="7tGom4ESfCy" resolve="AbstractExitKind" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7tGom4ESfCq">
+    <property role="EcuMT" value="8605360057957284378" />
+    <property role="3GE5qa" value="behaviour_expression.exitsort" />
+    <property role="TrG5h" value="ExitKind" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="t5JxF" id="7tGom4ESfCu" role="lGtFl">
+      <property role="t5JxN" value="same purpose and meaning as exitSort, but exitkind uses only types, while exitSort uses any expressions" />
+    </node>
+    <node concept="1TJgyj" id="7tGom4ESfCw" role="1TKVEi">
+      <property role="IQ2ns" value="8605360057957284384" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="types" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="lsoyDBU550" resolve="Type" />
+    </node>
+    <node concept="PrWs8" id="7tGom4ESfC$" role="PzmwI">
+      <ref role="PrY4T" node="7tGom4ESfCy" resolve="AbstractExitKind" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7tGom4ESfCy">
+    <property role="TrG5h" value="AbstractExitKind" />
+    <property role="3GE5qa" value="behaviour_expression.exitsort" />
+    <property role="EcuMT" value="8605360057957284379" />
+    <node concept="t5JxF" id="7tGom4ESfCs" role="lGtFl">
+      <property role="t5JxN" value="label interface for use in exit sort of procedure definition" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7tGom4ESh0X">
+    <property role="EcuMT" value="8605360057957290045" />
+    <property role="3GE5qa" value="functions" />
+    <property role="TrG5h" value="ProcDefList" />
+    <property role="34LRSv" value="PROCDEF" />
+    <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakisDefinition" />
+    <node concept="1TJgyj" id="7tGom4ESh0Y" role="1TKVEi">
+      <property role="IQ2ns" value="8605360057957290046" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="definitions" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="7tGom4ESfp1" resolve="ProcedureDef" />
     </node>
   </node>
 </model>

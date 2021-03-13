@@ -5092,5 +5092,89 @@
       <node concept="10Oyi0" id="3eBBh23m_34" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="7tGom4ESgaz">
+    <property role="3GE5qa" value="functions" />
+    <ref role="13h7C2" to="b8q8:7tGom4ESfp1" resolve="ProcedureDef" />
+    <node concept="13hLZK" id="7tGom4ESga$" role="13h7CW">
+      <node concept="3clFbS" id="7tGom4ESga_" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7tGom4ESgaI" role="13h7CS">
+      <property role="TrG5h" value="CanContainConcept" />
+      <ref role="13i0hy" node="6t0Dry28HjN" resolve="CanContainConcept" />
+      <node concept="3Tm1VV" id="7tGom4ESgaJ" role="1B3o_S" />
+      <node concept="3clFbS" id="7tGom4ESgaQ" role="3clF47">
+        <node concept="3cpWs6" id="7tGom4ESgf8" role="3cqZAp">
+          <node concept="2OqwBi" id="7tGom4ESgtY" role="3cqZAk">
+            <node concept="37vLTw" id="7tGom4ESgf_" role="2Oq$k0">
+              <ref role="3cqZAo" node="7tGom4ESgaR" resolve="concept" />
+            </node>
+            <node concept="2Zo12i" id="7tGom4ESgDF" role="2OqNvi">
+              <node concept="chp4Y" id="7tGom4ESgGX" role="2Zo12j">
+                <ref role="cht4Q" to="b8q8:6SzhJU2Jqk4" resolve="BehaviourExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7tGom4ESgaR" role="3clF46">
+        <property role="TrG5h" value="concept" />
+        <node concept="3bZ5Sz" id="7tGom4ESgaS" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7tGom4ESgaT" role="3clF46">
+        <property role="TrG5h" value="containingLink" />
+        <node concept="3uibUv" id="7tGom4ESgaU" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+        </node>
+      </node>
+      <node concept="10P_77" id="7tGom4ESgaV" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="7tGom4ESgJt" role="13h7CS">
+      <property role="TrG5h" value="getScope" />
+      <ref role="13i0hy" to="tpcu:52_Geb4QDV$" resolve="getScope" />
+      <node concept="3Tm1VV" id="7tGom4ESgJu" role="1B3o_S" />
+      <node concept="3clFbS" id="7tGom4ESgJB" role="3clF47">
+        <node concept="3clFbF" id="7tGom4ESgJM" role="3cqZAp">
+          <node concept="2OqwBi" id="7tGom4ESgJJ" role="3clFbG">
+            <node concept="13iAh5" id="7tGom4ESgJK" role="2Oq$k0">
+              <ref role="3eA5LN" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+            </node>
+            <node concept="2qgKlT" id="7tGom4ESgJL" role="2OqNvi">
+              <ref role="37wK5l" to="tpcu:52_Geb4QDV$" resolve="getScope" />
+              <node concept="37vLTw" id="7tGom4ESgJH" role="37wK5m">
+                <ref role="3cqZAo" node="7tGom4ESgJC" resolve="kind" />
+              </node>
+              <node concept="37vLTw" id="7tGom4ESgJI" role="37wK5m">
+                <ref role="3cqZAo" node="7tGom4ESgJE" resolve="child" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7tGom4ESgUR" role="3cqZAp">
+          <node concept="1PaTwC" id="7tGom4ESgUS" role="1aUNEU">
+            <node concept="3oM_SD" id="7tGom4ESgUT" role="1PaTwD">
+              <property role="3oM_SC" value="TODO:" />
+            </node>
+            <node concept="3oM_SD" id="7tGom4ESgV$" role="1PaTwD">
+              <property role="3oM_SC" value="implement" />
+            </node>
+            <node concept="3oM_SD" id="7tGom4ESgVJ" role="1PaTwD">
+              <property role="3oM_SC" value="this" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7tGom4ESgJC" role="3clF46">
+        <property role="TrG5h" value="kind" />
+        <node concept="3bZ5Sz" id="7tGom4ESgJD" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7tGom4ESgJE" role="3clF46">
+        <property role="TrG5h" value="child" />
+        <node concept="3Tqbb2" id="7tGom4ESgJF" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="7tGom4ESgJG" role="3clF45">
+        <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
+      </node>
+    </node>
+  </node>
 </model>
 

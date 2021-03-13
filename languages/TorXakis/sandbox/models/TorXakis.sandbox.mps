@@ -106,6 +106,7 @@
         <reference id="4548878433273271566" name="field" index="2U$8Br" />
         <child id="4548878433273271613" name="argument" index="2U$8BC" />
       </concept>
+      <concept id="1224468432068887642" name="TorXakis.structure.HitSort" flags="ng" index="WQQJn" />
       <concept id="4401075339047450644" name="TorXakis.structure.FunctionCall" flags="ng" index="38H7EB">
         <reference id="4401075339047450647" name="function" index="38H7E$" />
         <child id="4401075339047460081" name="arguments" index="38H1T2" />
@@ -140,6 +141,14 @@
       <concept id="4606216926944809970" name="TorXakis.structure.InequalityExpression" flags="ng" index="3n0O8h" />
       <concept id="4606216926944124529" name="TorXakis.structure.MinusExpression" flags="ng" index="3n2sYi" />
       <concept id="2232454564910247341" name="TorXakis.structure.Channel" flags="ng" index="1olYwO" />
+      <concept id="8605360057957283393" name="TorXakis.structure.ProcedureDef" flags="ng" index="1tz9sw">
+        <child id="8605360057957283829" name="channels" index="1tz9qk" />
+        <child id="8605360057957283831" name="parameters" index="1tz9qm" />
+        <child id="8605360057957289859" name="exitkind" index="1tzmVy" />
+      </concept>
+      <concept id="8605360057957290045" name="TorXakis.structure.ProcDefList" flags="ng" index="1tzn5s">
+        <child id="8605360057957290046" name="definitions" index="1tzn5v" />
+      </concept>
       <concept id="7936265027286000571" name="TorXakis.structure.Stop" flags="ng" index="3GBUl5" />
       <concept id="7936265027286586036" name="TorXakis.structure.Hide" flags="ng" index="3GTDha">
         <child id="7936265027286586050" name="channels" index="3GTDgW" />
@@ -3415,6 +3424,30 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="Tx2eV" id="7tGom4ETpfN">
+    <property role="TrG5h" value="procdeftest" />
+    <property role="3zDzjz" value="bin" />
+    <node concept="1tzn5s" id="7tGom4ETsXf" role="TxEeo">
+      <node concept="1tz9sw" id="7tGom4ETsXg" role="1tzn5v">
+        <property role="TrG5h" value="proc1" />
+        <node concept="28Mf44" id="7tGom4ETsXH" role="1tz9qm">
+          <property role="TrG5h" value="var1" />
+          <node concept="ll1W8" id="7tGom4ETsY1" role="1yH3ds" />
+        </node>
+        <node concept="Nz1V5" id="7tGom4ETsXj" role="1tz9qk">
+          <node concept="1olYwO" id="7tGom4ETsXk" role="Nz1Vd">
+            <property role="TrG5h" value="iN" />
+          </node>
+          <node concept="1olYwO" id="7tGom4ETsXn" role="Nz1Vd">
+            <property role="TrG5h" value="oUT" />
+          </node>
+          <node concept="ll1Wa" id="7tGom4ETsXu" role="Nz1Vf" />
+          <node concept="ll1W8" id="7tGom4ETsXB" role="Nz1Vf" />
+        </node>
+        <node concept="WQQJn" id="7tGom4ETsYg" role="1tzmVy" />
       </node>
     </node>
   </node>
