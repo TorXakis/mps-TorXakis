@@ -46,11 +46,17 @@
       <concept id="9149903577931571510" name="TorXakis.structure.TypeConstructorField" flags="ng" index="llhR_">
         <child id="9149903577931571633" name="type" index="llhPy" />
       </concept>
+      <concept id="460260809799757544" name="TorXakis.structure.ProcedureCall" flags="ng" index="2uhG8G">
+        <reference id="460260809799758131" name="procedure" index="2uhHRR" />
+        <child id="460260809799758133" name="arguments" index="2uhHRL" />
+        <child id="460260809799758136" name="channels" index="2uhHRW" />
+      </concept>
       <concept id="3811326939805160870" name="TorXakis.structure.UnaryValueExpression" flags="ng" index="2_4xwe">
         <child id="3811326939805160873" name="argument" index="2_4xw1" />
       </concept>
       <concept id="3811326939805160937" name="TorXakis.structure.UnaryMinusExpression" flags="ng" index="2_4xx1" />
       <concept id="3811326939808452552" name="TorXakis.structure.AndExpression" flags="ng" index="2AN49w" />
+      <concept id="3811326939808462155" name="TorXakis.structure.OrExpression" flags="ng" index="2AN7zz" />
       <concept id="3811326939806733591" name="TorXakis.structure.UnaryOperatorCall" flags="ng" index="2AUxyZ">
         <reference id="3811326939806733592" name="operator" index="2AUxyK" />
       </concept>
@@ -106,7 +112,6 @@
         <reference id="4548878433273271566" name="field" index="2U$8Br" />
         <child id="4548878433273271613" name="argument" index="2U$8BC" />
       </concept>
-      <concept id="1224468432068887642" name="TorXakis.structure.HitSort" flags="ng" index="WQQJn" />
       <concept id="4401075339047450644" name="TorXakis.structure.FunctionCall" flags="ng" index="38H7EB">
         <reference id="4401075339047450647" name="function" index="38H7E$" />
         <child id="4401075339047460081" name="arguments" index="38H1T2" />
@@ -144,12 +149,16 @@
       <concept id="8605360057957283393" name="TorXakis.structure.ProcedureDef" flags="ng" index="1tz9sw">
         <child id="8605360057957283829" name="channels" index="1tz9qk" />
         <child id="8605360057957283831" name="parameters" index="1tz9qm" />
+        <child id="8605360057957284436" name="expression" index="1tz9GP" />
         <child id="8605360057957289859" name="exitkind" index="1tzmVy" />
+      </concept>
+      <concept id="8605360057957284378" name="TorXakis.structure.ExitKind" flags="ng" index="1tz9HV">
+        <child id="8605360057957284384" name="types" index="1tz9H1" />
       </concept>
       <concept id="8605360057957290045" name="TorXakis.structure.ProcDefList" flags="ng" index="1tzn5s">
         <child id="8605360057957290046" name="definitions" index="1tzn5v" />
       </concept>
-      <concept id="7936265027286000571" name="TorXakis.structure.Stop" flags="ng" index="3GBUl5" />
+      <concept id="7936265027286000571" name="TorXakis.structure.STOP" flags="ng" index="3GBUl5" />
       <concept id="7936265027286586036" name="TorXakis.structure.Hide" flags="ng" index="3GTDha">
         <child id="7936265027286586050" name="channels" index="3GTDgW" />
         <child id="7936265027286586043" name="expression" index="3GTDh5" />
@@ -279,6 +288,11 @@
     </node>
     <node concept="Tx2eQ" id="lsoyDBTh4Z" role="TxEeo">
       <property role="TrG5h" value="B" />
+      <node concept="Nz1V5" id="pzbcioz1N2" role="Nz1V6">
+        <node concept="1olYwO" id="pzbcioz1N3" role="Nz1Vd">
+          <property role="TrG5h" value="alongchannelname" />
+        </node>
+      </node>
     </node>
     <node concept="Tx2eL" id="7tKE5PeXNX0" role="TxEeo">
       <node concept="ll1We" id="7VUZddFKacn" role="ll1WN">
@@ -792,8 +806,11 @@
         </node>
         <node concept="1kJO_h" id="3j$zqyhSnlQ" role="2k8dNo">
           <ref role="1kJO_E" node="1dmDcT87lft" resolve="Cons" />
-          <node concept="2kNunK" id="IzgQY3wuxa" role="1kJO_G">
-            <ref role="2kNunN" node="IzgQY3wuhl" resolve="val" />
+          <node concept="2AUxyZ" id="pzbciow9xe" role="1kJO_G">
+            <ref role="2AUxyK" node="3j$zqyhUAFF" resolve="+" />
+            <node concept="2kNunK" id="IzgQY3wuxa" role="2_4xw1">
+              <ref role="2kNunN" node="IzgQY3wuhl" resolve="val" />
+            </node>
           </node>
           <node concept="2kNunK" id="IzgQY3wu_b" role="1kJO_G">
             <ref role="2kNunN" node="IzgQY3wulh" resolve="list" />
@@ -3447,7 +3464,63 @@
           <node concept="ll1Wa" id="7tGom4ETsXu" role="Nz1Vf" />
           <node concept="ll1W8" id="7tGom4ETsXB" role="Nz1Vf" />
         </node>
-        <node concept="WQQJn" id="7tGom4ETsYg" role="1tzmVy" />
+        <node concept="3k1fJu" id="pzbciommkP" role="1tz9GP">
+          <node concept="3k1fJu" id="pzbciomlje" role="2dF$$Y">
+            <node concept="3GUDR6" id="pzbcio6_yO" role="2dF$$Y">
+              <node concept="3GUHQ4" id="pzbcio3cDP" role="2dF$$Y">
+                <node concept="3GUDcN" id="pzbcio3cDO" role="3GUHQ0">
+                  <node concept="TzesD" id="pzbcio3cDN" role="22fPEN">
+                    <ref role="TzesC" node="7tGom4ETsXk" resolve="iN" />
+                  </node>
+                  <node concept="3GUDRL" id="pzbcio3cEv" role="3GUDcy">
+                    <node concept="2dNIYX" id="pzbcio3cEL" role="3GUDRH">
+                      <property role="2dWqQt" value="4" />
+                    </node>
+                  </node>
+                  <node concept="3GUDRL" id="pzbcio3cFk" role="3GUDcy">
+                    <node concept="2kNunK" id="pzbcio3cFO" role="3GUDRH">
+                      <ref role="2kNunN" node="7tGom4ETsXH" resolve="var1" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2uhG8G" id="pzbciocABU" role="2dF$$W">
+                <ref role="2uhHRR" node="7tGom4ETsXg" resolve="proc1" />
+                <node concept="TzesD" id="pzbciocACE" role="2uhHRW">
+                  <ref role="TzesC" node="7tGom4ETsXn" resolve="oUT" />
+                </node>
+                <node concept="TzesD" id="pzbciocAE7" role="2uhHRW">
+                  <ref role="TzesC" node="7tGom4ETsXk" resolve="iN" />
+                </node>
+                <node concept="2AN7zz" id="pzbcioml9K" role="2uhHRL">
+                  <node concept="K0oLo" id="pzbciomlcT" role="2dF$$W" />
+                  <node concept="2kNunK" id="pzbcioeUM7" role="2dF$$Y">
+                    <ref role="2kNunN" node="7tGom4ETsXH" resolve="var1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2uhG8G" id="pzbciomkP_" role="2dF$$W">
+              <ref role="2uhHRR" node="7tGom4ETsXg" resolve="proc1" />
+              <node concept="TzesD" id="pzbciomkSq" role="2uhHRW">
+                <ref role="TzesC" node="7tGom4ETsXk" resolve="iN" />
+              </node>
+              <node concept="TzesD" id="pzbciomkXY" role="2uhHRW">
+                <ref role="TzesC" node="7tGom4ETsXn" resolve="oUT" />
+              </node>
+              <node concept="HXlqu" id="pzbciomlwp" role="2uhHRL">
+                <node concept="2kNunK" id="pzbciomlzw" role="g3Wca">
+                  <ref role="2kNunN" node="7tGom4ETsXH" resolve="var1" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3GBUl5" id="pzbciommzd" role="2dF$$W" />
+        </node>
+        <node concept="1tz9HV" id="pzbcio7iO9" role="1tzmVy">
+          <node concept="ll1W8" id="pzbcio7iPB" role="1tz9H1" />
+          <node concept="ll1W9" id="pzbcio9tec" role="1tz9H1" />
+        </node>
       </node>
     </node>
   </node>

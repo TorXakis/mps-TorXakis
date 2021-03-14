@@ -276,7 +276,7 @@
   </node>
   <node concept="1TIwiD" id="6SzhJU2JeeV">
     <property role="EcuMT" value="7936265027286000571" />
-    <property role="TrG5h" value="Stop" />
+    <property role="TrG5h" value="STOP" />
     <property role="3GE5qa" value="behaviour_expression" />
     <property role="34LRSv" value="STOP" />
     <property role="R4oN_" value="STOP" />
@@ -877,7 +877,7 @@
   <node concept="PlHQZ" id="Kh9TY1S7mp">
     <property role="EcuMT" value="869519769091470745" />
     <property role="TrG5h" value="ValueExpression" />
-    <property role="3GE5qa" value="value_expressions.abstract_nodes" />
+    <property role="3GE5qa" value="value_expressions.abstract_concepts" />
   </node>
   <node concept="1TIwiD" id="Kh9TY1S8Cg">
     <property role="EcuMT" value="869519769091475984" />
@@ -906,6 +906,9 @@
     <property role="3GE5qa" value="expression_base" />
     <node concept="PrWs8" id="784v76A7$eM" role="PrDN$">
       <ref role="PrY4T" node="784v76A7yam" resolve="BaseExpressionContainer" />
+    </node>
+    <node concept="t5JxF" id="pzbcio9v4F" role="lGtFl">
+      <property role="t5JxN" value="interface for concepts that sometimes contain only valuexpressions, and sometimes only behaviourexpressions. see ParenthesizedExpression for example usage." />
     </node>
   </node>
   <node concept="1TIwiD" id="784v76A08uJ">
@@ -1030,6 +1033,9 @@
     <property role="EcuMT" value="8215828447790768790" />
     <property role="3GE5qa" value="expression_base" />
     <property role="TrG5h" value="BaseExpressionContainer" />
+    <node concept="t5JxF" id="pzbcio9v4H" role="lGtFl">
+      <property role="t5JxN" value="interface to restrict autocomplete of expression chiles to only those types that are actually valid." />
+    </node>
   </node>
   <node concept="1TIwiD" id="784v76A9ceL">
     <property role="EcuMT" value="8215828447791203249" />
@@ -1106,7 +1112,7 @@
   </node>
   <node concept="1TIwiD" id="2kdpv8lfloW">
     <property role="EcuMT" value="2669902244513404476" />
-    <property role="3GE5qa" value="value_expressions.abstract_nodes" />
+    <property role="3GE5qa" value="value_expressions.abstract_concepts" />
     <property role="TrG5h" value="BinaryValueExpression" />
     <property role="R5$K7" value="true" />
     <property role="R4oN_" value="abstract binary value expression" />
@@ -1189,7 +1195,7 @@
   </node>
   <node concept="1TIwiD" id="3ZG$ufCTPvm">
     <property role="EcuMT" value="4606216926944253910" />
-    <property role="3GE5qa" value="value_expressions.abstract_nodes" />
+    <property role="3GE5qa" value="value_expressions.abstract_concepts" />
     <property role="TrG5h" value="AllIntgerBinaryExpression" />
     <property role="R5$K7" value="true" />
     <property role="R4oN_" value="adds standard type rule for integer binary expressions" />
@@ -1244,7 +1250,7 @@
   </node>
   <node concept="1TIwiD" id="Hdx04rg$rF">
     <property role="EcuMT" value="814452247911089899" />
-    <property role="3GE5qa" value="value_expressions.abstract_nodes" />
+    <property role="3GE5qa" value="value_expressions.abstract_concepts" />
     <property role="TrG5h" value="AbstractFunctionCall" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="fz3vP1J" resolve="Expression" />
@@ -1366,7 +1372,7 @@
   </node>
   <node concept="1TIwiD" id="3j$zqyhXDmA">
     <property role="EcuMT" value="3811326939805160870" />
-    <property role="3GE5qa" value="value_expressions.abstract_nodes" />
+    <property role="3GE5qa" value="value_expressions.abstract_concepts" />
     <property role="TrG5h" value="UnaryValueExpression" />
     <property role="R5$K7" value="true" />
     <property role="R4oN_" value="abstract unary expression" />
@@ -1663,9 +1669,9 @@
     <node concept="1TJgyj" id="13YbSOG9kht" role="1TKVEi">
       <property role="IQ2ns" value="1224468432068887645" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="offers" />
+      <property role="20kJfa" value="refs" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="wkCjs_pl50" resolve="ChannelOfferRef" />
+      <ref role="20lvS9" node="wkCjs_pl50" resolve="modelRef" />
     </node>
   </node>
   <node concept="PlHQZ" id="26ghq3MB_Up">
@@ -1679,14 +1685,17 @@
   <node concept="1TIwiD" id="wkCjs_pl50">
     <property role="EcuMT" value="582267510060306752" />
     <property role="3GE5qa" value="behaviour_expression.exitsort" />
-    <property role="TrG5h" value="ChannelOfferRef" />
+    <property role="TrG5h" value="modelRef" />
     <property role="R4oN_" value="reference used in exitsort" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="wkCjs_pl51" role="1TKVEi">
-      <property role="IQ2ns" value="582267510060306753" />
-      <property role="20kJfa" value="offer" />
+    <node concept="t5JxF" id="pzbciojbAu" role="lGtFl">
+      <property role="t5JxN" value="a reference to any node in the model" />
+    </node>
+    <node concept="1TJgyj" id="pzbciojcal" role="1TKVEi">
+      <property role="IQ2ns" value="460260809802302101" />
+      <property role="20kJfa" value="ref" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="462tQr3QZ52" resolve="ChannelOffer" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="3eBBh23m_29">
@@ -1760,6 +1769,7 @@
     <property role="EcuMT" value="8605360057957284378" />
     <property role="3GE5qa" value="behaviour_expression.exitsort" />
     <property role="TrG5h" value="ExitKind" />
+    <property role="34LRSv" value="EXIT" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="t5JxF" id="7tGom4ESfCu" role="lGtFl">
       <property role="t5JxN" value="same purpose and meaning as exitSort, but exitkind uses only types, while exitSort uses any expressions" />
@@ -1795,6 +1805,38 @@
       <property role="20kJfa" value="definitions" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="7tGom4ESfp1" resolve="ProcedureDef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="pzbcio9uVC">
+    <property role="EcuMT" value="460260809799757544" />
+    <property role="3GE5qa" value="behaviour_expression" />
+    <property role="TrG5h" value="ProcedureCall" />
+    <ref role="1TJDcQ" node="fz3vP1J" resolve="Expression" />
+    <node concept="PrWs8" id="pzbcio9uVD" role="PzmwI">
+      <ref role="PrY4T" node="6SzhJU2Jqk4" resolve="BehaviourExpression" />
+    </node>
+    <node concept="PrWs8" id="pzbcio9v4J" role="PzmwI">
+      <ref role="PrY4T" node="784v76A7yam" resolve="BaseExpressionContainer" />
+    </node>
+    <node concept="1TJgyj" id="pzbcio9v4N" role="1TKVEi">
+      <property role="IQ2ns" value="460260809799758131" />
+      <property role="20kJfa" value="procedure" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7tGom4ESfp1" resolve="ProcedureDef" />
+    </node>
+    <node concept="1TJgyj" id="pzbcio9v4P" role="1TKVEi">
+      <property role="IQ2ns" value="460260809799758133" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="arguments" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="pzbcio9v4S" role="1TKVEi">
+      <property role="IQ2ns" value="460260809799758136" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="channels" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7tKE5PeZ4XO" resolve="ChannelRef" />
     </node>
   </node>
 </model>
