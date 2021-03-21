@@ -11447,7 +11447,7 @@
           <node concept="2MkqsV" id="pzbcioajqu" role="3cqZAp">
             <node concept="3cpWs3" id="pzbcioajqv" role="2MkJ7o">
               <node concept="Xl_RD" id="pzbcioajqw" role="3uHU7w">
-                <property role="Xl_RC" value=" arguments found" />
+                <property role="Xl_RC" value=" channels found" />
               </node>
               <node concept="3cpWs3" id="pzbcioajqx" role="3uHU7B">
                 <node concept="3cpWs3" id="pzbcioajqy" role="3uHU7B">
@@ -11675,6 +11675,248 @@
     <node concept="1YaCAy" id="pzbcioaxBU" role="1YuTPh">
       <property role="TrG5h" value="proccall" />
       <ref role="1YaFvo" to="b8q8:pzbcio9uVC" resolve="ProcedureCall" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="372P_cpdAHO">
+    <property role="TrG5h" value="typeof_Encode" />
+    <property role="3GE5qa" value="connection_definition" />
+    <node concept="3clFbS" id="372P_cpdAHP" role="18ibNy">
+      <node concept="1Z5TYs" id="372P_cpdBj3" role="3cqZAp">
+        <node concept="mw_s8" id="372P_cpdBjr" role="1ZfhKB">
+          <node concept="2pJPEk" id="372P_cpdBjn" role="mwGJk">
+            <node concept="2pJPED" id="372P_cpdBjA" role="2pJPEn">
+              <ref role="2pJxaS" to="b8q8:7VUZddFFIfq" resolve="StringType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="372P_cpdBj6" role="1ZfhK$">
+          <node concept="1Z2H0r" id="372P_cpdAHV" role="mwGJk">
+            <node concept="2OqwBi" id="372P_cpdAS_" role="1Z2MuG">
+              <node concept="1YBJjd" id="372P_cpdAJJ" role="2Oq$k0">
+                <ref role="1YBMHb" node="372P_cpdAHR" resolve="encode" />
+              </node>
+              <node concept="3TrEf2" id="372P_cpdB3S" role="2OqNvi">
+                <ref role="3Tt5mk" to="b8q8:372P_cpawb4" resolve="value" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="372P_cpdAHR" role="1YuTPh">
+      <property role="TrG5h" value="encode" />
+      <ref role="1YaFvo" to="b8q8:372P_cpawb1" resolve="Encode" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="372P_cpdBk4">
+    <property role="TrG5h" value="typeof_Decode" />
+    <property role="3GE5qa" value="connection_definition" />
+    <node concept="3clFbS" id="372P_cpdBk5" role="18ibNy">
+      <node concept="1Z5TYs" id="372P_cpdBPv" role="3cqZAp">
+        <node concept="mw_s8" id="372P_cpdBPR" role="1ZfhKB">
+          <node concept="2pJPEk" id="372P_cpdBPN" role="mwGJk">
+            <node concept="2pJPED" id="372P_cpdBQ2" role="2pJPEn">
+              <ref role="2pJxaS" to="b8q8:7VUZddFFIfq" resolve="StringType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="372P_cpdBPy" role="1ZfhK$">
+          <node concept="1Z2H0r" id="372P_cpdBkb" role="mwGJk">
+            <node concept="2OqwBi" id="372P_cpdBut" role="1Z2MuG">
+              <node concept="1YBJjd" id="372P_cpdBlZ" role="2Oq$k0">
+                <ref role="1YBMHb" node="372P_cpdBk7" resolve="decode" />
+              </node>
+              <node concept="3TrEf2" id="372P_cpdBDK" role="2OqNvi">
+                <ref role="3Tt5mk" to="b8q8:372P_cpawbS" resolve="value" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="372P_cpdBk7" role="1YuTPh">
+      <property role="TrG5h" value="decode" />
+      <ref role="1YaFvo" to="b8q8:372P_cpawbP" resolve="Decode" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="372P_cpfabB">
+    <property role="TrG5h" value="check_Encode" />
+    <property role="3GE5qa" value="connection_definition" />
+    <node concept="3clFbS" id="372P_cpfabC" role="18ibNy">
+      <node concept="2Gpval" id="372P_cpfaDE" role="3cqZAp">
+        <node concept="2GrKxI" id="372P_cpfaDF" role="2Gsz3X">
+          <property role="TrG5h" value="encode2" />
+        </node>
+        <node concept="2OqwBi" id="372P_cpfcOY" role="2GsD0m">
+          <node concept="2OqwBi" id="372P_cpfbfQ" role="2Oq$k0">
+            <node concept="2OqwBi" id="372P_cpfaOT" role="2Oq$k0">
+              <node concept="1YBJjd" id="372P_cpfaEg" role="2Oq$k0">
+                <ref role="1YBMHb" node="372P_cpfabE" resolve="encode" />
+              </node>
+              <node concept="2qgKlT" id="372P_cpfaY_" role="2OqNvi">
+                <ref role="37wK5l" to="yg5l:372P_cpfabT" resolve="getContainingCnectDef" />
+              </node>
+            </node>
+            <node concept="3Tsc0h" id="372P_cpfbsE" role="2OqNvi">
+              <ref role="3TtcxE" to="b8q8:372P_cpawcF" resolve="items" />
+            </node>
+          </node>
+          <node concept="v3k3i" id="372P_cpfe5K" role="2OqNvi">
+            <node concept="chp4Y" id="372P_cpfe6U" role="v3oSu">
+              <ref role="cht4Q" to="b8q8:372P_cpawb1" resolve="Encode" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="372P_cpfaDH" role="2LFqv$">
+          <node concept="3clFbJ" id="372P_cpfegB" role="3cqZAp">
+            <node concept="1Wc70l" id="372P_cpfeI0" role="3clFbw">
+              <node concept="17R0WA" id="372P_cpfhfv" role="3uHU7w">
+                <node concept="2OqwBi" id="372P_cpfhQ8" role="3uHU7w">
+                  <node concept="2OqwBi" id="372P_cpfhwy" role="2Oq$k0">
+                    <node concept="1YBJjd" id="372P_cpfhi7" role="2Oq$k0">
+                      <ref role="1YBMHb" node="372P_cpfabE" resolve="encode" />
+                    </node>
+                    <node concept="3TrEf2" id="372P_cpfhGr" role="2OqNvi">
+                      <ref role="3Tt5mk" to="b8q8:372P_cpawb2" resolve="offer" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="372P_cpfi18" role="2OqNvi">
+                    <ref role="37wK5l" to="yg5l:372P_cpffFy" resolve="getChannel" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="372P_cpffuo" role="3uHU7B">
+                  <node concept="2OqwBi" id="372P_cpfeOn" role="2Oq$k0">
+                    <node concept="2GrUjf" id="372P_cpfeKg" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="372P_cpfaDF" resolve="encode2" />
+                    </node>
+                    <node concept="3TrEf2" id="372P_cpff1s" role="2OqNvi">
+                      <ref role="3Tt5mk" to="b8q8:372P_cpawb2" resolve="offer" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="372P_cpfgRl" role="2OqNvi">
+                    <ref role="37wK5l" to="yg5l:372P_cpffFy" resolve="getChannel" />
+                  </node>
+                </node>
+              </node>
+              <node concept="17QLQc" id="372P_cpferh" role="3uHU7B">
+                <node concept="2GrUjf" id="372P_cpfegN" role="3uHU7B">
+                  <ref role="2Gs0qQ" node="372P_cpfaDF" resolve="encode2" />
+                </node>
+                <node concept="1YBJjd" id="372P_cpfete" role="3uHU7w">
+                  <ref role="1YBMHb" node="372P_cpfabE" resolve="encode" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="372P_cpfegD" role="3clFbx">
+              <node concept="2MkqsV" id="372P_cpfidA" role="3cqZAp">
+                <node concept="Xl_RD" id="372P_cpfidM" role="2MkJ7o">
+                  <property role="Xl_RC" value="only one encode can be given for each channel" />
+                </node>
+                <node concept="1YBJjd" id="372P_cpfiew" role="1urrMF">
+                  <ref role="1YBMHb" node="372P_cpfabE" resolve="encode" />
+                </node>
+                <node concept="2OE7Q9" id="372P_cpfieY" role="1urrC5">
+                  <ref role="2OEe5H" to="b8q8:372P_cpawb2" resolve="offer" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="372P_cpfabE" role="1YuTPh">
+      <property role="TrG5h" value="encode" />
+      <ref role="1YaFvo" to="b8q8:372P_cpawb1" resolve="Encode" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="372P_cpfj4_">
+    <property role="TrG5h" value="check_Decode" />
+    <property role="3GE5qa" value="connection_definition" />
+    <node concept="3clFbS" id="372P_cpfj4A" role="18ibNy">
+      <node concept="2Gpval" id="372P_cpfjuq" role="3cqZAp">
+        <node concept="2GrKxI" id="372P_cpfjur" role="2Gsz3X">
+          <property role="TrG5h" value="decode2" />
+        </node>
+        <node concept="2OqwBi" id="372P_cpfjus" role="2GsD0m">
+          <node concept="2OqwBi" id="372P_cpfjut" role="2Oq$k0">
+            <node concept="2OqwBi" id="372P_cpfjuu" role="2Oq$k0">
+              <node concept="1YBJjd" id="372P_cpfjHi" role="2Oq$k0">
+                <ref role="1YBMHb" node="372P_cpfj4C" resolve="decode" />
+              </node>
+              <node concept="2qgKlT" id="372P_cpfjuw" role="2OqNvi">
+                <ref role="37wK5l" to="yg5l:372P_cpfabT" resolve="getContainingCnectDef" />
+              </node>
+            </node>
+            <node concept="3Tsc0h" id="372P_cpfjux" role="2OqNvi">
+              <ref role="3TtcxE" to="b8q8:372P_cpawcF" resolve="items" />
+            </node>
+          </node>
+          <node concept="v3k3i" id="372P_cpfjuy" role="2OqNvi">
+            <node concept="chp4Y" id="372P_cpfjXe" role="v3oSu">
+              <ref role="cht4Q" to="b8q8:372P_cpawbP" resolve="Decode" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="372P_cpfju$" role="2LFqv$">
+          <node concept="3clFbJ" id="372P_cpfju_" role="3cqZAp">
+            <node concept="1Wc70l" id="372P_cpfjuA" role="3clFbw">
+              <node concept="17R0WA" id="372P_cpfjuB" role="3uHU7w">
+                <node concept="2OqwBi" id="372P_cpfjuC" role="3uHU7w">
+                  <node concept="2OqwBi" id="372P_cpfjuD" role="2Oq$k0">
+                    <node concept="1YBJjd" id="372P_cpfk6D" role="2Oq$k0">
+                      <ref role="1YBMHb" node="372P_cpfj4C" resolve="decode" />
+                    </node>
+                    <node concept="3TrEf2" id="372P_cpfktR" role="2OqNvi">
+                      <ref role="3Tt5mk" to="b8q8:372P_cpawbQ" resolve="offer" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="372P_cpfjuG" role="2OqNvi">
+                    <ref role="37wK5l" to="yg5l:372P_cpffFy" resolve="getChannel" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="372P_cpfjuH" role="3uHU7B">
+                  <node concept="2OqwBi" id="372P_cpfjuI" role="2Oq$k0">
+                    <node concept="2GrUjf" id="372P_cpfjuJ" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="372P_cpfjur" resolve="decode2" />
+                    </node>
+                    <node concept="3TrEf2" id="372P_cpfM2K" role="2OqNvi">
+                      <ref role="3Tt5mk" to="b8q8:372P_cpawbQ" resolve="offer" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="372P_cpfjuL" role="2OqNvi">
+                    <ref role="37wK5l" to="yg5l:372P_cpffFy" resolve="getChannel" />
+                  </node>
+                </node>
+              </node>
+              <node concept="17QLQc" id="372P_cpfjuM" role="3uHU7B">
+                <node concept="2GrUjf" id="372P_cpfjuN" role="3uHU7B">
+                  <ref role="2Gs0qQ" node="372P_cpfjur" resolve="decode2" />
+                </node>
+                <node concept="1YBJjd" id="372P_cpfk3U" role="3uHU7w">
+                  <ref role="1YBMHb" node="372P_cpfj4C" resolve="decode" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="372P_cpfjuP" role="3clFbx">
+              <node concept="2MkqsV" id="372P_cpfjuQ" role="3cqZAp">
+                <node concept="Xl_RD" id="372P_cpfjuR" role="2MkJ7o">
+                  <property role="Xl_RC" value="only one decode can be given for each channel" />
+                </node>
+                <node concept="1YBJjd" id="372P_cpfkwI" role="1urrMF">
+                  <ref role="1YBMHb" node="372P_cpfj4C" resolve="decode" />
+                </node>
+                <node concept="2OE7Q9" id="372P_cpfjuT" role="1urrC5">
+                  <ref role="2OEe5H" to="b8q8:372P_cpawbQ" resolve="offer" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="372P_cpfj4C" role="1YuTPh">
+      <property role="TrG5h" value="decode" />
+      <ref role="1YaFvo" to="b8q8:372P_cpawbP" resolve="Decode" />
     </node>
   </node>
 </model>
