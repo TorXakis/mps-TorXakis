@@ -60,25 +60,16 @@
       <concept id="3811326939806733591" name="TorXakis.structure.UnaryOperatorCall" flags="ng" index="2AUxyZ">
         <reference id="3811326939806733592" name="operator" index="2AUxyK" />
       </concept>
-      <concept id="3585663905733149267" name="TorXakis.structure.ConnectionIn" flags="ng" index="CUdg0">
-        <property id="3585663905733149270" name="port" index="CUdg5" />
-        <property id="3585663905733149268" name="host" index="CUdg7" />
-        <child id="3585663905735189948" name="channel" index="CyZfJ" />
-      </concept>
-      <concept id="3585663905733149377" name="TorXakis.structure.Encode" flags="ng" index="CUdii">
-        <child id="3585663905733149378" name="offer" index="CUdih" />
-        <child id="3585663905733149380" name="value" index="CUdin" />
-      </concept>
-      <concept id="3585663905733149429" name="TorXakis.structure.Decode" flags="ng" index="CUdiA">
-        <child id="3585663905733149430" name="offer" index="CUdi_" />
-        <child id="3585663905733149432" name="value" index="CUdiF" />
+      <concept id="3585663905733149267" name="TorXakis.structure.ConnectionIn" flags="ng" index="CUdg0" />
+      <concept id="3585663905733149147" name="TorXakis.structure.ConnectionItem" flags="ng" index="CUdu8">
+        <property id="866973522897523471" name="port" index="1hWszs" />
+        <property id="866973522897523470" name="host" index="1hWszt" />
+        <child id="866973522897523475" name="channel" index="1hWsz0" />
+        <child id="866973522897523483" name="value" index="1hWsz8" />
+        <child id="866973522897523482" name="offers" index="1hWsz9" />
       </concept>
       <concept id="3585663905733149148" name="TorXakis.structure.ClientSock" flags="ng" index="CUduf" />
-      <concept id="3585663905733149160" name="TorXakis.structure.ConnectionOut" flags="ng" index="CUduV">
-        <property id="3585663905733149163" name="host" index="CUduS" />
-        <property id="3585663905733149165" name="port" index="CUduY" />
-        <child id="3585663905735189950" name="channel" index="CyZfH" />
-      </concept>
+      <concept id="3585663905733149160" name="TorXakis.structure.ConnectionOut" flags="ng" index="CUduV" />
       <concept id="9070211657591567629" name="TorXakis.structure.InitialisedVardec" flags="ng" index="HxuxZ">
         <child id="9070211657591567630" name="value" index="HxuxW" />
       </concept>
@@ -2395,124 +2386,53 @@
     </node>
     <node concept="Tx2eR" id="372P_cpeBE6" role="TxEeo">
       <property role="TrG5h" value="Connection" />
-      <node concept="CUdg0" id="372P_cpoEU8" role="CUdlS">
-        <property role="CUdg7" value="localhost" />
-        <property role="CUdg5" value="1242" />
-        <node concept="TzesD" id="372P_cpoEUK" role="CyZfJ">
+      <node concept="CUduf" id="372P_cpeBE_" role="CUdlU" />
+      <node concept="CUdg0" id="K86Xdu5jVa" role="CUdlS">
+        <property role="1hWszt" value="localhost" />
+        <property role="1hWszs" value="1234" />
+        <node concept="3GUDRL" id="K86Xdu5jV$" role="1hWsz9">
+          <node concept="2kNunK" id="K86Xdu5jVL" role="3GUDRH">
+            <ref role="2kNunN" node="K86Xdu5jVc" resolve="input" />
+          </node>
+        </node>
+        <node concept="3GUD3U" id="K86Xdu5jVb" role="1hWsz8">
+          <node concept="28Ljmc" id="K86Xdu5jVc" role="3GUD3M">
+            <property role="TrG5h" value="input" />
+          </node>
+        </node>
+        <node concept="TzesD" id="K86Xdu5jVn" role="1hWsz0">
           <ref role="TzesC" node="21SBzWL_NxW" resolve="A" />
         </node>
       </node>
-      <node concept="CUdiA" id="372P_cpeBE8" role="CUdlS">
-        <node concept="3GUDcN" id="372P_cpeBE9" role="CUdi_">
-          <node concept="TzesD" id="372P_cpoB9m" role="22fPEN">
-            <ref role="TzesC" node="21SBzWL_NxW" resolve="A" />
-          </node>
-          <node concept="3GUDRL" id="372P_cpeBEb" role="3GUDcy">
-            <node concept="2kNunK" id="372P_cpeBME" role="3GUDRH">
-              <ref role="2kNunN" node="372P_cpeBEe" resolve="fds" />
-            </node>
+      <node concept="CUduV" id="K86Xdu6Z5d" role="CUdlS">
+        <property role="1hWszt" value="localhost" />
+        <property role="1hWszs" value="1234" />
+        <node concept="3GUD3U" id="K86Xdu6Z5T" role="1hWsz9">
+          <node concept="28Ljmc" id="K86Xdu6Z5U" role="3GUD3M">
+            <property role="TrG5h" value="v1" />
           </node>
         </node>
-        <node concept="3GUD3U" id="372P_cpeBEd" role="CUdiF">
-          <node concept="28Ljmc" id="372P_cpeBEe" role="3GUD3M">
-            <property role="TrG5h" value="fds" />
+        <node concept="3GUD3U" id="K86Xdu6Z6e" role="1hWsz9">
+          <node concept="28Ljmc" id="K86Xdu6Z6f" role="3GUD3M">
+            <property role="TrG5h" value="v2" />
           </node>
         </node>
-      </node>
-      <node concept="CUdii" id="372P_cpeBEf" role="CUdlS">
-        <node concept="3GUDcN" id="372P_cpeBEg" role="CUdih">
-          <node concept="3GUD3U" id="372P_cpeBEh" role="3GUDcy">
-            <node concept="28Ljmc" id="372P_cpeBEi" role="3GUD3M">
-              <property role="TrG5h" value="d" />
+        <node concept="3GUDRL" id="K86Xdu6Z5e" role="1hWsz8">
+          <node concept="3n05UL" id="K86Xdu6Z6J" role="3GUDRH">
+            <node concept="2kNunK" id="K86Xdu6Z76" role="2dF$$W">
+              <ref role="2kNunN" node="K86Xdu6Z6f" resolve="v2" />
             </node>
-          </node>
-          <node concept="3GUD3U" id="372P_cpeBEj" role="3GUDcy">
-            <node concept="28Ljmc" id="372P_cpeBEk" role="3GUD3M">
-              <property role="TrG5h" value="c" />
-            </node>
-          </node>
-          <node concept="TzesD" id="372P_cpoBaR" role="22fPEN">
-            <ref role="TzesC" node="21SBzWL_NxO" resolve="A1" />
-          </node>
-        </node>
-        <node concept="3GUDRL" id="372P_cpeBEm" role="CUdin">
-          <node concept="3n05UL" id="372P_cpeBEn" role="3GUDRH">
-            <node concept="g0nV3" id="372P_cpeBEo" role="2dF$$Y">
-              <node concept="2kNunK" id="372P_cpeBEp" role="g3Wca">
-                <ref role="2kNunN" node="372P_cpeBEi" resolve="d" />
+            <node concept="g0nV3" id="K86Xdu7PxH" role="2dF$$Y">
+              <node concept="2kNunK" id="K86Xdu7PxI" role="g3Wca">
+                <ref role="2kNunN" node="K86Xdu6Z5U" resolve="v1" />
               </node>
             </node>
-            <node concept="2kNunK" id="372P_cpeBEq" role="2dF$$W">
-              <ref role="2kNunN" node="372P_cpeBEk" resolve="c" />
-            </node>
           </node>
         </node>
-      </node>
-      <node concept="CUdiA" id="372P_cpeBEr" role="CUdlS">
-        <node concept="3GUD3U" id="372P_cpeBEs" role="CUdiF">
-          <node concept="28Ljmc" id="372P_cpeBEt" role="3GUD3M">
-            <property role="TrG5h" value="val" />
-          </node>
-        </node>
-        <node concept="3GUDcN" id="372P_cpeBEu" role="CUdi_">
-          <node concept="TzesD" id="372P_cpoBgm" role="22fPEN">
-            <ref role="TzesC" node="21SBzWL_NxP" resolve="B1" />
-          </node>
-          <node concept="3GUDRL" id="372P_cpeBEw" role="3GUDcy">
-            <node concept="2dNIYX" id="372P_cpeBEx" role="3GUDRH">
-              <property role="2dWqQt" value="3" />
-            </node>
-          </node>
-          <node concept="3GUDRL" id="372P_cpeBEy" role="3GUDcy">
-            <node concept="2kNunK" id="372P_cpeBEz" role="3GUDRH">
-              <ref role="2kNunN" node="372P_cpeBEt" resolve="val" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="CUduV" id="372P_cpoEWZ" role="CUdlS">
-        <property role="CUduS" value="localhost" />
-        <property role="CUduY" value="4323" />
-        <node concept="TzesD" id="372P_cpoEXB" role="CyZfH">
-          <ref role="TzesC" node="21SBzWL_NxO" resolve="A1" />
-        </node>
-      </node>
-      <node concept="1X3_iC" id="372P_cpoLK4" role="lGtFl">
-        <property role="3V$3am" value="items" />
-        <property role="3V$3ak" value="6aa44b25-862f-4f8f-8d7d-75ca37b0ea23/8606564006615092202/3585663905733149483" />
-        <node concept="CUduV" id="372P_cpoBab" role="8Wnug">
-          <property role="CUduS" value="localhost" />
-          <property role="CUduY" value="1234" />
-          <node concept="TzesD" id="372P_cpoBaL" role="CyZfH">
-            <ref role="TzesC" node="21SBzWL_NxP" resolve="B1" />
-          </node>
-        </node>
-      </node>
-      <node concept="CUdg0" id="372P_cpoBfF" role="CUdlS">
-        <property role="CUdg7" value="localhost" />
-        <property role="CUdg5" value="1234" />
-        <node concept="TzesD" id="372P_cpoBgj" role="CyZfJ">
+        <node concept="TzesD" id="K86Xdu6Z5y" role="1hWsz0">
           <ref role="TzesC" node="21SBzWL_NxP" resolve="B1" />
         </node>
       </node>
-      <node concept="CUdii" id="372P_cpoNTG" role="CUdlS">
-        <node concept="3GUDki" id="372P_cpoNUx" role="CUdih">
-          <node concept="3GUD3U" id="372P_cpoNUP" role="3GUDdr">
-            <node concept="28Ljmc" id="372P_cpoNUR" role="3GUD3M">
-              <property role="TrG5h" value="d" />
-              <node concept="ll1Wa" id="372P_cpoNVZ" role="1yH3ds" />
-            </node>
-          </node>
-        </node>
-        <node concept="3GUDRL" id="372P_cpoNTJ" role="CUdin">
-          <node concept="g0nV3" id="372P_cpoNVh" role="3GUDRH">
-            <node concept="2kNunK" id="372P_cpoNVu" role="g3Wca">
-              <ref role="2kNunN" node="372P_cpoNUR" resolve="d" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="CUduf" id="372P_cpeBE_" role="CUdlU" />
     </node>
   </node>
   <node concept="Tx2eV" id="21SBzWLDqIJ">
