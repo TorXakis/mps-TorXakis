@@ -46,6 +46,12 @@
       <concept id="9149903577931571510" name="TorXakis.structure.TypeConstructorField" flags="ng" index="llhR_">
         <child id="9149903577931571633" name="type" index="llhPy" />
       </concept>
+      <concept id="1619198425037921147" name="TorXakis.structure.CommentAttribute" flags="ng" index="2nelso">
+        <child id="1619198425037942487" name="lines" index="2neEaO" />
+      </concept>
+      <concept id="1619198425037942472" name="TorXakis.structure.CommentLine" flags="ng" index="2neEaF">
+        <property id="1619198425037942473" name="text" index="2neEaE" />
+      </concept>
       <concept id="460260809799757544" name="TorXakis.structure.ProcedureCall" flags="ng" index="2uhG8G">
         <reference id="460260809799758131" name="procedure" index="2uhHRR" />
         <child id="460260809799758133" name="arguments" index="2uhHRL" />
@@ -1372,6 +1378,11 @@
         <node concept="1olYwO" id="21SBzWL_NxT" role="Nz1Vd">
           <property role="TrG5h" value="B2" />
         </node>
+        <node concept="2nelso" id="1pSz6e1Ac0X" role="lGtFl">
+          <node concept="2neEaF" id="1pSz6e1Ac0Y" role="2neEaO">
+            <property role="2neEaE" value="for when one A and B is not enough." />
+          </node>
+        </node>
       </node>
       <node concept="Nz1V5" id="21SBzWL_NxU" role="Nz1V6">
         <node concept="ll1W9" id="21SBzWL_NxV" role="Nz1Vf" />
@@ -1385,6 +1396,11 @@
         </node>
         <node concept="1olYwO" id="21SBzWL_NxZ" role="Nz1Vd">
           <property role="TrG5h" value="out" />
+        </node>
+      </node>
+      <node concept="2nelso" id="1pSz6e1znRS" role="lGtFl">
+        <node concept="2neEaF" id="1pSz6e1znRT" role="2neEaO">
+          <property role="2neEaE" value="commented chandef" />
         </node>
       </node>
     </node>
@@ -1423,6 +1439,19 @@
             </node>
           </node>
         </node>
+        <node concept="2nelso" id="1pSz6e1zsaF" role="lGtFl">
+          <node concept="2neEaF" id="1pSz6e1zsaG" role="2neEaO">
+            <property role="2neEaE" value="This type cannot have a valid instance." />
+          </node>
+          <node concept="2neEaF" id="1pSz6e1zsaO" role="2neEaO">
+            <property role="2neEaE" value="It can have multiline descriptive comments though." />
+          </node>
+        </node>
+      </node>
+      <node concept="2nelso" id="1pSz6e1znVU" role="lGtFl">
+        <node concept="2neEaF" id="1pSz6e1znVV" role="2neEaO">
+          <property role="2neEaE" value="This is a small typedef" />
+        </node>
       </node>
     </node>
     <node concept="TxnDL" id="21SBzWL_Nye" role="TxEeo">
@@ -1452,6 +1481,11 @@
         <node concept="1kJO_h" id="21SBzWL_Nyn" role="3Vldez">
           <ref role="1kJO_E" node="21SBzWL_NCY" resolve="Nil2" />
         </node>
+        <node concept="2nelso" id="1pSz6e1zwAe" role="lGtFl">
+          <node concept="2neEaF" id="1pSz6e1zwAf" role="2neEaO">
+            <property role="2neEaE" value="indiviual constants can also have comments" />
+          </node>
+        </node>
       </node>
       <node concept="3Vl81h" id="21SBzWL_Nyo" role="3Vl81g">
         <property role="TrG5h" value="emptylist" />
@@ -1472,6 +1506,14 @@
           <node concept="2dNIYX" id="21SBzWLHg29" role="38H1T2">
             <property role="2dWqQt" value="1" />
           </node>
+        </node>
+      </node>
+      <node concept="2nelso" id="1pSz6e1zwpG" role="lGtFl">
+        <node concept="2neEaF" id="1pSz6e1zwpH" role="2neEaO">
+          <property role="2neEaE" value="Some constants." />
+        </node>
+        <node concept="2neEaF" id="1pSz6e1zwpK" role="2neEaO">
+          <property role="2neEaE" value="These are functions, that are called like they are variables." />
         </node>
       </node>
     </node>
@@ -1521,6 +1563,11 @@
             <node concept="2kNunK" id="21SBzWL_NyL" role="g3Wca">
               <ref role="2kNunN" node="21SBzWL_NyF" resolve="string" />
             </node>
+          </node>
+        </node>
+        <node concept="2nelso" id="1pSz6e1zwBj" role="lGtFl">
+          <node concept="2neEaF" id="1pSz6e1zwBk" role="2neEaO">
+            <property role="2neEaE" value="individual function with a comment" />
           </node>
         </node>
       </node>
@@ -1594,6 +1641,17 @@
           </node>
         </node>
         <node concept="ll1Wa" id="21SBzWL_Nzg" role="2k8dN5" />
+        <node concept="2nelso" id="1pSz6e1zwBM" role="lGtFl">
+          <node concept="2neEaF" id="1pSz6e1zwBN" role="2neEaO">
+            <property role="2neEaE" value="Started out as a predecssor function that doesn't go below 0." />
+          </node>
+          <node concept="2neEaF" id="1pSz6e1zwCO" role="2neEaO">
+            <property role="2neEaE" value="Turned into a testbed for \|/ and =&gt; at some point isntead." />
+          </node>
+          <node concept="2neEaF" id="1pSz6e1zwCR" role="2neEaO">
+            <property role="2neEaE" value="Has no real meaningful semantics anymore." />
+          </node>
+        </node>
       </node>
       <node concept="2k8cz4" id="21SBzWL_Nzh" role="2k8dKp">
         <property role="TrG5h" value="concat" />
@@ -1846,6 +1904,11 @@
           </node>
         </node>
       </node>
+      <node concept="2nelso" id="1pSz6e1zwBf" role="lGtFl">
+        <node concept="2neEaF" id="1pSz6e1zwBg" role="2neEaO">
+          <property role="2neEaE" value="Some random functions to test syntax." />
+        </node>
+      </node>
     </node>
     <node concept="Tx2eO" id="21SBzWL_N_l" role="TxEeo">
       <property role="TrG5h" value="Emptysynctest" />
@@ -1926,6 +1989,11 @@
                         </node>
                       </node>
                     </node>
+                  </node>
+                </node>
+                <node concept="2nelso" id="1pSz6e1zFDA" role="lGtFl">
+                  <node concept="2neEaF" id="1pSz6e1zFDB" role="2neEaO">
+                    <property role="2neEaE" value="commenting single line expressions is possible" />
                   </node>
                 </node>
               </node>
@@ -2050,6 +2118,11 @@
                               <ref role="2kNunN" node="21SBzWL_NAJ" resolve="x" />
                             </node>
                           </node>
+                          <node concept="2nelso" id="1pSz6e1_fnR" role="lGtFl">
+                            <node concept="2neEaF" id="1pSz6e1_fnS" role="2neEaO">
+                              <property role="2neEaE" value="some comment aout this guard" />
+                            </node>
+                          </node>
                         </node>
                         <node concept="3GUM7o" id="21SBzWL_NAQ" role="3k2zXI">
                           <node concept="HxuxZ" id="21SBzWL_NAR" role="3GUM7k">
@@ -2059,7 +2132,13 @@
                             </node>
                           </node>
                           <node concept="3k3q_4" id="21SBzWL_NAT" role="3GUM7j">
-                            <node concept="3GBUl5" id="21SBzWL_NAU" role="2dF$$Y" />
+                            <node concept="3GBUl5" id="21SBzWL_NAU" role="2dF$$Y">
+                              <node concept="2nelso" id="1pSz6e1zG6h" role="lGtFl">
+                                <node concept="2neEaF" id="1pSz6e1zG6i" role="2neEaO">
+                                  <property role="2neEaE" value="for when you want to stop, but comment about it." />
+                                </node>
+                              </node>
+                            </node>
                             <node concept="3GUHQ4" id="21SBzWL_NAV" role="2dF$$W">
                               <node concept="3GUDki" id="21SBzWL_NAW" role="3GUHQ0" />
                             </node>
@@ -2124,7 +2203,17 @@
                   <node concept="3GBUl5" id="21SBzWL_NBh" role="2dF$$W" />
                 </node>
               </node>
+              <node concept="2nelso" id="1pSz6e1Alzh" role="lGtFl">
+                <node concept="2neEaF" id="1pSz6e1Alzi" role="2neEaO">
+                  <property role="2neEaE" value="for when you need to accept a new name." />
+                </node>
+              </node>
             </node>
+          </node>
+        </node>
+        <node concept="2nelso" id="1pSz6e1z_IZ" role="lGtFl">
+          <node concept="2neEaF" id="1pSz6e1z_J0" role="2neEaO">
+            <property role="2neEaE" value="some expressions can also be commented, such as hide." />
           </node>
         </node>
       </node>
@@ -2136,6 +2225,14 @@
       </node>
       <node concept="TzesD" id="21SBzWLHD35" role="Tzes_">
         <ref role="TzesC" node="21SBzWL_NxW" resolve="A" />
+      </node>
+      <node concept="2nelso" id="1pSz6e1zx3z" role="lGtFl">
+        <node concept="2neEaF" id="1pSz6e1zx3$" role="2neEaO">
+          <property role="2neEaE" value="Started out as a test for a model without sync. But SYNC got discontinued," />
+        </node>
+        <node concept="2neEaF" id="1pSz6e1zxd8" role="2neEaO">
+          <property role="2neEaE" value="so now it is just a regular model test." />
+        </node>
       </node>
     </node>
     <node concept="Tx2eO" id="21SBzWL_NBk" role="TxEeo">
@@ -2286,6 +2383,11 @@
             <node concept="ll1Wa" id="21SBzWL_NCq" role="llhPy" />
           </node>
         </node>
+        <node concept="2nelso" id="1pSz6e1AlSA" role="lGtFl">
+          <node concept="2neEaF" id="1pSz6e1AlSB" role="2neEaO">
+            <property role="2neEaE" value="commenting individual types is possible." />
+          </node>
+        </node>
       </node>
       <node concept="ll1We" id="21SBzWL_NCr" role="ll1WN">
         <property role="TrG5h" value="Color" />
@@ -2309,6 +2411,11 @@
         <property role="TrG5h" value="Points" />
         <node concept="llhRl" id="21SBzWL_NC$" role="llhRq">
           <property role="TrG5h" value="EMPTY" />
+          <node concept="2nelso" id="1pSz6e1AuG8" role="lGtFl">
+            <node concept="2neEaF" id="1pSz6e1AuG9" role="2neEaO">
+              <property role="2neEaE" value="a comment for empty" />
+            </node>
+          </node>
         </node>
         <node concept="llhRl" id="21SBzWL_NC_" role="llhRq">
           <property role="TrG5h" value="CONS" />
@@ -2323,6 +2430,16 @@
             <node concept="llhQC" id="21SBzWL_NCD" role="llhPy">
               <ref role="llhQJ" node="21SBzWL_NCz" resolve="Points" />
             </node>
+          </node>
+          <node concept="2nelso" id="1pSz6e1AuIx" role="lGtFl">
+            <node concept="2neEaF" id="1pSz6e1AuIy" role="2neEaO">
+              <property role="2neEaE" value="a comment for cons" />
+            </node>
+          </node>
+        </node>
+        <node concept="2nelso" id="1pSz6e1AuDJ" role="lGtFl">
+          <node concept="2neEaF" id="1pSz6e1AuDK" role="2neEaO">
+            <property role="2neEaE" value="a comment for points." />
           </node>
         </node>
       </node>
@@ -2383,6 +2500,11 @@
           <property role="TrG5h" value="Nil2" />
         </node>
       </node>
+      <node concept="2nelso" id="1pSz6e1AlSy" role="lGtFl">
+        <node concept="2neEaF" id="1pSz6e1AlSz" role="2neEaO">
+          <property role="2neEaE" value="A typedef with some more types" />
+        </node>
+      </node>
     </node>
     <node concept="Tx2eR" id="372P_cpeBE6" role="TxEeo">
       <property role="TrG5h" value="Connection" />
@@ -2402,6 +2524,11 @@
         </node>
         <node concept="TzesD" id="K86Xdu5jVn" role="1hWsz0">
           <ref role="TzesC" node="21SBzWL_NxW" resolve="A" />
+        </node>
+        <node concept="2nelso" id="1pSz6e1Az4q" role="lGtFl">
+          <node concept="2neEaF" id="1pSz6e1Az4r" role="2neEaO">
+            <property role="2neEaE" value="a comment for chan in." />
+          </node>
         </node>
       </node>
       <node concept="CUduV" id="K86Xdu6Z5d" role="CUdlS">
@@ -2431,6 +2558,11 @@
         </node>
         <node concept="TzesD" id="K86Xdu6Z5y" role="1hWsz0">
           <ref role="TzesC" node="21SBzWL_NxP" resolve="B1" />
+        </node>
+        <node concept="2nelso" id="1pSz6e1Az0t" role="lGtFl">
+          <node concept="2neEaF" id="1pSz6e1Az0u" role="2neEaO">
+            <property role="2neEaE" value="a comment for chan out" />
+          </node>
         </node>
       </node>
     </node>
@@ -3562,6 +3694,11 @@
                     <ref role="2kNunN" node="7tGom4ETsXH" resolve="var1" />
                   </node>
                 </node>
+                <node concept="2nelso" id="1pSz6e1AgpA" role="lGtFl">
+                  <node concept="2neEaF" id="1pSz6e1AgpB" role="2neEaO">
+                    <property role="2neEaE" value="is this the base case?" />
+                  </node>
+                </node>
               </node>
             </node>
             <node concept="2uhG8G" id="pzbciomkP_" role="2dF$$W">
@@ -3577,13 +3714,32 @@
                   <ref role="2kNunN" node="7tGom4ETsXH" resolve="var1" />
                 </node>
               </node>
+              <node concept="2nelso" id="1pSz6e1AgtA" role="lGtFl">
+                <node concept="2neEaF" id="1pSz6e1AgtB" role="2neEaO">
+                  <property role="2neEaE" value="or this one?" />
+                </node>
+              </node>
             </node>
           </node>
-          <node concept="3GBUl5" id="pzbciommzd" role="2dF$$W" />
+          <node concept="3GBUl5" id="pzbciommzd" role="2dF$$W">
+            <node concept="2nelso" id="1pSz6e1AgxA" role="lGtFl">
+              <node concept="2neEaF" id="1pSz6e1AgxB" role="2neEaO">
+                <property role="2neEaE" value="no one knows." />
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="1tz9HV" id="pzbcio7iO9" role="1tzmVy">
           <node concept="ll1W8" id="pzbcio7iPB" role="1tz9H1" />
           <node concept="ll1W9" id="pzbcio9tec" role="1tz9H1" />
+        </node>
+        <node concept="2nelso" id="1pSz6e1Ag1D" role="lGtFl">
+          <node concept="2neEaF" id="1pSz6e1Ag1E" role="2neEaO">
+            <property role="2neEaE" value="a procedure." />
+          </node>
+          <node concept="2neEaF" id="1pSz6e1Agd_" role="2neEaO">
+            <property role="2neEaE" value="Calls itself recursively." />
+          </node>
         </node>
       </node>
     </node>
@@ -3617,6 +3773,104 @@
             <node concept="TzesD" id="372P_cp9BGk" role="2uhHRW">
               <ref role="TzesC" node="372P_cp9A7U" resolve="B" />
             </node>
+            <node concept="2nelso" id="1pSz6e1AglA" role="lGtFl">
+              <node concept="2neEaF" id="1pSz6e1AglB" role="2neEaO">
+                <property role="2neEaE" value="a call to some other procdef" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2nelso" id="1pSz6e1Agh$" role="lGtFl">
+          <node concept="2neEaF" id="1pSz6e1Agh_" role="2neEaO">
+            <property role="2neEaE" value="a procedure without any arguments." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="Tx2eV" id="3eBBh23kdir">
+    <property role="TrG5h" value="problemFunction" />
+    <property role="3zDzjz" value="bin" />
+    <node concept="TxnDK" id="3eBBh23kdk_" role="TxEeo">
+      <node concept="2k8cz4" id="3eBBh23kdlW" role="2k8dKp">
+        <property role="TrG5h" value="fun1" />
+        <node concept="28Mf44" id="1pSz6e1syWz" role="2k8dN3">
+          <property role="TrG5h" value="x" />
+          <node concept="ll1Wa" id="1pSz6e1syW$" role="1yH3ds" />
+        </node>
+        <node concept="28Mf44" id="1pSz6e1syW_" role="2k8dN3">
+          <property role="TrG5h" value="y" />
+          <node concept="ll1Wa" id="1pSz6e1syWA" role="1yH3ds" />
+        </node>
+        <node concept="ll1Wa" id="1pSz6e1syWB" role="2k8dN5" />
+        <node concept="2dWqQf" id="1pSz6e1syWC" role="2k8dNo">
+          <node concept="2kNunK" id="1pSz6e1syWD" role="2dF$$Y">
+            <ref role="2kNunN" node="1pSz6e1syWz" resolve="x" />
+          </node>
+          <node concept="2kNunK" id="1pSz6e1syWE" role="2dF$$W">
+            <ref role="2kNunN" node="1pSz6e1syW_" resolve="y" />
+          </node>
+        </node>
+      </node>
+      <node concept="1dt3PH" id="3eBBh23kdot" role="2k8dKp">
+        <property role="1doOc4" value="true" />
+        <property role="1doOcq" value="0" />
+        <property role="TrG5h" value="+++" />
+        <node concept="28Mf44" id="3eBBh23kdoK" role="2k8dN3">
+          <property role="TrG5h" value="x" />
+          <node concept="ll1Wa" id="3eBBh23kdp0" role="1yH3ds" />
+        </node>
+        <node concept="ll1Wa" id="3eBBh23kdpy" role="2k8dN5" />
+        <node concept="2dWqQf" id="3eBBh23kdpU" role="2k8dNo">
+          <node concept="2kNunK" id="3eBBh23kdqi" role="2dF$$W">
+            <ref role="2kNunN" node="3eBBh23kdoK" resolve="x" />
+          </node>
+          <node concept="2kNunK" id="3eBBh23kdpL" role="2dF$$Y">
+            <ref role="2kNunN" node="3eBBh23kdoK" resolve="x" />
+          </node>
+        </node>
+      </node>
+      <node concept="1dt3PH" id="3eBBh23kdsb" role="2k8dKp">
+        <property role="1doOc4" value="true" />
+        <property role="1doOcq" value="0" />
+        <property role="TrG5h" value="++++" />
+        <node concept="28Mf44" id="3eBBh23kds_" role="2k8dN3">
+          <property role="TrG5h" value="x" />
+          <node concept="ll1Wa" id="3eBBh23kdsT" role="1yH3ds" />
+        </node>
+        <node concept="28Mf44" id="3eBBh23kdt1" role="2k8dN3">
+          <property role="TrG5h" value="y" />
+          <node concept="ll1Wa" id="3eBBh23kdtj" role="1yH3ds" />
+        </node>
+        <node concept="ll1Wa" id="3eBBh23kdtr" role="2k8dN5" />
+        <node concept="2dWqQf" id="3eBBh23kdtG" role="2k8dNo">
+          <node concept="2kNunK" id="3eBBh23kdtz" role="2dF$$Y">
+            <ref role="2kNunN" node="3eBBh23kds_" resolve="x" />
+          </node>
+          <node concept="2kNunK" id="3eBBh23kdwN" role="2dF$$W">
+            <ref role="2kNunN" node="3eBBh23kdt1" resolve="y" />
+          </node>
+        </node>
+      </node>
+      <node concept="1dt3PH" id="1pSz6e1syWF" role="2k8dKp">
+        <property role="1doOc4" value="true" />
+        <property role="1doOcq" value="0" />
+        <property role="TrG5h" value="-+-" />
+        <node concept="28Mf44" id="3eBBh23kdzx" role="2k8dN3">
+          <property role="TrG5h" value="x" />
+          <node concept="ll1Wa" id="3eBBh23kdzy" role="1yH3ds" />
+        </node>
+        <node concept="28Mf44" id="3eBBh23kdzz" role="2k8dN3">
+          <property role="TrG5h" value="y" />
+          <node concept="ll1Wa" id="3eBBh23kdz$" role="1yH3ds" />
+        </node>
+        <node concept="ll1Wa" id="3eBBh23kdz_" role="2k8dN5" />
+        <node concept="2dWqQf" id="3eBBh23kdzA" role="2k8dNo">
+          <node concept="2kNunK" id="3eBBh23kdzB" role="2dF$$Y">
+            <ref role="2kNunN" node="3eBBh23kdzx" resolve="x" />
+          </node>
+          <node concept="2kNunK" id="3eBBh23kdzC" role="2dF$$W">
+            <ref role="2kNunN" node="3eBBh23kdzz" resolve="y" />
           </node>
         </node>
       </node>
