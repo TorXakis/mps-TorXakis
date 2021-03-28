@@ -228,12 +228,39 @@
   <node concept="1TIwiD" id="7tKE5PeXt8J">
     <property role="EcuMT" value="8606564006615175727" />
     <property role="TrG5h" value="StautDef" />
-    <property role="34LRSv" value="state automaton" />
     <property role="R4oN_" value="A state automaton definition" />
-    <property role="3GE5qa" value="placeholders" />
+    <property role="3GE5qa" value="state_machines" />
+    <property role="34LRSv" value="STAUTDEF" />
     <ref role="1TJDcQ" node="7tKE5PeX8JH" resolve="TorXakisDefinition" />
-    <node concept="PrWs8" id="7tKE5PeXPVL" role="PzmwI">
-      <ref role="PrY4T" node="7tKE5PeXLM1" resolve="Placeholder" />
+    <node concept="1TJgyj" id="4$dvFsMvpFR" role="1TKVEi">
+      <property role="IQ2ns" value="5264002864757185271" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="channels" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3QyoU4ebBP$" resolve="ChannelDeclarationLine" />
+    </node>
+    <node concept="1TJgyj" id="4$dvFsMvpFS" role="1TKVEi">
+      <property role="IQ2ns" value="5264002864757185272" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="parameters" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="IzgQY3qV9F" resolve="MandatoryTypeVardec" />
+    </node>
+    <node concept="1TJgyj" id="4$dvFsMvpFZ" role="1TKVEi">
+      <property role="IQ2ns" value="5264002864757185279" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="exitkind" />
+      <ref role="20lvS9" node="7tGom4ESfCy" resolve="AbstractExitKind" />
+    </node>
+    <node concept="1TJgyj" id="4$dvFsMvpG7" role="1TKVEi">
+      <property role="IQ2ns" value="5264002864757185287" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="definitions" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4$dvFsMvpFM" resolve="StautItem" />
+    </node>
+    <node concept="PrWs8" id="4$dvFsMvpFP" role="PzmwI">
+      <ref role="PrY4T" node="6SzhJU2PSrY" resolve="HasIdName" />
     </node>
   </node>
   <node concept="PlHQZ" id="7tKE5PeXLM1">
@@ -1720,6 +1747,7 @@
       <property role="IQ2ns" value="8605360057957284436" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="7tGom4ESgY3" role="1TKVEi">
@@ -1954,6 +1982,96 @@
       <property role="IQ2nx" value="1619198425037942473" />
       <property role="TrG5h" value="text" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4$dvFsMvpFM">
+    <property role="EcuMT" value="5264002864757185266" />
+    <property role="3GE5qa" value="state_machines" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="StautItem" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4$dvFsMvpFN" role="PzmwI">
+      <ref role="PrY4T" node="1pSz6e1gtHU" resolve="Commentable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4$dvFsMyClY">
+    <property role="EcuMT" value="5264002864758031742" />
+    <property role="3GE5qa" value="state_machines" />
+    <property role="TrG5h" value="State" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4$dvFsMyClZ" role="PzmwI">
+      <ref role="PrY4T" node="6SzhJU2PSrY" resolve="HasIdName" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4$dvFsMyCmd">
+    <property role="EcuMT" value="5264002864758031757" />
+    <property role="3GE5qa" value="state_machines" />
+    <property role="TrG5h" value="StateItem" />
+    <property role="34LRSv" value="STATE" />
+    <property role="R4oN_" value="defines states for state machine" />
+    <ref role="1TJDcQ" node="4$dvFsMvpFM" resolve="StautItem" />
+    <node concept="1TJgyj" id="4$dvFsMyCme" role="1TKVEi">
+      <property role="IQ2ns" value="5264002864758031758" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="states" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="4$dvFsMyClY" resolve="State" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4$dvFsMCf$q">
+    <property role="EcuMT" value="5264002864759503130" />
+    <property role="3GE5qa" value="state_machines" />
+    <property role="TrG5h" value="StautUpdate" />
+    <property role="R4oN_" value="update state variable" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4$dvFsMDjmA" role="1TKVEi">
+      <property role="IQ2ns" value="5264002864759780774" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="4$dvFsMDjm$" role="1TKVEi">
+      <property role="IQ2ns" value="5264002864759780772" />
+      <property role="20kJfa" value="variable" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6SzhJU2Mto8" resolve="AbstractVarDec" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4$dvFsMCf$r">
+    <property role="EcuMT" value="5264002864759503131" />
+    <property role="3GE5qa" value="state_machines" />
+    <property role="TrG5h" value="VarItem" />
+    <property role="34LRSv" value="VAR" />
+    <property role="R4oN_" value="defines global vars for state machine" />
+    <ref role="1TJDcQ" node="4$dvFsMvpFM" resolve="StautItem" />
+    <node concept="1TJgyj" id="4$dvFsMCf$s" role="1TKVEi">
+      <property role="IQ2ns" value="5264002864759503132" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="vars" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="IzgQY3qV9F" resolve="MandatoryTypeVardec" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4$dvFsMDjnt">
+    <property role="EcuMT" value="5264002864759780829" />
+    <property role="3GE5qa" value="state_machines" />
+    <property role="TrG5h" value="InitItem" />
+    <property role="34LRSv" value="INIT" />
+    <property role="R4oN_" value="define starting state and variable values" />
+    <ref role="1TJDcQ" node="4$dvFsMvpFM" resolve="StautItem" />
+    <node concept="1TJgyj" id="4$dvFsMDjnw" role="1TKVEi">
+      <property role="IQ2ns" value="5264002864759780832" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="updates" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4$dvFsMCf$q" resolve="StautUpdate" />
+    </node>
+    <node concept="1TJgyj" id="4$dvFsMDjnu" role="1TKVEi">
+      <property role="IQ2ns" value="5264002864759780830" />
+      <property role="20kJfa" value="state" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4$dvFsMyClY" resolve="State" />
     </node>
   </node>
 </model>

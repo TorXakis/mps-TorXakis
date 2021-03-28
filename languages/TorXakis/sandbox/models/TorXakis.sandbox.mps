@@ -125,6 +125,11 @@
       <concept id="8606564006615175724" name="TorXakis.structure.ConstDefList" flags="ng" index="TxnDL">
         <child id="9101563008477019909" name="constants" index="3Vl81g" />
       </concept>
+      <concept id="8606564006615175727" name="TorXakis.structure.StautDef" flags="ng" index="TxnDM">
+        <child id="5264002864757185271" name="channels" index="1Vseh0" />
+        <child id="5264002864757185272" name="parameters" index="1Vsehf" />
+        <child id="5264002864757185287" name="definitions" index="1VsemK" />
+      </concept>
       <concept id="8606564006615601012" name="TorXakis.structure.ChannelRef" flags="ng" index="TzesD">
         <reference id="8606564006615601013" name="channel" index="TzesC" />
       </concept>
@@ -229,7 +234,22 @@
       <concept id="9101563008477019908" name="TorXakis.structure.ConstantDef" flags="ng" index="3Vl81h">
         <child id="9101563008477031670" name="value" index="3Vldez" />
       </concept>
+      <concept id="5264002864758031757" name="TorXakis.structure.StateItem" flags="ng" index="1VxZGU">
+        <child id="5264002864758031758" name="states" index="1VxZGT" />
+      </concept>
+      <concept id="5264002864758031742" name="TorXakis.structure.State" flags="ng" index="1VxZJ9" />
       <concept id="9101563008490571512" name="TorXakis.structure.AtFcall" flags="ng" index="3VDrAH" />
+      <concept id="5264002864759780829" name="TorXakis.structure.InitItem" flags="ng" index="1VE4HE">
+        <reference id="5264002864759780830" name="state" index="1VE4HD" />
+        <child id="5264002864759780832" name="updates" index="1VE4Hn" />
+      </concept>
+      <concept id="5264002864759503131" name="TorXakis.structure.VarItem" flags="ng" index="1VFouG">
+        <child id="5264002864759503132" name="vars" index="1VFouF" />
+      </concept>
+      <concept id="5264002864759503130" name="TorXakis.structure.StautUpdate" flags="ng" index="1VFouH">
+        <reference id="5264002864759780772" name="variable" index="1VE4Gj" />
+        <child id="5264002864759780774" name="value" index="1VE4Gh" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -2564,6 +2584,66 @@
             <property role="2neEaE" value="a comment for chan out" />
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="TxnDM" id="4$dvFsMwMBx" role="TxEeo">
+      <property role="TrG5h" value="stateTest" />
+      <node concept="1VxZGU" id="4$dvFsM_uGM" role="1VsemK">
+        <node concept="1VxZJ9" id="4$dvFsM_uGO" role="1VxZGT">
+          <property role="TrG5h" value="name1" />
+        </node>
+        <node concept="1VxZJ9" id="4$dvFsMBkqL" role="1VxZGT">
+          <property role="TrG5h" value="name2" />
+        </node>
+      </node>
+      <node concept="1VxZGU" id="4$dvFsM_uGW" role="1VsemK">
+        <node concept="1VxZJ9" id="4$dvFsM_uGY" role="1VxZGT">
+          <property role="TrG5h" value="std" />
+        </node>
+      </node>
+      <node concept="1VFouG" id="4$dvFsMDjkN" role="1VsemK">
+        <node concept="28Mf44" id="4$dvFsMDjkV" role="1VFouF">
+          <property role="TrG5h" value="x" />
+          <node concept="ll1Wa" id="4$dvFsMDjl7" role="1yH3ds" />
+        </node>
+        <node concept="28Mf44" id="4$dvFsMDjlZ" role="1VFouF">
+          <property role="TrG5h" value="y" />
+          <node concept="ll1W9" id="4$dvFsMDjmd" role="1yH3ds" />
+        </node>
+      </node>
+      <node concept="1VE4HE" id="4$dvFsMEjQ_" role="1VsemK">
+        <ref role="1VE4HD" node="4$dvFsM_uGO" resolve="name1" />
+        <node concept="1VFouH" id="4$dvFsMEjQM" role="1VE4Hn">
+          <ref role="1VE4Gj" node="21SBzWL_NAJ" resolve="x" />
+          <node concept="2dNIYX" id="4$dvFsMEjQQ" role="1VE4Gh">
+            <property role="2dWqQt" value="5" />
+          </node>
+        </node>
+        <node concept="1VFouH" id="4$dvFsMEjQV" role="1VE4Hn">
+          <ref role="1VE4Gj" node="21SBzWL_NAR" resolve="y" />
+          <node concept="K4LZj" id="4$dvFsMEjR1" role="1VE4Gh">
+            <property role="K4LZm" value="5" />
+          </node>
+        </node>
+      </node>
+      <node concept="1VE4HE" id="4$dvFsMEjRq" role="1VsemK">
+        <ref role="1VE4HD" node="4$dvFsM_uGY" resolve="std" />
+      </node>
+      <node concept="28Mf44" id="4$dvFsMwMK4" role="1Vsehf">
+        <property role="TrG5h" value="somevar" />
+        <node concept="ll1W8" id="4$dvFsMwMKo" role="1yH3ds" />
+      </node>
+      <node concept="Nz1V5" id="4$dvFsMwMJy" role="1Vseh0">
+        <node concept="1olYwO" id="4$dvFsMwMJz" role="Nz1Vd">
+          <property role="TrG5h" value="Chan1" />
+        </node>
+        <node concept="ll1Wa" id="4$dvFsMwMJE" role="Nz1Vf" />
+      </node>
+      <node concept="Nz1V5" id="4$dvFsMwMJO" role="1Vseh0">
+        <node concept="1olYwO" id="4$dvFsMwMJP" role="Nz1Vd">
+          <property role="TrG5h" value="Chan2" />
+        </node>
+        <node concept="ll1W9" id="4$dvFsMwMJZ" role="Nz1Vf" />
       </node>
     </node>
   </node>
