@@ -73,6 +73,7 @@
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
       <concept id="6702802731807351367" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="9S07l" />
       <concept id="6702802731807420587" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAParent" flags="ig" index="9SLcT" />
+      <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
       <concept id="4303308395523343364" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_link" flags="ng" index="2DA6wF" />
       <concept id="4303308395523096213" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childConcept" flags="ng" index="2DD5aU" />
       <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
@@ -111,6 +112,9 @@
       </concept>
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -656,6 +660,60 @@
                 <node concept="3clFbT" id="pzbciocYGz" role="3cqZAk">
                   <property role="3clFbU" value="true" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="E2UqAaOst1">
+    <property role="3GE5qa" value="state_machines" />
+    <ref role="1M2myG" to="b8q8:4$dvFsMDjnt" resolve="InitItem" />
+    <node concept="1N5Pfh" id="E2UqAaOst2" role="1Mr941">
+      <ref role="1N5Vy1" to="b8q8:4$dvFsMDjnu" resolve="state" />
+      <node concept="1dDu$B" id="E2UqAaOsvP" role="1N6uqs">
+        <ref role="1dDu$A" to="b8q8:4$dvFsMyClY" resolve="State" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="E2UqAaOsxJ">
+    <property role="3GE5qa" value="state_machines" />
+    <ref role="1M2myG" to="b8q8:E2UqAaLtTV" resolve="StautTransition" />
+    <node concept="1N5Pfh" id="E2UqAaOsxK" role="1Mr941">
+      <ref role="1N5Vy1" to="b8q8:E2UqAaLtTY" resolve="startingState" />
+      <node concept="1dDu$B" id="E2UqAaOszC" role="1N6uqs">
+        <ref role="1dDu$A" to="b8q8:4$dvFsMyClY" resolve="State" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="E2UqAaOs_w" role="1Mr941">
+      <ref role="1N5Vy1" to="b8q8:E2UqAaLtU0" resolve="endState" />
+      <node concept="1dDu$B" id="E2UqAaOsBq" role="1N6uqs">
+        <ref role="1dDu$A" to="b8q8:4$dvFsMyClY" resolve="State" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="E2UqAaOYm7">
+    <property role="3GE5qa" value="state_machines" />
+    <ref role="1M2myG" to="b8q8:4$dvFsMCf$q" resolve="StautUpdate" />
+    <node concept="1N5Pfh" id="E2UqAb7m11" role="1Mr941">
+      <ref role="1N5Vy1" to="b8q8:4$dvFsMDjm$" resolve="variable" />
+      <node concept="1dDu$B" id="E2UqAb7m35" role="1N6uqs">
+        <ref role="1dDu$A" to="b8q8:E2UqAb7cte" resolve="StateVariable" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="E2UqAb7ctk">
+    <property role="3GE5qa" value="vardecs" />
+    <ref role="1M2myG" to="b8q8:E2UqAb7cte" resolve="StateVariable" />
+    <node concept="9S07l" id="E2UqAb7ctl" role="9Vyp8">
+      <node concept="3clFbS" id="E2UqAb7ctm" role="2VODD2">
+        <node concept="3cpWs6" id="E2UqAb7cxf" role="3cqZAp">
+          <node concept="2OqwBi" id="E2UqAb7cE$" role="3cqZAk">
+            <node concept="nLn13" id="E2UqAb7cy1" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="E2UqAb7cWY" role="2OqNvi">
+              <node concept="chp4Y" id="E2UqAb7cZh" role="cj9EA">
+                <ref role="cht4Q" to="b8q8:4$dvFsMCf$r" resolve="VarItem" />
               </node>
             </node>
           </node>
