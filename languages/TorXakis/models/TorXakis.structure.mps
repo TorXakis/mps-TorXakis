@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -635,9 +634,6 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7kIA9EAtln9" role="PzmwI">
       <ref role="PrY4T" node="6SzhJU2PSrY" resolve="HasIdName" />
-    </node>
-    <node concept="PrWs8" id="462tQr3mEx9" role="PzmwI">
-      <ref role="PrY4T" node="2ZlpRridUSI" resolve="TypeNameComboUnique" />
     </node>
   </node>
   <node concept="1TIwiD" id="lsoyDBU550">
