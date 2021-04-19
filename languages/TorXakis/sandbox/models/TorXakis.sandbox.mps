@@ -3046,7 +3046,6 @@
   </node>
   <node concept="Tx2eV" id="7tGom4ETpfN">
     <property role="TrG5h" value="procdeftest" />
-    <property role="3zDzjz" value="bin" />
     <node concept="1tzn5s" id="7tGom4ETsXf" role="TxEeo">
       <node concept="1tz9sw" id="7sOvx6nXygk" role="1tzn5v">
         <property role="TrG5h" value="proc1" />
@@ -3192,6 +3191,26 @@
         <node concept="2nelso" id="7sOvx6nXyNX" role="lGtFl">
           <node concept="2neEaF" id="7sOvx6nXyNY" role="2neEaO">
             <property role="2neEaE" value="a procedure without any arguments" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="TxnDK" id="y6o4WekD4m" role="TxEeo">
+      <node concept="1dt3PH" id="y6o4WekD5$" role="2k8dKp">
+        <property role="1doOc4" value="true" />
+        <property role="1doOcq" value="0" />
+        <property role="TrG5h" value="+++" />
+        <node concept="28Mf44" id="y6o4WekD5I" role="2k8dN3">
+          <property role="TrG5h" value="x" />
+          <node concept="ll1Wa" id="y6o4WekD5Y" role="1yH3ds" />
+        </node>
+        <node concept="ll1Wa" id="y6o4WekD66" role="2k8dN5" />
+        <node concept="2dWl87" id="y6o4WekD6o" role="2k8dNo">
+          <node concept="2dNIYX" id="y6o4WekD6r" role="2dF$$W">
+            <property role="2dWqQt" value="7" />
+          </node>
+          <node concept="2kNunK" id="y6o4WekD6e" role="2dF$$Y">
+            <ref role="2kNunN" node="y6o4WekD5I" resolve="x" />
           </node>
         </node>
       </node>

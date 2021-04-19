@@ -24,8 +24,8 @@
     <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" implicit="true" />
     <import index="jkm4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.ui(MPS.IDEA/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -350,7 +350,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="7TdvZgSym3d" role="3cqZAp" />
         </node>
       </node>
       <node concept="2LYoGR" id="mTvy8Xh_Fp" role="3rFUVC">
@@ -991,19 +990,10 @@
               <node concept="3clFbS" id="7TdvZgS$S3I" role="9aQI4">
                 <node concept="3clFbF" id="7TdvZgS$Sa7" role="3cqZAp">
                   <node concept="37vLTI" id="7TdvZgS$SGO" role="3clFbG">
+                    <node concept="37vLTw" id="7TdvZgS$Sa6" role="37vLTJ">
+                      <ref role="3cqZAo" node="7TdvZgS$NNU" resolve="sourceFolder" />
+                    </node>
                     <node concept="2OqwBi" id="7TdvZgS_lPP" role="37vLTx">
-                      <node concept="2OqwBi" id="7TdvZgS$Ukz" role="2Oq$k0">
-                        <node concept="2OqwBi" id="7TdvZgS$TR2" role="2Oq$k0">
-                          <node concept="2OqwBi" id="7TdvZgS$T3U" role="2Oq$k0">
-                            <node concept="30xZXu" id="7TdvZgS$SS4" role="2Oq$k0" />
-                            <node concept="I4A8Y" id="7TdvZgS$TAj" role="2OqNvi" />
-                          </node>
-                          <node concept="13u695" id="7TdvZgS$U79" role="2OqNvi" />
-                        </node>
-                        <node concept="2qgKlT" id="7TdvZgS$UFE" role="2OqNvi">
-                          <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
-                        </node>
-                      </node>
                       <node concept="liA8E" id="7TdvZgS_mOH" role="2OqNvi">
                         <ref role="37wK5l" to="wyt6:~String.replace(char,char)" resolve="replace" />
                         <node concept="1Xhbcc" id="7TdvZgS_n$p" role="37wK5m">
@@ -1013,9 +1003,34 @@
                           <property role="1XhdNS" value="/" />
                         </node>
                       </node>
-                    </node>
-                    <node concept="37vLTw" id="7TdvZgS$Sa6" role="37vLTJ">
-                      <ref role="3cqZAo" node="7TdvZgS$NNU" resolve="sourceFolder" />
+                      <node concept="2OqwBi" id="y6o4WemEbD" role="2Oq$k0">
+                        <node concept="2OqwBi" id="y6o4WemDxN" role="2Oq$k0">
+                          <node concept="2qgKlT" id="y6o4WemDHt" role="2OqNvi">
+                            <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+                          </node>
+                          <node concept="30xZXu" id="y6o4WemYz6" role="2Oq$k0" />
+                        </node>
+                        <node concept="liA8E" id="y6o4WemEsf" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~String.substring(int,int)" resolve="substring" />
+                          <node concept="3cmrfG" id="y6o4WemFOp" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                          <node concept="2OqwBi" id="y6o4WemCxG" role="37wK5m">
+                            <node concept="2OqwBi" id="y6o4Wem2Wy" role="2Oq$k0">
+                              <node concept="30xZXu" id="y6o4WemYHO" role="2Oq$k0" />
+                              <node concept="2qgKlT" id="y6o4Wem2W$" role="2OqNvi">
+                                <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="y6o4WemCVG" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~String.lastIndexOf(int)" resolve="lastIndexOf" />
+                              <node concept="1Xhbcc" id="y6o4WemD3i" role="37wK5m">
+                                <property role="1XhdNS" value="." />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
