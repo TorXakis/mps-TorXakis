@@ -54,7 +54,7 @@ MPS-TorXakis supports all the features of TorXakis, except regular expressions. 
 Since MPS is editing an AST directly, comments cannot be freely added anywhere in the file. Instead, they can be added to certain nodes. In general, comments can be added to every node that occupies its own line. I.E. definitions, and some expression types. Using <kbd>Alt</kbd> + <kbd>Enter</kbd>, the add comment intention can be used to add a comment to the currently selected node. <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>/</kbd> invokes the add comment intention directly. These comments can be used for documentation. Another type of comment is availiable for commenting out pieces of code. To use this, first select the section of code to turn into a comment, and then press <kbd>Ctrl</kbd>  + <kbd>/</kbd>.
 
 ### Operator precedence
-TorXakis does not support operator precedence. 1+2\*3 is interpreted as 9, as evaluation goes strictly from left to right. MPS-TorXakis adds operator precedence tor Torxakis, such that 1+2\*3 evaluates to 7, as expected. In addition to this, custom operator definitions, which are already a TorXakis feature, are augmented with the possibility to set the operator precedence and associativity. New operators default to being left assciative and having the lowest possible precendence. These values can be changed in the inspector window. To open the inspector, press the *inspector* button located in the bottom right corner, and then place the cursor on an operator definition.
+TorXakis does not support operator precedence. 1+2\*3 is interpreted as 9, as evaluation goes strictly from left to right. MPS-TorXakis adds operator precedence tor Torxakis, such that 1+2\*3 evaluates to 7, as expected. In addition to this, custom operator definitions, which are already a TorXakis feature, are augmented with the possibility to set the operator precedence and associativity. New operators default to being left associative and having the lowest possible precedence These values can be changed in the inspector window. To open the inspector, press the *inspector* button located in the bottom right corner, and then place the cursor on an operator definition.
 
 ### Wrapping
 Wrapping expressions in for instance parentheses or in a function call, can be done by selecting the desired expression and then invoking autocomplete. Pick the desired enclosing expression from the list and if possible, the entire selection will be wrapped by the newly selected one.
@@ -76,5 +76,3 @@ Wrapping expressions in for instance parentheses or in a function call, can be d
 | <kbd>Ctrl</kbd>  + <kbd>↓</kbd> | Remove the last added parent node from the current selection.
 |<kbd>Shift</kbd>  + <kbd>↑</kbd> | If the current selection is an element(s) in a list, add the next element in the list to the selection.
 <kbd>Shift</kbd>  + <kbd>↓</kbd> | If the current selection is an element(s) in a list, add the prevous element in the list to the selection.
-
-
