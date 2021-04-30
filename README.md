@@ -12,7 +12,7 @@ Other smaller features are often implemented as so called intentions. These are 
 1. Install [MPS](https://www.jetbrains.com/mps/). 
 2. Install [TorXakis](https://github.com/TorXakis/TorXakis). MPS-TorXakis is developed for [TorXakis 0.6.0](https://github.com/TorXakis/TorXakis/releases/tag/v0.6.0). Later versions of TorXakis use a different syntax, and therefore not all compiled code is guaranteed to work with later versions.
 3. Install the MPS-TorXakis plugin.
-	* Download the plugin zip file from the repository. It is located in the release folder.
+	* Download the latest [release version](https://github.com/TorXakis/mps-TorXakis/releases).
 	* In the welcome screen of MPS, press *configure*, and then select *plugins* from the dropdown menu. Alternatively, from an existing MPS project in the help menu, press *find action* and type *plugins* in the text field.
 	* Press the gear icon, and select *install plugin from disc*
 	* Select the plugin zip file downloaded earlier. Do not unpack the zip file first.
