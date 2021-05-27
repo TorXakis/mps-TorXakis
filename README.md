@@ -60,6 +60,7 @@ TorXakis does not support operator precedence. 1+2\*3 is interpreted as 9, as ev
 Wrapping expressions in for instance parentheses or in a function call, can be done by selecting the desired expression and then invoking autocomplete. Pick the desired enclosing expression from the list and if possible, the entire selection will be wrapped by the newly selected one.
 
 ## Keybinds
+This section describes some of the more commonly used shortcuts. A more complete description of how to effectively write, edit and navigate code within MPS can be found [here](https://www.jetbrains.com/help/mps/working-with-source-code.html).
 | Shortcut| description |
 |---|---|
 | <kbd>Enter</kbd> | Adds a new element to the current list. I.E. when pressed if the cursor is located in the argument list of a function, a new argument will be added to the list.
