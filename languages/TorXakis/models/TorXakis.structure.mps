@@ -114,7 +114,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="Behaviour" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6SzhJU2Jqk4" resolve="BehaviourExpression" />
+      <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="7tKE5PeZkWm" role="PzmwI">
       <ref role="PrY4T" node="7tKE5PeZjVM" resolve="HasCapidName" />
@@ -124,6 +124,9 @@
     </node>
     <node concept="PrWs8" id="7sOvx6nLOct" role="PzmwI">
       <ref role="PrY4T" node="7sOvx6nLMQN" resolve="TorXakisDefinition" />
+    </node>
+    <node concept="PrWs8" id="6OVizms61K3" role="PzmwI">
+      <ref role="PrY4T" node="6OVizms0HN8" resolve="BehaviourExpressionContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="7tKE5PeX8JE">
@@ -311,7 +314,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expression" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6SzhJU2Jqk4" resolve="BehaviourExpression" />
+      <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="6SzhJU2Ltb2" role="1TKVEi">
       <property role="IQ2ns" value="7936265027286586050" />
@@ -392,8 +395,8 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
     </node>
-    <node concept="PrWs8" id="784v76A7$w3" role="PzmwI">
-      <ref role="PrY4T" node="784v76A7yam" resolve="BaseExpressionContainer" />
+    <node concept="PrWs8" id="6OVizms3lq2" role="PzmwI">
+      <ref role="PrY4T" node="6OVizms0GjR" resolve="ValueExpressionContainer" />
     </node>
     <node concept="PrWs8" id="1pSz6e1zHq8" role="PzmwI">
       <ref role="PrY4T" node="1pSz6e1gtHU" resolve="Commentable" />
@@ -544,6 +547,9 @@
       <property role="20kJfa" value="expression" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="6OVizms9HCd" role="PzmwI">
+      <ref role="PrY4T" node="6OVizms0GjR" resolve="ValueExpressionContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="6SzhJU2MtGS">
@@ -1097,8 +1103,8 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
     </node>
-    <node concept="PrWs8" id="5DuWkzevyQp" role="PzmwI">
-      <ref role="PrY4T" node="784v76A7yam" resolve="BaseExpressionContainer" />
+    <node concept="PrWs8" id="6OVizms3kMB" role="PzmwI">
+      <ref role="PrY4T" node="6OVizms0GjR" resolve="ValueExpressionContainer" />
     </node>
     <node concept="PrWs8" id="3OjKFfPzqK1" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -1461,8 +1467,8 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
     </node>
-    <node concept="PrWs8" id="7TffPm56YOo" role="PzmwI">
-      <ref role="PrY4T" node="784v76A7yam" resolve="BaseExpressionContainer" />
+    <node concept="PrWs8" id="6OVizms3lCX" role="PzmwI">
+      <ref role="PrY4T" node="6OVizms0GjR" resolve="ValueExpressionContainer" />
     </node>
   </node>
   <node concept="PlHQZ" id="2ZlpRridUSI">
@@ -1543,8 +1549,8 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
     </node>
-    <node concept="PrWs8" id="7TffPm570T3" role="PzmwI">
-      <ref role="PrY4T" node="784v76A7yam" resolve="BaseExpressionContainer" />
+    <node concept="PrWs8" id="6OVizms0HUp" role="PzmwI">
+      <ref role="PrY4T" node="6OVizms0GjR" resolve="ValueExpressionContainer" />
     </node>
     <node concept="PrWs8" id="1pSz6e1zsbp" role="PzmwI">
       <ref role="PrY4T" node="1pSz6e1gtHU" resolve="Commentable" />
@@ -1689,8 +1695,8 @@
     <node concept="PrWs8" id="7tGom4ESfp2" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
-    <node concept="PrWs8" id="7tGom4ESfDo" role="PzmwI">
-      <ref role="PrY4T" node="784v76A7yam" resolve="BaseExpressionContainer" />
+    <node concept="PrWs8" id="6OVizms6C2A" role="PzmwI">
+      <ref role="PrY4T" node="6OVizms0HN8" resolve="BehaviourExpressionContainer" />
     </node>
     <node concept="PrWs8" id="1pSz6e1Ac5k" role="PzmwI">
       <ref role="PrY4T" node="1pSz6e1gtHU" resolve="Commentable" />
@@ -1736,6 +1742,7 @@
     <property role="3GE5qa" value="functions" />
     <property role="TrG5h" value="ProcDefList" />
     <property role="34LRSv" value="PROCDEF" />
+    <property role="R4oN_" value="A procedure definition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7tGom4ESh0Y" role="1TKVEi">
       <property role="IQ2ns" value="8605360057957290046" />
@@ -1757,8 +1764,8 @@
     <node concept="PrWs8" id="pzbcio9uVD" role="PzmwI">
       <ref role="PrY4T" node="6SzhJU2Jqk4" resolve="BehaviourExpression" />
     </node>
-    <node concept="PrWs8" id="pzbcio9v4J" role="PzmwI">
-      <ref role="PrY4T" node="784v76A7yam" resolve="BaseExpressionContainer" />
+    <node concept="PrWs8" id="6OVizms3lVq" role="PzmwI">
+      <ref role="PrY4T" node="6OVizms0GjR" resolve="ValueExpressionContainer" />
     </node>
     <node concept="PrWs8" id="1pSz6e1zBqA" role="PzmwI">
       <ref role="PrY4T" node="1pSz6e1gtHU" resolve="Commentable" />
@@ -1986,6 +1993,9 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="E2UqAb7cte" resolve="StateVariable" />
     </node>
+    <node concept="PrWs8" id="6OVizms79Dc" role="PzmwI">
+      <ref role="PrY4T" node="6OVizms0GjR" resolve="ValueExpressionContainer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4$dvFsMCf$r">
     <property role="EcuMT" value="5264002864759503131" />
@@ -2129,6 +2139,25 @@
     <property role="EcuMT" value="8606564006615092205" />
     <node concept="PrWs8" id="1pSz6e1gIed" role="PrDN$">
       <ref role="PrY4T" node="1pSz6e1gtHU" resolve="Commentable" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6OVizms0GjR">
+    <property role="EcuMT" value="7870966367871223031" />
+    <property role="3GE5qa" value="expression_base" />
+    <property role="TrG5h" value="ValueExpressionContainer" />
+    <node concept="PrWs8" id="6OVizms0Gks" role="PrDN$">
+      <ref role="PrY4T" node="784v76A7yam" resolve="BaseExpressionContainer" />
+    </node>
+    <node concept="t5JxF" id="6OVizms0Gku" role="lGtFl">
+      <property role="t5JxN" value="wrapper interface for baseExpression contaier, if there is just a single valueexpression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6OVizms0HN8">
+    <property role="EcuMT" value="7870966367871229128" />
+    <property role="3GE5qa" value="expression_base" />
+    <property role="TrG5h" value="BehaviourExpressionContainer" />
+    <node concept="PrWs8" id="6OVizms0HN9" role="PrDN$">
+      <ref role="PrY4T" node="784v76A7yam" resolve="BaseExpressionContainer" />
     </node>
   </node>
 </model>
