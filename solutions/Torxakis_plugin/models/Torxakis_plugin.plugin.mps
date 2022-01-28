@@ -2,11 +2,11 @@
 <model ref="r:3db24dc4-b51d-4604-89fc-7acc62ff240e(Torxakis_plugin.plugin)">
   <persistence version="9" />
   <languages>
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="4" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="5" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
-    <use id="22e72e4c-0f69-46ce-8403-6750153aa615" name="jetbrains.mps.execution.configurations" version="1" />
+    <use id="22e72e4c-0f69-46ce-8403-6750153aa615" name="jetbrains.mps.execution.configurations" version="2" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
     <use id="756e911c-3f1f-4a48-bdf5-a2ceb91b723c" name="jetbrains.mps.execution.settings" version="0" />
     <use id="f3347d8a-0e79-4f35-8ac9-1574f25c986f" name="jetbrains.mps.execution.commands" version="0" />
@@ -224,7 +224,6 @@
       </concept>
       <concept id="2401501559171345993" name="jetbrains.mps.execution.configurations.structure.RunConfiguration" flags="ng" index="3wDVqS">
         <reference id="2401501559171353314" name="configurationKind" index="3wDP8j" />
-        <child id="4763274727405873310" name="icon" index="3GxumY" />
       </concept>
       <concept id="2401501559171345994" name="jetbrains.mps.execution.configurations.structure.RunConfigurationKind" flags="ng" index="3wDVqV">
         <property id="8343626183964133804" name="description" index="2y7wDy" />
@@ -393,7 +392,6 @@
       <property role="TrG5h" value="torxakisHome" />
       <node concept="17QB3L" id="7T4oZaj3rjV" role="1tU5fm" />
     </node>
-    <node concept="1QGGSu" id="mTvy8Xhsyb" role="3GxumY" />
     <node concept="yHkDc" id="mTvy8Xhsyc" role="yHkHg">
       <node concept="yHkD3" id="mTvy8XiHtj" role="yHkCN">
         <property role="TrG5h" value="filesField" />

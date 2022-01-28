@@ -2,7 +2,7 @@
 <model ref="r:f27c423e-fe8f-4bc4-92d4-397fbf1c81cc(TorXakis.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="0" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
@@ -2530,10 +2530,15 @@
     <node concept="13i0hz" id="4nMFgA3o7Tb" role="13h7CS">
       <property role="TrG5h" value="getName" />
       <property role="13i0it" value="true" />
-      <property role="13i0iv" value="true" />
       <node concept="3Tm1VV" id="4nMFgA3o7Tc" role="1B3o_S" />
       <node concept="17QB3L" id="4nMFgA3o8ik" role="3clF45" />
-      <node concept="3clFbS" id="4nMFgA3o7Te" role="3clF47" />
+      <node concept="3clFbS" id="4nMFgA3o7Te" role="3clF47">
+        <node concept="3cpWs6" id="63cWqYKRRmw" role="3cqZAp">
+          <node concept="Xl_RD" id="63cWqYKRRmI" role="3cqZAk">
+            <property role="Xl_RC" value="" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="13h7C7" id="3ZG$ufCTlTO">

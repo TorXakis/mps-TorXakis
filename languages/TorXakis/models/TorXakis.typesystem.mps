@@ -336,6 +336,7 @@
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
+      <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
       <concept id="1883223317721008708" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfStatement" flags="nn" index="Jncv_">
         <reference id="1883223317721008712" name="nodeConcept" index="JncvD" />
         <child id="1883223317721008709" name="body" index="Jncv$" />
@@ -3524,11 +3525,14 @@
                 <node concept="Xl_RD" id="7oTuwCVfmG2" role="3uHU7B">
                   <property role="Xl_RC" value="type of fromstring is is: " />
                 </node>
-                <node concept="2OqwBi" id="7oTuwCVfnds" role="3uHU7w">
-                  <node concept="1YBJjd" id="7oTuwCVfmZa" role="2Oq$k0">
-                    <ref role="1YBMHb" node="7oTuwCVfcFO" resolve="fcall" />
+                <node concept="2OqwBi" id="63cWqYKFSM2" role="3uHU7w">
+                  <node concept="2OqwBi" id="7oTuwCVfnds" role="2Oq$k0">
+                    <node concept="1YBJjd" id="7oTuwCVfmZa" role="2Oq$k0">
+                      <ref role="1YBMHb" node="7oTuwCVfcFO" resolve="fcall" />
+                    </node>
+                    <node concept="3JvlWi" id="7oTuwCVfnr7" role="2OqNvi" />
                   </node>
-                  <node concept="3JvlWi" id="7oTuwCVfnr7" role="2OqNvi" />
+                  <node concept="2Iv5rx" id="63cWqYKFSM3" role="2OqNvi" />
                 </node>
               </node>
               <node concept="Xl_RD" id="7oTuwCVfnGT" role="3uHU7w">
@@ -11974,10 +11978,13 @@
               </node>
             </node>
             <node concept="3cpWs3" id="7sOvx6nH6ZJ" role="3o8Qv2">
-              <node concept="1Z2H0r" id="7sOvx6nH6ZV" role="3uHU7w">
-                <node concept="1YBJjd" id="7sOvx6nH74v" role="1Z2MuG">
-                  <ref role="1YBMHb" node="7sOvx6nGrwl" resolve="stautDef" />
+              <node concept="2OqwBi" id="63cWqYKFTbp" role="3uHU7w">
+                <node concept="1Z2H0r" id="7sOvx6nH6ZV" role="2Oq$k0">
+                  <node concept="1YBJjd" id="7sOvx6nH74v" role="1Z2MuG">
+                    <ref role="1YBMHb" node="7sOvx6nGrwl" resolve="stautDef" />
+                  </node>
                 </node>
+                <node concept="2Iv5rx" id="63cWqYKFTbq" role="2OqNvi" />
               </node>
               <node concept="Xl_RD" id="7sOvx6nH6HT" role="3uHU7B">
                 <property role="Xl_RC" value="Given type does not match actual type: " />
@@ -12216,8 +12223,11 @@
         <node concept="3clFbS" id="4nMFgA3tqY2" role="3clFbx">
           <node concept="2xdQw9" id="4nMFgA3tqY3" role="3cqZAp">
             <node concept="3cpWs3" id="4nMFgA3tqY4" role="9lYJi">
-              <node concept="1YBJjd" id="4nMFgA3twDo" role="3uHU7w">
-                <ref role="1YBMHb" node="4nMFgA3tpWK" resolve="channel" />
+              <node concept="2OqwBi" id="63cWqYKFTb$" role="3uHU7w">
+                <node concept="1YBJjd" id="4nMFgA3twDo" role="2Oq$k0">
+                  <ref role="1YBMHb" node="4nMFgA3tpWK" resolve="channel" />
+                </node>
+                <node concept="2Iv5rx" id="63cWqYKFTb_" role="2OqNvi" />
               </node>
               <node concept="Xl_RD" id="4nMFgA3tqY7" role="3uHU7B">
                 <property role="Xl_RC" value="Found channel without scope implementation: " />
