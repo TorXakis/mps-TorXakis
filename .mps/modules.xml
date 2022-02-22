@@ -7,6 +7,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/MPS_TorXakis.build/MPS_TorXakis.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Torxakis_plugin/Torxakis_plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/brickTesting/brickTesting.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/presentationbox/presentationbox.msd" folder="" />
     </projectModules>
   </component>
 </project>
