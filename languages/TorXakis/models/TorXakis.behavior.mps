@@ -393,6 +393,7 @@
         <child id="1235573187520" name="singletonValue" index="2HTEbv" />
       </concept>
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
+        <child id="1237721435808" name="initValue" index="HW$Y0" />
         <child id="1237721435807" name="elementType" index="HW$YZ" />
         <child id="1562299158920737514" name="initSize" index="3lWHg$" />
       </concept>
@@ -4418,10 +4419,12 @@
                 <node concept="1pGfFk" id="7TffPm5ccTK" role="2ShVmc">
                   <ref role="37wK5l" node="7TffPm5cjNU" resolve="ListFilterScope" />
                   <node concept="iy90A" id="7TffPm5ccWP" role="37wK5m" />
-                  <node concept="2OqwBi" id="7TffPm5cj43" role="37wK5m">
-                    <node concept="13iPFW" id="7TffPm5ciQo" role="2Oq$k0" />
-                    <node concept="3Tsc0h" id="7TffPm5cjel" role="2OqNvi">
-                      <ref role="3TtcxE" to="b8q8:7TffPm56VW5" resolve="constants" />
+                  <node concept="2ShNRf" id="59cynQD8wdh" role="37wK5m">
+                    <node concept="Tc6Ow" id="59cynQD8xvc" role="2ShVmc">
+                      <node concept="3Tqbb2" id="59cynQD8AO5" role="HW$YZ" />
+                      <node concept="37vLTw" id="59cynQD8CbR" role="HW$Y0">
+                        <ref role="3cqZAo" node="7TffPm5bUeN" resolve="child" />
+                      </node>
                     </node>
                   </node>
                 </node>
