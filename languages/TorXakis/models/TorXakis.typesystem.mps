@@ -12382,5 +12382,60 @@
       <ref role="1YaFvo" to="b8q8:1VVhp_6FaQH" resolve="Channel" />
     </node>
   </node>
+  <node concept="18kY7G" id="42HXof4YnVe">
+    <property role="TrG5h" value="check_FromXmlFcall" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
+    <node concept="3clFbS" id="42HXof4YnVf" role="18ibNy">
+      <node concept="3cpWs8" id="42HXof4YnXk" role="3cqZAp">
+        <node concept="3cpWsn" id="42HXof4YnXn" role="3cpWs9">
+          <property role="TrG5h" value="type" />
+          <node concept="3Tqbb2" id="42HXof4YnXi" role="1tU5fm" />
+          <node concept="2OqwBi" id="42HXof4Yo8p" role="33vP2m">
+            <node concept="1YBJjd" id="42HXof4YnXW" role="2Oq$k0">
+              <ref role="1YBMHb" node="42HXof4YnVh" resolve="fromXmlFcall" />
+            </node>
+            <node concept="3JvlWi" id="42HXof4Yon5" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="42HXof4YnVl" role="3cqZAp">
+        <node concept="3clFbS" id="42HXof4YnVm" role="3clFbx">
+          <node concept="2MkqsV" id="42HXof4YnVn" role="3cqZAp">
+            <node concept="Xl_RD" id="42HXof4YnVo" role="2MkJ7o">
+              <property role="Xl_RC" value="type of fromXml not uniquely determined. Try adding type hints" />
+            </node>
+            <node concept="1YBJjd" id="42HXof4YnVp" role="1urrMF">
+              <ref role="1YBMHb" node="42HXof4YnVh" resolve="fromXmlFcall" />
+            </node>
+          </node>
+        </node>
+        <node concept="22lmx$" id="42HXof4YnVq" role="3clFbw">
+          <node concept="2OqwBi" id="42HXof4YnVr" role="3uHU7B">
+            <node concept="37vLTw" id="42HXof4YnVs" role="2Oq$k0">
+              <ref role="3cqZAo" node="42HXof4YnXn" resolve="type" />
+            </node>
+            <node concept="3w_OXm" id="42HXof4YnVt" role="2OqNvi" />
+          </node>
+          <node concept="2OqwBi" id="42HXof4YnVu" role="3uHU7w">
+            <node concept="2OqwBi" id="42HXof4YnVv" role="2Oq$k0">
+              <node concept="37vLTw" id="42HXof4YnVw" role="2Oq$k0">
+                <ref role="3cqZAo" node="42HXof4YnXn" resolve="type" />
+              </node>
+              <node concept="2yIwOk" id="42HXof4YnVx" role="2OqNvi" />
+            </node>
+            <node concept="2Zo12i" id="42HXof4YnVy" role="2OqNvi">
+              <node concept="chp4Y" id="42HXof4YnVz" role="2Zo12j">
+                <ref role="cht4Q" to="tpd4:hfSilrV" resolve="RuntimeTypeVariable" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="42HXof4YnVh" role="1YuTPh">
+      <property role="TrG5h" value="fromXmlFcall" />
+      <ref role="1YaFvo" to="b8q8:42HXof4XxhH" resolve="FromXmlFcall" />
+    </node>
+  </node>
 </model>
 

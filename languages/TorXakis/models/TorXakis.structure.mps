@@ -2160,5 +2160,21 @@
       <ref role="PrY4T" node="784v76A7yam" resolve="BaseExpressionContainer" />
     </node>
   </node>
+  <node concept="1TIwiD" id="42HXof4XxhG">
+    <property role="EcuMT" value="4660651135692313708" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
+    <property role="TrG5h" value="ToXmlFcall" />
+    <property role="34LRSv" value="toXml" />
+    <property role="R4oN_" value="toXml function call (overloaded)" />
+    <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="AbstractFunctionCall" />
+  </node>
+  <node concept="1TIwiD" id="42HXof4XxhH">
+    <property role="EcuMT" value="4660651135692313709" />
+    <property role="3GE5qa" value="value_expressions.build_in_function" />
+    <property role="TrG5h" value="FromXmlFcall" />
+    <property role="34LRSv" value="fromXml" />
+    <property role="R4oN_" value="fromXml function call (overloaded)" />
+    <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="AbstractFunctionCall" />
+  </node>
 </model>
 
