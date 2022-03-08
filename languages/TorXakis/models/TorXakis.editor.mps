@@ -8599,5 +8599,29 @@
     </node>
     <node concept="22hDWj" id="7sOvx6nZU5u" role="22hAXT" />
   </node>
+  <node concept="24kQdi" id="4yGUl$nv35Q">
+    <property role="3GE5qa" value="value_expressions" />
+    <ref role="1XX52x" to="b8q8:4yGUl$nv35E" resolve="RegexpConstant" />
+    <node concept="3EZMnI" id="4yGUl$nv35S" role="2wV5jI">
+      <node concept="3F0ifn" id="4yGUl$nv35T" role="3EZMnx">
+        <property role="3F0ifm" value="REGEX('" />
+        <ref role="1k5W1q" node="2kdpv8l96$O" resolve="Stringliteral" />
+        <node concept="11LMrY" id="4yGUl$nv35U" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3mYdg7" id="4yGUl$nv35V" role="3F10Kt">
+          <property role="1413C4" value="stringlabel" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="4yGUl$nv35W" role="3EZMnx">
+        <ref role="1k5W1q" node="2kdpv8l96$O" resolve="Stringliteral" />
+        <ref role="1NtTu8" to="b8q8:4yGUl$nv35F" resolve="value" />
+      </node>
+      <node concept="3F0ifn" id="4yGUl$nv36a" role="3EZMnx">
+        <property role="3F0ifm" value="')" />
+      </node>
+      <node concept="l2Vlx" id="4yGUl$nv360" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

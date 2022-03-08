@@ -2176,5 +2176,21 @@
     <property role="R4oN_" value="fromXml function call (overloaded)" />
     <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="AbstractFunctionCall" />
   </node>
+  <node concept="1TIwiD" id="4yGUl$nv35E">
+    <property role="EcuMT" value="5236817035580420458" />
+    <property role="3GE5qa" value="value_expressions" />
+    <property role="TrG5h" value="RegexpConstant" />
+    <property role="34LRSv" value="REGEX" />
+    <property role="R4oN_" value="a regular expression" />
+    <ref role="1TJDcQ" node="Kh9TY1RWAn" resolve="ConstantExpression" />
+    <node concept="1TJgyi" id="4yGUl$nv35F" role="1TKVEl">
+      <property role="IQ2nx" value="5236817035580420459" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="4yGUl$nv35H" role="PzmwI">
+      <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
+    </node>
+  </node>
 </model>
 

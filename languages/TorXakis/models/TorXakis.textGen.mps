@@ -3410,7 +3410,7 @@
             <node concept="3clFbS" id="4$dvFsMsxJ4" role="9aQI4">
               <node concept="lc7rE" id="4$dvFsMsxKx" role="3cqZAp">
                 <node concept="la8eA" id="4$dvFsMsxKP" role="lcghm">
-                  <property role="lacIc" value="{- " />
+                  <property role="lacIc" value="{-" />
                 </node>
                 <node concept="l8MVK" id="4$dvFsMsyjs" role="lcghm" />
               </node>
@@ -3868,6 +3868,30 @@
         <node concept="lc7rE" id="7sOvx6nX$hN" role="3cqZAp">
           <node concept="la8eA" id="7sOvx6nX$i7" role="lcghm">
             <property role="lacIc" value="HIT" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="4yGUl$nv5lP">
+    <property role="3GE5qa" value="value_expressions" />
+    <ref role="WuzLi" to="b8q8:4yGUl$nv35E" resolve="RegexpConstant" />
+    <node concept="11bSqf" id="4yGUl$nv5lQ" role="11c4hB">
+      <node concept="3clFbS" id="4yGUl$nv5lR" role="2VODD2">
+        <node concept="lc7rE" id="4yGUl$nv5m8" role="3cqZAp">
+          <node concept="la8eA" id="4yGUl$nv5m9" role="lcghm">
+            <property role="lacIc" value="REGEX('" />
+          </node>
+          <node concept="l9hG8" id="4yGUl$nv5ma" role="lcghm">
+            <node concept="2OqwBi" id="4yGUl$nv5mb" role="lb14g">
+              <node concept="117lpO" id="4yGUl$nv5mc" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4yGUl$nv5md" role="2OqNvi">
+                <ref role="3TsBF5" to="b8q8:4yGUl$nv35F" resolve="value" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="4yGUl$nv5me" role="lcghm">
+            <property role="lacIc" value="')" />
           </node>
         </node>
       </node>

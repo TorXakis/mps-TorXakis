@@ -12437,5 +12437,31 @@
       <ref role="1YaFvo" to="b8q8:42HXof4XxhH" resolve="FromXmlFcall" />
     </node>
   </node>
+  <node concept="1YbPZF" id="4yGUl$nv55e">
+    <property role="TrG5h" value="typeof_RegexpConstant" />
+    <property role="3GE5qa" value="value_expressions" />
+    <node concept="3clFbS" id="4yGUl$nv55f" role="18ibNy">
+      <node concept="1Z5TYs" id="4yGUl$nv5hD" role="3cqZAp">
+        <node concept="mw_s8" id="4yGUl$nv5hX" role="1ZfhKB">
+          <node concept="2pJPEk" id="4yGUl$nv5hT" role="mwGJk">
+            <node concept="2pJPED" id="4yGUl$nv5hV" role="2pJPEn">
+              <ref role="2pJxaS" to="b8q8:7VUZddFFIfs" resolve="RegexType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="4yGUl$nv5hG" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4yGUl$nv55l" role="mwGJk">
+            <node concept="1YBJjd" id="4yGUl$nv57b" role="1Z2MuG">
+              <ref role="1YBMHb" node="4yGUl$nv55h" resolve="regexpConstant" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4yGUl$nv55h" role="1YuTPh">
+      <property role="TrG5h" value="regexpConstant" />
+      <ref role="1YaFvo" to="b8q8:4yGUl$nv35E" resolve="RegexpConstant" />
+    </node>
+  </node>
 </model>
 

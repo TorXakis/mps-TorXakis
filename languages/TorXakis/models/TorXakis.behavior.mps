@@ -4827,7 +4827,7 @@
             <node concept="TSZUe" id="7TffPm5WnSu" role="2OqNvi">
               <node concept="2pJPEk" id="7TffPm5WnSv" role="25WWJ7">
                 <node concept="2pJPED" id="7TffPm5Wool" role="2pJPEn">
-                  <ref role="2pJxaS" to="b8q8:7VUZddFFIfq" resolve="StringType" />
+                  <ref role="2pJxaS" to="b8q8:7VUZddFFIfs" resolve="RegexType" />
                 </node>
               </node>
             </node>
