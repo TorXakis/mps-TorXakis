@@ -10,7 +10,6 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
       </concept>
@@ -1600,17 +1599,6 @@
       <ref role="20lvS9" node="7VUZddFFY46" resolve="typeConstructor" />
     </node>
   </node>
-  <node concept="1TIwiD" id="13YbSOG9jL8">
-    <property role="EcuMT" value="1224468432068885576" />
-    <property role="3GE5qa" value="behaviour_expression.exitsort" />
-    <property role="TrG5h" value="AbstractExitSort" />
-    <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="asaX9" id="3fiilWKo7C9" role="lGtFl" />
-    <node concept="t5JxF" id="3fiilWKo7Cb" role="lGtFl">
-      <property role="t5JxN" value="should no longer be used, but still needs to be phased out. Should be replaced with abstractexitkind" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="13YbSOG9khq">
     <property role="EcuMT" value="1224468432068887642" />
     <property role="3GE5qa" value="behaviour_expression.exitsort" />
@@ -1631,24 +1619,6 @@
       <ref role="PrY4T" node="7tGom4ESfCy" resolve="AbstractExitKind" />
     </node>
   </node>
-  <node concept="1TIwiD" id="13YbSOG9khs">
-    <property role="EcuMT" value="1224468432068887644" />
-    <property role="3GE5qa" value="behaviour_expression.exitsort" />
-    <property role="TrG5h" value="ExitSortOld" />
-    <property role="34LRSv" value="Exit" />
-    <ref role="1TJDcQ" node="13YbSOG9jL8" resolve="AbstractExitSort" />
-    <node concept="1TJgyj" id="13YbSOG9kht" role="1TKVEi">
-      <property role="IQ2ns" value="1224468432068887645" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="refs" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="wkCjs_pl50" resolve="modelRef" />
-    </node>
-    <node concept="asaX9" id="3fiilWKo7Ce" role="lGtFl" />
-    <node concept="t5JxF" id="3fiilWKo7Cg" role="lGtFl">
-      <property role="t5JxN" value="Should be replaced with exitkind, because having model references in a type will not work" />
-    </node>
-  </node>
   <node concept="PlHQZ" id="26ghq3MB_Up">
     <property role="EcuMT" value="2418509557465505433" />
     <property role="3GE5qa" value="id_constraints" />
@@ -1656,23 +1626,6 @@
     <node concept="PrWs8" id="26ghq3MB_Uq" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="wkCjs_pl50">
-    <property role="EcuMT" value="582267510060306752" />
-    <property role="3GE5qa" value="behaviour_expression.exitsort" />
-    <property role="TrG5h" value="modelRef" />
-    <property role="R4oN_" value="reference used in exitsort" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="t5JxF" id="pzbciojbAu" role="lGtFl">
-      <property role="t5JxN" value="a reference to any node in the model" />
-    </node>
-    <node concept="1TJgyj" id="pzbciojcal" role="1TKVEi">
-      <property role="IQ2ns" value="460260809802302101" />
-      <property role="20kJfa" value="ref" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    </node>
-    <node concept="asaX9" id="3fiilWKo8Wb" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="3eBBh23m_29">
     <property role="EcuMT" value="3722116311293776009" />
