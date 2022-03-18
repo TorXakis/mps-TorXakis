@@ -10,6 +10,7 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
       </concept>
@@ -1605,13 +1606,17 @@
     <property role="TrG5h" value="AbstractExitSort" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="asaX9" id="3fiilWKo7C9" role="lGtFl" />
+    <node concept="t5JxF" id="3fiilWKo7Cb" role="lGtFl">
+      <property role="t5JxN" value="should no longer be used, but still needs to be phased out. Should be replaced with abstractexitkind" />
+    </node>
   </node>
   <node concept="1TIwiD" id="13YbSOG9khq">
     <property role="EcuMT" value="1224468432068887642" />
     <property role="3GE5qa" value="behaviour_expression.exitsort" />
     <property role="TrG5h" value="HitSort" />
     <property role="34LRSv" value="HIT" />
-    <ref role="1TJDcQ" node="13YbSOG9jL8" resolve="AbstractExitSort" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7tGom4ESfCA" role="PzmwI">
       <ref role="PrY4T" node="7tGom4ESfCy" resolve="AbstractExitKind" />
     </node>
@@ -1621,12 +1626,15 @@
     <property role="3GE5qa" value="behaviour_expression.exitsort" />
     <property role="TrG5h" value="NoExitSort" />
     <property role="34LRSv" value="NoExit" />
-    <ref role="1TJDcQ" node="13YbSOG9jL8" resolve="AbstractExitSort" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3fiilWKo8We" role="PzmwI">
+      <ref role="PrY4T" node="7tGom4ESfCy" resolve="AbstractExitKind" />
+    </node>
   </node>
   <node concept="1TIwiD" id="13YbSOG9khs">
     <property role="EcuMT" value="1224468432068887644" />
     <property role="3GE5qa" value="behaviour_expression.exitsort" />
-    <property role="TrG5h" value="ExitSort" />
+    <property role="TrG5h" value="ExitSortOld" />
     <property role="34LRSv" value="Exit" />
     <ref role="1TJDcQ" node="13YbSOG9jL8" resolve="AbstractExitSort" />
     <node concept="1TJgyj" id="13YbSOG9kht" role="1TKVEi">
@@ -1635,6 +1643,10 @@
       <property role="20kJfa" value="refs" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="wkCjs_pl50" resolve="modelRef" />
+    </node>
+    <node concept="asaX9" id="3fiilWKo7Ce" role="lGtFl" />
+    <node concept="t5JxF" id="3fiilWKo7Cg" role="lGtFl">
+      <property role="t5JxN" value="Should be replaced with exitkind, because having model references in a type will not work" />
     </node>
   </node>
   <node concept="PlHQZ" id="26ghq3MB_Up">
@@ -1660,6 +1672,7 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
+    <node concept="asaX9" id="3fiilWKo8Wb" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="3eBBh23m_29">
     <property role="EcuMT" value="3722116311293776009" />
@@ -1715,15 +1728,12 @@
     <property role="TrG5h" value="ExitKind" />
     <property role="34LRSv" value="EXIT" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="t5JxF" id="7tGom4ESfCu" role="lGtFl">
-      <property role="t5JxN" value="same purpose and meaning as exitSort, but exitkind uses only types, while exitSort uses any expressions" />
-    </node>
     <node concept="1TJgyj" id="7tGom4ESfCw" role="1TKVEi">
       <property role="IQ2ns" value="8605360057957284384" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="types" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="lsoyDBU550" resolve="Type" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
     <node concept="PrWs8" id="7tGom4ESfC$" role="PzmwI">
       <ref role="PrY4T" node="7tGom4ESfCy" resolve="AbstractExitKind" />

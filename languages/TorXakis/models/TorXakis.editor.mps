@@ -35,6 +35,7 @@
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
       </concept>
+      <concept id="1176897764478" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeFactory" flags="in" index="4$FPG" />
       <concept id="1597643335227097138" name="jetbrains.mps.lang.editor.structure.QueryFunctionParameter_TransformationMenu_node" flags="ng" index="7Obwk" />
       <concept id="6516520003787916624" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_Condition" flags="ig" index="27VH4U" />
       <concept id="7429591467341004871" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_Group" flags="ng" index="aenpk">
@@ -43,6 +44,7 @@
       </concept>
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <property id="1140524450557" name="separatorText" index="2czwfO" />
+        <child id="1176897874615" name="nodeFactory" index="4_6I_" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
         <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
         <child id="1233141163694" name="separatorStyle" index="sWeuL" />
@@ -6904,7 +6906,7 @@
   </node>
   <node concept="24kQdi" id="13YbSOGgsE4">
     <property role="3GE5qa" value="behaviour_expression.exitsort" />
-    <ref role="1XX52x" to="b8q8:13YbSOG9khs" resolve="ExitSort" />
+    <ref role="1XX52x" to="b8q8:13YbSOG9khs" resolve="ExitSortOld" />
     <node concept="3EZMnI" id="13YbSOGgsE6" role="2wV5jI">
       <node concept="3F0ifn" id="13YbSOGgsEd" role="3EZMnx">
         <property role="3F0ifm" value="EXIT" />
@@ -7276,6 +7278,19 @@
         <property role="2czwfO" value=" #" />
         <ref role="1NtTu8" to="b8q8:7tGom4ESfCw" resolve="types" />
         <node concept="l2Vlx" id="7tGom4ESfDe" role="2czzBx" />
+        <node concept="4$FPG" id="53xO_YN1Y3D" role="4_6I_">
+          <node concept="3clFbS" id="53xO_YN1Y3E" role="2VODD2">
+            <node concept="3clFbF" id="53xO_YN1Y5A" role="3cqZAp">
+              <node concept="2ShNRf" id="53xO_YN1Y5$" role="3clFbG">
+                <node concept="3zrR0B" id="53xO_YN1Zfv" role="2ShVmc">
+                  <node concept="3Tqbb2" id="53xO_YN1Zfx" role="3zrR0E">
+                    <ref role="ehGHo" to="b8q8:lsoyDBU550" resolve="Type" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="l2Vlx" id="7tGom4ESfD2" role="2iSdaV" />
     </node>
@@ -8621,6 +8636,13 @@
         <property role="3F0ifm" value="')" />
       </node>
       <node concept="l2Vlx" id="4yGUl$nv360" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3fiilWKo9mI">
+    <property role="3GE5qa" value="behaviour_expression.exitsort" />
+    <ref role="1XX52x" to="b8q8:7tGom4ESfCy" resolve="AbstractExitKind" />
+    <node concept="PMmxH" id="3fiilWKo9mP" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
 </model>
