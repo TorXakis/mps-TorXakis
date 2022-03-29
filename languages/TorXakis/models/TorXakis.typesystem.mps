@@ -5535,7 +5535,7 @@
         <node concept="3clFbS" id="7TffPm5YiYl" role="3clFbx">
           <node concept="2MkqsV" id="7TffPm5YiYm" role="3cqZAp">
             <node concept="Xl_RD" id="7TffPm5YiYn" role="2MkJ7o">
-              <property role="Xl_RC" value="type of fromString not uniquely determined. Try adding type hints" />
+              <property role="Xl_RC" value="type of if expression not uniquely determined. Try adding type hints" />
             </node>
             <node concept="1YBJjd" id="7TffPm5Yj9u" role="1urrMF">
               <ref role="1YBMHb" node="7TffPm5YiYa" resolve="ifexpr" />

@@ -1585,6 +1585,7 @@
     <property role="3GE5qa" value="value_expressions.build_in_function" />
     <property role="TrG5h" value="StrinreFcall" />
     <property role="34LRSv" value="strinre" />
+    <property role="R4oN_" value=":: String X Regex -&gt; Bool" />
     <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="AbstractFunctionCall" />
   </node>
   <node concept="1TIwiD" id="7TffPm68xWd">

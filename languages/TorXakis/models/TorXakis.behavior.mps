@@ -2969,14 +2969,14 @@
           <node concept="2ShNRf" id="4ecDpwEG845" role="3cqZAk">
             <node concept="1pGfFk" id="4ecDpwEG844" role="2ShVmc">
               <ref role="37wK5l" to="lgv5:Hdx04rgAPJ" resolve="FunctionType" />
+              <node concept="BsUDl" id="4ecDpwEG8xD" role="37wK5m">
+                <ref role="37wK5l" node="3WwRdm5G8z4" resolve="getcontainingType" />
+              </node>
               <node concept="2OqwBi" id="4ecDpwEG8ej" role="37wK5m">
                 <node concept="13iPFW" id="4ecDpwEG84t" role="2Oq$k0" />
                 <node concept="3TrEf2" id="4ecDpwEG8ob" role="2OqNvi">
                   <ref role="3Tt5mk" to="b8q8:7VUZddFFY6L" resolve="type" />
                 </node>
-              </node>
-              <node concept="BsUDl" id="4ecDpwEG8xD" role="37wK5m">
-                <ref role="37wK5l" node="3WwRdm5G8z4" resolve="getcontainingType" />
               </node>
             </node>
           </node>
