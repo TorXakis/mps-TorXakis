@@ -117,7 +117,6 @@
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
-      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -195,11 +194,6 @@
       <concept id="1158701162220" name="jetbrains.mps.lang.actions.structure.NodeSetupFunction" flags="in" index="37Y9Zx" />
       <concept id="5584396657084912703" name="jetbrains.mps.lang.actions.structure.NodeSetupFunction_NewNode" flags="nn" index="1r4Lsj" />
       <concept id="5584396657084920413" name="jetbrains.mps.lang.actions.structure.NodeSetupFunction_SampleNode" flags="nn" index="1r4N5L" />
-    </language>
-    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
-        <child id="5721587534047265374" name="message" index="9lYJi" />
-      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -2352,22 +2346,6 @@
       <ref role="37XkoT" to="b8q8:Hdx04rg$rF" resolve="AbstractFunctionCall" />
       <node concept="37Y9Zx" id="7RvRn9gaFWc" role="37ZfLb">
         <node concept="3clFbS" id="7RvRn9gaFWd" role="2VODD2">
-          <node concept="2xdQw9" id="6mof3kVZMwY" role="3cqZAp">
-            <node concept="3cpWs3" id="6mof3kVZNP7" role="9lYJi">
-              <node concept="2OqwBi" id="6mof3kVZR8Z" role="3uHU7w">
-                <node concept="2OqwBi" id="6mof3kVZOr2" role="2Oq$k0">
-                  <node concept="1r4Lsj" id="6mof3kVZO2e" role="2Oq$k0" />
-                  <node concept="3Tsc0h" id="6mof3kVZPnF" role="2OqNvi">
-                    <ref role="3TtcxE" to="b8q8:Hdx04rg$sb" resolve="arguments" />
-                  </node>
-                </node>
-                <node concept="34oBXx" id="6mof3kVZV3I" role="2OqNvi" />
-              </node>
-              <node concept="Xl_RD" id="6mof3kVZMx0" role="3uHU7B">
-                <property role="Xl_RC" value="list size start abstract: " />
-              </node>
-            </node>
-          </node>
           <node concept="Jncv_" id="7RvRn9gaN8v" role="3cqZAp">
             <ref role="JncvD" to="b8q8:fz3vP1J" resolve="Expression" />
             <node concept="1r4N5L" id="7RvRn9gaNap" role="JncvB" />

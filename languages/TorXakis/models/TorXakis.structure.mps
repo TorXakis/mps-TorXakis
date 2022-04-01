@@ -689,6 +689,11 @@
     <property role="R4oN_" value="a type definition" />
     <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7q42Pssrumm" role="1TKVEl">
+      <property role="IQ2nx" value="8539963262168327574" />
+      <property role="TrG5h" value="isWrapper" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="7VUZddFFY44" role="PzmwI">
       <ref role="PrY4T" node="7tKE5PeZjVM" resolve="HasCapidName" />
     </node>
@@ -2154,6 +2159,24 @@
     </node>
     <node concept="PrWs8" id="4yGUl$nv35H" role="PzmwI">
       <ref role="PrY4T" node="Kh9TY1S7mp" resolve="ValueExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7q42PssDqj0">
+    <property role="EcuMT" value="8539963262171980992" />
+    <property role="TrG5h" value="WrapperTypeCheckFcall" />
+    <property role="3GE5qa" value="value_expressions" />
+    <ref role="1TJDcQ" node="Hdx04rg$rF" resolve="AbstractFunctionCall" />
+    <node concept="1TJgyj" id="7q42PssDrbl" role="1TKVEi">
+      <property role="IQ2ns" value="8539963262171984597" />
+      <property role="20kJfa" value="mainconstructor" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7VUZddFFY46" resolve="typeConstructor" />
+    </node>
+    <node concept="1TJgyj" id="7q42PssDrbn" role="1TKVEi">
+      <property role="IQ2ns" value="8539963262171984599" />
+      <property role="20kJfa" value="nestedconstructor" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7VUZddFFY46" resolve="typeConstructor" />
     </node>
   </node>
 </model>
