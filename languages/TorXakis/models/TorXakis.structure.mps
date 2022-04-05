@@ -877,9 +877,6 @@
     <property role="34LRSv" value="##" />
     <property role="R4oN_" value="choice operator" />
     <ref role="1TJDcQ" node="6t0Dry1YxoE" resolve="BinaryBehaviourExpression" />
-    <node concept="PrWs8" id="784v76A08uO" role="PzmwI">
-      <ref role="PrY4T" node="6SzhJU2Jqk4" resolve="BehaviourExpression" />
-    </node>
   </node>
   <node concept="1TIwiD" id="784v76A1hKr">
     <property role="EcuMT" value="8215828447789128731" />
