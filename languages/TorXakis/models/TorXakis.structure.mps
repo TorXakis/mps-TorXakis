@@ -2176,5 +2176,64 @@
       <ref role="20lvS9" node="7VUZddFFY46" resolve="typeConstructor" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5WatrL7UI3A">
+    <property role="EcuMT" value="6848415634891137254" />
+    <property role="TrG5h" value="PurposeDef" />
+    <property role="34LRSv" value="PURPDEF" />
+    <property role="R4oN_" value="test purpose" />
+    <property role="3GE5qa" value="test purposes" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="5WatrL7UI3B" role="PzmwI">
+      <ref role="PrY4T" node="7sOvx6nLMQN" resolve="TorXakisDefinition" />
+    </node>
+    <node concept="PrWs8" id="5WatrL7UI3D" role="PzmwI">
+      <ref role="PrY4T" node="7tKE5PeZjVM" resolve="HasCapidName" />
+    </node>
+    <node concept="PrWs8" id="5WatrL7UPBV" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="1TJgyj" id="5WatrL7UPBI" role="1TKVEi">
+      <property role="IQ2ns" value="6848415634891168238" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="in_channels" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="7tKE5PeZ4XO" resolve="ChannelRef" />
+    </node>
+    <node concept="1TJgyj" id="5WatrL7UPBK" role="1TKVEi">
+      <property role="IQ2ns" value="6848415634891168240" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="out_channels" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="7tKE5PeZ4XO" resolve="ChannelRef" />
+    </node>
+    <node concept="1TJgyj" id="5WatrL7UPBN" role="1TKVEi">
+      <property role="IQ2ns" value="6848415634891168243" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="test_goals" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="5WatrL7URch" resolve="TestGoal" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5WatrL7URch">
+    <property role="EcuMT" value="6848415634891174673" />
+    <property role="3GE5qa" value="test purposes" />
+    <property role="TrG5h" value="TestGoal" />
+    <property role="34LRSv" value="GOAL" />
+    <property role="R4oN_" value="test purpose goal" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5WatrL7URcm" role="1TKVEi">
+      <property role="IQ2ns" value="6848415634891174678" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="behaviour" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="5WatrL7URco" role="PzmwI">
+      <ref role="PrY4T" node="6OVizms0HN8" resolve="BehaviourExpressionContainer" />
+    </node>
+    <node concept="PrWs8" id="Qni9hr8quY" role="PzmwI">
+      <ref role="PrY4T" node="6SzhJU2MtoZ" resolve="HasSmallidName" />
+    </node>
+  </node>
 </model>
 
