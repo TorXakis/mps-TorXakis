@@ -523,7 +523,7 @@
       <property role="IQ2ns" value="386291602318446966" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="type" />
-      <ref role="20lvS9" node="lsoyDBU550" resolve="Type" />
+      <ref role="20lvS9" node="lsoyDBU550" resolve="TypeLiteral" />
     </node>
   </node>
   <node concept="PlHQZ" id="6SzhJU2MtoZ">
@@ -626,7 +626,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="types" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="lsoyDBU550" resolve="Type" />
+      <ref role="20lvS9" node="lsoyDBU550" resolve="TypeLiteral" />
     </node>
     <node concept="PrWs8" id="1pSz6e1_Gxx" role="PzmwI">
       <ref role="PrY4T" node="1pSz6e1gtHU" resolve="Commentable" />
@@ -645,7 +645,7 @@
   <node concept="1TIwiD" id="lsoyDBU550">
     <property role="EcuMT" value="386291602318446912" />
     <property role="3GE5qa" value="Types" />
-    <property role="TrG5h" value="Type" />
+    <property role="TrG5h" value="TypeLiteral" />
     <property role="R5$K7" value="true" />
     <property role="R4oN_" value="abstract type" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -656,7 +656,10 @@
     <property role="34LRSv" value="Int" />
     <property role="3GE5qa" value="Types" />
     <property role="R4oN_" value="integer type" />
-    <ref role="1TJDcQ" node="lsoyDBU550" resolve="Type" />
+    <ref role="1TJDcQ" node="lsoyDBU550" resolve="TypeLiteral" />
+    <node concept="PrWs8" id="7buUhEUEPyS" role="PzmwI">
+      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7VUZddFFIfq">
     <property role="EcuMT" value="9149903577931506650" />
@@ -664,7 +667,10 @@
     <property role="34LRSv" value="String" />
     <property role="3GE5qa" value="Types" />
     <property role="R4oN_" value="string type" />
-    <ref role="1TJDcQ" node="lsoyDBU550" resolve="Type" />
+    <ref role="1TJDcQ" node="lsoyDBU550" resolve="TypeLiteral" />
+    <node concept="PrWs8" id="7buUhEUEPyW" role="PzmwI">
+      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7VUZddFFIfr">
     <property role="EcuMT" value="9149903577931506651" />
@@ -672,7 +678,10 @@
     <property role="34LRSv" value="Bool" />
     <property role="3GE5qa" value="Types" />
     <property role="R4oN_" value="boolean type" />
-    <ref role="1TJDcQ" node="lsoyDBU550" resolve="Type" />
+    <ref role="1TJDcQ" node="lsoyDBU550" resolve="TypeLiteral" />
+    <node concept="PrWs8" id="7buUhEUEPyY" role="PzmwI">
+      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7VUZddFFIfs">
     <property role="EcuMT" value="9149903577931506652" />
@@ -680,7 +689,10 @@
     <property role="34LRSv" value="Regex" />
     <property role="3GE5qa" value="Types" />
     <property role="R4oN_" value="regular expression type" />
-    <ref role="1TJDcQ" node="lsoyDBU550" resolve="Type" />
+    <ref role="1TJDcQ" node="lsoyDBU550" resolve="TypeLiteral" />
+    <node concept="PrWs8" id="7buUhEUEPyU" role="PzmwI">
+      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7VUZddFFIft">
     <property role="EcuMT" value="9149903577931506653" />
@@ -742,7 +754,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="lsoyDBU550" resolve="Type" />
+      <ref role="20lvS9" node="lsoyDBU550" resolve="TypeLiteral" />
     </node>
   </node>
   <node concept="1TIwiD" id="7VUZddFFY5V">
@@ -750,7 +762,7 @@
     <property role="TrG5h" value="TypeRef" />
     <property role="R4oN_" value="a reference to a user defined type" />
     <property role="3GE5qa" value="Types" />
-    <ref role="1TJDcQ" node="lsoyDBU550" resolve="Type" />
+    <ref role="1TJDcQ" node="lsoyDBU550" resolve="TypeLiteral" />
     <node concept="1TJgyj" id="7VUZddFFY5W" role="1TKVEi">
       <property role="IQ2ns" value="9149903577931571580" />
       <property role="20lbJX" value="fLJekj4/_1" />
@@ -1096,7 +1108,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="lsoyDBU550" resolve="Type" />
+      <ref role="20lvS9" node="lsoyDBU550" resolve="TypeLiteral" />
     </node>
     <node concept="1TJgyj" id="5DuWkzevyQg" role="1TKVEi">
       <property role="IQ2ns" value="6511907406228630928" />
@@ -1280,10 +1292,13 @@
   </node>
   <node concept="1TIwiD" id="3WwRdm5HoY6">
     <property role="EcuMT" value="4548878433273614214" />
-    <property role="TrG5h" value="CustomTypeLabel" />
+    <property role="TrG5h" value="TypeLabel" />
     <property role="R4oN_" value="simplified from of user defined type" />
     <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7buUhEUEDUs" role="PzmwI">
+      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+    </node>
     <node concept="PrWs8" id="3WwRdm5HoY7" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -1611,6 +1626,9 @@
     <node concept="PrWs8" id="7tGom4ESfCA" role="PzmwI">
       <ref role="PrY4T" node="7tGom4ESfCy" resolve="AbstractExitKind" />
     </node>
+    <node concept="PrWs8" id="3kwIRXioIHt" role="PzmwI">
+      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+    </node>
   </node>
   <node concept="1TIwiD" id="13YbSOG9khr">
     <property role="EcuMT" value="1224468432068887643" />
@@ -1620,6 +1638,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3fiilWKo8We" role="PzmwI">
       <ref role="PrY4T" node="7tGom4ESfCy" resolve="AbstractExitKind" />
+    </node>
+    <node concept="PrWs8" id="3kwIRXioIHw" role="PzmwI">
+      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
     </node>
   </node>
   <node concept="PlHQZ" id="26ghq3MB_Up">
@@ -1652,7 +1673,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="lsoyDBU550" resolve="Type" />
+      <ref role="20lvS9" node="lsoyDBU550" resolve="TypeLiteral" />
     </node>
   </node>
   <node concept="1TIwiD" id="7tGom4ESfp1">
@@ -1681,7 +1702,7 @@
   <node concept="1TIwiD" id="7tGom4ESfCq">
     <property role="EcuMT" value="8605360057957284378" />
     <property role="3GE5qa" value="behaviour_expression.exitsort" />
-    <property role="TrG5h" value="ExitKind" />
+    <property role="TrG5h" value="ExitKindLiteral" />
     <property role="34LRSv" value="EXIT" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7tGom4ESfCw" role="1TKVEi">
@@ -1689,7 +1710,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="types" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <ref role="20lvS9" node="lsoyDBU550" resolve="TypeLiteral" />
     </node>
     <node concept="PrWs8" id="7tGom4ESfC$" role="PzmwI">
       <ref role="PrY4T" node="7tGom4ESfCy" resolve="AbstractExitKind" />
@@ -1700,7 +1721,7 @@
     <property role="3GE5qa" value="behaviour_expression.exitsort" />
     <property role="EcuMT" value="8605360057957284379" />
     <node concept="t5JxF" id="7tGom4ESfCs" role="lGtFl">
-      <property role="t5JxN" value="label interface for use in exit sort of procedure definition" />
+      <property role="t5JxN" value="label interface for use in exit sort of procedure definition. Should not be used in typing rules" />
     </node>
   </node>
   <node concept="1TIwiD" id="7tGom4ESh0X">
@@ -2233,6 +2254,113 @@
     </node>
     <node concept="PrWs8" id="Qni9hr8quY" role="PzmwI">
       <ref role="PrY4T" node="6SzhJU2MtoZ" resolve="HasSmallidName" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7buUhEUE$55">
+    <property role="EcuMT" value="8277309466163691845" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="GenericTypeDef" />
+    <property role="34LRSv" value="GENERIC" />
+    <property role="R4oN_" value="generic typedef" />
+    <ref role="1TJDcQ" node="7tKE5PeX8JG" resolve="TypeDef" />
+    <node concept="1TJgyj" id="7buUhEUE$56" role="1TKVEi">
+      <property role="IQ2ns" value="8277309466163691846" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="generics" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="71jtDv8pmec" resolve="TypevariableLiteral" />
+    </node>
+    <node concept="PrWs8" id="7buUhEUEAzS" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7buUhEUEDUo">
+    <property role="EcuMT" value="8277309466163715736" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="GenericTypeLabel" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7buUhEUEDUv" role="PzmwI">
+      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7buUhEUEDUp">
+    <property role="EcuMT" value="8277309466163715737" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="Type" />
+    <node concept="t5JxF" id="7buUhEUEDUq" role="lGtFl">
+      <property role="t5JxN" value="Label Interface for concept that is meant to be used in the typesystem. This means that this concept should not be used in a model, or contain any references to a node in a model." />
+    </node>
+    <node concept="PrWs8" id="71jtDv8pmq3" role="PrDN$">
+      <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3kwIRXioIHz">
+    <property role="EcuMT" value="3828265838782376803" />
+    <property role="3GE5qa" value="behaviour_expression.exitsort" />
+    <property role="TrG5h" value="ExitKind" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="3kwIRXioIH$" role="PzmwI">
+      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+    </node>
+    <node concept="t5JxF" id="3kwIRXioIHA" role="lGtFl">
+      <property role="t5JxN" value="Concept meant to represent ExitKindLiteral in typing rules. replace model references with nodes safe for typing rules" />
+    </node>
+    <node concept="1TJgyj" id="3kwIRXioIHC" role="1TKVEi">
+      <property role="IQ2ns" value="3828265838782376808" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="types" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="71jtDv8pmec">
+    <property role="EcuMT" value="8093943349589140364" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="TypevariableLiteral" />
+    <property role="R4oN_" value="typevariable" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="71jtDv8pmed" role="PzmwI">
+      <ref role="PrY4T" node="7tKE5PeZjVM" resolve="HasCapidName" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="71jtDv8pmpa">
+    <property role="EcuMT" value="8093943349589141066" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="TypeVarRef" />
+    <ref role="1TJDcQ" node="lsoyDBU550" resolve="TypeLiteral" />
+    <node concept="1TJgyj" id="71jtDv8pmpk" role="1TKVEi">
+      <property role="IQ2ns" value="8093943349589141076" />
+      <property role="20kJfa" value="typevar" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="71jtDv8pmec" resolve="TypevariableLiteral" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="71jtDv8pmq0">
+    <property role="EcuMT" value="8093943349589141120" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="GenericTypevarHolder" />
+  </node>
+  <node concept="1TIwiD" id="71jtDv8pzH8">
+    <property role="EcuMT" value="8093943349589195592" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="TypeVariable" />
+    <property role="R4oN_" value="internal typevariable wrapper" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="71jtDv8pzH9" role="PzmwI">
+      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+    </node>
+    <node concept="PrWs8" id="71jtDv8pzHf" role="PzmwI">
+      <ref role="PrY4T" to="tpck:hLJPP0O" resolve="IWrapper" />
+    </node>
+    <node concept="1TJgyj" id="71jtDv8pzHb" role="1TKVEi">
+      <property role="IQ2ns" value="8093943349589195595" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="typevar" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="t5JxF" id="71jtDv8pzHd" role="lGtFl">
+      <property role="t5JxN" value="Wrapper around the typevar construct from the typesystem langauge to make it implement the Type interface" />
     </node>
   </node>
 </model>

@@ -3425,7 +3425,7 @@
   </node>
   <node concept="WtQ9Q" id="pzbcioF2QU">
     <property role="3GE5qa" value="behaviour_expression.exitsort" />
-    <ref role="WuzLi" to="b8q8:7tGom4ESfCq" resolve="ExitKind" />
+    <ref role="WuzLi" to="b8q8:7tGom4ESfCq" resolve="ExitKindLiteral" />
     <node concept="11bSqf" id="pzbcioF2QV" role="11c4hB">
       <node concept="3clFbS" id="pzbcioF2QW" role="2VODD2">
         <node concept="lc7rE" id="pzbcioF2Rd" role="3cqZAp">

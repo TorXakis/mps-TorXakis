@@ -110,6 +110,10 @@
         <child id="4441221725919542636" name="channels" index="Nz1Vd" />
         <child id="4441221725919542638" name="types" index="Nz1Vf" />
       </concept>
+      <concept id="8093943349589141066" name="TorXakis.structure.TypeVarRef" flags="ng" index="2Sdx3t">
+        <reference id="8093943349589141076" name="typevar" index="2Sdx33" />
+      </concept>
+      <concept id="8093943349589140364" name="TorXakis.structure.TypevariableLiteral" flags="ng" index="2Sdxkr" />
       <concept id="8606564006615092204" name="TorXakis.structure.TypeDef" flags="ng" index="Tx2eL">
         <child id="9149903577931506656" name="types" index="ll1WN" />
       </concept>
@@ -146,6 +150,9 @@
         <child id="4548878433273271613" name="argument" index="2U$8BC" />
       </concept>
       <concept id="1224468432068887642" name="TorXakis.structure.HitSort" flags="ng" index="WQQJn" />
+      <concept id="8277309466163691845" name="TorXakis.structure.GenericTypeDef" flags="ng" index="38taxv">
+        <child id="8277309466163691846" name="generics" index="38taxs" />
+      </concept>
       <concept id="4401075339047450644" name="TorXakis.structure.FunctionCall" flags="ng" index="38H7EB">
         <reference id="4401075339047450647" name="function" index="38H7E$" />
         <child id="4401075339047460081" name="arguments" index="38H1T2" />
@@ -313,6 +320,58 @@
         <node concept="1olYwO" id="6t0Dry2gkfT" role="Nz1Vd">
           <property role="TrG5h" value="out" />
         </node>
+      </node>
+    </node>
+    <node concept="Tx2eL" id="71jtDv8CA3T" role="TxEeo">
+      <node concept="ll1We" id="71jtDv8CA3V" role="ll1WN">
+        <property role="TrG5h" value="T" />
+      </node>
+    </node>
+    <node concept="38taxv" id="71jtDv8yoEs" role="TxEeo">
+      <node concept="ll1We" id="71jtDv8FmBC" role="ll1WN">
+        <property role="TrG5h" value="List" />
+        <node concept="llhRl" id="71jtDv8FmBQ" role="llhRq">
+          <property role="TrG5h" value="NILL" />
+        </node>
+        <node concept="llhRl" id="71jtDv8FmC4" role="llhRq">
+          <property role="TrG5h" value="CONS" />
+          <node concept="llhR_" id="71jtDv8FmCa" role="llhRE">
+            <property role="TrG5h" value="head" />
+            <node concept="2Sdx3t" id="71jtDv8FmCm" role="llhPy">
+              <ref role="2Sdx33" node="71jtDv8FmCh" resolve="A" />
+            </node>
+          </node>
+          <node concept="llhR_" id="71jtDv8FmCp" role="llhRE">
+            <property role="TrG5h" value="tail" />
+            <node concept="llhQC" id="71jtDv8FmCv" role="llhPy">
+              <ref role="llhQJ" node="71jtDv8FmBC" resolve="List" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="ll1We" id="71jtDv8FmCW" role="ll1WN">
+        <property role="TrG5h" value="Tuple" />
+        <node concept="llhRl" id="71jtDv8FmDb" role="llhRq">
+          <property role="TrG5h" value="Pair" />
+          <node concept="llhR_" id="71jtDv8FmDg" role="llhRE">
+            <property role="TrG5h" value="left" />
+            <node concept="2Sdx3t" id="71jtDv8FmDk" role="llhPy">
+              <ref role="2Sdx33" node="71jtDv8FmCh" resolve="A" />
+            </node>
+          </node>
+          <node concept="llhR_" id="71jtDv8FmDn" role="llhRE">
+            <property role="TrG5h" value="right" />
+            <node concept="2Sdx3t" id="71jtDv8FmDt" role="llhPy">
+              <ref role="2Sdx33" node="71jtDv8FmCj" resolve="B" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2Sdxkr" id="71jtDv8FmCh" role="38taxs">
+        <property role="TrG5h" value="A" />
+      </node>
+      <node concept="2Sdxkr" id="71jtDv8FmCj" role="38taxs">
+        <property role="TrG5h" value="B" />
       </node>
     </node>
     <node concept="Tx2eQ" id="586HK2LzrDk" role="TxEeo">
