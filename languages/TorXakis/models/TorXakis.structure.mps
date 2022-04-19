@@ -712,12 +712,22 @@
     <node concept="PrWs8" id="1pSz6e1znWv" role="PzmwI">
       <ref role="PrY4T" node="1pSz6e1gtHU" resolve="Commentable" />
     </node>
+    <node concept="PrWs8" id="5XJlRD29uCD" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="1TJgyj" id="7VUZddFFY49" role="1TKVEi">
       <property role="IQ2ns" value="9149903577931571465" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="constructors" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="7VUZddFFY46" resolve="typeConstructor" />
+    </node>
+    <node concept="1TJgyj" id="5XJlRD26FZN" role="1TKVEi">
+      <property role="IQ2ns" value="6876811338624712691" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="generics" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="71jtDv8pmec" resolve="TypevariableLiteral" />
     </node>
   </node>
   <node concept="1TIwiD" id="7VUZddFFY46">
@@ -768,6 +778,13 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="20kJfa" value="type" />
       <ref role="20lvS9" node="7VUZddFFIft" resolve="UserDefinedType" />
+    </node>
+    <node concept="1TJgyj" id="5XJlRD2bO0U" role="1TKVEi">
+      <property role="IQ2ns" value="6876811338626056250" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="generics" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="lsoyDBU550" resolve="TypeLiteral" />
     </node>
   </node>
   <node concept="1TIwiD" id="fz3vP1J">
@@ -1293,7 +1310,6 @@
   <node concept="1TIwiD" id="3WwRdm5HoY6">
     <property role="EcuMT" value="4548878433273614214" />
     <property role="TrG5h" value="TypeLabel" />
-    <property role="R4oN_" value="simplified from of user defined type" />
     <property role="3GE5qa" value="Types" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7buUhEUEDUs" role="PzmwI">
@@ -1301,6 +1317,16 @@
     </node>
     <node concept="PrWs8" id="3WwRdm5HoY7" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="t5JxF" id="5XJlRD2rDfh" role="lGtFl">
+      <property role="t5JxN" value="Node used for refering to userdefined types in the typesystem" />
+    </node>
+    <node concept="1TJgyj" id="5XJlRD2rDfj" role="1TKVEi">
+      <property role="IQ2ns" value="6876811338630206419" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="typearguments" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7buUhEUEDUp" resolve="Type" />
     </node>
   </node>
   <node concept="1TIwiD" id="7oTuwCVjktB">
@@ -2256,33 +2282,6 @@
       <ref role="PrY4T" node="6SzhJU2MtoZ" resolve="HasSmallidName" />
     </node>
   </node>
-  <node concept="1TIwiD" id="7buUhEUE$55">
-    <property role="EcuMT" value="8277309466163691845" />
-    <property role="3GE5qa" value="Types" />
-    <property role="TrG5h" value="GenericTypeDef" />
-    <property role="34LRSv" value="GENERIC" />
-    <property role="R4oN_" value="generic typedef" />
-    <ref role="1TJDcQ" node="7tKE5PeX8JG" resolve="TypeDef" />
-    <node concept="1TJgyj" id="7buUhEUE$56" role="1TKVEi">
-      <property role="IQ2ns" value="8277309466163691846" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="generics" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="71jtDv8pmec" resolve="TypevariableLiteral" />
-    </node>
-    <node concept="PrWs8" id="7buUhEUEAzS" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="7buUhEUEDUo">
-    <property role="EcuMT" value="8277309466163715736" />
-    <property role="3GE5qa" value="Types" />
-    <property role="TrG5h" value="GenericTypeLabel" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="7buUhEUEDUv" role="PzmwI">
-      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
-    </node>
-  </node>
   <node concept="PlHQZ" id="7buUhEUEDUp">
     <property role="EcuMT" value="8277309466163715737" />
     <property role="3GE5qa" value="Types" />
@@ -2334,11 +2333,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="71jtDv8pmec" resolve="TypevariableLiteral" />
     </node>
-  </node>
-  <node concept="PlHQZ" id="71jtDv8pmq0">
-    <property role="EcuMT" value="8093943349589141120" />
-    <property role="3GE5qa" value="Types" />
-    <property role="TrG5h" value="GenericTypevarHolder" />
   </node>
   <node concept="1TIwiD" id="71jtDv8pzH8">
     <property role="EcuMT" value="8093943349589195592" />
