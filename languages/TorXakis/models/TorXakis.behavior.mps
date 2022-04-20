@@ -6,7 +6,6 @@
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="0" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -18,7 +17,6 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="lgv5" ref="r:fbbc886d-33f9-46b3-b425-7578ebea0f07(TorXakis.typesystem)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="tpd5" ref="r:00000000-0000-4000-0000-011c895902b5(jetbrains.mps.lang.typesystem.dependencies)" />
     <import index="tpd4" ref="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" implicit="true" />
   </imports>
   <registry>
@@ -7628,6 +7626,76 @@
       </node>
       <node concept="3Tqbb2" id="CoQlT68bpi" role="3clF45">
         <ref role="ehGHo" to="b8q8:7buUhEUEDUp" resolve="Type" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="1jId_J$Lyxn" role="13h7CS">
+      <property role="TrG5h" value="getGenericType" />
+      <node concept="3Tm1VV" id="1jId_J$Lyxo" role="1B3o_S" />
+      <node concept="3Tqbb2" id="1jId_J$LyKL" role="3clF45">
+        <ref role="ehGHo" to="b8q8:3WwRdm5HoY6" resolve="TypeLabel" />
+      </node>
+      <node concept="3clFbS" id="1jId_J$Lyxq" role="3clF47">
+        <node concept="3cpWs6" id="1jId_J$LzCo" role="3cqZAp">
+          <node concept="2pJPEk" id="1jId_J$LzCO" role="3cqZAk">
+            <node concept="2pJPED" id="1jId_J$LzCP" role="2pJPEn">
+              <ref role="2pJxaS" to="b8q8:3WwRdm5HoY6" resolve="TypeLabel" />
+              <node concept="2pJxcG" id="1jId_J$LzCQ" role="2pJxcM">
+                <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
+                <node concept="WxPPo" id="1jId_J$LzCR" role="28ntcv">
+                  <node concept="2OqwBi" id="1jId_J$LzCS" role="WxPPp">
+                    <node concept="13iPFW" id="1jId_J$LzCT" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="1jId_J$LzCU" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2pIpSj" id="1jId_J$LzCV" role="2pJxcM">
+                <ref role="2pIpSl" to="b8q8:5XJlRD2rDfj" resolve="typearguments" />
+                <node concept="36biLy" id="1jId_J$LzCW" role="28nt2d">
+                  <node concept="2OqwBi" id="1jId_J$LzCX" role="36biLW">
+                    <node concept="2OqwBi" id="1jId_J$LzCY" role="2Oq$k0">
+                      <node concept="13iPFW" id="1jId_J$LzCZ" role="2Oq$k0" />
+                      <node concept="3Tsc0h" id="1jId_J$LzD0" role="2OqNvi">
+                        <ref role="3TtcxE" to="b8q8:5XJlRD26FZN" resolve="generics" />
+                      </node>
+                    </node>
+                    <node concept="3$u5V9" id="1jId_J$LzD1" role="2OqNvi">
+                      <node concept="1bVj0M" id="1jId_J$LzD2" role="23t8la">
+                        <node concept="3clFbS" id="1jId_J$LzD3" role="1bW5cS">
+                          <node concept="3clFbF" id="1jId_J$LzD4" role="3cqZAp">
+                            <node concept="2OqwBi" id="1jId_J$L$45" role="3clFbG">
+                              <node concept="37vLTw" id="1jId_J$LzQP" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1jId_J$LzD8" resolve="it" />
+                              </node>
+                              <node concept="2qgKlT" id="1jId_J$L$lO" role="2OqNvi">
+                                <ref role="37wK5l" node="5XJlRD2tNz5" resolve="getType" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="1jId_J$LzD8" role="1bW2Oz">
+                          <property role="TrG5h" value="it" />
+                          <node concept="2jxLKc" id="1jId_J$LzD9" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="P$JXv" id="1jId_J$L$vs" role="lGtFl">
+        <node concept="TZ5HA" id="1jId_J$L$vt" role="TZ5H$">
+          <node concept="1dT_AC" id="1jId_J$L$vu" role="1dT_Ay">
+            <property role="1dT_AB" value="get the type of this typeconstructor with the generics still in it" />
+          </node>
+        </node>
+        <node concept="x79VA" id="1jId_J$L$vv" role="3nqlJM">
+          <property role="x79VB" value="a node representing the generic type of this type." />
+        </node>
       </node>
     </node>
   </node>

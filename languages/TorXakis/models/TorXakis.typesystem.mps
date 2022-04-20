@@ -11568,12 +11568,6 @@
       <ref role="1YaFvo" to="b8q8:7tKE5PeXt8J" resolve="StautDef" />
     </node>
   </node>
-  <node concept="Q5z_Y" id="E2UqAb00wY">
-    <property role="TrG5h" value="fix_" />
-    <node concept="Q5ZZ6" id="E2UqAb00wZ" role="Q6x$H">
-      <node concept="3clFbS" id="E2UqAb00x0" role="2VODD2" />
-    </node>
-  </node>
   <node concept="Q5z_Y" id="E2UqAb00Fq">
     <property role="TrG5h" value="add_initial_state" />
     <node concept="Q5ZZ6" id="E2UqAb00Fr" role="Q6x$H">
