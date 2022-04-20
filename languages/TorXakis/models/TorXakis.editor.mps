@@ -21,7 +21,6 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpfp" ref="r:00000000-0000-4000-0000-011c89590519(jetbrains.mps.baseLanguage.regexp.jetbrains.mps.regexp.accessory)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
-    <import index="lgv5" ref="r:fbbc886d-33f9-46b3-b425-7578ebea0f07(TorXakis.typesystem)" implicit="true" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -5485,8 +5484,8 @@
                   <ref role="37wK5l" to="yg5l:4ecDpwEvAKW" resolve="getFullType" />
                 </node>
               </node>
-              <node concept="liA8E" id="4ecDpwExaX9" role="2OqNvi">
-                <ref role="37wK5l" to="lgv5:4ecDpwEwVgH" resolve="toString" />
+              <node concept="2qgKlT" id="1jId_J$CDAJ" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
               </node>
             </node>
           </node>
@@ -5545,8 +5544,8 @@
                   <ref role="37wK5l" to="yg5l:4ecDpwEG81Z" resolve="getFullType" />
                 </node>
               </node>
-              <node concept="liA8E" id="4ecDpwEG9hy" role="2OqNvi">
-                <ref role="37wK5l" to="lgv5:4ecDpwEwVgH" resolve="toString" />
+              <node concept="2qgKlT" id="1jId_J$CEML" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
               </node>
             </node>
           </node>
@@ -5569,8 +5568,8 @@
                   <ref role="37wK5l" to="yg5l:4ecDpwEIgmj" resolve="getFullType" />
                 </node>
               </node>
-              <node concept="liA8E" id="4ecDpwEIpDk" role="2OqNvi">
-                <ref role="37wK5l" to="lgv5:4ecDpwEwVgH" resolve="toString" />
+              <node concept="2qgKlT" id="1jId_J$CE_Q" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
               </node>
             </node>
           </node>
@@ -5625,8 +5624,8 @@
                   <ref role="37wK5l" to="yg5l:4ecDpwEIgmj" resolve="getFullType" />
                 </node>
               </node>
-              <node concept="liA8E" id="3j$zqyhSpka" role="2OqNvi">
-                <ref role="37wK5l" to="lgv5:4ecDpwEwVgH" resolve="toString" />
+              <node concept="2qgKlT" id="1jId_J$CDmM" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
               </node>
             </node>
           </node>
@@ -5785,8 +5784,8 @@
                   <ref role="37wK5l" to="yg5l:4ecDpwEIgmj" resolve="getFullType" />
                 </node>
               </node>
-              <node concept="liA8E" id="3j$zqyi7TrT" role="2OqNvi">
-                <ref role="37wK5l" to="lgv5:4ecDpwEwVgH" resolve="toString" />
+              <node concept="2qgKlT" id="1jId_J$CEd3" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
               </node>
             </node>
           </node>
