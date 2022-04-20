@@ -715,6 +715,9 @@
     <node concept="PrWs8" id="5XJlRD29uCD" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="PrWs8" id="CoQlT689G$" role="PzmwI">
+      <ref role="PrY4T" node="5XJlRD2CPOV" resolve="GenericsHolder" />
+    </node>
     <node concept="1TJgyj" id="7VUZddFFY49" role="1TKVEi">
       <property role="IQ2ns" value="9149903577931571465" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -2356,6 +2359,11 @@
     <node concept="t5JxF" id="71jtDv8pzHd" role="lGtFl">
       <property role="t5JxN" value="Wrapper around the typevar construct from the typesystem langauge to make it implement the Type interface" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="5XJlRD2CPOV">
+    <property role="EcuMT" value="6876811338633665851" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="GenericsHolder" />
   </node>
 </model>
 
