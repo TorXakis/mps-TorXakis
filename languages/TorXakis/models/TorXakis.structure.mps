@@ -658,7 +658,7 @@
     <property role="R4oN_" value="integer type" />
     <ref role="1TJDcQ" node="lsoyDBU550" resolve="TypeLiteral" />
     <node concept="PrWs8" id="7buUhEUEPyS" role="PzmwI">
-      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+      <ref role="PrY4T" node="6demNVq9mIo" resolve="LeafType" />
     </node>
   </node>
   <node concept="1TIwiD" id="7VUZddFFIfq">
@@ -669,7 +669,7 @@
     <property role="R4oN_" value="string type" />
     <ref role="1TJDcQ" node="lsoyDBU550" resolve="TypeLiteral" />
     <node concept="PrWs8" id="7buUhEUEPyW" role="PzmwI">
-      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+      <ref role="PrY4T" node="6demNVq9mIo" resolve="LeafType" />
     </node>
   </node>
   <node concept="1TIwiD" id="7VUZddFFIfr">
@@ -680,7 +680,7 @@
     <property role="R4oN_" value="boolean type" />
     <ref role="1TJDcQ" node="lsoyDBU550" resolve="TypeLiteral" />
     <node concept="PrWs8" id="7buUhEUEPyY" role="PzmwI">
-      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+      <ref role="PrY4T" node="6demNVq9mIo" resolve="LeafType" />
     </node>
   </node>
   <node concept="1TIwiD" id="7VUZddFFIfs">
@@ -691,7 +691,7 @@
     <property role="R4oN_" value="regular expression type" />
     <ref role="1TJDcQ" node="lsoyDBU550" resolve="TypeLiteral" />
     <node concept="PrWs8" id="7buUhEUEPyU" role="PzmwI">
-      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+      <ref role="PrY4T" node="6demNVq9mIo" resolve="LeafType" />
     </node>
   </node>
   <node concept="1TIwiD" id="7VUZddFFIft">
@@ -1659,7 +1659,7 @@
       <ref role="PrY4T" node="7tGom4ESfCy" resolve="AbstractExitKind" />
     </node>
     <node concept="PrWs8" id="3kwIRXioIHt" role="PzmwI">
-      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+      <ref role="PrY4T" node="6demNVq9mIo" resolve="LeafType" />
     </node>
   </node>
   <node concept="1TIwiD" id="13YbSOG9khr">
@@ -1672,7 +1672,7 @@
       <ref role="PrY4T" node="7tGom4ESfCy" resolve="AbstractExitKind" />
     </node>
     <node concept="PrWs8" id="3kwIRXioIHw" role="PzmwI">
-      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+      <ref role="PrY4T" node="6demNVq9mIo" resolve="LeafType" />
     </node>
   </node>
   <node concept="PlHQZ" id="26ghq3MB_Up">
@@ -2394,6 +2394,17 @@
       <property role="IQ2nx" value="1508202693520534760" />
       <property role="TrG5h" value="overloadedArguments" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6demNVq9mIo">
+    <property role="EcuMT" value="7155757183444282264" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="LeafType" />
+    <node concept="PrWs8" id="6demNVq9mIp" role="PrDN$">
+      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+    </node>
+    <node concept="t5JxF" id="6demNVq9mIr" role="lGtFl">
+      <property role="t5JxN" value="A type that does not contain any other types" />
     </node>
   </node>
 </model>

@@ -25,6 +25,7 @@
         <reference id="6511907406230000827" name="variable" index="2kNunN" />
       </concept>
       <concept id="9149903577931506651" name="TorXakis.structure.BoolType" flags="ng" index="ll1W8" />
+      <concept id="9149903577931506650" name="TorXakis.structure.StringType" flags="ng" index="ll1W9" />
       <concept id="9149903577931506649" name="TorXakis.structure.IntType" flags="ng" index="ll1Wa" />
       <concept id="9149903577931506653" name="TorXakis.structure.UserDefinedType" flags="ng" index="ll1We">
         <child id="9149903577931571465" name="constructors" index="llhRq" />
@@ -454,6 +455,33 @@
                   <property role="K4LZm" value="d" />
                 </node>
                 <node concept="K0oLo" id="27a6GJb7SZX" role="1kJO_G" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2k8cz4" id="6demNVqbJaH" role="2k8dKp">
+        <property role="TrG5h" value="maybe_test" />
+        <node concept="28Mf44" id="6demNVqbJgy" role="2k8dN3">
+          <property role="TrG5h" value="arg" />
+          <node concept="llhQC" id="6demNVqbJb8" role="1yH3ds">
+            <ref role="llhQJ" node="6demNVpLV$o" resolve="MaybePair" />
+            <node concept="llhQC" id="6demNVqbJbk" role="tg1t0">
+              <ref role="llhQJ" node="5XJlRD29u$X" resolve="List" />
+              <node concept="ll1Wa" id="6demNVqbJbz" role="tg1t0" />
+            </node>
+            <node concept="ll1W9" id="6demNVqbJbR" role="tg1t0" />
+          </node>
+        </node>
+        <node concept="ll1Wa" id="6demNVqbJNk" role="2k8dN5" />
+        <node concept="2U$8Bu" id="6demNVqbJJE" role="2k8dNo">
+          <ref role="2U$8Br" node="5XJlRD29u_u" resolve="head" />
+          <node concept="2U$8Bu" id="6demNVqbJn1" role="2U$8BC">
+            <ref role="2U$8Br" node="6demNVpLV_s" resolve="val" />
+            <node concept="2U$8Bu" id="6demNVqbJBc" role="2U$8BC">
+              <ref role="2U$8Br" node="6demNVpLV_H" resolve="left" />
+              <node concept="2kNunK" id="6demNVqbJDu" role="2U$8BC">
+                <ref role="2kNunN" node="6demNVqbJgy" resolve="arg" />
               </node>
             </node>
           </node>
