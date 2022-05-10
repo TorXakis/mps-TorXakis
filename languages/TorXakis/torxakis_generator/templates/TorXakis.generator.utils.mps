@@ -2,6 +2,7 @@
 <model ref="r:549f68ee-7dfc-4bbe-abff-30cb8d06f076(TorXakis.generator.utils)">
   <persistence version="9" />
   <languages>
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
@@ -108,6 +109,30 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA">
+        <property id="5858074156537516431" name="text" index="x79VB" />
+      </concept>
+      <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
+      <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
+        <reference id="6832197706140518108" name="param" index="zr_51" />
+      </concept>
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
+      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
+      <concept id="8465538089690881930" name="jetbrains.mps.baseLanguage.javadoc.structure.ParameterBlockDocTag" flags="ng" index="TUZQ0">
+        <property id="8465538089690881934" name="text" index="TUZQ4" />
+        <child id="6832197706140518123" name="parameter" index="zr_5Q" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+    </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157993911077" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitProperty" flags="ng" index="2pJxcG">
         <reference id="5455284157993911078" name="property" index="2pJxcJ" />
@@ -163,6 +188,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -344,6 +372,33 @@
           </node>
         </node>
         <node concept="17QB3L" id="6demNVq6AmF" role="3rvQeY" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="NxbVH7kK7i" role="jymVt" />
+    <node concept="3clFb_" id="NxbVH7kNGj" role="jymVt">
+      <property role="TrG5h" value="getTypedef" />
+      <node concept="37vLTG" id="NxbVH7kPCC" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="NxbVH7kQhs" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="NxbVH7kNGm" role="3clF47">
+        <node concept="3cpWs6" id="NxbVH7kQy5" role="3cqZAp">
+          <node concept="3EllGN" id="NxbVH7kVhT" role="3cqZAk">
+            <node concept="37vLTw" id="NxbVH7kW0t" role="3ElVtu">
+              <ref role="3cqZAo" node="NxbVH7kPCC" resolve="name" />
+            </node>
+            <node concept="2OqwBi" id="NxbVH7kSSI" role="3ElQJh">
+              <node concept="Xjq3P" id="NxbVH7kS0b" role="2Oq$k0" />
+              <node concept="2OwXpG" id="NxbVH7kUd1" role="2OqNvi">
+                <ref role="2Oxat5" node="6demNVpY2jt" resolve="typedefs" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="NxbVH7kMeR" role="1B3o_S" />
+      <node concept="3Tqbb2" id="NxbVH7kNyj" role="3clF45">
+        <ref role="ehGHo" to="b8q8:7VUZddFFIft" resolve="UserDefinedType" />
       </node>
     </node>
     <node concept="2tJIrI" id="6demNVq6uKp" role="jymVt" />
@@ -715,7 +770,7 @@
     <node concept="2tJIrI" id="6demNVq40Z_" role="jymVt" />
     <node concept="3clFb_" id="1jId_J$LRTU" role="jymVt">
       <property role="TrG5h" value="getBindings" />
-      <node concept="3Tm6S6" id="6demNVq6y8q" role="1B3o_S" />
+      <node concept="3Tm1VV" id="NxbVH7piY$" role="1B3o_S" />
       <node concept="3clFbS" id="1jId_J$LRTY" role="3clF47">
         <node concept="3cpWs8" id="1jId_J$LTUS" role="3cqZAp">
           <node concept="3cpWsn" id="1jId_J$LTUV" role="3cpWs9">
@@ -827,6 +882,28 @@
         <property role="TrG5h" value="actualType" />
         <node concept="3Tqbb2" id="1jId_J$LTIM" role="1tU5fm">
           <ref role="ehGHo" to="b8q8:7buUhEUEDUp" resolve="Type" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="5$XZjFGYfS4" role="lGtFl">
+        <node concept="TZ5HA" id="5$XZjFGYfS5" role="TZ5H$">
+          <node concept="1dT_AC" id="5$XZjFGYfS6" role="1dT_Ay">
+            <property role="1dT_AB" value="returns a mapping from the name of a generic typevariable to an instance of its concrete type " />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="5$XZjFGYfS7" role="3nqlJM">
+          <property role="TUZQ4" value="a type definition with generics" />
+          <node concept="zr_55" id="5$XZjFGYfS9" role="zr_5Q">
+            <ref role="zr_51" node="1jId_J$LTbw" resolve="genericType" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="5$XZjFGYfSa" role="3nqlJM">
+          <property role="TUZQ4" value="a type for the given type definition" />
+          <node concept="zr_55" id="5$XZjFGYfSc" role="zr_5Q">
+            <ref role="zr_51" node="1jId_J$LTBy" resolve="actualType" />
+          </node>
+        </node>
+        <node concept="x79VA" id="5$XZjFGYfSd" role="3nqlJM">
+          <property role="x79VB" value="the mapping of typevariable names to types such that applying this mapping to generictype gives actualtype" />
         </node>
       </node>
     </node>
