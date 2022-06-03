@@ -203,6 +203,7 @@
       <concept id="7936265027286849032" name="TorXakis.structure.AbstractVarDec" flags="ng" index="3GUD3Q">
         <child id="386291602318446966" name="type" index="1yH3ds" />
       </concept>
+      <concept id="7936265027286834004" name="TorXakis.structure.ISTEP" flags="ng" index="3GUHQE" />
       <concept id="9101563008477019908" name="TorXakis.structure.ConstantDef" flags="ng" index="3Vl81h">
         <child id="9101563008477031670" name="value" index="3Vldez" />
       </concept>
@@ -261,6 +262,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049745" name="jetbrains.mps.lang.core.structure.LinkAttribute" flags="ng" index="A9Btn">
@@ -325,7 +327,8 @@
     </language>
   </registry>
   <node concept="bUwia" id="6demNVpLcAc">
-    <property role="TrG5h" value="main" />
+    <property role="TrG5h" value="Main" />
+    <property role="3GE5qa" value="generator_steps" />
     <node concept="3aamgX" id="5$XZjFH9wCT" role="3acgRq">
       <property role="2n97ot" value="stop the instance generation after one microstep" />
       <ref role="30HIoZ" to="b8q8:7VUZddFFIft" resolve="UserDefinedType" />
@@ -349,7 +352,7 @@
     <node concept="3aamgX" id="63WIfJi8Q6d" role="3acgRq">
       <ref role="30HIoZ" to="b8q8:7VUZddFFY5V" resolve="TypeRef" />
       <node concept="j$656" id="63WIfJi90Gk" role="1lVwrX">
-        <ref role="v9R2y" node="63WIfJi9051" resolve="Remove_typeref_generics" />
+        <ref role="v9R2y" node="63WIfJi9051" resolve="RemoveTyperefGenerics" />
       </node>
       <node concept="30G5F_" id="63WIfJi90Gn" role="30HLyM">
         <node concept="3clFbS" id="63WIfJi90Go" role="2VODD2">
@@ -395,16 +398,17 @@
         </node>
       </node>
       <node concept="j$656" id="5M$RoHXHxX8" role="1lVwrX">
-        <ref role="v9R2y" node="5M$RoHXH9vG" resolve="Remove_Typeref_fieldAccesor" />
+        <ref role="v9R2y" node="5M$RoHXH9vG" resolve="RemoveTyperefFieldAccesor" />
       </node>
     </node>
     <node concept="1puMqW" id="6demNVpLdBv" role="1puA0r">
-      <ref role="1puQsG" node="6demNVpRpcf" resolve="calculate_instances" />
+      <ref role="1puQsG" node="6demNVpRpcf" resolve="CalculateInstances" />
     </node>
   </node>
   <node concept="1pmfR0" id="6demNVpLdB_">
-    <property role="TrG5h" value="calculate_dependencies" />
+    <property role="TrG5h" value="CalculateDependencies" />
     <property role="1v3f2W" value="hpv1Zf2/pre_processing" />
+    <property role="3GE5qa" value="scripts" />
     <node concept="1pplIY" id="6demNVpLdBA" role="1pqMTA">
       <node concept="3clFbS" id="6demNVpLdBB" role="2VODD2">
         <node concept="3SKdUt" id="6demNVpR$DU" role="3cqZAp">
@@ -897,9 +901,10 @@
     </node>
   </node>
   <node concept="1pmfR0" id="6demNVpRpcf">
-    <property role="TrG5h" value="calculate_instances" />
+    <property role="TrG5h" value="CalculateInstances" />
     <property role="1v3f2W" value="hpv1Zf2/pre_processing" />
     <property role="1v3jST" value="true" />
+    <property role="3GE5qa" value="scripts" />
     <node concept="1pplIY" id="6demNVpRpcg" role="1pqMTA">
       <node concept="3clFbS" id="6demNVpRpch" role="2VODD2">
         <node concept="3clFbH" id="6demNVq80NC" role="3cqZAp" />
@@ -1586,13 +1591,15 @@
     </node>
   </node>
   <node concept="bUwia" id="6demNVpRpfE">
-    <property role="TrG5h" value="calculate_dependencies" />
+    <property role="TrG5h" value="CalculateDependencies" />
+    <property role="3GE5qa" value="generator_steps" />
     <node concept="1puMqW" id="6demNVpRpfF" role="1puA0r">
-      <ref role="1puQsG" node="6demNVpLdB_" resolve="calculate_dependencies" />
+      <ref role="1puQsG" node="6demNVpLdB_" resolve="CalculateDependencies" />
     </node>
   </node>
   <node concept="13MO4I" id="63WIfJi9051">
-    <property role="TrG5h" value="Remove_typeref_generics" />
+    <property role="TrG5h" value="RemoveTyperefGenerics" />
+    <property role="3GE5qa" value="templates" />
     <ref role="3gUMe" to="b8q8:7VUZddFFY5V" resolve="TypeRef" />
     <node concept="Tx2eV" id="63WIfJi9053" role="13RCb5">
       <property role="TrG5h" value="name" />
@@ -1685,7 +1692,8 @@
     </node>
   </node>
   <node concept="13MO4I" id="5M$RoHXH9vG">
-    <property role="TrG5h" value="Remove_Typeref_fieldAccesor" />
+    <property role="TrG5h" value="RemoveTyperefFieldAccesor" />
+    <property role="3GE5qa" value="templates" />
     <ref role="3gUMe" to="b8q8:3WwRdm5G5kb" resolve="FieldAccessor" />
     <node concept="Tx2eV" id="5M$RoHXH9z4" role="13RCb5">
       <property role="TrG5h" value="filename" />
@@ -1854,6 +1862,27 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="hVpTB3pwQY">
+    <property role="TrG5h" value="RemoveTyperefConstructorCall" />
+    <property role="3GE5qa" value="templates" />
+    <node concept="3GUHQE" id="R2iHJR1DYO" role="13RCb5">
+      <node concept="raruj" id="R2iHJR1DYT" role="lGtFl" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="hVpTB3pD4O">
+    <property role="3GE5qa" value="templates" />
+    <property role="TrG5h" value="RemoveTyperefTypeCheckerFcall" />
+    <node concept="3GUHQE" id="R2iHJR1DYY" role="13RCb5">
+      <node concept="raruj" id="R2iHJR1DYZ" role="lGtFl" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="hVpTB3pD5m">
+    <property role="3GE5qa" value="templates" />
+    <property role="TrG5h" value="RemoveTyperefWrapperTypeCheckFcall" />
+    <node concept="3GUHQE" id="R2iHJR1DZ5" role="13RCb5">
+      <node concept="raruj" id="R2iHJR1DZ6" role="lGtFl" />
     </node>
   </node>
 </model>
