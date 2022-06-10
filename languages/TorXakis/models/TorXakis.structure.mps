@@ -1290,6 +1290,9 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7VUZddFFY46" resolve="typeConstructor" />
     </node>
+    <node concept="t5JxF" id="3pS7trZbrpG" role="lGtFl">
+      <property role="t5JxN" value="Constructorcall node. The storedtypelabel is used to work around a but where the type of this node gets changed before generation. see checking rule for details" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3WwRdm5G5kb">
     <property role="EcuMT" value="4548878433273271563" />

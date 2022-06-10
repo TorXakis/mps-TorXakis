@@ -84,6 +84,20 @@
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
+        <mapping-priority-rule kind="strictly_before">
+          <greater-priority-mapping>
+            <generator generatorUID="7505c246-2afe-4e12-b45e-fff933e67e26(TorXakis.generator00)" />
+            <external-mapping>
+              <mapping-node modelUID="r:60b276ca-1ab1-49bf-934a-fa09dca84dc4(TorXakis.generator.templates@generator)" nodeID="3924919884493985345" />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="7505c246-2afe-4e12-b45e-fff933e67e26(TorXakis.generator00)" />
+            <external-mapping>
+              <mapping-node modelUID="r:60b276ca-1ab1-49bf-934a-fa09dca84dc4(TorXakis.generator.templates@generator)" nodeID="7155757183439573994" />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
       </mapping-priorities>
     </generator>
   </generators>

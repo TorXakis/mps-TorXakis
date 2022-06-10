@@ -10995,6 +10995,27 @@
         <ref role="ehGHo" to="b8q8:lsoyDBU550" resolve="TypeLiteral" />
       </node>
     </node>
+    <node concept="13i0hz" id="3pS7trZ2Dj5" role="13h7CS">
+      <property role="TrG5h" value="getDetailedPresentation" />
+      <ref role="13i0hy" to="tpcu:22G2W3WJ92t" resolve="getDetailedPresentation" />
+      <node concept="3Tm1VV" id="3pS7trZ2Dj6" role="1B3o_S" />
+      <node concept="3clFbS" id="3pS7trZ2Djd" role="3clF47">
+        <node concept="3cpWs6" id="3pS7trZ2DrD" role="3cqZAp">
+          <node concept="3cpWs3" id="3pS7trZ2DrX" role="3cqZAk">
+            <node concept="2OqwBi" id="3pS7trZ2DBH" role="3uHU7B">
+              <node concept="13iPFW" id="3pS7trZ2Ds4" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3pS7trZ2DON" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="3pS7trZ2DrI" role="3uHU7w">
+              <property role="Xl_RC" value=" with unboundGenerics" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="3pS7trZ2Dje" role="3clF45" />
+    </node>
   </node>
 </model>
 
