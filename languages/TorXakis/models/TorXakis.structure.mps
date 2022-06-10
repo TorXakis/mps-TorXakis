@@ -10,6 +10,7 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
       </concept>
@@ -1332,7 +1333,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="typearguments" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7buUhEUEDUp" resolve="Type" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="7oTuwCVjktB">
@@ -2362,6 +2363,7 @@
     <node concept="t5JxF" id="71jtDv8pzHd" role="lGtFl">
       <property role="t5JxN" value="Wrapper around the typevar construct from the typesystem langauge to make it implement the Type interface" />
     </node>
+    <node concept="asaX9" id="3pS7trYyC_2" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="5XJlRD2CPOV">
     <property role="EcuMT" value="6876811338633665851" />
@@ -2405,6 +2407,18 @@
     </node>
     <node concept="t5JxF" id="6demNVq9mIr" role="lGtFl">
       <property role="t5JxN" value="A type that does not contain any other types" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3pS7trYXdLR">
+    <property role="EcuMT" value="3924919884491054199" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="UnboundGenericType" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="3pS7trYXdLS" role="PzmwI">
+      <ref role="PrY4T" node="7buUhEUEDUp" resolve="Type" />
+    </node>
+    <node concept="PrWs8" id="3pS7trYXdLU" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
