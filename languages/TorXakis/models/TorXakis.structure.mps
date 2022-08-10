@@ -2182,7 +2182,7 @@
     <property role="34LRSv" value="PURPDEF" />
     <property role="R4oN_" value="test purpose" />
     <property role="3GE5qa" value="test purposes" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5WatrL7UI3B" role="PzmwI">
       <ref role="PrY4T" node="7sOvx6nLMQN" resolve="TorXakisDefinition" />
     </node>
