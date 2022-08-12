@@ -169,7 +169,7 @@
       </node>
       <node concept="3_J27D" id="7T4oZaj6mjV" role="m$_w8">
         <node concept="3Mxwew" id="7T4oZaj6mjW" role="3MwsjC">
-          <property role="3MwjfP" value="1.1.1" />
+          <property role="3MwjfP" value="1.1.2" />
         </node>
       </node>
       <node concept="m$f5U" id="7T4oZaj6mjX" role="m$_yh">

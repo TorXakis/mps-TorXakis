@@ -17,7 +17,6 @@
   </languages>
   <imports>
     <import index="b8q8" ref="r:b8a0c1c7-6a52-4bf6-b795-624ce2ff858d(TorXakis.structure)" />
-    <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="yg5l" ref="r:f27c423e-fe8f-4bc4-92d4-397fbf1c81cc(TorXakis.behavior)" implicit="true" />
@@ -507,21 +506,33 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="3fiilWKoCDv">
+  <node concept="1M2fIO" id="3kwIRXioJgV">
     <property role="3GE5qa" value="behaviour_expression.exitsort" />
-    <ref role="1M2myG" to="b8q8:7tGom4ESfCq" resolve="ExitKind" />
-    <node concept="9SLcT" id="3fiilWKoCDw" role="9SGkU">
-      <node concept="3clFbS" id="3fiilWKoCDx" role="2VODD2">
-        <node concept="3clFbF" id="3fiilWKoECQ" role="3cqZAp">
-          <node concept="2OqwBi" id="3fiilWKoERY" role="3clFbG">
-            <node concept="2DD5aU" id="3fiilWKoECP" role="2Oq$k0" />
-            <node concept="2Zo12i" id="3fiilWKoF4u" role="2OqNvi">
-              <node concept="chp4Y" id="3fiilWKoFbJ" role="2Zo12j">
-                <ref role="cht4Q" to="b8q8:lsoyDBU550" resolve="Type" />
+    <ref role="1M2myG" to="b8q8:3kwIRXioIHz" resolve="ExitKind" />
+    <node concept="9SLcT" id="3kwIRXioJgW" role="9SGkU">
+      <node concept="3clFbS" id="3kwIRXioJgX" role="2VODD2">
+        <node concept="3cpWs6" id="3kwIRXioKgm" role="3cqZAp">
+          <node concept="3fqX7Q" id="3kwIRXioKh8" role="3cqZAk">
+            <node concept="2OqwBi" id="3kwIRXioJ$4" role="3fr31v">
+              <node concept="2DD5aU" id="3kwIRXioJkV" role="2Oq$k0" />
+              <node concept="2Zo12i" id="3kwIRXioJOc" role="2OqNvi">
+                <node concept="chp4Y" id="3kwIRXioJVt" role="2Zo12j">
+                  <ref role="cht4Q" to="b8q8:7tGom4ESfCy" resolve="AbstractExitKind" />
+                </node>
               </node>
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="71jtDv8p_8U">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1M2myG" to="b8q8:71jtDv8pmpa" resolve="TypeVarRef" />
+    <node concept="1N5Pfh" id="71jtDv8p_8V" role="1Mr941">
+      <ref role="1N5Vy1" to="b8q8:71jtDv8pmpk" resolve="typevar" />
+      <node concept="1dDu$B" id="71jtDv8p_aJ" role="1N6uqs">
+        <ref role="1dDu$A" to="b8q8:71jtDv8pmec" resolve="TypevariableLiteral" />
       </node>
     </node>
   </node>

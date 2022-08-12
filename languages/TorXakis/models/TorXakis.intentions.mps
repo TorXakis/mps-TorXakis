@@ -107,6 +107,7 @@
     </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
       <concept id="5979988948250981289" name="jetbrains.mps.lang.actions.structure.SNodeCreatorAndInitializer" flags="nn" index="2fJWfE" />
+      <concept id="767145758118872833" name="jetbrains.mps.lang.actions.structure.NF_LinkList_AddNewChildOperation" flags="nn" index="2DeJg1" />
       <concept id="767145758118872830" name="jetbrains.mps.lang.actions.structure.NF_Link_SetNewChildOperation" flags="nn" index="2DeJnY" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -649,6 +650,35 @@
                 <ref role="3cqZAo" node="6wE5hjazncJ" resolve="rightExpression" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="5XJlRD26NEk">
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="make_generic" />
+    <ref role="2ZfgGC" to="b8q8:7VUZddFFIft" resolve="UserDefinedType" />
+    <node concept="2S6ZIM" id="5XJlRD26NEl" role="2ZfVej">
+      <node concept="3clFbS" id="5XJlRD26NEm" role="2VODD2">
+        <node concept="3clFbF" id="5XJlRD26NJm" role="3cqZAp">
+          <node concept="Xl_RD" id="5XJlRD26NJl" role="3clFbG">
+            <property role="Xl_RC" value="make generic" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="5XJlRD26NEn" role="2ZfgGD">
+      <node concept="3clFbS" id="5XJlRD26NEo" role="2VODD2">
+        <node concept="3clFbF" id="5XJlRD26NOH" role="3cqZAp">
+          <node concept="2OqwBi" id="5XJlRD26Q_j" role="3clFbG">
+            <node concept="2OqwBi" id="5XJlRD26NYF" role="2Oq$k0">
+              <node concept="2Sf5sV" id="5XJlRD26NOG" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="5XJlRD26Oes" role="2OqNvi">
+                <ref role="3TtcxE" to="b8q8:5XJlRD26FZN" resolve="generics" />
+              </node>
+            </node>
+            <node concept="2DeJg1" id="5XJlRD26STi" role="2OqNvi" />
           </node>
         </node>
       </node>
