@@ -27,6 +27,10 @@
         <reference id="5617550519002745380" name="script" index="1l3spb" />
         <child id="4129895186893471026" name="artifacts" index="2JcizS" />
       </concept>
+      <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z">
+        <property id="927724900262033861" name="generateDebugInfo" index="2_Ic$$" />
+        <property id="6998860900671147996" name="javaLevel" index="TZNOO" />
+      </concept>
       <concept id="4380385936562003279" name="jetbrains.mps.build.structure.BuildString" flags="ng" index="NbPM2">
         <child id="4903714810883783243" name="parts" index="3MwsjC" />
       </concept>
@@ -125,6 +129,10 @@
   <node concept="1l3spW" id="7T4oZaj6mj_">
     <property role="TrG5h" value="MPS_TorXakis" />
     <property role="2DA0ip" value="../.." />
+    <node concept="2_Ic$z" id="5hwwfqCpjcW" role="3989C9">
+      <property role="2_Ic$$" value="true" />
+      <property role="TZNOO" value="11" />
+    </node>
     <node concept="10PD9b" id="7T4oZaj6mjA" role="10PD9s" />
     <node concept="3b7kt6" id="7T4oZaj6mjB" role="10PD9s" />
     <node concept="398rNT" id="7T4oZaj6mjC" role="1l3spd">
@@ -161,7 +169,7 @@
       </node>
       <node concept="3_J27D" id="7T4oZaj6mjV" role="m$_w8">
         <node concept="3Mxwew" id="7T4oZaj6mjW" role="3MwsjC">
-          <property role="3MwjfP" value="1.1" />
+          <property role="3MwjfP" value="1.1.1" />
         </node>
       </node>
       <node concept="m$f5U" id="7T4oZaj6mjX" role="m$_yh">

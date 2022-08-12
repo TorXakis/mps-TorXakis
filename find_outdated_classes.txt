@@ -1,0 +1,3 @@
+# This file contains a command to find generated classfiles that were compiled with the wrong java version, causing the generated plugin to fail.
+set +H
+find ./* -maxdepth 10 -name "*.class" -exec sh -c "javap -verbose {} | awk -e '(/major version:/ && !/major version: 55/) || /SourceFile:/' | tee -a results.txt" \;
